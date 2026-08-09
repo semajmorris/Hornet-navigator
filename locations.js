@@ -73,7 +73,6 @@ const campusLocations = [
     printing: {
       available: true,
       free: false,
-
       note:
         "Regular printing is available on the first floor and requires payment. Free printing is available in residential halls and in the Reading, Writing & Math Lab in W.B. Patterson Hall."
     },
@@ -294,17 +293,13 @@ const campusLocations = [
       "scholarships",
       "international student affairs",
       "international students",
-      "violence against women",
-      "violence against women program",
       "judicial affairs",
-      "report problem",
       "mail",
       "mail locker",
       "mail lockers",
       "package",
       "packages",
       "mail room",
-      "ship package",
       "information desk",
       "chick fil a",
       "chick-fil-a",
@@ -317,52 +312,30 @@ const campusLocations = [
       "ps5",
       "xbox",
       "gaming pc",
-      "gaming pcs",
       "pool",
       "8 ball",
       "ping pong",
       "chess",
       "spades",
       "connect 4",
-      "bathroom",
-      "bathrooms",
       "bookstore",
-      "books",
       "textbooks",
       "asu gear",
-      "d9",
       "d9 attire",
-      "diploma frame",
-      "diploma holder",
       "atm",
-      "atms",
       "coin machine",
-      "coins",
       "laundry coins",
-      "speed queen",
       "financial aid",
       "student accounts",
       "cashier",
-      "cashiers desk",
       "admissions",
       "student id",
-      "id center",
       "hornets web",
-      "hornetsweb",
-      "login help",
       "ballroom",
-      "ballrooms",
       "sga",
-      "sga complex",
-      "student government",
       "start club",
-      "start organization",
-      "organization",
-      "club",
       "hornet tribune",
-      "yearbook",
-      "yearbook photos",
-      "student life suite"
+      "yearbook"
     ],
 
     description:
@@ -401,8 +374,7 @@ const campusLocations = [
               "housing",
               "residence life",
               "dorm",
-              "dorms",
-              "residential halls"
+              "dorms"
             ],
 
             description:
@@ -431,17 +403,11 @@ const campusLocations = [
               "career center",
               "major",
               "undecided",
-              "undecided major",
               "change major",
               "resume",
-              "resume review",
               "internship",
-              "internships",
               "job",
-              "jobs",
-              "graduating",
-              "scholarship",
-              "scholarships"
+              "scholarship"
             ],
 
             description:
@@ -453,8 +419,8 @@ const campusLocations = [
               "Uses assessments to help students learn more about their interests and possible career paths",
               "Shares scholarship opportunities",
               "Helps graduating students search for jobs",
-              "Provides internship guidance and internship opportunities",
-              "Reviews resumes and recommends improvements",
+              "Provides internship guidance",
+              "Reviews resumes",
               "Communicates opportunities through student email and Hornet Connect"
             ],
 
@@ -464,23 +430,20 @@ const campusLocations = [
             officesInside: [
               {
                 name: "International Student Affairs",
-
                 description:
                   "International Student Affairs is located within the Career Services area."
               },
 
               {
                 name: "Violence Against Wo(Men) Program",
-
                 description:
                   "A student support program located within the Career Services area."
               },
 
               {
                 name: "Judicial Affairs",
-
                 description:
-                  "Students can seek assistance through Judicial Affairs when they need help with certain student conduct matters or need to make a report."
+                  "Students can seek assistance through Judicial Affairs for certain student conduct matters or reports."
               }
             ]
           },
@@ -491,9 +454,7 @@ const campusLocations = [
             keywords: [
               "mail",
               "mail locker",
-              "mail lockers",
               "package",
-              "packages",
               "qr code",
               "pin code"
             ],
@@ -505,7 +466,7 @@ const campusLocations = [
               "You will receive an email when your package is ready",
               "The email provides your assigned locker or box number",
               "You receive a PIN code",
-              "You also receive a QR code that can be scanned to open the locker",
+              "You also receive a QR code",
               "Students should retrieve their package within 72 hours"
             ],
 
@@ -519,12 +480,9 @@ const campusLocations = [
             keywords: [
               "mail room",
               "large package",
-              "mail package",
               "send package",
-              "ship package",
               "missing package",
-              "wrong dorm",
-              "package problem"
+              "wrong dorm"
             ],
 
             description:
@@ -538,7 +496,7 @@ const campusLocations = [
             ],
 
             studentTip:
-              "Outgoing mail requires a fee, and the price can vary depending on the size of the item. Mail Room operating hours can vary, so check current hours before going."
+              "Outgoing mail requires a fee that can vary depending on the size of the item."
           },
 
           {
@@ -548,8 +506,6 @@ const campusLocations = [
               "information desk",
               "help",
               "directions",
-              "where is",
-              "find building",
               "find location"
             ],
 
@@ -562,18 +518,13 @@ const campusLocations = [
 
             keywords: [
               "food",
-              "eat",
               "dining",
               "chick fil a",
               "chick-fil-a",
               "subway",
               "prime grill",
               "grubhub",
-              "flex",
-              "flex dollars",
-              "student id food",
-              "student id",
-              "order food"
+              "flex dollars"
             ],
 
             description:
@@ -588,15 +539,15 @@ const campusLocations = [
             features: [
               "Grubhub ordering is available for Chick-fil-A",
               "Grubhub ordering is available for Prime Grill",
-              "Sign in to Grubhub using your ASU student email",
+              "Sign in using your ASU student email",
               "Eligible Flex Dollars can be used through Grubhub",
-              "Grubhub tablets are available near the first-floor eateries",
+              "Grubhub tablets are available near the eateries",
               "Subway is not part of Grubhub",
               "Students can use their student ID in person at Subway"
             ],
 
             studentTip:
-              "Using Flex Dollars at Chick-fil-A or Prime Grill? Download the Grubhub app and sign in with your ASU student email. Tablets with Grubhub are also available near the eateries, but using your phone is usually more convenient. Subway is not part of Grubhub, so students can use their student ID in person there."
+              "Using Flex Dollars at Chick-fil-A or Prime Grill? Use Grubhub and sign in with your ASU student email. Subway is different and accepts the student ID in person."
           },
 
           {
@@ -604,13 +555,9 @@ const campusLocations = [
 
             keywords: [
               "gaming",
-              "gaming room",
               "ps5",
-              "playstation",
               "xbox",
-              "pc",
               "gaming pc",
-              "gaming pcs",
               "pool",
               "8 ball",
               "chess",
@@ -631,10 +578,7 @@ const campusLocations = [
               "Ping-pong",
               "Spades",
               "Connect 4"
-            ],
-
-            studentTip:
-              "The gaming PC section is separated from the main recreation area and is accessed through another door."
+            ]
           },
 
           {
@@ -644,19 +588,13 @@ const campusLocations = [
               "bookstore",
               "books",
               "textbooks",
-              "pick up books",
               "asu gear",
-              "asu clothing",
               "d9",
-              "d9 attire",
-              "divine nine",
-              "diploma",
-              "diploma frame",
-              "diploma holder"
+              "diploma frame"
             ],
 
             description:
-              "The ASU Bookstore is located on the first floor and provides course materials and university merchandise.",
+              "The ASU Bookstore provides course materials and university merchandise.",
 
             features: [
               "Textbook pickup",
@@ -671,7 +609,6 @@ const campusLocations = [
 
             keywords: [
               "atm",
-              "atms",
               "cash",
               "coins",
               "coin machine",
@@ -684,7 +621,7 @@ const campusLocations = [
               "ATMs and machines for exchanging cash for coins are available on the first floor.",
 
             studentTip:
-              "Keeping coins available can be useful for residence-hall laundry as a backup if the Speed Queen system or internet connection is unavailable."
+              "Keeping coins available can be useful for residence-hall laundry as a backup."
           },
 
           {
@@ -692,9 +629,7 @@ const campusLocations = [
 
             keywords: [
               "bathroom",
-              "bathrooms",
-              "restroom",
-              "restrooms"
+              "restroom"
             ],
 
             description:
@@ -714,9 +649,7 @@ const campusLocations = [
             keywords: [
               "financial aid",
               "fafsa",
-              "scholarship",
-              "financial help",
-              "student funding"
+              "scholarship"
             ],
 
             description:
@@ -732,8 +665,7 @@ const campusLocations = [
               "billing",
               "tuition",
               "balance",
-              "payment",
-              "pay bill"
+              "payment"
             ],
 
             description:
@@ -746,10 +678,7 @@ const campusLocations = [
             keywords: [
               "cashier",
               "cashiers desk",
-              "cashier's desk",
-              "payment",
-              "pay",
-              "money"
+              "payment"
             ],
 
             description:
@@ -763,8 +692,7 @@ const campusLocations = [
               "admissions",
               "apply",
               "application",
-              "enrollment",
-              "prospective student"
+              "enrollment"
             ],
 
             description:
@@ -776,21 +704,17 @@ const campusLocations = [
 
             keywords: [
               "student id",
-              "id",
               "id card",
               "replacement id",
               "hornets web",
-              "hornetsweb",
-              "login",
-              "login help",
-              "can't login"
+              "login help"
             ],
 
             description:
               "Students can receive assistance with student ID services on the second floor.",
 
             studentTip:
-              "If you're having trouble accessing Hornets Web, the Student ID area may also be able to help you resolve your access issue."
+              "If you're having trouble accessing Hornets Web, the Student ID area may also be able to help."
           },
 
           {
@@ -799,7 +723,6 @@ const campusLocations = [
             keywords: [
               "ballroom",
               "ballrooms",
-              "event",
               "events"
             ],
 
@@ -812,22 +735,11 @@ const campusLocations = [
 
             keywords: [
               "sga",
-              "sga complex",
               "student government",
-              "sga president",
-              "sga secretary",
-              "sga treasurer",
               "start club",
-              "start a club",
-              "create club",
-              "organization",
-              "start organization",
               "student organization",
-              "student life",
               "hornet tribune",
-              "yearbook",
-              "yearbook picture",
-              "yearbook photo"
+              "yearbook"
             ],
 
             description:
@@ -835,9 +747,6 @@ const campusLocations = [
 
             features: [
               "Student Government Association leadership offices",
-              "SGA President's office",
-              "SGA Secretary's office",
-              "SGA Treasurer's office",
               "Support for student clubs and organizations",
               "Hornet Tribune",
               "Student Life Suite"
@@ -877,8 +786,7 @@ const campusLocations = [
       "billing",
       "tuition",
       "payments",
-      "account balance",
-      "bursar"
+      "account balance"
     ],
 
     description:
@@ -896,12 +804,6 @@ const campusLocations = [
       "Account information",
       "Student balances"
     ],
-
-    studentTip:
-      "If you have questions about your bill or account balance, Student Accounts is located inside the Hardy Student Center.",
-
-    address:
-      "915 S. Jackson Street, Montgomery, AL 36104",
 
     image: "",
     mapLink: ""
@@ -924,8 +826,7 @@ const campusLocations = [
       "dining",
       "cafeteria",
       "eat",
-      "meals",
-      "fred shuttlesworth"
+      "meals"
     ],
 
     description:
@@ -936,12 +837,6 @@ const campusLocations = [
       "Meal service",
       "Campus food"
     ],
-
-    studentTip:
-      "A good location to know for everyday meals and campus dining.",
-
-    address:
-      "Alabama State University Campus, Montgomery, AL",
 
     image: "",
     mapLink: ""
@@ -966,30 +861,17 @@ const campusLocations = [
       "william burns patterson",
       "shop for success",
       "classes",
-      "classrooms",
-      "freshman",
-      "freshman advisor",
-      "freshman advisors",
       "freshman advising",
-      "advisor",
-      "advising",
       "reading writing math lab",
-      "reading lab",
-      "writing lab",
-      "math lab",
       "tutoring",
       "academic support",
       "free printing",
-      "printing",
       "what a burger",
       "free food",
       "free snacks",
       "free clothes",
-      "business clothes",
       "professional clothes",
-      "professional clothing",
-      "hygiene products",
-      "student resources"
+      "hygiene products"
     ],
 
     description:
@@ -1007,10 +889,7 @@ const campusLocations = [
     ],
 
     landmarkArea: {
-      name: "Shop for Success",
-
-      description:
-        "W.B. Patterson Hall is part of the Shop for Success academic area."
+      name: "Shop for Success"
     },
 
     studentTip:
@@ -1019,7 +898,6 @@ const campusLocations = [
     printing: {
       available: true,
       free: true,
-
       note:
         "Free printing is available in the Reading, Writing & Math Lab."
     },
@@ -1035,7 +913,7 @@ const campusLocations = [
           "Student resource room",
 
         description:
-          "What A Burger is an ASU student resource room, not the Whataburger restaurant. It provides free resources to college students.",
+          "What A Burger is an ASU student resource room, not the Whataburger restaurant.",
 
         provides: [
           "Business and professional clothing",
@@ -1077,8 +955,7 @@ const campusLocations = [
       "housing",
       "dorm",
       "dorms",
-      "free printing",
-      "printing"
+      "free printing"
     ],
 
     description:
@@ -1090,13 +967,9 @@ const campusLocations = [
       "Free printing"
     ],
 
-    studentTip:
-      "Students can access free printing in residential halls.",
-
     printing: {
       available: true,
       free: true,
-
       note:
         "Free printing is available in residential halls."
     },
@@ -1123,40 +996,18 @@ const campusLocations = [
       "mcgehee hall",
       "shop for success",
       "classes",
-      "classrooms",
       "freshman",
-      "freshmen",
       "first year experience",
-      "first year experience class",
       "fye",
       "trio",
-      "trio sss",
-      "trio student support services",
-      "student support services",
       "aces",
-      "a.c.e.s.",
-      "academic center for educational success",
       "academic support",
-      "academic coaching",
-      "tutoring",
-      "mentoring",
-      "study skills",
       "athlete study hall",
-      "student athlete",
-      "student athletes",
-      "testing center",
-      "test",
-      "testing",
-      "exam",
-      "exams",
-      "makeup exam",
-      "make up exam",
-      "proctoring",
-      "pearson vue"
+      "testing center"
     ],
 
     description:
-      "Edward Glenn McGhee Hall is an academic building in the Shop for Success area. The building includes classrooms and several academic support resources that are especially useful for freshmen and students seeking additional academic assistance.",
+      "Edward Glenn McGhee Hall is an academic building in the Shop for Success area with classrooms and academic support resources.",
 
     services: [
       "Classes and classrooms",
@@ -1164,19 +1015,12 @@ const campusLocations = [
       "A.C.E.S.",
       "TRIO Student Support Services",
       "Athlete Study Hall",
-      "ASU Testing Center",
-      "Academic support"
+      "ASU Testing Center"
     ],
 
     landmarkArea: {
-      name: "Shop for Success",
-
-      description:
-        "McGhee Hall is located in the campus area commonly referred to as Shop for Success, near W.B. Patterson Hall, William Hooper Councill Hall, and Harper Councill Trenholm Hall."
+      name: "Shop for Success"
     },
-
-    studentTip:
-      "Freshmen should learn where McGhee Hall is early. First Year Experience classes may be held here, and the building also has several resources for students who want additional academic support.",
 
     floors: [
       {
@@ -1188,22 +1032,14 @@ const campusLocations = [
             name: "Classrooms & First Year Experience",
 
             keywords: [
-              "class",
               "classes",
-              "classroom",
-              "classrooms",
               "freshman",
-              "freshmen",
               "first year experience",
-              "first year experience class",
               "fye"
             ],
 
             description:
-              "McGhee Hall contains classrooms, and freshmen may have their required First Year Experience course in this building.",
-
-            studentTip:
-              "If you're a freshman, check your class schedule carefully because your First Year Experience class may bring you to McGhee Hall."
+              "Freshmen may have their required First Year Experience course in this building."
           },
 
           {
@@ -1213,33 +1049,24 @@ const campusLocations = [
 
             keywords: [
               "aces",
-              "a.c.e.s.",
-              "academic center for educational success",
-              "academic help",
               "academic support",
               "academic coaching",
               "study skills",
               "tutoring",
-              "mentoring",
-              "major help",
-              "career guidance"
+              "mentoring"
             ],
 
             description:
-              "A.C.E.S. stands for Academic Center for Educational Success and provides academic support designed to help students succeed and remain on track toward graduation.",
+              "A.C.E.S. stands for Academic Center for Educational Success and provides academic support designed to help students succeed.",
 
             features: [
-              "Academic coaching and advising",
+              "Academic coaching",
               "Study and learning-skills support",
               "Academic progress support",
-              "Mentoring and support",
+              "Mentoring",
               "Tutoring referrals",
-              "Personal development support",
               "Major and career guidance"
-            ],
-
-            studentTip:
-              "You do not have to wait until you're failing a class to ask for help. A.C.E.S. can be useful if you want stronger study habits, academic guidance, mentoring, or help getting back on track."
+            ]
           },
 
           {
@@ -1247,33 +1074,13 @@ const campusLocations = [
 
             keywords: [
               "trio",
-              "trio sss",
-              "student support services",
               "first generation",
-              "first generation student",
-              "academic need",
               "tutoring",
-              "mentoring",
-              "graduate school",
-              "career exploration"
+              "mentoring"
             ],
 
             description:
-              "TRIO Student Support Services is a federally funded program that provides eligible students with additional academic and personal support designed to help them remain in college and graduate.",
-
-            features: [
-              "Tutoring",
-              "Mentoring",
-              "Academic and personal support",
-              "Workshops",
-              "Career exploration",
-              "Leadership development",
-              "Student advocacy",
-              "Graduate-school preparation and exposure"
-            ],
-
-            studentTip:
-              "TRIO has eligibility requirements, so students interested in the program should ask TRIO staff about applying and whether they qualify."
+              "TRIO Student Support Services provides eligible students with additional academic and personal support."
           },
 
           {
@@ -1281,15 +1088,12 @@ const campusLocations = [
 
             keywords: [
               "athlete",
-              "athletes",
               "student athlete",
-              "student athletes",
-              "athlete study hall",
-              "study hall"
+              "athlete study hall"
             ],
 
             description:
-              "McGhee Hall includes a study hall space used by student-athletes for academic work and support."
+              "McGhee Hall includes a study hall space used by student-athletes."
           },
 
           {
@@ -1300,27 +1104,17 @@ const campusLocations = [
             keywords: [
               "testing center",
               "test",
-              "testing",
               "exam",
-              "exams",
               "makeup exam",
-              "make up exam",
-              "proctoring",
-              "pearson vue"
+              "proctoring"
             ],
 
             description:
-              "The ASU Testing Center is located in McGhee Hall and provides testing and proctoring services for students and other eligible test takers.",
-
-            studentTip:
-              "If an instructor or university office tells you to report to the Testing Center, look for Room 105 in McGhee Hall."
+              "The ASU Testing Center provides testing and proctoring services."
           }
         ]
       }
     ],
-
-    funFact:
-      "McGhee Hall is part of the campus area students may hear referred to as Shop for Success.",
 
     image: "",
     mapLink: ""
@@ -1340,47 +1134,28 @@ const campusLocations = [
 
     keywords: [
       "william hooper councill",
-      "william hooper council",
       "councill hall",
-      "council hall",
       "business building",
       "administration",
-      "administrative building",
-      "main administration",
       "shop for success",
       "president",
-      "presidents office",
-      "president office",
-      "dr quinton ross",
       "quinton ross",
-      "dr quinton t ross jr",
       "business and finance",
-      "finance",
       "comptroller",
       "accounts payable",
       "human resources",
       "hr",
       "payroll",
       "work study",
-      "work-study",
-      "student worker",
-      "student employment",
-      "budget office",
       "budget",
       "it",
       "technology",
-      "technology services",
-      "computer help",
-      "email help",
-      "account help",
       "graduate school",
-      "graduate studies",
-      "faculty offices",
-      "staff offices"
+      "faculty offices"
     ],
 
     description:
-      "William Hooper Councill Hall is one of Alabama State University's main administrative buildings. Students commonly recognize it as a business and operations building because it houses important university leadership, financial, employment, technology, and administrative offices.",
+      "William Hooper Councill Hall is one of Alabama State University's main administrative buildings.",
 
     services: [
       "Office of the President",
@@ -1396,14 +1171,8 @@ const campusLocations = [
     ],
 
     landmarkArea: {
-      name: "Shop for Success",
-
-      description:
-        "Councill Hall is part of the Shop for Success academic and administrative area near W.B. Patterson Hall, McGhee Hall, and Harper Councill Trenholm Hall."
+      name: "Shop for Success"
     },
-
-    studentTip:
-      "Students may hear Councill Hall referred to as the business or administrative building. If you have a university employment, payroll, administrative, technology, or graduate-school question, this is an important building to know.",
 
     floors: [
       {
@@ -1416,16 +1185,11 @@ const campusLocations = [
 
             keywords: [
               "president",
-              "presidents office",
-              "president office",
-              "quinton ross",
-              "dr quinton ross",
-              "dr quinton t ross jr",
-              "university president"
+              "quinton ross"
             ],
 
             description:
-              "The Office of the President is located in Councill Hall. Dr. Quinton T. Ross, Jr. serves as president of Alabama State University."
+              "The Office of the President is located in Councill Hall."
           },
 
           {
@@ -1435,10 +1199,7 @@ const campusLocations = [
 
             keywords: [
               "business and finance",
-              "business",
-              "finance",
-              "financial administration",
-              "administration"
+              "finance"
             ],
 
             description:
@@ -1452,10 +1213,7 @@ const campusLocations = [
 
             keywords: [
               "comptroller",
-              "comptrollers office",
-              "accounting",
-              "finance",
-              "financial operations"
+              "accounting"
             ],
 
             description:
@@ -1468,19 +1226,12 @@ const campusLocations = [
             keywords: [
               "payroll",
               "work study",
-              "work-study",
               "student worker",
-              "student employment",
-              "paycheck",
-              "getting paid",
-              "work study pay"
+              "paycheck"
             ],
 
             description:
-              "Students working through work-study or university employment may need to visit Councill Hall for certain payroll or employment-related matters.",
-
-            studentTip:
-              "If you're a student worker and have a question about your work-study pay or payroll paperwork, Councill Hall is an important place to check. Ask for the appropriate payroll or employment office if you are unsure where to go."
+              "Students working through work-study or university employment may need to visit Councill Hall for certain payroll matters."
           },
 
           {
@@ -1489,19 +1240,13 @@ const campusLocations = [
             keywords: [
               "it",
               "technology",
-              "technology services",
               "computer help",
-              "technical support",
               "email help",
-              "account setup",
               "login help"
             ],
 
             description:
-              "University technology services provide support for technology, accounts, email, and other university systems.",
-
-            studentTip:
-              "If you're having a university technology or account issue, ask for Technology Services. The exact service you need may depend on the type of account or device problem."
+              "University technology services provide support for technology and university systems."
           }
         ]
       },
@@ -1519,15 +1264,11 @@ const campusLocations = [
             keywords: [
               "human resources",
               "hr",
-              "employment",
-              "employee",
-              "jobs",
-              "student employment",
-              "work study"
+              "employment"
             ],
 
             description:
-              "Human Resources provides employment and personnel-related services for university employees."
+              "Human Resources provides employment and personnel-related services."
           },
 
           {
@@ -1538,13 +1279,11 @@ const campusLocations = [
             keywords: [
               "accounts payable",
               "payment",
-              "invoice",
-              "finance",
-              "business office"
+              "invoice"
             ],
 
             description:
-              "Accounts Payable handles applicable university payment and financial processing functions."
+              "Accounts Payable handles applicable university payment functions."
           },
 
           {
@@ -1553,72 +1292,22 @@ const campusLocations = [
             keywords: [
               "graduate school",
               "graduate studies",
-              "graduate student",
               "masters",
-              "master's",
-              "doctoral",
-              "graduate admissions"
+              "doctoral"
             ],
 
             description:
-              "Graduate School offices are located on the second floor of Councill Hall.",
-
-            features: [
-              "Graduate School offices can be found in Rooms 201, 203, 205, and 207"
-            ],
-
-            studentTip:
-              "Graduate students should learn Councill Hall early because several Graduate School offices are located on the second floor."
-          }
-        ]
-      },
-
-      {
-        floor: 3,
-        name: "Third Floor",
-
-        sections: [
-          {
-            name: "Budget Office",
-
-            keywords: [
-              "budget",
-              "budget office",
-              "finance",
-              "financial planning"
-            ],
-
-            description:
-              "University Budget Office staff and administrative functions are located within Councill Hall."
-          },
-
-          {
-            name: "Faculty & Staff Offices",
-
-            keywords: [
-              "faculty",
-              "faculty office",
-              "staff",
-              "staff office",
-              "professor",
-              "administration"
-            ],
-
-            description:
-              "Councill Hall also contains offices used by university faculty, staff, and administrators."
+              "Graduate School offices are located on the second floor."
           }
         ]
       }
     ],
 
     funFact:
-      "Councill Hall has played a role in Alabama State University's student activism history. ASU students occupied the president's office in the building following the Selma-to-Montgomery March in 1965, and students later held an overnight sit-in in Councill Hall in 1992.",
+      "Councill Hall has played a role in Alabama State University's student activism history.",
 
     nearbyLandmark: {
-      name: "Thelma Rice Plaza",
-
-      description:
-        "Thelma Rice Plaza is located between Councill Hall and W.B. Patterson Hall and honors longtime ASU mathematics instructor and alumna Thelma Austin Rice, remembered by generations of students as 'Mama Rice.'"
+      name: "Thelma Rice Plaza"
     },
 
     image: "",
@@ -1639,60 +1328,34 @@ const campusLocations = [
 
     keywords: [
       "harper councill trenholm hall",
-      "harper council trenholm hall",
       "h.c. trenholm hall",
       "hc trenholm hall",
       "trenholm hall",
       "shop for success",
       "biology",
-      "bio",
-      "biology 1",
-      "biology 2",
       "bio 1",
       "bio 2",
       "biology lab",
-      "science lab",
-      "lab class",
-      "127",
-      "128",
       "chemistry",
-      "chemistry class",
       "chemistry lab",
-      "chem lab",
       "physics",
       "physics 1",
       "physics 2",
-      "physics class",
-      "physics lab",
       "math",
       "mathematics",
-      "math class",
-      "math classes",
       "computer science",
-      "computer science class",
-      "computer science classes",
       "computer science advisor",
-      "cs advisor",
-      "cs",
       "coding",
       "programming",
       "professor",
-      "professors",
-      "faculty",
       "faculty office",
-      "faculty offices",
       "office hours",
-      "meet professor",
-      "help from professor",
       "research",
-      "research lab",
-      "research facilities",
-      "science research",
       "stem"
     ],
 
     description:
-      "Harper Councill Trenholm Hall is a STEM-focused academic building in the Shop for Success area. Students may have biology, chemistry, physics, mathematics, computer science, laboratory, and other science-related coursework in this building.",
+      "Harper Councill Trenholm Hall is a STEM-focused academic building in the Shop for Success area.",
 
     services: [
       "Biology classes",
@@ -1704,18 +1367,12 @@ const campusLocations = [
       "Computer Science advising",
       "Faculty offices",
       "Professor office hours",
-      "Research and laboratory facilities"
+      "Research facilities"
     ],
 
     landmarkArea: {
-      name: "Shop for Success",
-
-      description:
-        "Harper Councill Trenholm Hall is part of the Shop for Success academic area near W.B. Patterson Hall, Edward Glenn McGhee Hall, and William Hooper Councill Hall."
+      name: "Shop for Success"
     },
-
-    studentTip:
-      "This is an important building for students taking STEM courses. If your schedule lists biology, chemistry, physics, mathematics, computer science, or a science lab, check whether your class is located in H.C. Trenholm Hall.",
 
     sections: [
       {
@@ -1723,20 +1380,13 @@ const campusLocations = [
 
         keywords: [
           "biology",
-          "bio",
-          "biology 1",
-          "biology 2",
           "bio 1",
           "bio 2",
-          "biology lab",
-          "lab"
+          "biology lab"
         ],
 
         description:
-          "Biology courses and laboratory coursework are held in Harper Councill Trenholm Hall.",
-
-        studentTip:
-          "Students taking Biology I or Biology II may have lecture or laboratory coursework associated with this building. Always check your course schedule for the exact room."
+          "Biology courses and laboratory coursework are held in Harper Councill Trenholm Hall."
       },
 
       {
@@ -1744,21 +1394,13 @@ const campusLocations = [
 
         keywords: [
           "lab",
-          "labs",
           "laboratory",
-          "laboratories",
-          "science lab",
-          "science labs",
-          "lab class",
           "127",
           "128"
         ],
 
         description:
-          "Harper Councill Trenholm Hall contains science laboratory spaces used for academic coursework and research.",
-
-        studentTip:
-          "Lab coursework associated with 127 and 128 has been identified for this building. Exact room and course details will be added once they are confirmed."
+          "Harper Councill Trenholm Hall contains science laboratory spaces."
       },
 
       {
@@ -1766,15 +1408,11 @@ const campusLocations = [
 
         keywords: [
           "chemistry",
-          "chem",
-          "chemistry class",
-          "chemistry classes",
-          "chemistry lab",
-          "chem lab"
+          "chemistry lab"
         ],
 
         description:
-          "Chemistry coursework and laboratory instruction are supported within Harper Councill Trenholm Hall."
+          "Chemistry coursework and laboratory instruction are supported within the building."
       },
 
       {
@@ -1784,16 +1422,11 @@ const campusLocations = [
           "physics",
           "physics 1",
           "physics 2",
-          "physics class",
-          "physics classes",
           "physics lab"
         ],
 
         description:
-          "Physics courses and related laboratory coursework are associated with Harper Councill Trenholm Hall.",
-
-        studentTip:
-          "Students taking Physics I or Physics II should check their course schedule for the exact classroom or laboratory location."
+          "Physics courses and related laboratory coursework are associated with H.C. Trenholm Hall."
       },
 
       {
@@ -1801,14 +1434,11 @@ const campusLocations = [
 
         keywords: [
           "math",
-          "mathematics",
-          "math class",
-          "math classes",
-          "math professor"
+          "mathematics"
         ],
 
         description:
-          "Mathematics courses and faculty resources are available within Harper Councill Trenholm Hall."
+          "Mathematics courses and faculty resources are available within the building."
       },
 
       {
@@ -1816,21 +1446,13 @@ const campusLocations = [
 
         keywords: [
           "computer science",
-          "computer science class",
-          "computer science classes",
           "computer science advisor",
-          "cs advisor",
-          "cs",
           "coding",
-          "programming",
-          "computer science professor"
+          "programming"
         ],
 
         description:
-          "Computer Science classes, advising, and faculty resources are associated with Harper Councill Trenholm Hall.",
-
-        studentTip:
-          "If you are a Computer Science student and need advising, department guidance, or help locating a professor, H.C. Trenholm Hall is an important building to know."
+          "Computer Science classes, advising, and faculty resources are associated with H.C. Trenholm Hall."
       },
 
       {
@@ -1838,53 +1460,27 @@ const campusLocations = [
 
         keywords: [
           "professor",
-          "professors",
           "faculty",
           "faculty office",
-          "faculty offices",
-          "professor office",
-          "professor offices",
-          "office hours",
-          "meet professor",
-          "help from professor",
-          "one on one",
-          "one-on-one"
+          "office hours"
         ],
 
         description:
-          "Faculty and professor offices are located throughout the building, giving students opportunities to meet with instructors during scheduled office hours.",
+          "Faculty and professor offices are located throughout the building.",
 
         studentTip:
-          "Don't be afraid to use your professor's office hours. Office hours give you a chance to meet one-on-one with your professor about class material, assignments, grades, or additional help. Check your syllabus or ask your professor for their office location and scheduled hours."
-      },
-
-      {
-        name: "Research & STEM Facilities",
-
-        keywords: [
-          "research",
-          "research lab",
-          "research labs",
-          "research facilities",
-          "stem",
-          "science research",
-          "science facilities"
-        ],
-
-        description:
-          "The building includes academic laboratories, research facilities, classrooms, and faculty spaces supporting STEM education."
+          "Use your professor's office hours for one-on-one help with class material, assignments, grades, or additional support."
       }
     ],
 
     nameWarning:
-      "Harper Councill Trenholm Hall is not the same building as G.W. Trenholm Hall. Students should check their class schedule carefully to make sure they are going to the correct Trenholm building.",
-
-    funFact:
-      "H.C. Trenholm Hall is part of the Shop for Success area, where several of Alabama State University's academic buildings are located close together.",
+      "Harper Councill Trenholm Hall is not the same building as G.W. Trenholm Hall.",
 
     image: "",
     mapLink: ""
   },
+
+
   // =====================================================
   // PERCY J. VAUGHN, JR. COLLEGE OF BUSINESS
   // ADMINISTRATION / COBA
@@ -1902,92 +1498,35 @@ const campusLocations = [
       "college of business",
       "college of business administration",
       "business building",
-      "percy j vaughn",
-      "percy vaughn",
       "business major",
-      "business majors",
-
       "accounting",
-      "accounting major",
       "finance",
-      "finance major",
       "management",
-      "management major",
       "marketing",
-      "marketing major",
-
       "cis",
       "computer information systems",
-      "computer information systems major",
-      "information systems",
-
       "business advisor",
       "business advising",
-      "academic advisor",
-      "advising",
-
       "internship",
       "internships",
-      "business internship",
-      "paid internship",
-
-      "job",
       "jobs",
-      "career",
-      "career opportunities",
       "companies hiring",
-      "employers",
-      "recruiting",
-
       "business trip",
-      "business trips",
-      "company visit",
-      "company visits",
-      "professional development",
-      "networking",
-
       "professional attire",
       "business attire",
-      "dress professional",
       "dress code",
-      "tuesday",
-      "wednesday",
-
       "business club",
-      "business clubs",
-      "business organization",
-      "business organizations",
-
       "naba",
       "enactus",
       "american marketing association",
-      "financial management association",
-      "aitp",
-      "delta mu delta",
-      "phi beta lambda",
-
       "sbdc",
-      "small business development center",
       "entrepreneurship",
-      "entrepreneur",
-      "small business",
-
-      "certification",
       "certifications",
-      "excel",
-      "power bi",
-      "aws",
-      "comptia",
-
-      "professor",
-      "professors",
-      "faculty",
-      "faculty office",
       "office hours"
     ],
 
     description:
-      "The Percy J. Vaughn, Jr. College of Business Administration, commonly called COBA, is Alabama State University's primary academic home for business students. COBA supports students in areas such as Accounting, Finance, Management, Marketing, and Computer Information Systems while connecting students with professional development, internships, employers, and business organizations.",
+      "The Percy J. Vaughn, Jr. College of Business Administration, commonly called COBA, is Alabama State University's primary academic home for business students.",
 
     services: [
       "Business classes",
@@ -1997,95 +1536,50 @@ const campusLocations = [
       "Marketing",
       "Computer Information Systems",
       "Internship opportunities",
-      "Employer and recruiting opportunities",
+      "Employer opportunities",
       "Professional development",
-      "Business organizations and clubs",
+      "Business organizations",
       "Entrepreneurship resources",
-      "Faculty offices and office hours"
+      "Faculty offices"
     ],
 
-    studentTip:
-      "COBA has a strong professional culture. Watch your ASU email and COBA announcements closely because internship opportunities, employer visits, networking events, company trips, scholarships, and other professional opportunities may be shared with business students.",
-
     sections: [
-
-      // =================================================
-      // BUSINESS ADVISING
-      // =================================================
-
       {
         name: "Business Advising",
 
         keywords: [
           "advisor",
-          "advising",
           "business advisor",
-          "business advising",
-          "academic advisor",
-          "change business major",
-          "business major help"
+          "business advising"
         ],
 
         description:
-          "Business students can receive academic advising and guidance related to their degree program, course planning, and progress toward graduation.",
-
-        studentTip:
-          "If you're unsure which business classes to take next, have questions about your degree plan, or are considering changing your business concentration, start with your COBA advisor."
+          "Business students can receive academic advising and guidance related to their degree program."
       },
-
-
-      // =================================================
-      // ACCOUNTING & FINANCE
-      // =================================================
 
       {
         name: "Accounting & Finance",
 
         keywords: [
           "accounting",
-          "accounting major",
-          "finance",
-          "finance major",
-          "accountant",
-          "financial management"
+          "finance"
         ],
 
         description:
-          "COBA supports students studying Accounting and Finance through coursework, faculty guidance, professional development, and access to employer opportunities.",
-
-        features: [
-          "Accounting coursework",
-          "Finance coursework",
-          "Professional development opportunities",
-          "Internship and recruiting opportunities",
-          "Faculty support"
-        ]
+          "COBA supports students studying Accounting and Finance."
       },
-
-
-      // =================================================
-      // MANAGEMENT & MARKETING
-      // =================================================
 
       {
         name: "Management & Marketing",
 
         keywords: [
           "management",
-          "management major",
-          "marketing",
-          "marketing major",
-          "business administration"
+          "marketing"
         ],
 
         description:
-          "Students studying Management, Marketing, and related areas of Business Administration may take courses and participate in professional opportunities through COBA."
+          "Students studying Management and Marketing participate in coursework and professional opportunities through COBA."
       },
-
-
-      // =================================================
-      // COMPUTER INFORMATION SYSTEMS
-      // =================================================
 
       {
         name: "Computer Information Systems",
@@ -2093,22 +1587,15 @@ const campusLocations = [
         keywords: [
           "cis",
           "computer information systems",
-          "computer information systems major",
-          "information systems",
-          "business technology"
+          "information systems"
         ],
 
         description:
-          "Computer Information Systems, often called CIS, combines business education with technology and information systems.",
+          "Computer Information Systems combines business education with technology and information systems.",
 
         studentTip:
-          "CIS and Computer Science are different academic areas. CIS is associated with COBA, while Computer Science is associated with H.C. Trenholm Hall."
+          "CIS and Computer Science are different. CIS is associated with COBA, while Computer Science is associated with H.C. Trenholm Hall."
       },
-
-
-      // =================================================
-      // PROFESSIONAL DRESS
-      // =================================================
 
       {
         name: "Professional Dress Days",
@@ -2117,28 +1604,16 @@ const campusLocations = [
           "professional attire",
           "business attire",
           "dress code",
-          "dress professional",
-          "professional dress",
           "tuesday",
           "wednesday"
         ],
 
         description:
-          "COBA emphasizes professional appearance and workplace preparation as part of its business culture.",
-
-        features: [
-          "Professional business attire is expected on designated professional dress days",
-          "Current university information identifies Tuesday and Wednesday as professional dress days"
-        ],
+          "COBA emphasizes professional appearance and workplace preparation.",
 
         studentTip:
-          "Business students should keep professional clothing ready for COBA professional dress days, presentations, interviews, networking events, employer visits, and other professional opportunities."
+          "Business students should keep professional clothing ready for professional dress days, presentations, interviews, networking events, and employer visits."
       },
-
-
-      // =================================================
-      // INTERNSHIPS & CAREER OPPORTUNITIES
-      // =================================================
 
       {
         name: "Internships & Employer Opportunities",
@@ -2146,193 +1621,145 @@ const campusLocations = [
         keywords: [
           "internship",
           "internships",
-          "business internship",
-          "paid internship",
           "job",
-          "jobs",
           "companies hiring",
-          "employer",
-          "employers",
-          "recruiting",
-          "career",
-          "career opportunity",
-          "career opportunities"
+          "recruiting"
         ],
 
         description:
-          "COBA connects students with internships, employers, recruiting opportunities, and professional experiences that can help prepare them for careers after graduation.",
-
-        features: [
-          "Internship opportunities",
-          "Employer recruiting",
-          "Career preparation",
-          "Networking opportunities",
-          "Professional development",
-          "Company and industry exposure"
-        ],
-
-        studentTip:
-          "Do not wait until senior year to look for internships. Pay attention to COBA announcements and your student email because opportunities may be shared throughout the academic year."
+          "COBA connects students with internships, employers, recruiting opportunities, and professional experiences."
       },
-
-
-      // =================================================
-      // BUSINESS TRIPS & COMPANY EXPERIENCES
-      // =================================================
-
-      {
-        name: "Business Trips & Company Experiences",
-
-        keywords: [
-          "business trip",
-          "business trips",
-          "company trip",
-          "company trips",
-          "company visit",
-          "company visits",
-          "travel",
-          "networking",
-          "professional trip"
-        ],
-
-        description:
-          "COBA students may have opportunities to participate in company visits, business trips, conferences, networking experiences, and other forms of experiential learning.",
-
-        studentTip:
-          "Some professional opportunities may include company-sponsored travel or other funded experiences when offered. Availability depends on the specific program or employer."
-      },
-
-
-      // =================================================
-      // STUDENT BUSINESS ORGANIZATIONS
-      // =================================================
 
       {
         name: "Business Organizations & Clubs",
 
         keywords: [
           "business club",
-          "business clubs",
-          "business organization",
           "business organizations",
           "naba",
           "enactus",
           "american marketing association",
-          "financial management association",
           "aitp",
-          "delta mu delta",
-          "phi beta lambda"
+          "delta mu delta"
         ],
 
         description:
-          "COBA offers business-focused student organizations that can help students develop leadership skills, build professional networks, and gain experience outside the classroom.",
-
-        features: [
-          "Association of Information Technology Professionals",
-          "American Marketing Association",
-          "Delta Mu Delta",
-          "ENACTUS",
-          "Financial Management Association",
-          "National Association of Black Accountants",
-          "Phi Beta Lambda",
-          "Other business and professional organizations"
-        ],
-
-        studentTip:
-          "Joining a business organization can help you meet other students in your major, develop leadership experience, network with professionals, and strengthen your resume."
+          "COBA offers business-focused student organizations that help students develop leadership and professional networks."
       },
-
-
-      // =================================================
-      // SMALL BUSINESS DEVELOPMENT & ENTREPRENEURSHIP
-      // =================================================
 
       {
         name: "Small Business & Entrepreneurship Resources",
 
         keywords: [
           "sbdc",
-          "small business development center",
           "small business",
-          "entrepreneur",
-          "entrepreneurship",
-          "start business",
-          "business owner"
+          "entrepreneurship"
         ],
 
         description:
-          "COBA is connected with resources that support entrepreneurship, small-business development, and practical business education.",
-
-        studentTip:
-          "If you're interested in starting a business or learning more about entrepreneurship, ask about COBA's small-business and entrepreneurship resources."
+          "COBA is connected with resources supporting entrepreneurship and small-business development."
       },
-
-
-      // =================================================
-      // BUSINESS TECHNOLOGY & CERTIFICATIONS
-      // =================================================
-
-      {
-        name: "Technology & Professional Certifications",
-
-        keywords: [
-          "certification",
-          "certifications",
-          "excel",
-          "microsoft excel",
-          "power bi",
-          "aws",
-          "aws cloud",
-          "comptia",
-          "security plus",
-          "network plus",
-          "business technology"
-        ],
-
-        description:
-          "Depending on their program, COBA students may gain experience with professional business technology and industry-recognized certifications.",
-
-        features: [
-          "Business technology skills",
-          "Data and analytics tools",
-          "Professional software",
-          "Industry certification opportunities"
-        ]
-      },
-
-
-      // =================================================
-      // FACULTY OFFICES
-      // =================================================
 
       {
         name: "Faculty Offices & Office Hours",
 
         keywords: [
           "professor",
-          "professors",
           "faculty",
-          "faculty office",
-          "faculty offices",
-          "office hours",
-          "meet professor",
-          "help from professor"
+          "office hours"
         ],
 
         description:
           "Business faculty offices are available for students who need academic assistance, course guidance, or one-on-one conversations with professors.",
 
         studentTip:
-          "Use your professors' office hours. They can be helpful for questions about assignments, grades, course material, career advice, internships, and professional development."
+          "Use your professors' office hours for questions about assignments, grades, course material, career advice, internships, and professional development."
       }
-
     ],
 
+    image: "",
+    mapLink: ""
+  },
+
+
+  // =====================================================
+  // THE EQUINOX
+  // =====================================================
+
+  {
+    id: 11,
+
+    name: "The Equinox",
+    shortName: "Equinox",
+    category: "landmark",
+
+    keywords: [
+      "equinox",
+      "the equinox",
+      "statue",
+      "sculpture",
+      "landmark",
+      "shop for success",
+      "academic mall",
+      "academic area",
+      "civil rights",
+      "black educators",
+      "presidents",
+      "university leadership",
+      "freedom",
+      "freedom fighters",
+      "black history",
+      "african american history"
+    ],
+
+    description:
+      "The Equinox is a major campus landmark located in the center of the Shop for Success academic area. The sculpture and surrounding monuments recognize African American history, leadership, education, civil rights, and the contributions of Black Americans.",
+
+    landmarkArea: {
+      name: "Shop for Success",
+
+      description:
+        "The Equinox sits in the middle of the Shop for Success area, surrounded by W.B. Patterson Hall, Edward Glenn McGhee Hall, William Hooper Councill Hall, and Harper Councill Trenholm Hall."
+    },
+
+    nearbyBuildings: [
+      "W.B. Patterson Hall",
+      "Edward Glenn McGhee Hall",
+      "William Hooper Councill Hall",
+      "Harper Councill Trenholm Hall"
+    ],
+
+    history: {
+      year: 1974,
+
+      artist:
+        "Larry Godwin",
+
+      description:
+        "The Equinox was erected during Alabama State University's centennial period and was created as a symbolic outdoor sculpture recognizing African American contributions to the university, community, and nation."
+    },
+
+    represents: [
+      "African American history and contributions",
+      "Civil rights leadership",
+      "Black educators",
+      "University leadership",
+      "Past and present university presidents",
+      "The labor, sacrifice, and progress of Black Americans"
+    ],
+
+    studentTip:
+      "The Equinox is one of the easiest landmarks to use when finding the Shop for Success buildings. If you can find the Equinox, you are already in the middle of Patterson, McGhee, Councill, and H.C. Trenholm Halls.",
+
+    campusLore:
+      "A popular campus saying warns students not to walk underneath the Equinox. According to campus lore, doing so may bring bad luck, such as not graduating on time or not finding your true love. This is a student tradition and superstition, not an official university claim.",
+
     funFact:
-      "Students commonly refer to the Percy J. Vaughn, Jr. College of Business Administration simply as COBA.",
+      "The Equinox was erected in 1974 and has become one of Alabama State University's recognizable campus landmarks.",
 
     image: "",
     mapLink: ""
   }
 
 ];
+
