@@ -3754,9 +3754,2331 @@ const campusLocations = [
 
   image: "",
   mapLink: ""
+},
+
+// =====================================================
+// JOHN L. BUSKEY HEALTH SCIENCES CENTER
+// =====================================================
+
+{
+  id: 17,
+
+  name: "John L. Buskey Health Sciences Center",
+  shortName: "Buskey Health Sciences",
+  category: "academic",
+
+  keywords: [
+    "john l buskey",
+    "john lee buskey",
+    "buskey",
+    "buskey health sciences",
+    "health sciences center",
+    "college of health sciences",
+    "health science",
+    "health sciences",
+
+    "physical therapy",
+    "pt",
+    "dpt",
+    "doctor of physical therapy",
+
+    "occupational therapy",
+    "ot",
+    "otd",
+
+    "rehabilitation studies",
+    "rehabilitation services",
+    "rehabilitation counseling",
+    "addiction studies",
+
+    "health information management",
+    "him",
+
+    "prosthetics",
+    "orthotics",
+    "prosthetics and orthotics",
+
+    "maternal and child health",
+
+    "gross anatomy",
+    "gross anatomy lab",
+    "anatomy",
+    "anatomy lab",
+    "cadaver",
+    "cadavers",
+    "donated body",
+    "donated bodies",
+    "body donation",
+
+    "clinical skills",
+    "clinical skills lab",
+    "clinical lab",
+    "laboratory",
+    "labs",
+
+    "biomechanics",
+    "human motion",
+    "analysis of human motion",
+    "motion lab",
+
+    "physical dysfunction",
+    "assisted daily living",
+    "adl",
+    "therapeutic rehabilitation",
+
+    "cardiovascular",
+    "pulmonary",
+    "clinical simulation",
+    "simulation",
+    "therapeutic exercise",
+    "cybex",
+
+    "computer lab",
+    "student resource center",
+    "student resource centers",
+    "study area",
+
+    "interdisciplinary clinic",
+    "clinic",
+
+    "research lab",
+    "research labs",
+    "research",
+
+    "denise chapman",
+    "denise chapman auditorium",
+    "auditorium",
+
+    "faculty",
+    "faculty offices",
+    "professor",
+    "professors",
+    "office hours",
+    "dean",
+    "college of health sciences dean"
+  ],
+
+  description:
+    "John L. Buskey Health Sciences Center is the primary academic facility for Alabama State University's College of Health Sciences. The three-story, approximately 80,000-square-foot building contains classrooms, specialized clinical and research laboratories, student resource areas, an interdisciplinary clinic, faculty offices, and spaces designed for hands-on health sciences education.",
+
+  services: [
+    "College of Health Sciences",
+    "Physical Therapy",
+    "Occupational Therapy",
+    "Rehabilitation Studies",
+    "Health Information Management",
+    "Prosthetics & Orthotics",
+    "Maternal and Child Health",
+    "Gross Anatomy Lab",
+    "Clinical skills laboratories",
+    "Research laboratories",
+    "Human motion and biomechanics facilities",
+    "Computer lab",
+    "Student resource centers",
+    "Interdisciplinary clinic",
+    "Denise Chapman Auditorium",
+    "Faculty and staff offices"
+  ],
+
+  studentTip:
+    "Buskey is a large health sciences building with classrooms, offices, clinics, and specialized laboratories. Always check the exact room, suite, or laboratory listed on your schedule before class.",
+
+  sections: [
+
+    // =================================================
+    // COLLEGE OF HEALTH SCIENCES
+    // =================================================
+
+    {
+      name: "College of Health Sciences",
+
+      keywords: [
+        "college of health sciences",
+        "health sciences",
+        "health science",
+        "dean",
+        "college of health sciences dean"
+      ],
+
+      description:
+        "John L. Buskey Health Sciences Center houses Alabama State University's College of Health Sciences and supports undergraduate, graduate, and doctoral health-related education.",
+
+      studentTip:
+        "If you are a Health Sciences student, Buskey may become one of your most important academic buildings for classes, laboratories, faculty meetings, and program activities."
+    },
+
+
+    // =================================================
+    // PHYSICAL THERAPY
+    // =================================================
+
+    {
+      name: "Physical Therapy",
+
+      keywords: [
+        "physical therapy",
+        "pt",
+        "dpt",
+        "doctor of physical therapy",
+        "physical therapist",
+        "therapy"
+      ],
+
+      description:
+        "Alabama State University's Doctor of Physical Therapy program uses Buskey Health Sciences Center for coursework, laboratory instruction, clinical preparation, and hands-on learning.",
+
+      features: [
+        "Doctor of Physical Therapy coursework",
+        "Clinical skills training",
+        "Biomechanics and motion laboratories",
+        "Cardiovascular and pulmonary laboratories",
+        "Clinical practice and simulation",
+        "Therapeutic exercise facilities"
+      ],
+
+      studentTip:
+        "Physical Therapy students should become familiar with Buskey's different laboratory spaces because coursework may move between classrooms, clinical labs, and specialized training areas."
+    },
+
+
+    // =================================================
+    // OCCUPATIONAL THERAPY
+    // =================================================
+
+    {
+      name: "Occupational Therapy",
+
+      keywords: [
+        "occupational therapy",
+        "ot",
+        "otd",
+        "occupational therapist",
+        "occupational therapy program"
+      ],
+
+      description:
+        "Alabama State University's Occupational Therapy program is located in Buskey Health Sciences Center and provides classroom, laboratory, and clinical preparation for students pursuing occupational therapy.",
+
+      features: [
+        "Occupational Therapy education",
+        "Clinical skills training",
+        "Assisted daily living instruction",
+        "Physical dysfunction laboratory experiences",
+        "Faculty and program offices"
+      ],
+
+      studentTip:
+        "Occupational Therapy faculty and staff are currently associated with Suite 211, but always verify the current room or office before visiting."
+    },
+
+
+    // =================================================
+    // REHABILITATION STUDIES
+    // =================================================
+
+    {
+      name: "Rehabilitation Studies",
+
+      keywords: [
+        "rehabilitation studies",
+        "rehab studies",
+        "rehabilitation services",
+        "rehab services",
+        "rehabilitation counseling",
+        "rehab counseling",
+        "addiction studies"
+      ],
+
+      description:
+        "Buskey houses Alabama State University's Department of Rehabilitation Studies, including programs related to Rehabilitation Services and Rehabilitation Counseling.",
+
+      features: [
+        "Rehabilitation Services",
+        "Rehabilitation Counseling",
+        "Addiction Studies",
+        "Clinical and academic preparation",
+        "Faculty offices"
+      ],
+
+      studentTip:
+        "Rehabilitation Studies faculty and staff are currently associated with Suite 313. Check current department information before visiting a specific professor."
+    },
+
+
+    // =================================================
+    // PROSTHETICS & ORTHOTICS
+    // =================================================
+
+    {
+      name: "Prosthetics & Orthotics",
+
+      keywords: [
+        "prosthetics",
+        "prosthetic",
+        "orthotics",
+        "orthotic",
+        "prosthetics and orthotics",
+        "p&o"
+      ],
+
+      description:
+        "Prosthetics and Orthotics is one of the specialized health sciences areas associated with Alabama State University's College of Health Sciences.",
+
+      studentTip:
+        "Students interested in careers involving prosthetic and orthotic patient care should know Buskey as an important College of Health Sciences facility."
+    },
+
+
+    // =================================================
+    // HEALTH INFORMATION MANAGEMENT
+    // =================================================
+
+    {
+      name: "Health Information Management",
+
+      keywords: [
+        "health information management",
+        "him",
+        "health information",
+        "medical records",
+        "simulated medical records"
+      ],
+
+      description:
+        "Health Information Management is associated with the College of Health Sciences, and Buskey includes specialized resources such as a simulated medical records laboratory."
+    },
+
+
+    // =================================================
+    // MATERNAL & CHILD HEALTH
+    // =================================================
+
+    {
+      name: "Maternal & Child Health",
+
+      keywords: [
+        "maternal and child health",
+        "maternal health",
+        "child health",
+        "mch"
+      ],
+
+      description:
+        "Maternal and Child Health is among the health-related areas supported through Alabama State University's College of Health Sciences."
+    },
+
+
+    // =================================================
+    // GROSS ANATOMY LAB
+    // =================================================
+
+    {
+      name: "Gross Anatomy Lab",
+
+      keywords: [
+        "gross anatomy",
+        "gross anatomy lab",
+        "anatomy",
+        "anatomy lab",
+        "cadaver",
+        "cadavers",
+        "donated body",
+        "donated bodies",
+        "body donation",
+        "human anatomy"
+      ],
+
+      description:
+        "Buskey Health Sciences Center contains a Gross Anatomy Lab used to support advanced study of human anatomy as part of health sciences education.",
+
+      studentTip:
+        "The Gross Anatomy Lab is a specialized instructional environment. Students should follow all faculty instructions, laboratory rules, safety requirements, and standards of respect associated with anatomical study."
+    },
+
+
+    // =================================================
+    // CLINICAL SKILLS LABS
+    // =================================================
+
+    {
+      name: "Clinical Skills Laboratories",
+
+      keywords: [
+        "clinical skills",
+        "clinical skills lab",
+        "clinical lab",
+        "clinical labs",
+        "simulation",
+        "clinical simulation"
+      ],
+
+      description:
+        "Buskey contains six clinical skills laboratories that allow Health Sciences students to develop practical skills in controlled instructional environments.",
+
+      features: [
+        "Six clinical skills laboratories",
+        "Hands-on instruction",
+        "Clinical preparation",
+        "Simulation and practical learning"
+      ]
+    },
+
+
+    // =================================================
+    // HUMAN MOTION & BIOMECHANICS
+    // =================================================
+
+    {
+      name: "Human Motion & Biomechanics",
+
+      keywords: [
+        "human motion",
+        "analysis of human motion",
+        "motion lab",
+        "biomechanics",
+        "biomechanics lab",
+        "movement analysis"
+      ],
+
+      description:
+        "Buskey includes specialized facilities for studying biomechanics and human movement, supporting Physical Therapy and related health sciences education.",
+
+      features: [
+        "Analysis of Human Motion",
+        "Biomechanics",
+        "Movement assessment",
+        "Health sciences research"
+      ]
+    },
+
+
+    // =================================================
+    // REHABILITATION LABS
+    // =================================================
+
+    {
+      name: "Therapeutic Rehabilitation Labs",
+
+      keywords: [
+        "rehabilitation lab",
+        "rehab lab",
+        "therapeutic rehabilitation",
+        "physical dysfunction",
+        "assisted daily living",
+        "adl"
+      ],
+
+      description:
+        "The Health Sciences Center includes specialized rehabilitation facilities such as therapeutic rehabilitation labs and instructional spaces related to assisted daily living and physical dysfunction."
+    },
+
+
+    // =================================================
+    // THERAPEUTIC EXERCISE
+    // =================================================
+
+    {
+      name: "Therapeutic Exercise Facilities",
+
+      keywords: [
+        "therapeutic exercise",
+        "exercise gym",
+        "cybex",
+        "cybex gym",
+        "physical therapy gym",
+        "rehab gym"
+      ],
+
+      description:
+        "Physical Therapy students have access to therapeutic exercise facilities, including specialized equipment used for rehabilitation and clinical education."
+    },
+
+
+    // =================================================
+    // INTERDISCIPLINARY CLINIC
+    // =================================================
+
+    {
+      name: "Interdisciplinary Clinic",
+
+      keywords: [
+        "interdisciplinary clinic",
+        "clinic",
+        "health clinic",
+        "clinical"
+      ],
+
+      description:
+        "Buskey includes an interdisciplinary clinic designed to support health sciences education and collaboration across professional disciplines."
+    },
+
+
+    // =================================================
+    // COMPUTER LAB & STUDENT RESOURCES
+    // =================================================
+
+    {
+      name: "Computer Lab & Student Resource Centers",
+
+      keywords: [
+        "computer lab",
+        "computers",
+        "student resource center",
+        "student resource centers",
+        "study",
+        "study area",
+        "student resources"
+      ],
+
+      description:
+        "The building includes a large general computer lab and three student resource centers that support Health Sciences students with academic work and study.",
+
+      features: [
+        "Large general computer lab",
+        "Three student resource centers",
+        "Academic support space",
+        "Student study resources"
+      ],
+
+      studentTip:
+        "These spaces can be useful when you have time between Health Sciences classes and need somewhere to work or study."
+    },
+
+
+    // =================================================
+    // RESEARCH LABS
+    // =================================================
+
+    {
+      name: "Research Laboratories",
+
+      keywords: [
+        "research",
+        "research lab",
+        "research labs",
+        "research laboratory",
+        "research laboratories"
+      ],
+
+      description:
+        "Buskey contains four research laboratories supporting faculty and student research in health sciences.",
+
+      features: [
+        "Four research laboratories",
+        "Faculty research",
+        "Student research opportunities",
+        "Health sciences research"
+      ]
+    },
+
+
+    // =================================================
+    // DENISE CHAPMAN AUDITORIUM
+    // =================================================
+
+    {
+      name: "Denise Chapman Auditorium",
+
+      keywords: [
+        "denise chapman",
+        "denise chapman auditorium",
+        "chapman auditorium",
+        "auditorium",
+        "health sciences event",
+        "open house"
+      ],
+
+      description:
+        "Denise Chapman Auditorium is located in the Buskey Health Sciences Center and is used for College of Health Sciences programs, presentations, open houses, and other events.",
+
+      studentTip:
+        "If an event announcement lists Denise Chapman Auditorium, your destination is the John L. Buskey Health Sciences Center."
+    },
+
+
+    // =================================================
+    // FACULTY & COLLEGE OFFICES
+    // =================================================
+
+    {
+      name: "Faculty & College Offices",
+
+      keywords: [
+        "faculty",
+        "faculty office",
+        "faculty offices",
+        "professor",
+        "professors",
+        "office hours",
+        "dean",
+        "college of health sciences dean",
+        "advisor",
+        "advising"
+      ],
+
+      description:
+        "College of Health Sciences faculty, staff, program offices, and administrative offices are located throughout Buskey Health Sciences Center.",
+
+      studentTip:
+        "Use faculty office hours and program offices for help with coursework, clinical requirements, advising, fieldwork, research, and professional preparation."
+    }
+
+  ],
+
+  funFact:
+    "Buskey Health Sciences Center is an approximately 80,000-square-foot facility with 10 smart classrooms, six clinical skills laboratories, a Gross Anatomy Lab, research laboratories, student resource centers, and specialized rehabilitation and human-motion facilities.",
+
+  image: "",
+  mapLink: ""
+},
+
+// =====================================================
+// MONTGOMERY INTERPRETIVE CENTER
+// =====================================================
+
+{
+  id: 18,
+
+  name: "Montgomery Interpretive Center",
+  shortName: "Interpretive Center",
+  category: "landmark",
+
+  keywords: [
+    "montgomery interpretive center",
+    "interpretive center",
+    "museum",
+    "museum on campus",
+    "free museum",
+    "civil rights museum",
+
+    "national park service",
+    "nps",
+    "national historic trail",
+
+    "selma",
+    "selma to montgomery",
+    "selma to montgomery march",
+    "selma to montgomery voting rights march",
+    "voting rights march",
+    "voting rights",
+    "voting rights movement",
+    "1965",
+
+    "civil rights",
+    "civil rights movement",
+    "black history",
+    "african american history",
+
+    "student activism",
+    "student activists",
+    "student protests",
+    "college students",
+    "asu students",
+
+    "martin luther king",
+    "martin luther king jr",
+    "mlk",
+    "dr king",
+
+    "city of st jude",
+    "st jude",
+    "march rally",
+
+    "exhibits",
+    "historical exhibits",
+    "interactive exhibits",
+    "life size exhibits",
+    "museum figures",
+
+    "film",
+    "movie",
+    "civil rights film",
+    "20 minute film",
+    "student protest film",
+
+    "ranger",
+    "park ranger",
+    "ranger talk",
+
+    "gift shop",
+    "bookstore",
+    "souvenirs",
+    "books",
+
+    "free admission",
+    "free",
+    "hours",
+    "museum hours",
+    "1521 harris way"
+  ],
+
+  description:
+    "The Montgomery Interpretive Center is a National Park Service museum and visitor center located directly on Alabama State University's campus. The center tells the story of the final leg of the 1965 Selma to Montgomery Voting Rights March, student involvement in the Voting Rights Movement, and Montgomery's important role in Civil Rights history.",
+
+  address:
+    "1521 Harris Way, Montgomery, AL 36106",
+
+  services: [
+    "Free admission",
+    "Civil Rights exhibits",
+    "Selma to Montgomery Voting Rights March history",
+    "Student activism exhibits",
+    "Historical and interpretive displays",
+    "Educational film",
+    "Theater and auditorium",
+    "National Park Service staff and ranger information",
+    "Maps and visitor information",
+    "Books, gifts, and souvenirs",
+    "Accessible restrooms",
+    "Wheelchair-accessible facilities",
+    "Water bottle filling station"
+  ],
+
+  studentTip:
+    "You do not have to wait for a class assignment to visit. Admission is free, and because the Montgomery Interpretive Center is located directly on ASU's campus, students can visit to learn more about ASU, Montgomery, and the Civil Rights Movement.",
+
+  sections: [
+
+    // =================================================
+    // HOURS & FREE ADMISSION
+    // =================================================
+
+    {
+      name: "Hours & Free Admission",
+
+      keywords: [
+        "hours",
+        "museum hours",
+        "interpretive center hours",
+        "open",
+        "closed",
+        "free",
+        "free admission",
+        "admission",
+        "price",
+        "cost"
+      ],
+
+      description:
+        "The Montgomery Interpretive Center is free to visit. No entrance fee or National Park pass is required.",
+
+      features: [
+        "Monday-Saturday: 9:00 AM-4:30 PM",
+        "Sunday: Closed",
+        "Free admission",
+        "No entrance pass required"
+      ],
+
+      studentTip:
+        "Hours can change for federal holidays, weather, or special circumstances, so check current National Park Service information before planning a visit during a holiday or university break."
+    },
+
+
+    // =================================================
+    // SELMA TO MONTGOMERY MARCH
+    // =================================================
+
+    {
+      name: "1965 Selma to Montgomery Voting Rights March",
+
+      keywords: [
+        "selma",
+        "montgomery",
+        "selma to montgomery",
+        "selma to montgomery march",
+        "voting rights march",
+        "1965 march",
+        "civil rights march",
+        "voting rights"
+      ],
+
+      description:
+        "The center interprets the final leg of the historic 1965 Selma to Montgomery Voting Rights March and helps visitors understand the people, events, and activism connected to the struggle for voting rights.",
+
+      studentTip:
+        "The Montgomery Interpretive Center is one of three National Park Service visitor centers connected to the Selma to Montgomery National Historic Trail."
+    },
+
+
+    // =================================================
+    // STUDENT ACTIVISM
+    // =================================================
+
+    {
+      name: "Student Activism & the Voting Rights Movement",
+
+      keywords: [
+        "student activism",
+        "student activists",
+        "student protest",
+        "student protests",
+        "college students",
+        "asu students",
+        "voting rights",
+        "civil rights"
+      ],
+
+      description:
+        "A major focus of the Montgomery Interpretive Center is the involvement of students in the Voting Rights Movement and the student protests that occurred in Montgomery during 1965.",
+
+      studentTip:
+        "This section is especially meaningful for ASU students because it connects college students and Montgomery directly to the history of the Voting Rights Movement."
+    },
+
+
+    // =================================================
+    // CITY OF ST. JUDE
+    // =================================================
+
+    {
+      name: "City of St. Jude Rally",
+
+      keywords: [
+        "city of st jude",
+        "st jude",
+        "rally",
+        "march rally",
+        "selma march",
+        "fourth night"
+      ],
+
+      description:
+        "The exhibits also interpret the rally held at the City of St. Jude during the fourth night of the Selma to Montgomery Voting Rights March."
+    },
+
+
+    // =================================================
+    // CIVIL RIGHTS EXHIBITS
+    // =================================================
+
+    {
+      name: "Civil Rights Exhibits",
+
+      keywords: [
+        "exhibit",
+        "exhibits",
+        "museum exhibits",
+        "civil rights exhibits",
+        "historical exhibits",
+        "interactive exhibits",
+        "displays",
+        "life size exhibits",
+        "museum figures"
+      ],
+
+      description:
+        "The museum uses historical and interpretive exhibits to help visitors understand the people, events, and experiences surrounding the Voting Rights Movement and the Selma to Montgomery March.",
+
+      studentTip:
+        "Give yourself time to actually walk through and read the exhibits. The center is designed as an educational experience rather than simply a building to walk through quickly."
+    },
+
+
+    // =================================================
+    // EDUCATIONAL FILM
+    // =================================================
+
+    {
+      name: "Student Protest Film",
+
+      keywords: [
+        "film",
+        "movie",
+        "video",
+        "20 minute film",
+        "student protest film",
+        "student protests",
+        "theater",
+        "auditorium"
+      ],
+
+      description:
+        "Visitors can view a film of approximately 20 minutes focusing on student protests in Montgomery during March 1965.",
+
+      studentTip:
+        "If you have enough time during your visit, include the film instead of only walking through the exhibits."
+    },
+
+
+    // =================================================
+    // NATIONAL PARK SERVICE
+    // =================================================
+
+    {
+      name: "National Park Service",
+
+      keywords: [
+        "national park service",
+        "nps",
+        "park ranger",
+        "ranger",
+        "ranger talk",
+        "national historic trail"
+      ],
+
+      description:
+        "The Montgomery Interpretive Center is operated as part of the National Park Service's Selma to Montgomery National Historic Trail.",
+
+      features: [
+        "National Park Service staff",
+        "Visitor information",
+        "Maps",
+        "Interpretive exhibits",
+        "Educational programming",
+        "Ranger orientation talks for groups"
+      ],
+
+      studentTip:
+        "National Park Service staff can provide additional historical context and visitor information. Groups may also be able to arrange short ranger orientation talks."
+    },
+
+
+    // =================================================
+    // VISITOR AMENITIES
+    // =================================================
+
+    {
+      name: "Visitor Amenities",
+
+      keywords: [
+        "restroom",
+        "restrooms",
+        "water",
+        "water bottle",
+        "water bottle filling station",
+        "wheelchair",
+        "accessible",
+        "accessibility",
+        "parking",
+        "gift shop",
+        "bookstore",
+        "souvenirs",
+        "books"
+      ],
+
+      description:
+        "The center provides several visitor amenities in addition to its museum exhibits and educational spaces.",
+
+      features: [
+        "Accessible restrooms",
+        "Wheelchair accessibility",
+        "Parking",
+        "Water bottle filling station",
+        "Maps and visitor information",
+        "Books, gifts, and souvenirs",
+        "Theater and auditorium"
+      ]
+    }
+
+  ],
+
+  history: {
+    year: 1965,
+
+    description:
+      "The Montgomery Interpretive Center preserves and interprets the history surrounding the final stage of the 1965 Selma to Montgomery Voting Rights March, including student activism in Montgomery and the marchers' journey toward the Alabama State Capitol."
+  },
+
+  funFact:
+    "ASU students have a National Park Service Civil Rights museum located directly on their own campus, and admission to the Montgomery Interpretive Center is free to everyone.",
+
+  image: "",
+  mapLink: ""
+},
+
+// =====================================================
+// LIFE SCIENCE BUILDING
+// =====================================================
+
+{
+  id: 19,
+
+  name: "Life Science Building",
+  shortName: "Life Science",
+  category: "academic",
+
+  keywords: [
+    "life science",
+    "life sciences",
+    "life science building",
+    "biology building",
+    "science building",
+
+    "biology",
+    "biological sciences",
+    "biology major",
+    "pre health biology",
+    "pre-health biology",
+    "marine biology",
+
+    "microbiology",
+    "microbiology phd",
+    "phd microbiology",
+    "doctoral microbiology",
+
+    "biomedical",
+    "biomed",
+    "biomedical research",
+    "biomedical research and training",
+
+    "molecular biology",
+    "molecular biology lab",
+    "molecular biology laboratory",
+
+    "research",
+    "research lab",
+    "research labs",
+    "research laboratory",
+    "research opportunities",
+
+    "mseip",
+    "minority science engineering improvement program",
+    "stem scholarship",
+    "stem research",
+
+    "seminar room",
+    "classroom",
+    "classrooms",
+    "multimedia classroom",
+    "lecture",
+
+    "cold room",
+    "cold rooms",
+    "dark room",
+    "dark rooms",
+
+    "honor roll",
+    "honors",
+    "honors convocation",
+    "honor roll pickup",
+    "honors pickup",
+    "honor roll certificate",
+    "honors paper",
+    "honors lanyard",
+    "asu lanyard",
+
+    "faculty",
+    "faculty office",
+    "faculty offices",
+    "professor",
+    "professors",
+    "office hours",
+
+    "college of stem",
+    "stem",
+    "stem office"
+  ],
+
+  description:
+    "The Life Science Building is a major Alabama State University STEM facility focused on Biological Sciences, Microbiology, biomedical research, and scientific training. The five-floor building contains classrooms, molecular biology teaching laboratories, research laboratories, faculty offices, and specialized scientific facilities.",
+
+  services: [
+    "Biological Sciences",
+    "Biology",
+    "Pre-Health Biology",
+    "Marine Biology",
+    "Microbiology",
+    "Microbiology Ph.D. Program",
+    "Biomedical Research & Training",
+    "Molecular Biology laboratories",
+    "Scientific research laboratories",
+    "MSEIP",
+    "STEM research opportunities",
+    "Multimedia classrooms",
+    "Teaching and seminar spaces",
+    "Faculty offices",
+    "Honors recognition pickup when announced"
+  ],
+
+  studentTip:
+    "Life Science is much larger than a regular classroom building. Always check your exact room number because classes, laboratories, research programs, faculty offices, and STEM resources are located throughout the building.",
+
+  sections: [
+
+    // =================================================
+    // BIOLOGICAL SCIENCES
+    // =================================================
+
+    {
+      name: "Biological Sciences",
+
+      keywords: [
+        "biology",
+        "biological sciences",
+        "biology major",
+        "pre health biology",
+        "pre-health biology",
+        "marine biology",
+        "biology class",
+        "biology classes"
+      ],
+
+      description:
+        "The Life Science Building houses Alabama State University's Biological Sciences programs and provides classroom, laboratory, research, and faculty spaces for students studying the biological sciences.",
+
+      features: [
+        "Biology",
+        "Pre-Health Biology",
+        "Marine Biology",
+        "Microbiology",
+        "Laboratory instruction",
+        "Scientific research"
+      ],
+
+      studentTip:
+        "Biology students should become familiar with Life Science early because classes, laboratories, professors, and research opportunities may all bring you back to this building."
+    },
+
+
+    // =================================================
+    // MICROBIOLOGY
+    // =================================================
+
+    {
+      name: "Microbiology & Ph.D. Research",
+
+      keywords: [
+        "microbiology",
+        "microbiology phd",
+        "phd microbiology",
+        "doctoral microbiology",
+        "microbiology research",
+        "microbiology program"
+      ],
+
+      description:
+        "Life Science houses Alabama State University's advanced Microbiology education and research, including the university's Ph.D. program in Microbiology.",
+
+      features: [
+        "Microbiology coursework",
+        "Doctoral research",
+        "Advanced scientific training",
+        "Faculty mentorship",
+        "Laboratory research"
+      ],
+
+      studentTip:
+        "The Microbiology Ph.D. program currently lists program contacts in the Life Science Building. Always verify the current room before visiting a specific faculty or staff member."
+    },
+
+
+    // =================================================
+    // BIOMEDICAL RESEARCH & TRAINING
+    // =================================================
+
+    {
+      name: "Biomedical Research & Training",
+
+      keywords: [
+        "biomedical",
+        "biomed",
+        "biomedical research",
+        "biomedical research and training",
+        "medical research",
+        "pre med research",
+        "pre-med research",
+        "research opportunity"
+      ],
+
+      description:
+        "Biomedical Research and Training programs connect ASU students with scientific research, professional development, and opportunities related to medical, dental, pharmacy, graduate, and research careers.",
+
+      features: [
+        "Biomedical research opportunities",
+        "Undergraduate research",
+        "Summer research opportunities",
+        "Professional preparation",
+        "Medical and health-related research pathways"
+      ],
+
+      studentTip:
+        "If you are interested in medical school, dental school, pharmacy, graduate school, or scientific research, ask about biomedical research opportunities early instead of waiting until your senior year."
+    },
+
+
+    // =================================================
+    // MOLECULAR BIOLOGY LABS
+    // =================================================
+
+    {
+      name: "Molecular Biology Teaching Laboratories",
+
+      keywords: [
+        "molecular biology",
+        "molecular biology lab",
+        "molecular biology labs",
+        "molecular biology laboratory",
+        "biology lab",
+        "biology laboratory"
+      ],
+
+      description:
+        "The Life Science Building contains specialized molecular biology teaching laboratories designed for hands-on scientific education and laboratory training."
+    },
+
+
+    // =================================================
+    // RESEARCH LABORATORIES
+    // =================================================
+
+    {
+      name: "Research Laboratories",
+
+      keywords: [
+        "research",
+        "research lab",
+        "research labs",
+        "research laboratory",
+        "biology research",
+        "scientific research"
+      ],
+
+      description:
+        "The building contains well-equipped research laboratories supporting faculty and student research in Biological Sciences, Microbiology, and related scientific fields.",
+
+      studentTip:
+        "Students interested in research should talk with professors and program coordinators about laboratory opportunities, research programs, and summer experiences."
+    },
+
+
+    // =================================================
+    // MSEIP
+    // =================================================
+
+    {
+      name: "Minority Science & Engineering Improvement Program (MSEIP)",
+
+      keywords: [
+        "mseip",
+        "minority science engineering improvement program",
+        "minority science",
+        "stem scholarship",
+        "stem research",
+        "research scholarship",
+        "scholarship"
+      ],
+
+      description:
+        "The Minority Science and Engineering Improvement Program provides research training and STEM opportunities for eligible students. ASU currently lists MSEIP offices in the Life Science Building.",
+
+      features: [
+        "STEM research training",
+        "Research opportunities",
+        "Scholarship-related opportunities",
+        "Faculty mentorship",
+        "Professional development"
+      ],
+
+      studentTip:
+        "ASU currently lists MSEIP in the Room 304-306 area. Verify the specific office listed in the current program announcement before submitting materials."
+    },
+
+
+    // =================================================
+    // CLASSROOMS & SEMINAR SPACE
+    // =================================================
+
+    {
+      name: "Classrooms & Seminar Space",
+
+      keywords: [
+        "classroom",
+        "classrooms",
+        "class",
+        "classes",
+        "seminar",
+        "seminar room",
+        "lecture",
+        "multimedia classroom"
+      ],
+
+      description:
+        "Life Science contains multimedia classrooms as well as a large teaching seminar space used for academic instruction and scientific education.",
+
+      features: [
+        "Multimedia classrooms",
+        "Teaching seminar space",
+        "Science instruction",
+        "Academic presentations"
+      ]
+    },
+
+
+    // =================================================
+    // SPECIALIZED SCIENCE FACILITIES
+    // =================================================
+
+    {
+      name: "Specialized Science Facilities",
+
+      keywords: [
+        "cold room",
+        "cold rooms",
+        "walk in cold room",
+        "dark room",
+        "dark rooms",
+        "science facility",
+        "research facility"
+      ],
+
+      description:
+        "The Life Science Building includes specialized scientific facilities such as walk-in cold rooms and dark rooms that support laboratory and research activities."
+    },
+
+
+    // =================================================
+    // HONORS CONVOCATION RECOGNITION PICKUP
+    // =================================================
+
+    {
+      name: "🏆 Honors Convocation Recognition Pickup",
+
+      keywords: [
+        "honors",
+        "honor roll",
+        "honors convocation",
+        "honor roll pickup",
+        "honors pickup",
+        "honor roll certificate",
+        "honors paper",
+        "congratulations paper",
+        "honors recognition",
+        "honors lanyard",
+        "asu lanyard",
+        "lanyard"
+      ],
+
+      description:
+        "Students who qualify for Honor Roll recognition but do not attend Honors Convocation may be directed to the Life Science Building to pick up their academic recognition materials, including their recognition document and ASU honors lanyard.",
+
+      studentTip:
+        "The pickup location has been on the first floor toward the left after entering the building. The exact room number is not currently listed here, so check the Honors Convocation email or current university instructions before going."
+    },
+
+
+    // =================================================
+    // COLLEGE OF STEM
+    // =================================================
+
+    {
+      name: "College of STEM",
+
+      keywords: [
+        "college of stem",
+        "stem",
+        "science technology engineering mathematics",
+        "stem office",
+        "stem dean"
+      ],
+
+      description:
+        "Alabama State University's College of Science, Technology, Engineering and Mathematics has offices associated with the Life Science Building.",
+
+      studentTip:
+        "ASU currently lists the College of STEM at Life Science Building Room 110. Verify current office information before visiting."
+    },
+
+
+    // =================================================
+    // FACULTY OFFICES
+    // =================================================
+
+    {
+      name: "Faculty Offices & Office Hours",
+
+      keywords: [
+        "faculty",
+        "faculty office",
+        "faculty offices",
+        "professor",
+        "professors",
+        "office hours",
+        "biology professor",
+        "microbiology professor",
+        "advisor",
+        "advising"
+      ],
+
+      description:
+        "Biological Sciences faculty, researchers, program staff, and other university personnel have offices throughout the Life Science Building.",
+
+      studentTip:
+        "Use your professors' office hours for help with science coursework, laboratory questions, research opportunities, graduate-school preparation, and academic planning."
+    }
+
+  ],
+
+  history: {
+    year: 2009,
+
+    description:
+      "The Life Science Building opened around 2009 as a major facility supporting Alabama State University's Biological Sciences programs, advanced research, and doctoral education in Microbiology."
+  },
+
+  funFact:
+    "The Life Science Building is an approximately 85,000-square-foot, five-floor scientific facility with molecular biology teaching laboratories, research laboratories, multimedia classrooms, and specialized research spaces.",
+
+  image: "",
+  mapLink: ""
+},
+
+// =====================================================
+// RALPH DAVID ABERNATHY HALL
+// =====================================================
+
+{
+  id: 20,
+
+  name: "Ralph David Abernathy Hall",
+  shortName: "Abernathy Hall",
+  category: "academic",
+
+  keywords: [
+    "ralph david abernathy",
+    "ralph david abernathy hall",
+    "ralph abernathy",
+    "abernathy",
+    "abernathy hall",
+    "rda",
+    "education building",
+
+    "college of education",
+    "education",
+    "education major",
+    "teacher",
+    "teachers",
+    "teacher education",
+    "teacher preparation",
+    "teaching",
+    "future teacher",
+
+    "early childhood education",
+    "elementary education",
+    "secondary education",
+    "collaborative education",
+
+    "curriculum and instruction",
+    "counselor education",
+    "counseling",
+    "instructional support",
+    "educational leadership",
+
+    "teacher education center",
+    "tec",
+    "edtpa",
+    "teacher certification",
+    "educator certification",
+    "certification",
+    "praxis",
+
+    "auditorium",
+    "deshields auditorium",
+    "vivian deshields",
+    "vivian deshields auditorium",
+
+    "great teachers memorial hall",
+    "great teachers",
+    "rotunda",
+
+    "simulated classroom",
+    "simulated classrooms",
+    "research lab",
+    "research labs",
+
+    "computer lab",
+    "faculty",
+    "faculty offices",
+    "professor",
+    "office hours",
+
+    "entrance",
+    "front entrance",
+    "back entrance",
+    "event entrance",
+    "stairs",
+    "directions",
+
+    "abernathy annex",
+    "annex"
+  ],
+
+  description:
+    "Ralph David Abernathy Hall is the large primary home of Alabama State University's College of Education. The building supports teacher preparation, Curriculum and Instruction, Counselor Education, certification services, faculty offices, simulated classrooms, research spaces, and major education-related programs.",
+
+  services: [
+    "College of Education",
+    "Teacher preparation",
+    "Curriculum & Instruction",
+    "Counselor Education",
+    "Teacher Education Center",
+    "Educator Certification",
+    "Simulated classrooms",
+    "Research and development laboratories",
+    "Computer lab",
+    "Vivian DeShields Auditorium",
+    "Great Teachers Memorial Hall",
+    "Faculty and staff offices"
+  ],
+
+  studentTip:
+    "⚠️ DO NOT CONFUSE ABERNATHY HALL WITH ABERNATHY ANNEX. The main Abernathy Hall is the larger building and is strongly associated with the College of Education and Vivian DeShields Auditorium. If your schedule specifically says 'Annex,' do not automatically come here.",
+
+  sections: [
+
+    // =================================================
+    // ABERNATHY HALL VS ANNEX
+    // =================================================
+
+    {
+      name: "⚠️ Abernathy Hall vs. Abernathy Annex",
+
+      keywords: [
+        "abernathy",
+        "abernathy hall",
+        "abernathy annex",
+        "annex",
+        "which abernathy",
+        "wrong building",
+        "confused"
+      ],
+
+      description:
+        "Ralph David Abernathy Hall and Ralph David Abernathy Annex are two separate campus buildings.",
+
+      studentTip:
+        "Easy way to remember it: MAIN ABERNATHY = the big College of Education building + auditorium + stairs. ANNEX = a separate classroom building with its own entrance."
+    },
+
+
+    // =================================================
+    // ENTRANCES & DIRECTIONS
+    // =================================================
+
+    {
+      name: "Entrances & How to Find Main Abernathy",
+
+      keywords: [
+        "entrance",
+        "front entrance",
+        "back entrance",
+        "event entrance",
+        "stairs",
+        "directions",
+        "how to find abernathy",
+        "main abernathy"
+      ],
+
+      description:
+        "The main Abernathy Hall is the larger building in the Abernathy area. Students may use the front entrance for regular classes, while some events may direct students and guests to an entrance toward the back.",
+
+      studentTip:
+        "When approaching the Abernathy area, keep straight toward the larger building. Near the split, the direction toward the stairs and to the left leads toward the main Abernathy Hall. For some events, you may be directed around to a back entrance."
+    },
+
+
+    // =================================================
+    // COLLEGE OF EDUCATION
+    // =================================================
+
+    {
+      name: "College of Education",
+
+      keywords: [
+        "college of education",
+        "education",
+        "education major",
+        "teacher",
+        "teaching",
+        "teacher preparation",
+        "future teacher"
+      ],
+
+      description:
+        "Ralph David Abernathy Hall is home to Alabama State University's College of Education and serves students preparing for careers in teaching, counseling, educational leadership, and other education-related professions.",
+
+      features: [
+        "Teacher preparation",
+        "Education coursework",
+        "Faculty offices",
+        "Academic support",
+        "Professional preparation"
+      ],
+
+      studentTip:
+        "If your major involves becoming a teacher or working in education, Abernathy Hall may become one of your most important academic buildings."
+    },
+
+
+    // =================================================
+    // CURRICULUM & INSTRUCTION
+    // =================================================
+
+    {
+      name: "Curriculum & Instruction",
+
+      keywords: [
+        "curriculum and instruction",
+        "curriculum",
+        "instruction",
+        "early childhood education",
+        "elementary education",
+        "secondary education",
+        "collaborative education"
+      ],
+
+      description:
+        "The Department of Curriculum and Instruction has faculty and academic programs located in Ralph David Abernathy Hall.",
+
+      studentTip:
+        "Curriculum and Instruction faculty offices are located throughout Abernathy Hall, so check the specific room number before visiting your professor."
+    },
+
+
+    // =================================================
+    // TEACHER EDUCATION CENTER
+    // =================================================
+
+    {
+      name: "Teacher Education Center",
+
+      keywords: [
+        "teacher education center",
+        "tec",
+        "teacher education",
+        "edtpa",
+        "computer lab",
+        "teacher preparation"
+      ],
+
+      description:
+        "The Teacher Education Center supports students completing requirements connected to teacher preparation and professional education.",
+
+      features: [
+        "Teacher Education support",
+        "edTPA support",
+        "Computer lab",
+        "Teacher preparation resources"
+      ],
+
+      studentTip:
+        "The Teacher Education Center is currently listed in Ralph Abernathy Hall Room 218. Always verify current office information before visiting."
+    },
+
+
+    // =================================================
+    // EDUCATOR CERTIFICATION
+    // =================================================
+
+    {
+      name: "Educator Certification",
+
+      keywords: [
+        "educator certification",
+        "teacher certification",
+        "certification",
+        "professional certificate",
+        "praxis",
+        "edtpa"
+      ],
+
+      description:
+        "Educator Certification services help College of Education students complete requirements related to professional educator certification.",
+
+      studentTip:
+        "ASU currently lists the Educator Certification Office in Ralph Abernathy Hall Room 211. Education majors approaching graduation should pay close attention to certification instructions and deadlines."
+    },
+
+
+    // =================================================
+    // COUNSELOR EDUCATION
+    // =================================================
+
+    {
+      name: "Counselor Education",
+
+      keywords: [
+        "counselor education",
+        "counseling",
+        "school counseling",
+        "counselor",
+        "counseling program"
+      ],
+
+      description:
+        "Counselor Education faculty and instructional-support programs are also located in Ralph David Abernathy Hall.",
+
+      studentTip:
+        "Counselor Education faculty offices are located in the building. Check the current faculty directory for your professor's exact room."
+    },
+
+
+    // =================================================
+    // VIVIAN DESHIELDS AUDITORIUM
+    // =================================================
+
+    {
+      name: "Vivian DeShields Auditorium",
+
+      keywords: [
+        "auditorium",
+        "deshields",
+        "deshields auditorium",
+        "vivian deshields",
+        "vivian deshields auditorium",
+        "event",
+        "events",
+        "program",
+        "presentation"
+      ],
+
+      description:
+        "Vivian DeShields Auditorium is the large auditorium located inside the main Ralph David Abernathy Hall and is used for university programs, presentations, discussions, and other events.",
+
+      studentTip:
+        "If an event announcement says Vivian DeShields Auditorium, go to the MAIN Ralph David Abernathy Hall — not Abernathy Annex."
+    },
+
+
+    // =================================================
+    // SIMULATED CLASSROOMS
+    // =================================================
+
+    {
+      name: "Simulated Classrooms & Education Labs",
+
+      keywords: [
+        "simulated classroom",
+        "simulated classrooms",
+        "education lab",
+        "education labs",
+        "research lab",
+        "research labs",
+        "teaching practice"
+      ],
+
+      description:
+        "Abernathy Hall contains simulated classrooms and research and development laboratories that support hands-on teacher preparation and education research."
+    },
+
+
+    // =================================================
+    // GREAT TEACHERS MEMORIAL HALL
+    // =================================================
+
+    {
+      name: "Great Teachers Memorial Hall",
+
+      keywords: [
+        "great teachers",
+        "great teachers memorial hall",
+        "memorial hall",
+        "rotunda",
+        "teachers memorial"
+      ],
+
+      description:
+        "The building includes a rotunda designated as the Great Teachers Memorial Hall, reflecting the building's focus on education and the teaching profession."
+    },
+
+
+    // =================================================
+    // FACULTY OFFICES
+    // =================================================
+
+    {
+      name: "Faculty Offices & Office Hours",
+
+      keywords: [
+        "faculty",
+        "faculty offices",
+        "professor",
+        "professors",
+        "office hours",
+        "education professor",
+        "advisor",
+        "advising"
+      ],
+
+      description:
+        "College of Education faculty and staff offices are located throughout Ralph David Abernathy Hall.",
+
+      studentTip:
+        "Use your professors' office hours for help with coursework, field experiences, internships, certification requirements, advising, and preparation for a career in education."
+    }
+
+  ],
+
+  history: {
+    year: 2009,
+
+    description:
+      "Ralph David Abernathy Hall opened in 2009 and was named for Alabama State University alumnus and Civil Rights leader Rev. Ralph David Abernathy. The large facility became the primary home of ASU's College of Education."
+  },
+
+  funFact:
+    "Ralph David Abernathy Hall is one of Alabama State University's largest academic facilities and includes a major auditorium, simulated classrooms, research laboratories, and the Great Teachers Memorial Hall.",
+
+  image: "",
+  mapLink: ""
+},
+
+
+// =====================================================
+// RALPH DAVID ABERNATHY ANNEX
+// =====================================================
+
+{
+  id: 21,
+
+  name: "Ralph David Abernathy Annex",
+  shortName: "Abernathy Annex",
+  category: "academic",
+
+  keywords: [
+    "ralph david abernathy annex",
+    "ralph abernathy annex",
+    "abernathy annex",
+    "annex",
+    "rda annex",
+
+    "class",
+    "classes",
+    "classroom",
+    "classrooms",
+
+    "history",
+    "history class",
+    "history classes",
+
+    "zelia stephens",
+    "zelia stephens center",
+    "zelia stephens early childhood center",
+    "early childhood",
+    "early childhood education",
+    "preschool",
+    "preschool class",
+    "preschool classes",
+    "children",
+    "child development",
+
+    "entrance",
+    "side entrance",
+    "side door",
+    "right turn",
+    "directions",
+    "stairs",
+
+    "abernathy",
+    "abernathy hall",
+    "college of education"
+  ],
+
+  description:
+    "Ralph David Abernathy Annex is a separate academic building from the main Ralph David Abernathy Hall. The Annex is used for additional classroom and academic activities, and students may have courses assigned there even when the academic department itself is based in another campus building.",
+
+  services: [
+    "Academic classrooms",
+    "History classes when scheduled",
+    "Early Childhood Education activities",
+    "Preschool and child-development learning activities",
+    "Zelia Stephens-related university activities"
+  ],
+
+  studentTip:
+    "⚠️ If your schedule says ABERNATHY ANNEX, make sure you go to the Annex — not the main Ralph David Abernathy Hall. A lot of students confuse the two, so read the full building name before heading to class.",
+
+  sections: [
+
+    // =================================================
+    // ABERNATHY ANNEX VS MAIN HALL
+    // =================================================
+
+    {
+      name: "⚠️ Abernathy Annex vs. Abernathy Hall",
+
+      keywords: [
+        "abernathy",
+        "abernathy annex",
+        "abernathy hall",
+        "annex",
+        "which abernathy",
+        "wrong building",
+        "confused"
+      ],
+
+      description:
+        "Abernathy Annex is NOT the same building as the main Ralph David Abernathy Hall. The main building is strongly associated with the College of Education and Vivian DeShields Auditorium, while the Annex serves as a separate classroom and academic location.",
+
+      studentTip:
+        "Easy way to remember it: MAIN ABERNATHY = big building + auditorium + stairs. ANNEX = separate entrance to the right and another entrance along the side."
+    },
+
+
+    // =================================================
+    // HOW TO FIND THE ANNEX
+    // =================================================
+
+    {
+      name: "How to Find Abernathy Annex",
+
+      keywords: [
+        "annex entrance",
+        "side entrance",
+        "side door",
+        "where is annex",
+        "find annex",
+        "directions",
+        "stairs",
+        "right turn"
+      ],
+
+      description:
+        "Abernathy Annex has its own entrances and sits separately from the larger main Abernathy Hall.",
+
+      studentTip:
+        "When approaching the Abernathy area, look for the split near the stairs. Going left toward the stairs leads toward the main Abernathy Hall. Going right toward the area without the stairs leads toward an Annex entrance. The Annex also has a side door that students can see while walking up."
+    },
+
+
+    // =================================================
+    // ACADEMIC CLASSROOMS
+    // =================================================
+
+    {
+      name: "Academic Classrooms",
+
+      keywords: [
+        "class",
+        "classes",
+        "classroom",
+        "classrooms",
+        "course",
+        "courses"
+      ],
+
+      description:
+        "Abernathy Annex contains academic classroom space used for university courses.",
+
+      studentTip:
+        "Your department's main office does not necessarily tell you where every class will meet. Always follow the building and room listed on your actual course schedule."
+    },
+
+
+    // =================================================
+    // HISTORY CLASSES
+    // =================================================
+
+    {
+      name: "History Classes",
+
+      keywords: [
+        "history",
+        "history class",
+        "history classes",
+        "history course",
+        "history courses"
+      ],
+
+      description:
+        "Some History courses may be scheduled in Abernathy Annex even though the Department of History and Political Science is associated with George W. Trenholm Hall.",
+
+      studentTip:
+        "If your History schedule says Abernathy Annex, go to the Annex. Do not automatically go to George W. Trenholm Hall just because you are taking a History class."
+    },
+
+
+    // =================================================
+    // ZELIA STEPHENS / EARLY CHILDHOOD
+    // =================================================
+
+    {
+      name: "Zelia Stephens & Early Childhood Education",
+
+      keywords: [
+        "zelia stephens",
+        "zelia stephens center",
+        "zelia stephens early childhood center",
+        "early childhood",
+        "early childhood education",
+        "preschool",
+        "preschool class",
+        "preschool classes",
+        "child development",
+        "children"
+      ],
+
+      description:
+        "Current campus use includes Zelia Stephens and Early Childhood Education-related activities in the Abernathy Annex, including learning experiences connected with preschool and early-childhood education.",
+
+      studentTip:
+        "Zelia Stephens-related locations and Early Childhood activities have changed over time. Follow your current professor, College of Education instructions, or class schedule for the exact room inside the Annex."
+    }
+
+  ],
+
+  campusLore:
+    "Students commonly confuse Abernathy Hall and Abernathy Annex because both names contain 'Abernathy.' The most important word to notice on your schedule is 'Annex.'",
+
+  funFact:
+    "A History class can be scheduled in Abernathy Annex even though ASU's History and Political Science department is associated with George W. Trenholm Hall — another reason to always check the exact building on your schedule.",
+
+  image: "",
+  mapLink: ""
+},
+
+// =====================================================
+// AIR FORCE ROTC DETACHMENT 019
+// =====================================================
+
+{
+  id: 22,
+
+  name: "Air Force ROTC Detachment 019",
+  shortName: "AFROTC Detachment 019",
+  category: "services",
+
+  keywords: [
+    "air force rotc",
+    "afrotc",
+    "rotc",
+    "detachment 019",
+    "det 019",
+    "air force rotc detachment 019",
+    "department of aerospace studies",
+
+    "air force",
+    "space force",
+    "officer",
+    "commission",
+    "commissioning",
+    "military",
+
+    "aerospace studies",
+    "leadership laboratory",
+    "leadership lab",
+    "military leadership",
+    "drill",
+    "ceremonies",
+    "customs and courtesies",
+
+    "rotc scholarship",
+    "air force scholarship",
+    "scholarship",
+
+    "new cadet",
+    "cadet",
+    "cadets",
+    "in processing",
+    "in-processing",
+    "new cadet orientation",
+
+    "physical fitness",
+    "pt",
+    "fitness training",
+    "workout",
+
+    "gym",
+    "free gym",
+    "student gym",
+    "fitness center",
+    "exercise",
+    "weights",
+    "weight room",
+    "treadmill",
+    "treadmills",
+    "exercise bike",
+    "exercise bikes",
+    "stationary bike",
+    "stationary bikes",
+
+    "sign in",
+    "student sign in",
+    "asu student gym",
+
+    "1300 carter hill road"
+  ],
+
+  description:
+    "Air Force ROTC Detachment 019 is Alabama State University's Air Force ROTC unit and Department of Aerospace Studies. Students in the program complete military leadership and Aerospace Studies training while working toward a college degree and preparing for possible commissioning as officers in the U.S. Air Force or U.S. Space Force.",
+
+  address:
+    "1300 Carter Hill Road, Montgomery, AL",
+
+  services: [
+    "Air Force ROTC",
+    "Aerospace Studies",
+    "Leadership Laboratory",
+    "Officer preparation",
+    "Air Force and Space Force commissioning preparation",
+    "ROTC scholarship information",
+    "New cadet in-processing",
+    "Physical fitness training",
+    "Neighboring student fitness area"
+  ],
+
+  studentTip:
+    "You do not have to assume the neighboring gym is only for ROTC students. ASU students may use the student fitness area next to the ROTC space by following the facility's sign-in and access rules.",
+
+  sections: [
+
+    // =================================================
+    // AIR FORCE ROTC
+    // =================================================
+
+    {
+      name: "Air Force ROTC Detachment 019",
+
+      keywords: [
+        "air force rotc",
+        "afrotc",
+        "rotc",
+        "detachment 019",
+        "det 019",
+        "cadet",
+        "cadets"
+      ],
+
+      description:
+        "Detachment 019 provides Air Force ROTC training at Alabama State University and supports students interested in becoming officers in the U.S. Air Force or U.S. Space Force.",
+
+      studentTip:
+        "If you are interested in joining ROTC, visit or contact Detachment 019 early so you can understand enrollment, fitness, academic, and training requirements."
+    },
+
+
+    // =================================================
+    // AEROSPACE STUDIES
+    // =================================================
+
+    {
+      name: "Aerospace Studies",
+
+      keywords: [
+        "aerospace studies",
+        "air force class",
+        "rotc class",
+        "military class",
+        "aerospace"
+      ],
+
+      description:
+        "Students in Air Force ROTC complete Aerospace Studies coursework while enrolled at the university.",
+
+      features: [
+        "Military leadership education",
+        "Air Force and Space Force knowledge",
+        "Officer development",
+        "Professional preparation"
+      ]
+    },
+
+
+    // =================================================
+    // LEADERSHIP LABORATORY
+    // =================================================
+
+    {
+      name: "Leadership Laboratory",
+
+      keywords: [
+        "leadership laboratory",
+        "leadership lab",
+        "lead lab",
+        "military leadership",
+        "drill",
+        "ceremonies",
+        "customs and courtesies"
+      ],
+
+      description:
+        "Leadership Laboratory gives cadets practical experience in leadership, military customs and courtesies, drill, ceremonies, management, and professional development."
+    },
+
+
+    // =================================================
+    // COMMISSIONING
+    // =================================================
+
+    {
+      name: "Air Force & Space Force Officer Preparation",
+
+      keywords: [
+        "air force officer",
+        "space force officer",
+        "commission",
+        "commissioning",
+        "become officer",
+        "military officer"
+      ],
+
+      description:
+        "Students who successfully complete Air Force ROTC requirements may pursue commissioning as officers in the U.S. Air Force or U.S. Space Force.",
+
+      studentTip:
+        "ROTC participation involves academic, fitness, leadership, and military-training requirements, so interested students should speak directly with Detachment 019 about the current pathway."
+    },
+
+
+    // =================================================
+    // SCHOLARSHIPS
+    // =================================================
+
+    {
+      name: "ROTC Scholarships",
+
+      keywords: [
+        "rotc scholarship",
+        "air force scholarship",
+        "scholarship",
+        "military scholarship",
+        "tuition help"
+      ],
+
+      description:
+        "Air Force ROTC students may have access to scholarship opportunities depending on eligibility, program requirements, and current scholarship availability.",
+
+      studentTip:
+        "Ask Detachment 019 directly about current scholarship options because eligibility and award availability can change."
+    },
+
+
+    // =================================================
+    // NEW CADET IN-PROCESSING
+    // =================================================
+
+    {
+      name: "New Cadet In-Processing",
+
+      keywords: [
+        "new cadet",
+        "in processing",
+        "in-processing",
+        "new cadet orientation",
+        "first week",
+        "join rotc"
+      ],
+
+      description:
+        "New cadets complete required in-processing and orientation activities with Detachment 019 when beginning the program.",
+
+      studentTip:
+        "New cadets should watch Air Force ROTC instructions carefully for reporting times, required documents, dress expectations, and first-week activities."
+    },
+
+
+    // =================================================
+    // PHYSICAL FITNESS TRAINING
+    // =================================================
+
+    {
+      name: "Physical Fitness Training",
+
+      keywords: [
+        "physical fitness",
+        "pt",
+        "fitness training",
+        "rotc workout",
+        "exercise",
+        "fitness"
+      ],
+
+      description:
+        "Physical fitness is an important part of Air Force ROTC training. ROTC fitness activities may take place at different ASU athletic or fitness areas depending on the current training schedule.",
+
+      studentTip:
+        "Do not assume every ROTC physical training session happens inside or beside Detachment 019. Follow the current cadet schedule for the correct fitness location."
+    },
+
+
+    // =================================================
+    // STUDENT FITNESS AREA / GYM
+    // =================================================
+
+    {
+      name: "Student Fitness Area / Gym",
+
+      keywords: [
+        "gym",
+        "free gym",
+        "student gym",
+        "fitness center",
+        "workout",
+        "exercise",
+        "weights",
+        "weight room",
+        "treadmill",
+        "treadmills",
+        "exercise bike",
+        "exercise bikes",
+        "stationary bike",
+        "stationary bikes",
+        "sign in",
+        "free workout"
+      ],
+
+      description:
+        "A student fitness area is located next to the ROTC space and provides exercise equipment for ASU students.",
+
+      features: [
+        "Free access for ASU students",
+        "Student sign-in",
+        "Treadmills",
+        "Stationary and exercise bikes",
+        "Weights and strength-training equipment",
+        "General workout space"
+      ],
+
+      studentTip:
+        "The gym is beside the ROTC area, but you do not have to be an ROTC cadet to use it. ASU students can use the facility by signing in and following the posted rules."
+    },
+
+
+    // =================================================
+    // GYM ACCESS
+    // =================================================
+
+    {
+      name: "Gym Access",
+
+      keywords: [
+        "gym access",
+        "how to use gym",
+        "sign in",
+        "student id",
+        "free gym",
+        "gym hours"
+      ],
+
+      description:
+        "ASU students can use the neighboring student fitness area without a separate gym membership.",
+
+      studentTip:
+        "Sign in when you arrive. Hours and access procedures may change, so check posted information at the fitness area before planning a workout."
+    }
+
+  ],
+
+  history: {
+    year: 1971,
+
+    description:
+      "Air Force ROTC Detachment 019 has served Alabama State University since 1971 and provides officer-development and Aerospace Studies training for students interested in the U.S. Air Force and U.S. Space Force."
+  },
+
+  funFact:
+    "Detachment 019 combines university academics with military leadership development, while a student fitness area located beside the ROTC space gives ASU students access to workout equipment without requiring a separate gym membership.",
+
+  image: "",
+  mapLink: ""
 }
 
 ];
+
+
+
+
+
+
 
 
 
