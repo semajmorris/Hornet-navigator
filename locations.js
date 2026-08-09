@@ -810,33 +810,329 @@ const campusLocations = [
   },
 
 
-  // =====================================================
-  // FRED SHUTTLESWORTH DINING HALL
+    // =====================================================
+  // FRED SHUTTLESWORTH DINING HALL / COMMONS
   // =====================================================
 
   {
     id: 4,
 
     name: "Fred Shuttlesworth Dining Hall",
-    shortName: "Dining Hall",
+    shortName: "The Cafeteria",
     category: "dining",
 
     keywords: [
-      "food",
-      "dining",
+      "fred shuttlesworth",
+      "fred shuttlesworth dining hall",
+      "fred shuttlesworth commons",
+      "shuttlesworth",
       "cafeteria",
+      "cafe",
+      "dining hall",
+      "commons",
+
+      "food",
       "eat",
-      "meals"
+      "meal",
+      "meals",
+      "breakfast",
+      "lunch",
+      "dinner",
+      "brunch",
+
+      "dining hours",
+      "cafe hours",
+      "cafeteria hours",
+      "breakfast hours",
+      "lunch hours",
+      "dinner hours",
+
+      "salad bar",
+      "salad",
+      "ice cream",
+      "ice cream machine",
+      "coffee",
+      "coffee machine",
+
+      "vegetarian",
+      "vegetarian food",
+      "non meat",
+      "non meat eater",
+      "meatless",
+      "dietary options",
+      "food preferences",
+
+      "to go",
+      "to go plate",
+      "to go tray",
+      "5 dollar tray",
+      "$5 tray",
+
+      "hornet hive",
+      "hornet hive market",
+      "cafe store",
+      "market",
+      "snacks",
+      "hygiene",
+      "hygiene products",
+      "flex",
+      "flex dollars",
+      "student id",
+
+      "music",
+      "events",
+      "cafe event",
+      "dj",
+
+      "sweatbox",
+      "the sweatbox",
+      "cj dunn",
+      "c j dunn",
+      "cj dunn arena"
     ],
 
     description:
-      "A primary campus dining location for Alabama State University students.",
+      "Fred Shuttlesworth Dining Hall, also known by students as the cafeteria or cafe, is one of Alabama State University's primary dining locations. Students come here for daily meals, special dining events, music, social activities, and access to the Hornet Hive Market.",
 
     services: [
-      "Student dining",
-      "Meal service",
-      "Campus food"
+      "Breakfast",
+      "Lunch",
+      "Dinner",
+      "Weekend brunch",
+      "Salad bar",
+      "Vegetarian and meatless food options",
+      "Coffee",
+      "Ice cream",
+      "$5 to-go trays",
+      "Hornet Hive Market",
+      "Flex Dollar purchases",
+      "Dining events and music"
     ],
+
+    studentTip:
+      "The cafeteria is more than a place to eat. ASU sometimes hosts music, events, and special activities inside. If you are in a rush and do not have time to sit down for a meal, ask about the $5 to-go tray option.",
+
+    sections: [
+
+      // =================================================
+      // DINING HOURS
+      // =================================================
+
+      {
+        name: "Dining Hall Hours",
+
+        keywords: [
+          "hours",
+          "dining hours",
+          "cafeteria hours",
+          "cafe hours",
+          "breakfast hours",
+          "lunch hours",
+          "dinner hours",
+          "brunch hours",
+          "when does the cafe open",
+          "when does the cafe close"
+        ],
+
+        description:
+          "Current dining meal periods are organized around breakfast, lunch, dinner, and weekend brunch.",
+
+        features: [
+          "Monday-Friday Breakfast: 7:00 AM-9:00 AM",
+          "Monday-Friday Lunch: 11:00 AM-1:00 PM",
+          "Monday-Friday Dinner: 5:00 PM-7:00 PM",
+          "Saturday-Sunday Brunch: 9:30 AM-12:30 PM",
+          "Saturday-Sunday Dinner: 4:00 PM-6:00 PM"
+        ],
+
+        studentTip:
+          "These are the updated dining hours shared with students. Dining schedules can change for holidays, breaks, special events, or university closures, so always watch your ASU email for temporary schedule changes."
+      },
+
+
+      // =================================================
+      // FOOD OPTIONS
+      // =================================================
+
+      {
+        name: "Food & Dietary Options",
+
+        keywords: [
+          "food",
+          "meal",
+          "vegetarian",
+          "meatless",
+          "non meat",
+          "dietary options",
+          "food preferences",
+          "salad",
+          "salad bar"
+        ],
+
+        description:
+          "The dining hall serves a variety of meals and provides options for students with different food preferences, including students who do not eat meat.",
+
+        features: [
+          "Daily meal options",
+          "Salad bar",
+          "Vegetarian and meatless choices",
+          "Different food selections depending on the meal period"
+        ],
+
+        studentTip:
+          "If you have a particular dietary preference or need a meatless option, look through the available stations before choosing your meal."
+      },
+
+
+      // =================================================
+// SALAD / COFFEE / WAFFLES / ICE CREAM
+// =================================================
+
+{
+  name: "Salad Bar, Coffee, Waffles & Ice Cream",
+
+  keywords: [
+    "salad",
+    "salad bar",
+    "coffee",
+    "coffee machine",
+    "waffle",
+    "waffles",
+    "waffle maker",
+    "ice cream",
+    "ice cream machine"
+  ],
+
+  description:
+    "Students can find additional self-service dining options such as a salad bar, coffee machine, waffle maker, and ice cream machine inside the cafeteria.",
+
+  features: [
+    "Salad bar",
+    "Coffee machine",
+    "Waffle maker",
+    "Ice cream machine"
+  ]
+},
+
+
+      // =================================================
+      // $5 TO-GO TRAYS
+      // =================================================
+
+      {
+        name: "$5 To-Go Trays",
+
+        keywords: [
+          "to go",
+          "to go tray",
+          "to go plate",
+          "takeout",
+          "5 dollar tray",
+          "$5 tray",
+          "carry out"
+        ],
+
+        description:
+          "Students who do not have time to sit inside the cafeteria can purchase a $5 to-go tray and prepare a meal to take with them.",
+
+        features: [
+          "$5 to-go tray option",
+          "Useful when you are rushing to class or another campus activity",
+          "The tray can be kept after purchase"
+        ],
+
+        studentTip:
+          "If you are short on time between classes, the to-go option can help you avoid skipping a meal."
+      },
+
+
+      // =================================================
+      // HORNET HIVE MARKET
+      // =================================================
+
+      {
+        name: "Hornet Hive Market",
+
+        keywords: [
+          "hornet hive",
+          "hornet hive market",
+          "cafe store",
+          "store",
+          "market",
+          "snacks",
+          "hygiene",
+          "hygiene products",
+          "flex",
+          "flex dollars",
+          "student id"
+        ],
+
+        description:
+          "The Hornet Hive Market is a small campus market connected with the Shuttlesworth dining area where students can purchase snacks, convenience items, and hygiene products.",
+
+        features: [
+          "Snacks",
+          "Drinks and convenience items",
+          "Hygiene products",
+          "Flex Dollar purchases"
+        ],
+
+        studentTip:
+          "You can use eligible Flex Dollars at the market instead of spending personal money. The market normally stays open later than the main cafeteria, but the exact closing time should be checked before going."
+      },
+
+
+      // =================================================
+      // FLEX DOLLARS
+      // =================================================
+
+      {
+        name: "Flex Dollars",
+
+        keywords: [
+          "flex",
+          "flex dollars",
+          "student id",
+          "meal money",
+          "food money"
+        ],
+
+        description:
+          "Students can use eligible Flex Dollars for purchases at participating campus dining locations and at the Hornet Hive Market.",
+
+        studentTip:
+          "Before using personal money for snacks or convenience items, check whether your Flex Dollars can cover the purchase."
+      },
+
+
+      // =================================================
+      // EVENTS & MUSIC
+      // =================================================
+
+      {
+        name: "Events & Music",
+
+        keywords: [
+          "event",
+          "events",
+          "music",
+          "dj",
+          "party",
+          "cafe event",
+          "cafeteria event"
+        ],
+
+        description:
+          "The cafeteria is also used as a social space. On different occasions, ASU hosts music, special dining activities, and student events inside the facility.",
+
+        studentTip:
+          "Watch campus announcements and student-life information because the cafe experience may be different during special events or themed dining days."
+      }
+
+    ],
+
+    campusLore:
+      "Students and alumni may sometimes refer to the facility by older campus names or nicknames, including 'The Sweatbox' and references to C.J. Dunn. These names are part of campus memory and history, while Fred Shuttlesworth Dining Hall is the current dining-hall name.",
 
     image: "",
     mapLink: ""
@@ -1759,7 +2055,1710 @@ const campusLocations = [
 
     image: "",
     mapLink: ""
-  }
+  },
+
+  // =====================================================
+  // TULLIBODY FINE ARTS CENTER
+  // =====================================================
+
+  {
+    id: 12,
+
+    name: "Tullibody Fine Arts Center",
+    shortName: "Tullibody",
+    category: "academic",
+
+    keywords: [
+      "tullibody",
+      "tullibody fine arts",
+      "fine arts",
+      "fine arts center",
+
+      "dance",
+      "dance major",
+      "bfa dance",
+      "ballet",
+      "modern dance",
+      "african dance",
+      "hip hop",
+      "jazz",
+      "tap",
+
+      "theatre",
+      "theater",
+      "theatre arts",
+      "acting",
+      "stage",
+      "performance",
+      "performances",
+      "box office",
+      "production",
+      "costume",
+      "costume shop",
+      "makeup",
+      "cosmetic room",
+
+      "visual arts",
+      "art",
+      "art room",
+      "art studio",
+      "painting",
+      "drawing",
+      "ceramics",
+      "sculpture",
+      "printmaking",
+      "photography",
+      "digital art",
+      "filmmaking",
+      "graphic art",
+      "adobe",
+      "art computer lab",
+
+      "music",
+      "performing arts",
+      "college of visual and performing arts",
+
+      "scholarship",
+      "dance scholarship",
+
+      "the wiz",
+      "dreamgirls",
+      "dream girls",
+
+      "professor",
+      "faculty",
+      "faculty office",
+      "office hours"
+    ],
+
+    description:
+      "Tullibody Fine Arts Center is one of Alabama State University's major visual and performing arts buildings. Students may come here for Dance, Theatre, Visual Arts, performances, production work, art studios, and other creative coursework and activities.",
+
+    services: [
+      "Dance classes and performance training",
+      "Theatre Arts",
+      "Visual Arts",
+      "Art studios",
+      "Art computer labs",
+      "Theatre production support",
+      "Costume and production resources",
+      "Box Office",
+      "Faculty offices",
+      "Performance and creative arts activities"
+    ],
+
+    studentTip:
+      "If you're a Dance, Theatre, Visual Arts, or performing arts student, Tullibody is an important building to learn early. Performance schedules, rehearsals, productions, and department opportunities may also be shared through your department and student email.",
+
+    sections: [
+
+      // =================================================
+      // DANCE
+      // =================================================
+
+      {
+        name: "Dance",
+
+        keywords: [
+          "dance",
+          "dance major",
+          "bfa dance",
+          "ballet",
+          "modern dance",
+          "african dance",
+          "hip hop",
+          "jazz",
+          "tap",
+          "dance scholarship"
+        ],
+
+        description:
+          "Dance students train in a range of performance styles and techniques through Alabama State University's visual and performing arts programs.",
+
+        features: [
+          "Ballet",
+          "Modern dance",
+          "African dance",
+          "Hip hop",
+          "Jazz",
+          "Tap",
+          "Performance training",
+          "Dance scholarship opportunities"
+        ],
+
+        studentTip:
+          "Dance students should watch department announcements closely for auditions, rehearsals, performances, scholarship opportunities, and other program requirements."
+      },
+
+
+      // =================================================
+      // THEATRE
+      // =================================================
+
+      {
+        name: "Theatre Arts",
+
+        keywords: [
+          "theatre",
+          "theater",
+          "acting",
+          "stage",
+          "performance",
+          "production",
+          "box office",
+          "theatre office"
+        ],
+
+        description:
+          "Tullibody supports Theatre Arts through classroom instruction, performance preparation, theatre administration, and production support.",
+
+        features: [
+          "Theatre classes",
+          "Acting and performance",
+          "Production support",
+          "Box Office services",
+          "Faculty and production staff offices"
+        ],
+
+        studentTip:
+          "If you're attending or participating in a production, check performance announcements for the correct entrance, ticket information, rehearsal times, and call times."
+      },
+
+
+      // =================================================
+      // BOX OFFICE & THEATRE OFFICES
+      // =================================================
+
+      {
+        name: "Theatre Offices & Box Office",
+
+        keywords: [
+          "box office",
+          "theatre office",
+          "theater office",
+          "tickets",
+          "production manager",
+          "theatre chair"
+        ],
+
+        description:
+          "Theatre administrative and production offices are located in Tullibody Fine Arts Center.",
+
+        features: [
+          "Theatre department offices",
+          "Box Office",
+          "Production staff support"
+        ]
+      },
+
+
+      // =================================================
+      // COSTUME / MAKEUP / PRODUCTION
+      // =================================================
+
+      {
+        name: "Costume & Production Support",
+
+        keywords: [
+          "costume",
+          "costume shop",
+          "makeup",
+          "cosmetic room",
+          "production",
+          "wardrobe",
+          "theatre production"
+        ],
+
+        description:
+          "Theatre productions are supported by costume and production resources within the fine arts program.",
+
+        studentTip:
+          "You mentioned a cosmetic or makeup room in this building. We can add the exact room name and location later once you confirm it."
+      },
+
+
+      // =================================================
+      // VISUAL ARTS
+      // =================================================
+
+      {
+        name: "Visual Arts",
+
+        keywords: [
+          "visual arts",
+          "art",
+          "art room",
+          "art studio",
+          "painting",
+          "drawing",
+          "ceramics",
+          "sculpture",
+          "printmaking",
+          "photography",
+          "digital art",
+          "filmmaking",
+          "figure drawing",
+          "mixed media"
+        ],
+
+        description:
+          "Visual Arts students use Tullibody for studio-based and digital creative coursework.",
+
+        features: [
+          "Painting",
+          "Drawing",
+          "Ceramics",
+          "Sculpture",
+          "Printmaking",
+          "Digital photography",
+          "Filmmaking",
+          "Digital art",
+          "Figure drawing",
+          "Mixed-media work",
+          "Arts education"
+        ]
+      },
+
+
+      // =================================================
+      // ART TECHNOLOGY
+      // =================================================
+
+      {
+        name: "Art Computer Labs & Creative Technology",
+
+        keywords: [
+          "art computer lab",
+          "computer lab",
+          "adobe",
+          "digital art",
+          "web design",
+          "graphic art",
+          "filmmaking",
+          "photography"
+        ],
+
+        description:
+          "Fine arts students have access to technology used for digital art, photography, filmmaking, and other creative coursework.",
+
+        features: [
+          "Art computer labs",
+          "Adobe creative software",
+          "Digital photography tools",
+          "Digital art resources",
+          "Creative technology coursework"
+        ]
+      },
+
+
+      // =================================================
+      // PERFORMANCES
+      // =================================================
+
+      {
+        name: "Major Performances",
+
+        keywords: [
+          "performance",
+          "performances",
+          "the wiz",
+          "dreamgirls",
+          "dream girls",
+          "musical",
+          "play",
+          "show"
+        ],
+
+        description:
+          "Tullibody and ASU's performing arts programs host major student productions and performances throughout the academic year.",
+
+        features: [
+          "Musical theatre productions",
+          "Stage performances",
+          "Dance performances",
+          "Student productions"
+        ],
+
+        studentTip:
+          "Past campus productions have included shows such as The Wiz and Dreamgirls. Popular performances can draw large crowds, so students should pay attention to ticket and seating announcements."
+      },
+
+
+      // =================================================
+      // BFA DANCE DISTINCTION
+      // =================================================
+
+      {
+        name: "BFA Dance Program",
+
+        keywords: [
+          "bfa",
+          "bfa dance",
+          "dance degree",
+          "dance program"
+        ],
+
+        description:
+          "Alabama State University offers a Bachelor of Fine Arts pathway in Dance and is recognized for having a distinctive dance program within Alabama and among HBCUs.",
+
+        studentTip:
+          "If you're interested in Dance as a major, ask the department about BFA requirements, auditions, scholarships, performance expectations, and degree planning."
+      },
+
+      // =================================================
+// SENIOR CAPSTONE PERFORMANCES
+// =================================================
+
+{
+  name: "Senior Capstone Performances",
+
+  keywords: [
+    "senior capstone",
+    "capstone",
+    "senior performance",
+    "graduating seniors",
+    "senior showcase",
+    "senior show",
+    "capstone performance"
+  ],
+
+  description:
+    "Each semester, graduating seniors present senior capstone performances that showcase the training, skills, and creative work they have developed throughout their program.",
+
+  studentTip:
+    "Senior capstone performances are a great opportunity for younger students to support graduating seniors and see the level of work they can work toward as they progress through the program."
+},
+
+
+      // =================================================
+      // FACULTY OFFICES
+      // =================================================
+
+      {
+        name: "Faculty Offices & Office Hours",
+
+        keywords: [
+          "professor",
+          "professors",
+          "faculty",
+          "faculty office",
+          "faculty offices",
+          "office hours",
+          "meet professor"
+        ],
+
+        description:
+          "Faculty and staff offices are located within the fine arts academic area, giving students access to instructors, advisors, and department staff.",
+
+        studentTip:
+          "Use your professors' office hours for questions about performances, projects, critiques, assignments, auditions, or academic progress."
+      }
+
+    ],
+
+    funFact:
+      "Alabama State University's Dance program is one of only a small number of programs in Alabama and among HBCUs offering a Bachelor of Fine Arts in Dance.",
+
+    image: "",
+    mapLink: ""
+  },
+
+  // =====================================================
+  // JOHN WILLIAM BEVERLY HALL
+  // =====================================================
+
+  {
+    id: 13,
+
+    name: "John William Beverly Hall",
+    shortName: "Beverly Hall",
+    category: "academic",
+
+    keywords: [
+      "john william beverly",
+      "john w beverly",
+      "beverly hall",
+      "beverly",
+
+      "social work",
+      "social work major",
+      "social worker",
+      "bsw",
+      "master of social work",
+      "msw",
+
+      "sociology",
+      "sociology major",
+      "social sciences",
+
+      "criminal justice",
+      "criminal justice major",
+      "law enforcement",
+      "corrections",
+      "juvenile justice",
+
+      "classroom",
+      "classrooms",
+      "lecture room",
+      "lecture rooms",
+
+      "faculty",
+      "faculty office",
+      "faculty offices",
+      "professor",
+      "professors",
+      "office hours",
+
+      "construction",
+      "renovation",
+      "renovations",
+      "under construction",
+
+      "health center",
+      "health services",
+      "student health",
+
+      "historic building",
+      "history",
+      "science building",
+      "anthropology museum",
+      "darkroom",
+      "photography"
+    ],
+
+    description:
+      "John William Beverly Hall is a historic Alabama State University academic building associated with Social Work and the social sciences. University catalogs have identified Beverly Hall as housing Social Work, Sociology, Criminal Justice, classrooms, lecture rooms, and faculty offices. The building has also undergone major renovation work.",
+
+    services: [
+      "Social Work",
+      "Sociology",
+      "Criminal Justice",
+      "Social Sciences",
+      "Classrooms",
+      "Lecture rooms",
+      "Faculty offices",
+      "Professor office hours"
+    ],
+
+    studentTip:
+      "Beverly Hall has been undergoing renovation, so students should check current ASU announcements or confirm with their department before trying to enter the building or attend services there.",
+
+    sections: [
+
+      // =================================================
+      // SOCIAL WORK
+      // =================================================
+
+      {
+        name: "Social Work",
+
+        keywords: [
+          "social work",
+          "social work major",
+          "social worker",
+          "bsw",
+          "bachelor of social work",
+          "msw",
+          "master of social work",
+          "social welfare",
+          "field practicum",
+          "field work"
+        ],
+
+        description:
+          "Beverly Hall has been associated with Alabama State University's Department of Social Work. ASU offers undergraduate and graduate education designed to prepare students for careers serving individuals, families, and communities.",
+
+        features: [
+          "Bachelor of Social Work",
+          "Social welfare education",
+          "Field education and practical experience",
+          "Faculty support",
+          "Professional preparation"
+        ],
+
+        studentTip:
+          "Social Work students should pay close attention to department information about field education, advising, internships, and building locations while Beverly Hall is being renovated."
+      },
+
+
+      // =================================================
+      // SOCIOLOGY
+      // =================================================
+
+      {
+        name: "Sociology",
+
+        keywords: [
+          "sociology",
+          "sociology major",
+          "social sciences",
+          "soc"
+        ],
+
+        description:
+          "Sociology and related social-science instruction have historically been associated with Beverly Hall."
+      },
+
+
+      // =================================================
+      // CRIMINAL JUSTICE
+      // =================================================
+
+      {
+        name: "Criminal Justice",
+
+        keywords: [
+          "criminal justice",
+          "criminal justice major",
+          "law enforcement",
+          "corrections",
+          "juvenile justice",
+          "cj"
+        ],
+
+        description:
+          "Criminal Justice and Social Sciences have been associated with Beverly Hall. Alabama State University's Criminal Justice program prepares students for areas including law enforcement, corrections, juvenile justice, government, and related careers.",
+
+        features: [
+          "Criminal Justice coursework",
+          "Law enforcement preparation",
+          "Corrections",
+          "Juvenile justice",
+          "Social-science education"
+        ]
+      },
+
+
+      // =================================================
+      // CLASSROOMS & LECTURE ROOMS
+      // =================================================
+
+      {
+        name: "Classrooms & Lecture Rooms",
+
+        keywords: [
+          "class",
+          "classes",
+          "classroom",
+          "classrooms",
+          "lecture",
+          "lecture room",
+          "lecture rooms"
+        ],
+
+        description:
+          "Beverly Hall contains academic classroom and lecture spaces that have supported Social Work and social-science instruction."
+      },
+
+
+      // =================================================
+      // FACULTY OFFICES
+      // =================================================
+
+      {
+        name: "Faculty Offices & Office Hours",
+
+        keywords: [
+          "professor",
+          "professors",
+          "faculty",
+          "faculty office",
+          "faculty offices",
+          "office hours",
+          "advisor",
+          "advising"
+        ],
+
+        description:
+          "Faculty offices have historically been located in Beverly Hall for students seeking academic assistance, advising, or meetings with professors.",
+
+        studentTip:
+          "Because of the building's renovation status, verify your professor's current office location before going to Beverly Hall."
+      },
+
+
+      // =================================================
+      // CONSTRUCTION / RENOVATION
+      // =================================================
+
+      {
+        name: "🚧 Renovation Status",
+
+        keywords: [
+          "construction",
+          "under construction",
+          "renovation",
+          "renovations",
+          "closed",
+          "open",
+          "when will beverly open"
+        ],
+
+        description:
+          "Beverly Hall has undergone extensive renovation work. Its accessibility and the location of departments or services may change as the renovation project progresses.",
+
+        studentTip:
+          "Do not assume your class, professor, or department is physically inside Beverly Hall just because Beverly is listed as its traditional home. Check your current class schedule, department communication, and ASU announcements first."
+      },
+
+
+      // =================================================
+      // POSSIBLE FUTURE HEALTH SERVICES
+      // =================================================
+
+      {
+        name: "Future Health Services",
+
+        keywords: [
+          "health center",
+          "health services",
+          "student health",
+          "clinic",
+          "future health center"
+        ],
+
+        description:
+          "Campus information indicates that Beverly Hall may have a future connection to student health services following renovation. Hornet Navigator will update this section once the university officially confirms the building's current health-service functions.",
+
+        studentTip:
+          "Until the university confirms that Student Health Services has opened in Beverly Hall, do not use Beverly Hall as your destination for medical care."
+      },
+
+
+      // =================================================
+      // HISTORIC SCIENCE BUILDING
+      // =================================================
+
+      {
+        name: "Historic Science Building",
+
+        keywords: [
+          "science building",
+          "old science building",
+          "science",
+          "history",
+          "historic"
+        ],
+
+        description:
+          "Beverly Hall originally supported science and social-science education. Historical records describe classrooms for physical and social sciences as well as large lecture rooms.",
+
+        features: [
+          "Physical science classrooms",
+          "Social science classrooms",
+          "Large lecture rooms",
+          "Photography facilities",
+          "Anthropology collection"
+        ]
+      },
+
+
+      // =================================================
+      // HISTORIC PHOTOGRAPHY DARKROOMS
+      // =================================================
+
+      {
+        name: "Historic Photography Darkrooms",
+
+        keywords: [
+          "darkroom",
+          "darkrooms",
+          "photography",
+          "photo lab",
+          "history"
+        ],
+
+        description:
+          "When Beverly Hall was used for science instruction, the building included two darkrooms used for developing photographs."
+      },
+
+
+      // =================================================
+      // HISTORIC ANTHROPOLOGY MUSEUM
+      // =================================================
+
+      {
+        name: "Historic Anthropology Museum",
+
+        keywords: [
+          "anthropology",
+          "anthropology museum",
+          "museum",
+          "old museum",
+          "history"
+        ],
+
+        description:
+          "Historical records indicate that Beverly Hall once contained a small anthropology museum on its lower level."
+      }
+
+    ],
+
+    history: {
+      year: 1939,
+
+      description:
+        "Beverly Hall was built in 1939 in the Georgian Revival style and was named for John William Beverly, the first Black person and first Alabama State alumnus to become president of the university. The building is recognized as a contributing resource in Alabama State University's historic district."
+    },
+
+    funFact:
+      "Before becoming associated with Social Work and the social sciences, Beverly Hall supported science education and even contained photography darkrooms and a small anthropology museum.",
+
+    image: "",
+    mapLink: ""
+  },
+
+ // =====================================================
+// GEORGE W. TRENHOLM HALL
+// =====================================================
+
+{
+  id: 14,
+
+  name: "George W. Trenholm Hall",
+  shortName: "Trenholm Hall",
+  category: "academic",
+
+  keywords: [
+    "george w trenholm",
+    "george washington trenholm",
+    "trenholm hall",
+    "trenholm",
+
+    "history",
+    "history major",
+    "political science",
+    "political science major",
+    "government",
+    "politics",
+
+    "humanities",
+    "humanities department",
+
+    "university college",
+    "dean of university college",
+
+    "thelma glass",
+    "thelma m glass",
+    "thelma glass auditorium",
+    "auditorium",
+
+    "old library",
+    "former library",
+    "library",
+    "asu library",
+
+    "martin luther king",
+    "martin luther king jr",
+    "mlk",
+    "dr king",
+    "dissertation",
+    "doctoral dissertation",
+
+    "civil rights",
+    "civil rights movement",
+    "montgomery bus boycott",
+    "womens political council",
+    "women's political council",
+
+    "faculty",
+    "faculty offices",
+    "professor",
+    "professors",
+    "office hours"
+  ],
+
+  description:
+    "George W. Trenholm Hall is a historic Alabama State University academic building that houses programs and offices including History and Political Science, Humanities, University College, and the Thelma M. Glass Auditorium. The building also has an important connection to ASU's library and Civil Rights history.",
+
+  services: [
+    "History and Political Science",
+    "Humanities",
+    "University College",
+    "Thelma M. Glass Auditorium",
+    "Academic offices",
+    "Faculty offices",
+    "Professor office hours"
+  ],
+
+  studentTip:
+    "Do not confuse George W. Trenholm Hall with Harper Councill Trenholm Hall. They are different campus buildings. Check the full building name on your class schedule before heading to class.",
+
+  sections: [
+
+    // =================================================
+    // HISTORY & POLITICAL SCIENCE
+    // =================================================
+
+    {
+      name: "History & Political Science",
+
+      keywords: [
+        "history",
+        "history major",
+        "political science",
+        "political science major",
+        "government",
+        "politics",
+        "history and political science"
+      ],
+
+      description:
+        "George W. Trenholm Hall houses Alabama State University's Department of History and Political Science, making the building important for students taking courses or seeking assistance in these academic areas.",
+
+      features: [
+        "History",
+        "Political Science",
+        "Academic coursework",
+        "Faculty support",
+        "Department resources"
+      ],
+
+      studentTip:
+        "If you are taking a History or Political Science course, check your schedule carefully for the building and room number because Trenholm Hall may appear in your course information."
+    },
+
+
+    // =================================================
+    // HUMANITIES
+    // =================================================
+
+    {
+      name: "Humanities",
+
+      keywords: [
+        "humanities",
+        "humanities department",
+        "humanities class",
+        "humanities classes"
+      ],
+
+      description:
+        "The Department of Humanities is also associated with George W. Trenholm Hall."
+    },
+
+
+    // =================================================
+    // UNIVERSITY COLLEGE
+    // =================================================
+
+    {
+      name: "University College",
+
+      keywords: [
+        "university college",
+        "dean of university college",
+        "university college dean",
+        "dean"
+      ],
+
+      description:
+        "George W. Trenholm Hall includes the Office of the Dean of University College.",
+
+      studentTip:
+        "If you are directed to University College or the Dean of University College, Trenholm Hall is an important building to know."
+    },
+
+
+    // =================================================
+    // THELMA M. GLASS AUDITORIUM
+    // =================================================
+
+    {
+      name: "Thelma M. Glass Auditorium",
+
+      keywords: [
+        "thelma glass",
+        "thelma m glass",
+        "thelma glass auditorium",
+        "auditorium",
+        "event",
+        "events",
+        "program",
+        "programs",
+        "presentation",
+        "presentations"
+      ],
+
+      description:
+        "The Thelma M. Glass Auditorium is located in George W. Trenholm Hall and serves as an auditorium space for university programs, presentations, and other campus activities.",
+
+      studentTip:
+        "If an event announcement says Thelma M. Glass Auditorium, your destination is George W. Trenholm Hall."
+    },
+
+
+    // =================================================
+    // THELMA M. GLASS & CIVIL RIGHTS
+    // =================================================
+
+    {
+      name: "Thelma M. Glass & Civil Rights History",
+
+      keywords: [
+        "thelma glass",
+        "thelma m glass",
+        "civil rights",
+        "civil rights movement",
+        "womens political council",
+        "women's political council",
+        "montgomery bus boycott",
+        "bus boycott"
+      ],
+
+      description:
+        "The auditorium honors Thelma M. Glass, an Alabama State University professor and civil rights activist who was a prominent member of the Women's Political Council. The organization played an important role in the activism that helped lead to the Montgomery Bus Boycott.",
+
+      studentTip:
+        "The name of the auditorium connects the building directly to Alabama State University's important role in Montgomery's Civil Rights history."
+    },
+
+
+    // =================================================
+    // FORMER ASU LIBRARY
+    // =================================================
+
+    {
+      name: "Historic ASU Library",
+
+      keywords: [
+        "old library",
+        "former library",
+        "historic library",
+        "library",
+        "asu library",
+        "trenholm library"
+      ],
+
+      description:
+        "George W. Trenholm Hall originally served as Alabama State University's main library. The building was occupied as the university library in the late 1940s and remained the main library until library operations moved to what became the Levi Watkins Learning Center in 1978.",
+
+      studentTip:
+        "If you hear older alumni or historical information referring to ASU's old library, they may be referring to George W. Trenholm Hall rather than today's Levi Watkins Learning Center."
+    },
+
+
+    // =================================================
+    // DR. MARTIN LUTHER KING JR.
+    // =================================================
+
+    {
+      name: "Dr. Martin Luther King Jr. Connection",
+
+      keywords: [
+        "martin luther king",
+        "martin luther king jr",
+        "mlk",
+        "dr king",
+        "king",
+        "dissertation",
+        "doctoral dissertation",
+        "civil rights"
+      ],
+
+      description:
+        "While living in Montgomery, Dr. Martin Luther King Jr. used Alabama State University's library in what is now George W. Trenholm Hall while completing work on his doctoral dissertation.",
+
+      studentTip:
+        "This is one of the building's most important historical connections: the space that once served as ASU's library was used by Dr. Martin Luther King Jr. during his doctoral work."
+    },
+
+
+    // =================================================
+    // LIBRARY MOVE TO LEVI WATKINS
+    // =================================================
+
+    {
+      name: "From Trenholm Library to Levi Watkins",
+
+      keywords: [
+        "levi watkins",
+        "levi watkins learning center",
+        "library move",
+        "old library",
+        "new library",
+        "1978"
+      ],
+
+      description:
+        "George W. Trenholm Hall served as ASU's main library until 1978, when the university's main library operations moved to the building now known as the Levi Watkins Learning Center."
+    },
+
+
+    // =================================================
+    // FACULTY OFFICES
+    // =================================================
+
+    {
+      name: "Faculty Offices & Office Hours",
+
+      keywords: [
+        "faculty",
+        "faculty office",
+        "faculty offices",
+        "professor",
+        "professors",
+        "office hours",
+        "academic help",
+        "help with class"
+      ],
+
+      description:
+        "Faculty and academic offices are located within the building, allowing students to meet with professors and university personnel.",
+
+      studentTip:
+        "Use your professors' office hours when you need help with assignments, course material, academic planning, or questions about your classes."
+    }
+
+  ],
+
+  history: {
+    description:
+      "George W. Trenholm Hall was constructed in the late 1940s and became Alabama State University's main library. The building later transitioned to academic and administrative uses while retaining an important place in ASU's educational and Civil Rights history."
+  },
+
+  funFact:
+    "Before Levi Watkins Learning Center became ASU's main library, students used George W. Trenholm Hall as the university library. Dr. Martin Luther King Jr. also used the library while completing work on his doctoral dissertation.",
+
+  image: "",
+  mapLink: ""
+},
+
+  // =====================================================
+  // DUNN-OLIVER ACADOME
+  // =====================================================
+
+  {
+    id: 15,
+
+    name: "Dunn-Oliver Acadome",
+    shortName: "Acadome",
+    category: "athletics",
+
+    keywords: [
+      "dunn oliver acadome",
+      "dunn-oliver acadome",
+      "acadome",
+      "arena",
+      "basketball arena",
+
+      "basketball",
+      "mens basketball",
+      "men's basketball",
+      "womens basketball",
+      "women's basketball",
+      "hornets basketball",
+      "lady hornets basketball",
+
+      "homecoming",
+      "homecoming concert",
+      "homecoming concerts",
+      "concert",
+      "concerts",
+      "event",
+      "events",
+      "step show",
+      "step shows",
+      "band contest",
+      "band contests",
+
+      "physical education",
+      "pe",
+      "physical education class",
+      "physical education classes",
+      "lab",
+      "laboratory",
+
+      "banquet",
+      "banquet facility",
+      "banquet facilities",
+
+      "vote",
+      "voting",
+      "polling",
+      "polling place",
+      "election",
+      "elections",
+      "shuttle",
+      "voting shuttle",
+
+      "cj dunn",
+      "c j dunn",
+      "charles johnson dunn",
+      "james v oliver",
+      "james oliver",
+
+      "locker room",
+      "locker rooms",
+      "basketball mural",
+      "legacy mural"
+    ],
+
+    description:
+      "The Dunn-Oliver Acadome is a major multipurpose facility at Alabama State University used for athletics, academic activity, concerts, Homecoming events, large campus programs, and other university functions.",
+
+    services: [
+      "Men's Basketball",
+      "Women's Basketball",
+      "Concerts and Homecoming events",
+      "Major campus programs",
+      "Step shows and band contests",
+      "Physical Education classes and laboratory space",
+      "Banquet and event facilities",
+      "Voting and civic-engagement activities when scheduled"
+    ],
+
+    studentTip:
+      "The Acadome is one of ASU's biggest event spaces. If you're attending a basketball game, concert, Homecoming event, step show, or other major program, check your student email and event announcements for ticketing, entry, and parking information.",
+
+    sections: [
+
+      // =================================================
+      // MEN'S & WOMEN'S BASKETBALL
+      // =================================================
+
+      {
+        name: "Men's & Women's Basketball",
+
+        keywords: [
+          "basketball",
+          "mens basketball",
+          "men's basketball",
+          "womens basketball",
+          "women's basketball",
+          "hornets basketball",
+          "lady hornets basketball",
+          "basketball game",
+          "basketball games"
+        ],
+
+        description:
+          "The Dunn-Oliver Acadome is the home arena for Alabama State University's men's and women's basketball teams.",
+
+        features: [
+          "Men's basketball home games",
+          "Women's basketball home games",
+          "Team locker rooms",
+          "Basketball event seating",
+          "Athletics facilities"
+        ],
+
+        studentTip:
+          "For home basketball games, check current athletics announcements for game times, student entry procedures, and any student-ticket requirements."
+      },
+
+
+      // =================================================
+      // HOMECOMING & CONCERTS
+      // =================================================
+
+      {
+        name: "Homecoming Concerts & Major Events",
+
+        keywords: [
+          "homecoming",
+          "homecoming concert",
+          "homecoming concerts",
+          "concert",
+          "concerts",
+          "event",
+          "events",
+          "show",
+          "shows"
+        ],
+
+        description:
+          "The Acadome is one of ASU's major venues for concerts, Homecoming programming, and large campus events.",
+
+        features: [
+          "Homecoming concerts",
+          "Large campus events",
+          "Major performances",
+          "University programs"
+        ],
+
+        studentTip:
+          "Popular Homecoming concerts and major events can fill quickly. Pay attention to ticket announcements, student entry rules, and event times."
+      },
+
+
+      // =================================================
+      // STEP SHOWS & BAND CONTESTS
+      // =================================================
+
+      {
+        name: "Step Shows & Band Events",
+
+        keywords: [
+          "step show",
+          "step shows",
+          "band contest",
+          "band contests",
+          "band event",
+          "band events",
+          "performance"
+        ],
+
+        description:
+          "The Acadome is also used for step shows, band contests, and other large student and campus performances."
+      },
+
+
+      // =================================================
+      // PHYSICAL EDUCATION
+      // =================================================
+
+      {
+        name: "Physical Education Classes & Labs",
+
+        keywords: [
+          "physical education",
+          "physical education class",
+          "physical education classes",
+          "pe",
+          "pe class",
+          "lab",
+          "laboratory"
+        ],
+
+        description:
+          "The Dunn-Oliver Acadome includes laboratory and instructional space that may be used for Physical Education classes and related academic activity.",
+
+        studentTip:
+          "If your class schedule lists the Acadome for a Physical Education course, check the exact room or instructional area before class because the building is much larger than just the basketball arena."
+      },
+
+
+      // =================================================
+      // BANQUET & EVENT SPACE
+      // =================================================
+
+      {
+        name: "Banquet & Event Facilities",
+
+        keywords: [
+          "banquet",
+          "banquet room",
+          "banquet facility",
+          "banquet facilities",
+          "event space",
+          "reception"
+        ],
+
+        description:
+          "The Acadome includes banquet and event facilities used for university functions, receptions, and other scheduled activities."
+      },
+
+
+      // =================================================
+      // VOTING & CIVIC ENGAGEMENT
+      // =================================================
+
+      {
+        name: "Voting & Civic Engagement",
+
+        keywords: [
+          "vote",
+          "voting",
+          "polling",
+          "polling place",
+          "election",
+          "elections",
+          "shuttle",
+          "voting shuttle",
+          "civic engagement"
+        ],
+
+        description:
+          "The Acadome has been used for voting and election-related activity during certain election periods.",
+
+        studentTip:
+          "ASU may provide transportation or voter-access support during some election periods. Always check current university election announcements for the confirmed polling location, shuttle details, voting hours, and eligibility information."
+      },
+
+
+      // =================================================
+      // LOCKER ROOMS & ATHLETICS FACILITIES
+      // =================================================
+
+      {
+        name: "Athletics Facilities",
+
+        keywords: [
+          "locker room",
+          "locker rooms",
+          "athletics",
+          "basketball facility",
+          "team facility",
+          "legacy mural",
+          "basketball mural"
+        ],
+
+        description:
+          "The Acadome includes athletics support spaces such as team locker rooms and areas recognizing Alabama State basketball history.",
+
+        features: [
+          "Men's team locker rooms",
+          "Women's team locker rooms",
+          "Basketball support facilities",
+          "Legacy displays honoring ASU basketball history"
+        ]
+      }
+
+    ],
+
+    history: {
+      year: 1992,
+
+      description:
+        "The Dunn-Oliver Acadome is a large multipurpose campus facility named in honor of legendary Alabama State basketball coaches C.J. Dunn and James V. Oliver."
+    },
+
+    funFact:
+      "The Dunn-Oliver Acadome is one of Alabama State University's largest multipurpose facilities and can host basketball, concerts, major campus events, academic activity, and other large gatherings.",
+
+    image: "",
+    mapLink: ""
+  },
+
+  // =====================================================
+// ROBERT CLINTON HATCH HALL
+// =====================================================
+
+{
+  id: 16,
+
+  name: "Robert Clinton Hatch Hall",
+  shortName: "Hatch Hall",
+  category: "academic",
+
+  keywords: [
+    "robert clinton hatch",
+    "robert c hatch",
+    "hatch hall",
+    "hatch",
+    "forensic science building",
+
+    "forensic science",
+    "forensics",
+    "forensic chemistry",
+    "forensic biology",
+    "crime scene",
+    "crime scene investigation",
+    "evidence",
+    "evidence examination",
+
+    "mock courtroom",
+    "moot courtroom",
+    "courtroom",
+    "court",
+    "mock trial",
+
+    "forensic laboratory",
+    "forensic lab",
+    "forensic labs",
+    "laboratory",
+    "lab",
+    "instrumentation lab",
+    "instrumentation laboratory",
+    "criminal logistics lab",
+    "criminal logistics laboratory",
+
+    "alabama department of forensic sciences",
+    "department of forensic sciences",
+    "adfs",
+
+    "criminal justice",
+    "criminal justice major",
+    "cj",
+    "law enforcement",
+    "crime",
+
+    "research",
+    "forensic research",
+    "internship",
+    "field experience",
+
+    "faculty",
+    "faculty office",
+    "faculty offices",
+    "professor",
+    "professors",
+    "office hours"
+  ],
+
+  description:
+    "Robert Clinton Hatch Hall, also known as the Robert C. Hatch Forensic Science Building, is one of Alabama State University's major forensic science facilities. The building is shared by Alabama State University and the Alabama Department of Forensic Sciences and provides students with specialized classrooms, laboratories, and forensic training spaces.",
+
+  services: [
+    "Forensic Science",
+    "Forensic Biology",
+    "Forensic Chemistry",
+    "Forensic science laboratories",
+    "Mock courtroom",
+    "Instrumentation laboratory",
+    "Criminal logistics laboratory",
+    "Evidence examination and laboratory instruction",
+    "Research opportunities",
+    "Faculty and staff offices"
+  ],
+
+  studentTip:
+    "Hatch Hall is especially important for Forensic Science students. If your schedule lists Hatch, check your exact room or laboratory because the building contains several specialized instructional and research spaces.",
+
+  sections: [
+
+    // =================================================
+    // FORENSIC SCIENCE
+    // =================================================
+
+    {
+      name: "Forensic Science",
+
+      keywords: [
+        "forensic science",
+        "forensics",
+        "forensic chemistry",
+        "forensic biology",
+        "forensic science major",
+        "forensic evidence",
+        "evidence"
+      ],
+
+      description:
+        "Hatch Hall is home to specialized facilities used by Alabama State University's Forensic Science programs. Students receive classroom and laboratory experience related to forensic evidence and scientific investigation.",
+
+      features: [
+        "Forensic Science instruction",
+        "Forensic Biology",
+        "Forensic Chemistry",
+        "Laboratory experience",
+        "Evidence examination",
+        "Research opportunities"
+      ],
+
+      studentTip:
+        "Forensic Science students may spend significant time in Hatch Hall for classes, laboratories, research, and other program activities."
+    },
+
+
+    // =================================================
+    // MOCK COURTROOM
+    // =================================================
+
+    {
+      name: "Mock Courtroom",
+
+      keywords: [
+        "mock courtroom",
+        "moot courtroom",
+        "courtroom",
+        "court",
+        "mock trial",
+        "trial",
+        "legal",
+        "testimony"
+      ],
+
+      description:
+        "Hatch Hall contains a mock courtroom that provides an instructional environment connected to forensic science, evidence, and the legal process.",
+
+      studentTip:
+        "The courtroom is an instructional space rather than a regular operating courthouse."
+    },
+
+
+    // =================================================
+    // FORENSIC LABORATORIES
+    // =================================================
+
+    {
+      name: "Forensic Science Laboratories",
+
+      keywords: [
+        "forensic lab",
+        "forensic labs",
+        "forensic laboratory",
+        "forensic laboratories",
+        "lab",
+        "laboratory",
+        "evidence",
+        "evidence examination"
+      ],
+
+      description:
+        "Hatch Hall contains state-of-the-art forensic science laboratories designed to give students hands-on experience with scientific techniques used to examine evidence.",
+
+      features: [
+        "Forensic laboratory instruction",
+        "Evidence examination",
+        "Scientific analysis",
+        "Hands-on forensic training"
+      ]
+    },
+
+
+    // =================================================
+    // INSTRUMENTATION LAB
+    // =================================================
+
+    {
+      name: "Instrumentation Laboratory",
+
+      keywords: [
+        "instrumentation",
+        "instrumentation lab",
+        "instrumentation laboratory",
+        "forensic equipment",
+        "scientific equipment",
+        "lab equipment"
+      ],
+
+      description:
+        "The building includes an instrumentation laboratory where students can learn about scientific equipment and analytical techniques used in forensic science."
+    },
+
+
+    // =================================================
+    // CRIMINAL LOGISTICS LAB
+    // =================================================
+
+    {
+      name: "Criminal Logistics Laboratory",
+
+      keywords: [
+        "criminal logistics",
+        "criminal logistics lab",
+        "criminal logistics laboratory",
+        "evidence",
+        "crime",
+        "crime scene",
+        "evidentiary material"
+      ],
+
+      description:
+        "Hatch Hall includes a criminal logistics laboratory used for instruction in techniques related to examining evidentiary material."
+    },
+
+
+    // =================================================
+    // ALABAMA DEPARTMENT OF FORENSIC SCIENCES
+    // =================================================
+
+    {
+      name: "Alabama Department of Forensic Sciences",
+
+      keywords: [
+        "alabama department of forensic sciences",
+        "department of forensic sciences",
+        "adfs",
+        "state forensic science",
+        "forensic agency"
+      ],
+
+      description:
+        "A unique feature of Hatch Hall is that the facility is shared by Alabama State University and the Alabama Department of Forensic Sciences.",
+
+      studentTip:
+        "This connection gives Hatch Hall a strong real-world forensic science environment in addition to its university teaching and research functions."
+    },
+
+
+    // =================================================
+    // CRIMINAL JUSTICE CONNECTION
+    // =================================================
+
+    {
+      name: "Criminal Justice Connection",
+
+      keywords: [
+        "criminal justice",
+        "criminal justice major",
+        "cj",
+        "crime",
+        "law enforcement",
+        "court",
+        "evidence"
+      ],
+
+      description:
+        "Hatch Hall's mock courtroom, evidence-focused laboratories, and forensic facilities make it relevant to students studying areas that overlap with Criminal Justice and the legal system.",
+
+      studentTip:
+        "If you are a Criminal Justice student, always check your current schedule for your exact building. Criminal Justice coursework and faculty may be located in more than one campus building."
+    },
+
+
+    // =================================================
+    // RESEARCH & FIELD EXPERIENCE
+    // =================================================
+
+    {
+      name: "Research & Field Experience",
+
+      keywords: [
+        "research",
+        "forensic research",
+        "internship",
+        "internships",
+        "field experience",
+        "senior research",
+        "research project"
+      ],
+
+      description:
+        "Forensic Science students can gain hands-on experience through laboratory work and research. Senior students may also have opportunities to complete research projects or field experiences such as internships.",
+
+      studentTip:
+        "If you are a Forensic Science major, ask your program faculty early about research and internship opportunities so you know what may be available before your senior year."
+    },
+
+
+    // =================================================
+    // FACULTY & STAFF
+    // =================================================
+
+    {
+      name: "Faculty & Staff Offices",
+
+      keywords: [
+        "faculty",
+        "faculty office",
+        "faculty offices",
+        "professor",
+        "professors",
+        "staff",
+        "office hours",
+        "forensic science faculty",
+        "lab manager"
+      ],
+
+      description:
+        "Forensic Science faculty and staff offices are located in Hatch Hall, along with laboratory-management and program support spaces.",
+
+      studentTip:
+        "Use faculty office hours when you need help with coursework, laboratory requirements, research opportunities, internships, or academic planning."
+    }
+
+  ],
+
+  history: {
+    year: 2007,
+
+    description:
+      "Robert Clinton Hatch Hall opened in 2007 as a specialized forensic science facility. The approximately 50,000-square-foot building is shared by Alabama State University and the Alabama Department of Forensic Sciences."
+  },
+
+  funFact:
+    "Hatch Hall gives ASU students access to a specialized forensic science environment that includes professional-style laboratories and a mock courtroom while sharing the facility with the Alabama Department of Forensic Sciences.",
+
+  image: "",
+  mapLink: ""
+}
 
 ];
+
+
+
+
 
