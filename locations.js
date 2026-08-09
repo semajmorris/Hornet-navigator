@@ -1884,6 +1884,455 @@ const campusLocations = [
 
     image: "",
     mapLink: ""
+  },
+  // =====================================================
+  // PERCY J. VAUGHN, JR. COLLEGE OF BUSINESS
+  // ADMINISTRATION / COBA
+  // =====================================================
+
+  {
+    id: 10,
+
+    name: "Percy J. Vaughn, Jr. College of Business Administration",
+    shortName: "COBA",
+    category: "academic",
+
+    keywords: [
+      "coba",
+      "college of business",
+      "college of business administration",
+      "business building",
+      "percy j vaughn",
+      "percy vaughn",
+      "business major",
+      "business majors",
+
+      "accounting",
+      "accounting major",
+      "finance",
+      "finance major",
+      "management",
+      "management major",
+      "marketing",
+      "marketing major",
+
+      "cis",
+      "computer information systems",
+      "computer information systems major",
+      "information systems",
+
+      "business advisor",
+      "business advising",
+      "academic advisor",
+      "advising",
+
+      "internship",
+      "internships",
+      "business internship",
+      "paid internship",
+
+      "job",
+      "jobs",
+      "career",
+      "career opportunities",
+      "companies hiring",
+      "employers",
+      "recruiting",
+
+      "business trip",
+      "business trips",
+      "company visit",
+      "company visits",
+      "professional development",
+      "networking",
+
+      "professional attire",
+      "business attire",
+      "dress professional",
+      "dress code",
+      "tuesday",
+      "wednesday",
+
+      "business club",
+      "business clubs",
+      "business organization",
+      "business organizations",
+
+      "naba",
+      "enactus",
+      "american marketing association",
+      "financial management association",
+      "aitp",
+      "delta mu delta",
+      "phi beta lambda",
+
+      "sbdc",
+      "small business development center",
+      "entrepreneurship",
+      "entrepreneur",
+      "small business",
+
+      "certification",
+      "certifications",
+      "excel",
+      "power bi",
+      "aws",
+      "comptia",
+
+      "professor",
+      "professors",
+      "faculty",
+      "faculty office",
+      "office hours"
+    ],
+
+    description:
+      "The Percy J. Vaughn, Jr. College of Business Administration, commonly called COBA, is Alabama State University's primary academic home for business students. COBA supports students in areas such as Accounting, Finance, Management, Marketing, and Computer Information Systems while connecting students with professional development, internships, employers, and business organizations.",
+
+    services: [
+      "Business classes",
+      "Business advising",
+      "Accounting & Finance",
+      "Management",
+      "Marketing",
+      "Computer Information Systems",
+      "Internship opportunities",
+      "Employer and recruiting opportunities",
+      "Professional development",
+      "Business organizations and clubs",
+      "Entrepreneurship resources",
+      "Faculty offices and office hours"
+    ],
+
+    studentTip:
+      "COBA has a strong professional culture. Watch your ASU email and COBA announcements closely because internship opportunities, employer visits, networking events, company trips, scholarships, and other professional opportunities may be shared with business students.",
+
+    sections: [
+
+      // =================================================
+      // BUSINESS ADVISING
+      // =================================================
+
+      {
+        name: "Business Advising",
+
+        keywords: [
+          "advisor",
+          "advising",
+          "business advisor",
+          "business advising",
+          "academic advisor",
+          "change business major",
+          "business major help"
+        ],
+
+        description:
+          "Business students can receive academic advising and guidance related to their degree program, course planning, and progress toward graduation.",
+
+        studentTip:
+          "If you're unsure which business classes to take next, have questions about your degree plan, or are considering changing your business concentration, start with your COBA advisor."
+      },
+
+
+      // =================================================
+      // ACCOUNTING & FINANCE
+      // =================================================
+
+      {
+        name: "Accounting & Finance",
+
+        keywords: [
+          "accounting",
+          "accounting major",
+          "finance",
+          "finance major",
+          "accountant",
+          "financial management"
+        ],
+
+        description:
+          "COBA supports students studying Accounting and Finance through coursework, faculty guidance, professional development, and access to employer opportunities.",
+
+        features: [
+          "Accounting coursework",
+          "Finance coursework",
+          "Professional development opportunities",
+          "Internship and recruiting opportunities",
+          "Faculty support"
+        ]
+      },
+
+
+      // =================================================
+      // MANAGEMENT & MARKETING
+      // =================================================
+
+      {
+        name: "Management & Marketing",
+
+        keywords: [
+          "management",
+          "management major",
+          "marketing",
+          "marketing major",
+          "business administration"
+        ],
+
+        description:
+          "Students studying Management, Marketing, and related areas of Business Administration may take courses and participate in professional opportunities through COBA."
+      },
+
+
+      // =================================================
+      // COMPUTER INFORMATION SYSTEMS
+      // =================================================
+
+      {
+        name: "Computer Information Systems",
+
+        keywords: [
+          "cis",
+          "computer information systems",
+          "computer information systems major",
+          "information systems",
+          "business technology"
+        ],
+
+        description:
+          "Computer Information Systems, often called CIS, combines business education with technology and information systems.",
+
+        studentTip:
+          "CIS and Computer Science are different academic areas. CIS is associated with COBA, while Computer Science is associated with H.C. Trenholm Hall."
+      },
+
+
+      // =================================================
+      // PROFESSIONAL DRESS
+      // =================================================
+
+      {
+        name: "Professional Dress Days",
+
+        keywords: [
+          "professional attire",
+          "business attire",
+          "dress code",
+          "dress professional",
+          "professional dress",
+          "tuesday",
+          "wednesday"
+        ],
+
+        description:
+          "COBA emphasizes professional appearance and workplace preparation as part of its business culture.",
+
+        features: [
+          "Professional business attire is expected on designated professional dress days",
+          "Current university information identifies Tuesday and Wednesday as professional dress days"
+        ],
+
+        studentTip:
+          "Business students should keep professional clothing ready for COBA professional dress days, presentations, interviews, networking events, employer visits, and other professional opportunities."
+      },
+
+
+      // =================================================
+      // INTERNSHIPS & CAREER OPPORTUNITIES
+      // =================================================
+
+      {
+        name: "Internships & Employer Opportunities",
+
+        keywords: [
+          "internship",
+          "internships",
+          "business internship",
+          "paid internship",
+          "job",
+          "jobs",
+          "companies hiring",
+          "employer",
+          "employers",
+          "recruiting",
+          "career",
+          "career opportunity",
+          "career opportunities"
+        ],
+
+        description:
+          "COBA connects students with internships, employers, recruiting opportunities, and professional experiences that can help prepare them for careers after graduation.",
+
+        features: [
+          "Internship opportunities",
+          "Employer recruiting",
+          "Career preparation",
+          "Networking opportunities",
+          "Professional development",
+          "Company and industry exposure"
+        ],
+
+        studentTip:
+          "Do not wait until senior year to look for internships. Pay attention to COBA announcements and your student email because opportunities may be shared throughout the academic year."
+      },
+
+
+      // =================================================
+      // BUSINESS TRIPS & COMPANY EXPERIENCES
+      // =================================================
+
+      {
+        name: "Business Trips & Company Experiences",
+
+        keywords: [
+          "business trip",
+          "business trips",
+          "company trip",
+          "company trips",
+          "company visit",
+          "company visits",
+          "travel",
+          "networking",
+          "professional trip"
+        ],
+
+        description:
+          "COBA students may have opportunities to participate in company visits, business trips, conferences, networking experiences, and other forms of experiential learning.",
+
+        studentTip:
+          "Some professional opportunities may include company-sponsored travel or other funded experiences when offered. Availability depends on the specific program or employer."
+      },
+
+
+      // =================================================
+      // STUDENT BUSINESS ORGANIZATIONS
+      // =================================================
+
+      {
+        name: "Business Organizations & Clubs",
+
+        keywords: [
+          "business club",
+          "business clubs",
+          "business organization",
+          "business organizations",
+          "naba",
+          "enactus",
+          "american marketing association",
+          "financial management association",
+          "aitp",
+          "delta mu delta",
+          "phi beta lambda"
+        ],
+
+        description:
+          "COBA offers business-focused student organizations that can help students develop leadership skills, build professional networks, and gain experience outside the classroom.",
+
+        features: [
+          "Association of Information Technology Professionals",
+          "American Marketing Association",
+          "Delta Mu Delta",
+          "ENACTUS",
+          "Financial Management Association",
+          "National Association of Black Accountants",
+          "Phi Beta Lambda",
+          "Other business and professional organizations"
+        ],
+
+        studentTip:
+          "Joining a business organization can help you meet other students in your major, develop leadership experience, network with professionals, and strengthen your resume."
+      },
+
+
+      // =================================================
+      // SMALL BUSINESS DEVELOPMENT & ENTREPRENEURSHIP
+      // =================================================
+
+      {
+        name: "Small Business & Entrepreneurship Resources",
+
+        keywords: [
+          "sbdc",
+          "small business development center",
+          "small business",
+          "entrepreneur",
+          "entrepreneurship",
+          "start business",
+          "business owner"
+        ],
+
+        description:
+          "COBA is connected with resources that support entrepreneurship, small-business development, and practical business education.",
+
+        studentTip:
+          "If you're interested in starting a business or learning more about entrepreneurship, ask about COBA's small-business and entrepreneurship resources."
+      },
+
+
+      // =================================================
+      // BUSINESS TECHNOLOGY & CERTIFICATIONS
+      // =================================================
+
+      {
+        name: "Technology & Professional Certifications",
+
+        keywords: [
+          "certification",
+          "certifications",
+          "excel",
+          "microsoft excel",
+          "power bi",
+          "aws",
+          "aws cloud",
+          "comptia",
+          "security plus",
+          "network plus",
+          "business technology"
+        ],
+
+        description:
+          "Depending on their program, COBA students may gain experience with professional business technology and industry-recognized certifications.",
+
+        features: [
+          "Business technology skills",
+          "Data and analytics tools",
+          "Professional software",
+          "Industry certification opportunities"
+        ]
+      },
+
+
+      // =================================================
+      // FACULTY OFFICES
+      // =================================================
+
+      {
+        name: "Faculty Offices & Office Hours",
+
+        keywords: [
+          "professor",
+          "professors",
+          "faculty",
+          "faculty office",
+          "faculty offices",
+          "office hours",
+          "meet professor",
+          "help from professor"
+        ],
+
+        description:
+          "Business faculty offices are available for students who need academic assistance, course guidance, or one-on-one conversations with professors.",
+
+        studentTip:
+          "Use your professors' office hours. They can be helpful for questions about assignments, grades, course material, career advice, internships, and professional development."
+      }
+
+    ],
+
+    funFact:
+      "Students commonly refer to the Percy J. Vaughn, Jr. College of Business Administration simply as COBA.",
+
+    image: "",
+    mapLink: ""
   }
 
 ];
