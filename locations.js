@@ -6070,6 +6070,477 @@ const campusLocations = [
 
   image: "",
   mapLink: ""
+},
+
+// =====================================================
+// THE ASU STADIUM
+// =====================================================
+
+{
+  id: 23,
+
+  name: "The ASU Stadium",
+  shortName: "ASU Stadium",
+  category: "athletics",
+
+  keywords: [
+    "asu stadium",
+    "the asu stadium",
+    "stadium",
+    "football stadium",
+    "hornet stadium",
+
+    "football",
+    "hornet football",
+    "asu football",
+    "football game",
+    "football games",
+    "home game",
+    "home games",
+
+    "student gate",
+    "student entrance",
+    "student entry",
+    "student admission",
+    "free football game",
+    "free game",
+    "student id",
+
+    "visitor gate",
+    "general admission",
+    "visitor admission",
+    "tickets",
+    "ticket office",
+    "football tickets",
+
+    "homecoming",
+    "homecoming game",
+    "homecoming football",
+    "homecoming ticket",
+
+    "turkey day classic",
+    "tdc",
+    "football classic",
+
+    "tailgate",
+    "tailgating",
+    "student tailgate",
+    "visitor tailgate",
+    "tailgate pass",
+
+    "clear bag",
+    "clear bag policy",
+    "stadium bag",
+    "bag policy",
+
+    "parking",
+    "game day parking",
+    "parking pass",
+
+    "concessions",
+    "food",
+    "game day",
+
+    "black and gold",
+    "black and gold game",
+    "spring football game",
+
+    "connection day",
+
+    "band",
+    "marching band",
+    "mighty marching hornets",
+    "halftime",
+
+    "harris way",
+    "gate"
+  ],
+
+  description:
+    "The ASU Stadium is Alabama State University's on-campus football stadium and one of the university's largest gathering spaces. It is home to Hornet Football and hosts major athletic, student, Homecoming, and university events throughout the year.",
+
+  services: [
+    "Hornet Football",
+    "Student game-day entry",
+    "Ticket Office",
+    "Homecoming football events",
+    "Turkey Day Classic",
+    "Tailgating when scheduled",
+    "Black & Gold Spring Game",
+    "Major university events",
+    "Game-day parking",
+    "Concessions and event services"
+  ],
+
+  studentTip:
+    "For regular home football games, ASU students can enter with a valid student ID through the designated Student Gate. The student entrance is separate from general visitor entry, and the exact gate may vary by event, so follow current signs, university announcements, and event staff directions.",
+
+  sections: [
+
+    // =================================================
+    // STUDENT GAME ENTRY
+    // =================================================
+
+    {
+      name: "Student Game Entry",
+
+      keywords: [
+        "student gate",
+        "student entrance",
+        "student entry",
+        "student admission",
+        "student id",
+        "free football",
+        "free game",
+        "football student ticket"
+      ],
+
+      description:
+        "ASU students can attend regular home football games by presenting a valid Alabama State University student ID at the designated Student Gate.",
+
+      features: [
+        "Valid ASU student ID required",
+        "Designated Student Gate",
+        "Student entrance is separate from general visitor entry"
+      ],
+
+      studentTip:
+        "Do not automatically follow the visitor line. Students normally have a separate designated entrance. The exact Student Gate can vary depending on the game, so follow game-day signs and staff instructions."
+    },
+
+
+    // =================================================
+    // HOME GAME ADMISSION
+    // =================================================
+
+    {
+      name: "Regular Home Games",
+
+      keywords: [
+        "home game",
+        "home games",
+        "regular home game",
+        "free game",
+        "student admission",
+        "student id"
+      ],
+
+      description:
+        "Regular home-game admission is available to currently enrolled ASU students with a valid student ID through the Student Gate.",
+
+      studentTip:
+        "Keep your student ID with you on game day. A screenshot, memory of your student number, or simply telling staff you are a student should not be treated as a replacement for the required valid ID."
+    },
+
+
+    // =================================================
+    // SPECIAL EVENTS & HOMECOMING
+    // =================================================
+
+    {
+      name: "Homecoming & Special Event Tickets",
+
+      keywords: [
+        "homecoming",
+        "homecoming game",
+        "homecoming football",
+        "homecoming ticket",
+        "special event",
+        "ticketed event"
+      ],
+
+      description:
+        "Homecoming and other special stadium events may use different admission and ticketing rules from regular home football games.",
+
+      studentTip:
+        "Do not assume your normal free student game admission applies to Homecoming or another special ticketed event. Check that year's Homecoming or event announcement for current student pricing and ticket requirements."
+    },
+
+
+    // =================================================
+    // TICKET OFFICE
+    // =================================================
+
+    {
+      name: "ASU Ticket Office",
+
+      keywords: [
+        "ticket office",
+        "tickets",
+        "football tickets",
+        "stadium tickets",
+        "visitor ticket",
+        "game day ticket",
+        "parking pass"
+      ],
+
+      description:
+        "The ASU Ticket Office is located at the stadium's main entrance on Harris Way and handles ticketing for football and other university events.",
+
+      features: [
+        "Football tickets",
+        "Season tickets",
+        "Single-game tickets",
+        "Game-day passes",
+        "Parking passes"
+      ],
+
+      studentTip:
+        "If you are purchasing tickets for a visitor or need help with ticketing, the Stadium Ticket Office is located at the main entrance on Harris Way."
+    },
+
+
+    // =================================================
+    // STUDENT GATE VS VISITOR GATE
+    // =================================================
+
+    {
+      name: "Student Gate vs. Visitor Entry",
+
+      keywords: [
+        "student gate",
+        "visitor gate",
+        "visitor entrance",
+        "student entrance",
+        "which gate",
+        "what gate",
+        "gate",
+        "stadium entrance"
+      ],
+
+      description:
+        "Students and general visitors may use different stadium entrances during football games and major events.",
+
+      studentTip:
+        "If you are an ASU student, look for the designated Student Gate instead of automatically entering with visitors. Staff and signage will direct you to the correct entrance for that particular game."
+    },
+
+
+    // =================================================
+    // CLEAR BAG POLICY
+    // =================================================
+
+    {
+      name: "⚠️ Clear Bag Policy",
+
+      keywords: [
+        "clear bag",
+        "clear bag policy",
+        "bag policy",
+        "stadium bag",
+        "purse",
+        "backpack",
+        "bags",
+        "what can i bring"
+      ],
+
+      description:
+        "ASU Stadium events may enforce the university's clear-bag and stadium security policies.",
+
+      studentTip:
+        "Bring an approved clear bag whenever possible. A bag that does not meet the current stadium or event policy may cause you to be delayed or denied entry. Check the current 'Know Before You Go' information before major games, Homecoming, and other stadium events."
+    },
+
+
+    // =================================================
+    // TAILGATING
+    // =================================================
+
+    {
+      name: "Tailgating",
+
+      keywords: [
+        "tailgate",
+        "tailgating",
+        "student tailgate",
+        "visitor tailgate",
+        "tailgate ticket",
+        "tailgate pass",
+        "tailgate rules"
+      ],
+
+      description:
+        "Tailgating is part of the ASU game-day experience, but access, pricing, security, and entry requirements may vary by game or major event.",
+
+      studentTip:
+        "Student tailgate access may be available with a valid ASU ID depending on the event, while visitors may be required to purchase access. Tailgating rules are enforced, so check the current ASU tailgate guide before attending."
+    },
+
+
+    // =================================================
+    // TAILGATE BAG RULES
+    // =================================================
+
+    {
+      name: "Tailgate Security & Bags",
+
+      keywords: [
+        "tailgate bag",
+        "tailgate clear bag",
+        "tailgate security",
+        "clear bag tailgate",
+        "tailgate rules"
+      ],
+
+      description:
+        "Tailgate areas may have security and bag restrictions similar to stadium entry requirements.",
+
+      studentTip:
+        "A clear bag is the safest choice for both the tailgate and stadium. Do not assume a bag allowed somewhere else on campus will automatically be allowed into a game-day tailgate or stadium area."
+    },
+
+
+    // =================================================
+    // VISITORS
+    // =================================================
+
+    {
+      name: "Visitor Admission",
+
+      keywords: [
+        "visitor",
+        "visitors",
+        "visitor ticket",
+        "visitor admission",
+        "guest",
+        "guest ticket",
+        "family",
+        "friend"
+      ],
+
+      description:
+        "Visitors and guests generally need the appropriate event ticket or pass rather than using student admission.",
+
+      studentTip:
+        "If family or friends are coming with you, check visitor ticket and tailgate requirements before game day. Your ASU student ID does not automatically provide free admission for your guests."
+    },
+
+
+    // =================================================
+    // TURKEY DAY CLASSIC
+    // =================================================
+
+    {
+      name: "Turkey Day Classic",
+
+      keywords: [
+        "turkey day classic",
+        "tdc",
+        "thanksgiving game",
+        "football classic",
+        "classic"
+      ],
+
+      description:
+        "The Turkey Day Classic is one of Alabama State University's signature football traditions and has been part of ASU history since 1924.",
+
+      studentTip:
+        "Turkey Day Classic is a major event with larger crowds and event-specific rules. Check current tickets, parking, tailgating, and entry information before arriving."
+    },
+
+
+    // =================================================
+    // BLACK & GOLD GAME
+    // =================================================
+
+    {
+      name: "Black & Gold Spring Football Game",
+
+      keywords: [
+        "black and gold",
+        "black & gold",
+        "black and gold game",
+        "spring game",
+        "spring football",
+        "football spring game"
+      ],
+
+      description:
+        "The stadium hosts Alabama State University's traditional Black & Gold spring football game, giving fans a chance to see the Hornets before the fall season."
+    },
+
+
+    // =================================================
+    // BAND & GAME DAY ATMOSPHERE
+    // =================================================
+
+    {
+      name: "Band & Game-Day Experience",
+
+      keywords: [
+        "band",
+        "marching band",
+        "mighty marching hornets",
+        "halftime",
+        "game day",
+        "football atmosphere"
+      ],
+
+      description:
+        "Football games at ASU Stadium are also major campus traditions featuring student spirit, marching-band performances, halftime entertainment, and the Hornet game-day atmosphere."
+    },
+
+
+    // =================================================
+    // PARKING
+    // =================================================
+
+    {
+      name: "Game-Day Parking",
+
+      keywords: [
+        "parking",
+        "game day parking",
+        "football parking",
+        "parking pass",
+        "stadium parking"
+      ],
+
+      description:
+        "Football games and major stadium events may use special parking arrangements and parking passes.",
+
+      studentTip:
+        "Game-day traffic and parking can be very different from a normal class day. Check current parking instructions before driving toward the stadium, especially during Homecoming and the Turkey Day Classic."
+    },
+
+
+    // =================================================
+    // MAJOR CAMPUS EVENTS
+    // =================================================
+
+    {
+      name: "Major University Events",
+
+      keywords: [
+        "event",
+        "events",
+        "connection day",
+        "major event",
+        "campus event",
+        "stadium event"
+      ],
+
+      description:
+        "The ASU Stadium is used for more than football and may host major university programs, student activities, recruitment events, and other large gatherings.",
+
+      studentTip:
+        "Gate assignments can change depending on the event. Always follow the entrance listed in the specific event announcement."
+    }
+
+  ],
+
+  history: {
+    year: 2012,
+
+    description:
+      "The ASU Stadium opened on Alabama State University's campus in 2012 and became the home of Hornet Football and many of the university's largest athletic and community events."
+  },
+
+  funFact:
+    "The ASU Stadium is not just a football venue. It is also a major gathering place for Homecoming traditions, university events, spring football, and other large campus experiences.",
+
+  image: "",
+  mapLink: ""
 }
 
 ];

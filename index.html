@@ -15,7 +15,7 @@
 
   <meta
     name="description"
-    content="Hornet Navigator is a student-built campus guide designed to help Alabama State University students and visitors find buildings, resources, dining, residence halls, parking, and more."
+    content="Hornet Navigator is a student-built campus guide designed to help Alabama State University students and visitors find buildings, resources, dining, residence halls, parking, landmarks, and more."
   >
 
   <link rel="stylesheet" href="style.css">
@@ -38,6 +38,7 @@
       </span>
 
       <div>
+
         <span class="brand-name">
           Hornet Navigator
         </span>
@@ -45,6 +46,7 @@
         <span class="brand-school">
           Alabama State University
         </span>
+
       </div>
 
     </a>
@@ -83,7 +85,9 @@
 
 
 
-  <!-- MOBILE NAVIGATION -->
+  <!-- =====================================
+       MOBILE NAVIGATION
+  ====================================== -->
 
   <nav
     class="mobile-menu"
@@ -124,7 +128,6 @@
 
       <div class="hero-content">
 
-
         <p class="eyebrow">
           STUDENT-BUILT ASU CAMPUS GUIDE
         </p>
@@ -144,7 +147,7 @@
           Explore Alabama State University with a visual
           campus guide designed to help students and visitors
           locate buildings, student services, residence halls,
-          dining, parking, and more.
+          dining, parking, landmarks, and more.
 
         </p>
 
@@ -173,8 +176,8 @@
 
 
         <p class="search-help">
-          Try: Library, Student Accounts, Free Printing,
-          Dining, Housing...
+          Try: Library, COBA, Equinox, Dining,
+          Free Printing, Housing...
         </p>
 
 
@@ -222,6 +225,14 @@
             Parking
           </button>
 
+
+          <button
+            class="category-button"
+            data-category="landmark"
+          >
+            Landmarks
+          </button>
+
         </div>
 
 
@@ -243,7 +254,6 @@
     ====================================== -->
 
     <section class="intro-section">
-
 
       <div class="intro-label">
 
@@ -291,7 +301,6 @@
       id="explore"
     >
 
-
       <div class="section-heading">
 
         <p class="section-label">
@@ -316,7 +325,9 @@
       <div class="location-grid">
 
 
-        <!-- ACADEMIC -->
+        <!-- =====================================
+             01 - ACADEMIC BUILDINGS
+        ====================================== -->
 
         <article class="location-card">
 
@@ -355,13 +366,11 @@
               class="card-button explore-category"
               data-category="academic"
             >
-
               Explore Buildings
 
               <span>
                 →
               </span>
-
             </button>
 
           </div>
@@ -370,7 +379,9 @@
 
 
 
-        <!-- HOUSING -->
+        <!-- =====================================
+             02 - HOUSING
+        ====================================== -->
 
         <article class="location-card">
 
@@ -409,13 +420,11 @@
               class="card-button explore-category"
               data-category="housing"
             >
-
               Explore Housing
 
               <span>
                 →
               </span>
-
             </button>
 
           </div>
@@ -424,7 +433,9 @@
 
 
 
-        <!-- STUDENT SERVICES -->
+        <!-- =====================================
+             03 - STUDENT SERVICES
+        ====================================== -->
 
         <article class="location-card">
 
@@ -463,13 +474,11 @@
               class="card-button explore-category"
               data-category="services"
             >
-
               Explore Services
 
               <span>
                 →
               </span>
-
             </button>
 
           </div>
@@ -478,7 +487,9 @@
 
 
 
-        <!-- DINING -->
+        <!-- =====================================
+             04 - DINING
+        ====================================== -->
 
         <article class="location-card">
 
@@ -517,13 +528,11 @@
               class="card-button explore-category"
               data-category="dining"
             >
-
               Explore Dining
 
               <span>
                 →
               </span>
-
             </button>
 
           </div>
@@ -532,7 +541,9 @@
 
 
 
-        <!-- PARKING -->
+        <!-- =====================================
+             05 - PARKING
+        ====================================== -->
 
         <article class="location-card">
 
@@ -571,13 +582,11 @@
               class="card-button explore-category"
               data-category="parking"
             >
-
               Explore Parking
 
               <span>
                 →
               </span>
-
             </button>
 
           </div>
@@ -586,7 +595,9 @@
 
 
 
-        <!-- LANDMARKS -->
+        <!-- =====================================
+             06 - CAMPUS LANDMARKS
+        ====================================== -->
 
         <article class="location-card">
 
@@ -616,22 +627,21 @@
             </h3>
 
             <p>
-              Discover major destinations, gathering
-              spaces, and recognizable campus locations.
+              Explore historic sites, monuments, museums,
+              gathering spaces, and recognizable locations
+              around Alabama State University's campus.
             </p>
 
 
             <button
               class="card-button explore-category"
-              data-category="landmarks"
+              data-category="landmark"
             >
-
               Explore Landmarks
 
               <span>
                 →
               </span>
-
             </button>
 
           </div>
@@ -643,18 +653,17 @@
 
 
 
-      <!-- =================================
+      <!-- =====================================
            CAMPUS RESULTS
 
-           JavaScript will put actual
-           locations from locations.js here.
-      ================================== -->
+           JavaScript puts locations from
+           locations.js inside this container.
+      ====================================== -->
 
       <div
         class="campus-results"
         id="campusResults"
       >
-
       </div>
 
 
@@ -666,9 +675,7 @@
         id="searchMessage"
         aria-live="polite"
       >
-
       </div>
-
 
     </section>
 
@@ -682,7 +689,6 @@
       class="resources-section"
       id="resources"
     >
-
 
       <div class="resources-left">
 
@@ -710,6 +716,8 @@
 
       <div class="resource-grid">
 
+
+        <!-- ADMISSIONS -->
 
         <button
           class="resource-card resource-search"
@@ -740,6 +748,8 @@
 
 
 
+        <!-- FINANCIAL AID -->
+
         <button
           class="resource-card resource-search"
           data-search="financial aid"
@@ -768,6 +778,8 @@
         </button>
 
 
+
+        <!-- REGISTRAR -->
 
         <button
           class="resource-card resource-search"
@@ -798,6 +810,8 @@
 
 
 
+        <!-- HOUSING -->
+
         <button
           class="resource-card resource-search"
           data-search="housing"
@@ -827,6 +841,8 @@
 
 
 
+        <!-- STUDENT ACCOUNTS -->
+
         <button
           class="resource-card resource-search"
           data-search="student accounts"
@@ -855,6 +871,8 @@
         </button>
 
 
+
+        <!-- DINING -->
 
         <button
           class="resource-card resource-search"
@@ -895,7 +913,6 @@
     ====================================== -->
 
     <section class="map-section">
-
 
       <div class="map-content">
 
@@ -960,7 +977,6 @@
 
       </div>
 
-
     </section>
 
 
@@ -973,7 +989,6 @@
       class="about-section"
       id="about"
     >
-
 
       <div>
 
@@ -1036,7 +1051,6 @@
 
       </div>
 
-
     </section>
 
 
@@ -1049,7 +1063,6 @@
   ====================================== -->
 
   <footer>
-
 
     <div class="footer-brand">
 
@@ -1076,7 +1089,6 @@
     <p class="footer-copy">
       © 2026 Hornet Navigator
     </p>
-
 
   </footer>
 
