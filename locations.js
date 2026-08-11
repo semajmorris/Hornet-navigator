@@ -9852,19 +9852,2173 @@ const campusLocations = [
 
   image: "",
   mapLink: ""
+},
+
+// =====================================================
+// ASU PHYSICAL PLANT
+// =====================================================
+
+{
+  id: 34,
+
+  name: "ASU Physical Plant",
+  shortName: "Physical Plant",
+  category: "student-services",
+
+  keywords: [
+    "physical plant",
+    "asu physical plant",
+    "facilities",
+    "facilities management",
+    "facilities management and operations",
+    "facilities operations",
+
+    "maintenance",
+    "building maintenance",
+    "campus maintenance",
+    "maintenance request",
+    "repair",
+    "repairs",
+    "something broken",
+    "broken",
+    "fix something",
+
+    "work order",
+    "work orders",
+    "asset essentials",
+    "maintenance work order",
+    "repair request",
+
+    "hvac",
+    "air conditioning",
+    "ac",
+    "heat",
+    "heating",
+    "plumbing",
+    "water",
+    "leak",
+    "electrical",
+    "electricity",
+    "painting",
+    "crafts",
+
+    "fire safety",
+    "life safety",
+    "fire life safety",
+
+    "landscaping",
+    "grounds",
+    "grounds maintenance",
+    "grass",
+    "campus grounds",
+
+    "custodial",
+    "custodial services",
+    "cleaning",
+    "campus cleaning",
+
+    "transportation",
+    "campus transportation",
+
+    "logistics",
+    "facilities logistics",
+
+    "procurement",
+    "procurement department",
+    "purchasing",
+    "purchasing department",
+    "vendor",
+    "vendors",
+    "vendor registration",
+    "contracts",
+    "acquisitions",
+    "bidding",
+
+    "room 104",
+    "1301 west fifth street",
+    "1301 w fifth street"
+  ],
+
+  description:
+    "The ASU Physical Plant is an operational facility that supports the maintenance and day-to-day functioning of Alabama State University's campus. Facilities-related services coordinated through this area include building maintenance, HVAC and plumbing, electrical and painting work, grounds, transportation, custodial services, logistics, and other campus operations. The ASU Procurement Department is also located in the Physical Plant Building.",
+
+  address:
+    "1301 West Fifth Street, Montgomery, AL 36104",
+
+  services: [
+    "Facilities Management & Operations",
+    "Building maintenance",
+    "HVAC and plumbing coordination",
+    "Electrical and facility repairs",
+    "Fire and life-safety coordination",
+    "Landscaping and grounds",
+    "Custodial services",
+    "Transportation-related operations",
+    "Logistics and facility services",
+    "ASU Procurement Department",
+    "Vendor and purchasing services"
+  ],
+
+  studentTip:
+    "Most students will not need to physically visit the Physical Plant when something breaks. If you have a maintenance problem in a residence hall, classroom, or other campus building, start with the appropriate residence-hall staff, building staff, or site manager so the issue can be reported through ASU's maintenance work-order process.",
+
+  sections: [
+
+    // =================================================
+    // WHAT IS THE PHYSICAL PLANT?
+    // =================================================
+
+    {
+      name: "What Is the Physical Plant?",
+
+      keywords: [
+        "what is physical plant",
+        "physical plant",
+        "facilities",
+        "facilities management",
+        "campus operations",
+        "maintenance"
+      ],
+
+      description:
+        "The Physical Plant helps support the behind-the-scenes operation of ASU's campus. Facility services coordinated from this area help keep university buildings, grounds, utilities, and other physical campus resources functioning.",
+
+      studentTip:
+        "Think of the Physical Plant as one of the places helping keep the campus itself running. Most students benefit from its work even if they never need to go inside the building."
+    },
+
+
+    // =================================================
+    // BUILDING MAINTENANCE
+    // =================================================
+
+    {
+      name: "Building Maintenance",
+
+      keywords: [
+        "maintenance",
+        "building maintenance",
+        "campus maintenance",
+        "repair",
+        "repairs",
+        "something broken",
+        "broken",
+        "fix",
+        "maintenance technician"
+      ],
+
+      description:
+        "ASU Facilities Management coordinates maintenance services for university buildings and physical campus infrastructure.",
+
+      features: [
+        "General building maintenance",
+        "Painting",
+        "Electrical work",
+        "HVAC support",
+        "Plumbing support",
+        "Facility repairs",
+        "Skilled crafts"
+      ],
+
+      studentTip:
+        "If something is broken in a campus building, do not assume you need to walk to Physical Plant yourself. Report the problem through the person responsible for your residence hall or building so a maintenance request can be submitted."
+    },
+
+
+    // =================================================
+    // WORK ORDERS
+    // =================================================
+
+    {
+      name: "Maintenance Work Orders",
+
+      keywords: [
+        "work order",
+        "work orders",
+        "maintenance request",
+        "repair request",
+        "asset essentials",
+        "something broken",
+        "report maintenance",
+        "submit work order"
+      ],
+
+      description:
+        "ASU uses the Asset Essentials Work Order System to coordinate facility maintenance requests across campus buildings.",
+
+      studentTip:
+        "If you are a student reporting a problem, start with your residence-hall staff, building staff, or the appropriate university office. They can help route the issue through the proper work-order process."
+    },
+
+
+    // =================================================
+    // RESIDENCE HALL MAINTENANCE
+    // =================================================
+
+    {
+      name: "Something Broken in Your Residence Hall?",
+
+      keywords: [
+        "dorm maintenance",
+        "residence hall maintenance",
+        "room maintenance",
+        "something broken in dorm",
+        "broken dorm",
+        "broken room",
+        "maintenance in dorm",
+        "housing repair"
+      ],
+
+      description:
+        "Maintenance problems in residence halls may ultimately involve Facilities Management, but students should normally begin by reporting the problem through their residence-hall or housing staff.",
+
+      studentTip:
+        "If your air conditioning stops working, something starts leaking, a fixture breaks, or another maintenance problem happens in your residence hall, report it promptly to the appropriate hall staff rather than automatically going to Physical Plant."
+    },
+
+
+    // =================================================
+    // HVAC & PLUMBING
+    // =================================================
+
+    {
+      name: "HVAC & Plumbing",
+
+      keywords: [
+        "hvac",
+        "air conditioning",
+        "ac",
+        "air conditioner",
+        "heat",
+        "heating",
+        "plumbing",
+        "water",
+        "water leak",
+        "leak",
+        "pipe",
+        "toilet",
+        "sink"
+      ],
+
+      description:
+        "Facilities Management includes utilities engineering support for HVAC and plumbing systems across the university.",
+
+      studentTip:
+        "For an urgent leak, loss of heating or cooling, or other facility problem, notify the staff responsible for your building as soon as possible so the issue can be routed appropriately."
+    },
+
+
+    // =================================================
+    // ELECTRICAL, PAINTING & CRAFTS
+    // =================================================
+
+    {
+      name: "Electrical, Painting & Facility Crafts",
+
+      keywords: [
+        "electrical",
+        "electricity",
+        "power",
+        "painting",
+        "paint",
+        "crafts",
+        "facility repair",
+        "building repair"
+      ],
+
+      description:
+        "ASU's facility operations include electrical work, painting, maintenance crafts, and other services needed to maintain campus buildings."
+    },
+
+
+    // =================================================
+    // FIRE & LIFE SAFETY
+    // =================================================
+
+    {
+      name: "Fire & Life Safety",
+
+      keywords: [
+        "fire safety",
+        "life safety",
+        "fire life safety",
+        "fire",
+        "safety",
+        "building safety"
+      ],
+
+      description:
+        "Facilities Management includes coordination for fire and life-safety needs connected with ASU's buildings and physical campus environment.",
+
+      studentTip:
+        "For an active emergency, fire, smoke, or immediate danger, follow emergency procedures and contact emergency/public-safety personnel rather than treating it as an ordinary maintenance request."
+    },
+
+
+    // =================================================
+    // LANDSCAPING & GROUNDS
+    // =================================================
+
+    {
+      name: "Landscaping & Grounds",
+
+      keywords: [
+        "landscaping",
+        "grounds",
+        "grounds maintenance",
+        "campus grounds",
+        "grass",
+        "trees",
+        "landscape",
+        "outdoor maintenance"
+      ],
+
+      description:
+        "Facilities Management supports the maintenance and appearance of ASU's outdoor campus environment through landscaping and grounds operations.",
+
+      studentTip:
+        "The landscaping, grass, outdoor spaces, and many of the campus areas students walk through every day are part of the university's larger facilities operation."
+    },
+
+
+    // =================================================
+    // CUSTODIAL SERVICES
+    // =================================================
+
+    {
+      name: "Custodial Services",
+
+      keywords: [
+        "custodial",
+        "custodial services",
+        "cleaning",
+        "campus cleaning",
+        "janitorial",
+        "building cleaning"
+      ],
+
+      description:
+        "Custodial services are part of ASU Facilities Management & Operations and help maintain university facilities and campus environments."
+    },
+
+
+    // =================================================
+    // TRANSPORTATION & LOGISTICS
+    // =================================================
+
+    {
+      name: "Transportation & Logistics Operations",
+
+      keywords: [
+        "transportation",
+        "campus transportation",
+        "logistics",
+        "logistics services",
+        "facility transportation",
+        "operations"
+      ],
+
+      description:
+        "Transportation and other logistics-related facility services are part of the operational functions coordinated through ASU Facilities Management.",
+
+      studentTip:
+        "This does not necessarily mean students should come directly to Physical Plant for every shuttle or transportation question. Use the appropriate student transportation information or university office for your specific need."
+    },
+
+
+    // =================================================
+    // PROCUREMENT DEPARTMENT
+    // =================================================
+
+    {
+      name: "ASU Procurement Department",
+
+      keywords: [
+        "procurement",
+        "procurement department",
+        "purchasing",
+        "purchasing department",
+        "contracts",
+        "acquisitions",
+        "vendor",
+        "vendors",
+        "vendor registration",
+        "bidding",
+        "purchase order"
+      ],
+
+      description:
+        "The ASU Procurement Department is located inside the Physical Plant Building and supports the university's purchasing, acquisitions, vendor, contracting, and procurement processes.",
+
+      location:
+        "Physical Plant Building, Room 104, 1301 West Fifth Street, Montgomery, AL 36104",
+
+      studentTip:
+        "Procurement is primarily an administrative business office. Most students will not need it for ordinary student purchases or personal financial questions."
+    },
+
+
+    // =================================================
+    // PROCUREMENT HOURS
+    // =================================================
+
+    {
+      name: "Procurement Hours",
+
+      keywords: [
+        "procurement hours",
+        "purchasing hours",
+        "physical plant hours",
+        "room 104",
+        "8am",
+        "5pm"
+      ],
+
+      description:
+        "ASU currently lists Procurement Department operating hours as Monday through Friday from 8:00 a.m. to 5:00 p.m.",
+
+      studentTip:
+        "Hours can change around university closures, holidays, and special schedules, so verify current operations before making a special trip."
+    },
+
+
+    // =================================================
+    // VENDORS
+    // =================================================
+
+    {
+      name: "Vendor & Purchasing Services",
+
+      keywords: [
+        "vendor",
+        "vendors",
+        "vendor registration",
+        "supplier",
+        "supplier registration",
+        "purchasing",
+        "procurement",
+        "bid",
+        "bidding"
+      ],
+
+      description:
+        "Businesses and university departments may interact with ASU Procurement for vendor registration, purchasing procedures, acquisitions, bids, and related university business.",
+
+      studentTip:
+        "This section will be more useful to university employees, student organizations working through official purchasing procedures, vendors, and people doing business with ASU than to the average student."
+    },
+
+
+    // =================================================
+    // DO NOT GO HERE FOR STUDENT MAIL
+    // =================================================
+
+    {
+      name: "Student Mail & Packages",
+
+      keywords: [
+        "mail",
+        "student mail",
+        "package",
+        "packages",
+        "package pickup",
+        "mail center"
+      ],
+
+      description:
+        "Physical Plant is not the normal student destination for picking up personal mail and packages.",
+
+      studentTip:
+        "If you are looking for student mail or package pickup, use the ASU Mail Center rather than coming to Physical Plant."
+    },
+
+
+    // =================================================
+    // WHO ACTUALLY NEEDS THIS BUILDING?
+    // =================================================
+
+    {
+      name: "Who Usually Needs the Physical Plant?",
+
+      keywords: [
+        "who uses physical plant",
+        "why go to physical plant",
+        "need physical plant",
+        "physical plant services"
+      ],
+
+      description:
+        "The Physical Plant is primarily an operational and administrative facility used by university facilities employees, maintenance personnel, Procurement staff, vendors, contractors, and other people supporting campus operations.",
+
+      studentTip:
+        "As a student, you may never need to physically visit this building—and that is normal. Hornet Navigator includes it so you know what it is, where it is, and what university operations happen there."
+    }
+
+  ],
+
+  history: {
+    description:
+      "The Physical Plant has long served as a central base for Alabama State University's campus operations. Today, university documentation continues to identify the building as a coordination point for facilities services including transportation, grounds, painting, electrical work, HVAC, plumbing, crafts, and related operational functions."
+  },
+
+  funFact:
+    "The Physical Plant is one of those ASU buildings students may rarely enter but depend on constantly. The people and services connected with it help maintain the classrooms, residence halls, utilities, grounds, and other campus spaces students use every day.",
+
+  image: "",
+  mapLink: ""
+},
+
+// =====================================================
+// ASU DEPARTMENT OF PUBLIC SAFETY / CAMPUS POLICE
+// =====================================================
+
+{
+  id: 35,
+
+  name: "ASU Department of Public Safety",
+  shortName: "ASU Campus Police",
+  category: "student-services",
+
+  keywords: [
+    "asu police",
+    "campus police",
+    "police",
+    "public safety",
+    "asu public safety",
+    "department of public safety",
+
+    "emergency",
+    "911",
+    "campus emergency",
+    "police emergency",
+
+    "334 229 4400",
+    "229 4400",
+
+    "crime",
+    "report crime",
+    "crime report",
+    "theft",
+    "stolen",
+    "stolen property",
+    "missing property",
+    "lost property",
+
+    "traffic accident",
+    "car accident",
+    "accident",
+    "traffic investigation",
+
+    "safety",
+    "campus safety",
+    "residence hall safety",
+    "parking lot safety",
+
+    "parking",
+    "parking services",
+    "student parking",
+    "parking decal",
+    "parking decals",
+    "parking permit",
+    "parking permits",
+    "parking sticker",
+    "vehicle registration",
+
+    "boot",
+    "car boot",
+    "car booted",
+    "parking boot",
+    "boot removal",
+    "remove boot",
+    "parking violation",
+    "parking ticket",
+    "parking citation",
+    "traffic citation",
+
+    "hardy student center police",
+    "hardy police",
+    "union police",
+    "student center police",
+
+    "sexual assault",
+    "dating violence",
+    "domestic violence",
+    "stalking",
+    "title ix",
+    "violence against women",
+
+    "officertrak",
+    "event police",
+    "event security",
+
+    "1452 carter hill road",
+    "wheeler watkins"
+  ],
+
+  description:
+    "The Alabama State University Department of Public Safety provides campus law enforcement, emergency response, safety patrols, traffic enforcement, parking services, crime reporting, and other public-safety services for the ASU community. The main Public Safety location is on Carter Hill Road, and ASU also has a newer police presence inside the J. Garrick Hardy Student Center.",
+
+  address:
+    "1452 Carter Hill Road, Montgomery, AL",
+
+  services: [
+    "24-hour Campus Police",
+    "Emergency response",
+    "Crime reporting",
+    "Traffic accident investigation",
+    "Campus safety patrols",
+    "Residence hall patrols",
+    "Parking lot patrols",
+    "Student parking decals",
+    "Parking enforcement",
+    "Parking boot and citation assistance",
+    "Vehicle-related parking services",
+    "Event security",
+    "Hardy Student Center police access point"
+  ],
+
+  studentTip:
+    "If you are in immediate danger, injured, or need urgent police or medical assistance, call 911 or ASU Campus Police at (334) 229-4400. Do not spend time walking across campus to the police building during an active emergency.",
+
+  sections: [
+
+    // =================================================
+    // 24-HOUR CAMPUS POLICE
+    // =================================================
+
+    {
+      name: "24-Hour Campus Police",
+
+      keywords: [
+        "campus police",
+        "police",
+        "public safety",
+        "24 hour police",
+        "24 hour",
+        "emergency",
+        "334 229 4400"
+      ],
+
+      description:
+        "ASU Campus Police provides 24-hour law-enforcement and public-safety coverage for the university community.",
+
+      features: [
+        "24-hour police response",
+        "Campus patrols",
+        "Parking lot patrols",
+        "Residence hall patrols",
+        "Crime reporting",
+        "Traffic investigations"
+      ],
+
+      studentTip:
+        "Save ASU Campus Police in your phone: (334) 229-4400."
+    },
+
+
+    // =================================================
+    // EMERGENCY VS NON-EMERGENCY
+    // =================================================
+
+    {
+      name: "Emergency vs. Non-Emergency",
+
+      keywords: [
+        "emergency",
+        "non emergency",
+        "911",
+        "urgent",
+        "danger",
+        "need police"
+      ],
+
+      description:
+        "ASU students can contact Campus Police for incidents requiring law-enforcement assistance. Immediate threats, serious injuries, fires, or other urgent emergencies should be treated as emergencies.",
+
+      studentTip:
+        "For immediate danger or a life-threatening emergency, call 911. ASU Campus Police can also be reached 24 hours a day at (334) 229-4400."
+    },
+
+
+    // =================================================
+    // MAIN PUBLIC SAFETY LOCATION
+    // =================================================
+
+    {
+      name: "Main Department of Public Safety",
+
+      keywords: [
+        "main police station",
+        "police department",
+        "public safety building",
+        "1452 carter hill road",
+        "carter hill road",
+        "where is campus police"
+      ],
+
+      description:
+        "The main ASU Department of Public Safety is located at 1452 Carter Hill Road, across from the Wheeler-Watkins Baseball Complex.",
+
+      location:
+        "1452 Carter Hill Road, across from Wheeler-Watkins Baseball Complex.",
+
+      studentTip:
+        "If you know where the baseball complex is, you are very close to the main Public Safety building."
+    },
+
+
+    // =================================================
+    // HARDY STUDENT CENTER POLICE LOCATION
+    // =================================================
+
+    {
+      name: "Campus Police at Hardy Student Center",
+
+      keywords: [
+        "hardy police",
+        "hardy student center police",
+        "student center police",
+        "union police",
+        "police in union",
+        "campus police hardy"
+      ],
+
+      description:
+        "ASU also has a newer Campus Police/Public Safety presence inside the J. Garrick Hardy Student Center, giving students another convenient location to seek police or safety assistance.",
+
+      studentTip:
+        "The exact room number is not listed here. If you need the Hardy Student Center police location, check current signage or ask the Information Desk inside the Student Center."
+    },
+
+
+    // =================================================
+    // PARKING DECALS
+    // =================================================
+
+    {
+      name: "Student Parking Decals",
+
+      keywords: [
+        "parking decal",
+        "parking decals",
+        "parking permit",
+        "parking permits",
+        "parking sticker",
+        "student parking",
+        "vehicle registration",
+        "register car"
+      ],
+
+      description:
+        "ASU students are required to purchase a parking decal when registering a vehicle for campus parking.",
+
+      features: [
+        "Student parking decal services",
+        "Vehicle parking registration",
+        "Parking permit information",
+        "Campus parking guidance"
+      ],
+
+      studentTip:
+        "The Department of Public Safety handles student parking decal services. ASU currently lists the student parking decal fee as $70, but always check the current semester's fee schedule before paying."
+    },
+
+
+    // =================================================
+    // CAR BOOT / PARKING VIOLATIONS
+    // =================================================
+
+    {
+      name: "🚗 Car Booted? Parking Violation Help",
+
+      keywords: [
+        "boot",
+        "car booted",
+        "parking boot",
+        "boot removal",
+        "remove boot",
+        "parking violation",
+        "parking fine",
+        "parking ticket",
+        "parking citation",
+        "traffic citation"
+      ],
+
+      description:
+        "Students dealing with a parking boot, citation, or other parking-enforcement issue may need to contact or visit the Department of Public Safety for instructions on resolving the violation.",
+
+      studentTip:
+        "Do not attempt to remove an ASU parking boot yourself. Contact Public Safety for the proper steps, payment instructions, and official boot removal process."
+    },
+
+
+    // =================================================
+    // PARKING ENFORCEMENT
+    // =================================================
+
+    {
+      name: "Parking Enforcement",
+
+      keywords: [
+        "parking enforcement",
+        "parking rules",
+        "parking violation",
+        "parking ticket",
+        "parking citation",
+        "where can i park",
+        "student parking rules"
+      ],
+
+      description:
+        "The Department of Public Safety helps enforce university parking and traffic regulations across campus.",
+
+      studentTip:
+        "Pay attention to the parking designation connected to your decal. A valid decal does not necessarily mean you can park in every campus lot."
+    },
+
+
+    // =================================================
+    // CRIME REPORTING
+    // =================================================
+
+    {
+      name: "Crime & Incident Reporting",
+
+      keywords: [
+        "report crime",
+        "crime report",
+        "crime",
+        "theft",
+        "stolen",
+        "stolen property",
+        "incident report",
+        "police report"
+      ],
+
+      description:
+        "Students, faculty, and staff may report crimes, suspicious activity, and other incidents requiring law-enforcement assistance directly to ASU Campus Police.",
+
+      studentTip:
+        "If something has been stolen or you are the victim or witness of a crime, report it as soon as possible. Waiting can make investigation and evidence collection more difficult."
+    },
+
+
+    // =================================================
+    // TRAFFIC ACCIDENTS
+    // =================================================
+
+    {
+      name: "Traffic Accidents",
+
+      keywords: [
+        "traffic accident",
+        "car accident",
+        "accident",
+        "vehicle accident",
+        "crash",
+        "traffic investigation"
+      ],
+
+      description:
+        "ASU Campus Police investigates traffic accidents and other vehicle-related incidents occurring within its campus jurisdiction.",
+
+      studentTip:
+        "If you are involved in a vehicle accident on campus, contact Campus Police and follow officer instructions rather than simply leaving the scene."
+    },
+
+
+    // =================================================
+    // CAMPUS PATROLS
+    // =================================================
+
+    {
+      name: "Campus, Parking Lot & Residence Hall Patrols",
+
+      keywords: [
+        "campus patrol",
+        "parking lot patrol",
+        "residence hall patrol",
+        "dorm safety",
+        "campus safety",
+        "police patrol"
+      ],
+
+      description:
+        "Campus Police provides 24-hour patrol coverage that includes campus parking lots and residence halls.",
+
+      studentTip:
+        "Public Safety is not limited to the police building. Officers patrol throughout campus, including residential and parking areas."
+    },
+
+
+    // =================================================
+    // SEXUAL ASSAULT / DATING VIOLENCE / STALKING
+    // =================================================
+
+    {
+      name: "Sexual Assault, Dating Violence & Stalking",
+
+      keywords: [
+        "sexual assault",
+        "dating violence",
+        "domestic violence",
+        "stalking",
+        "sexual misconduct",
+        "title ix",
+        "violence against women",
+        "vawp"
+      ],
+
+      description:
+        "Campus Police is one of ASU's reporting and emergency resources for sexual assault, dating or domestic violence, stalking, and related safety concerns.",
+
+      studentTip:
+        "If you are concerned about immediate safety or need medical attention, call Campus Police at (334) 229-4400 or 911. ASU also has Title IX, Counseling, and Violence Against Wo(men) Program resources for additional support."
+    },
+
+
+    // =================================================
+    // EVENT SECURITY / OFFICERTRAK
+    // =================================================
+
+    {
+      name: "Event Security & OfficerTRAK",
+
+      keywords: [
+        "officertrak",
+        "event security",
+        "event police",
+        "hire police",
+        "campus event security",
+        "police for event"
+      ],
+
+      description:
+        "ASU Public Safety provides an OfficerTRAK option for arranging licensed police officers for qualifying on-campus events.",
+
+      studentTip:
+        "Student organizations planning major events may need to coordinate security requirements through the university. Follow Student Life and Public Safety instructions before finalizing an event."
+    },
+
+
+    // =================================================
+    // LOST OR STOLEN PROPERTY
+    // =================================================
+
+    {
+      name: "Lost or Stolen Property",
+
+      keywords: [
+        "lost property",
+        "stolen property",
+        "lost item",
+        "stolen item",
+        "lost phone",
+        "stolen phone",
+        "lost wallet",
+        "stolen wallet"
+      ],
+
+      description:
+        "If an item may have been stolen or a loss involves suspicious circumstances, Campus Police can help with crime reporting and next steps.",
+
+      studentTip:
+        "For a simple lost item, also check the building or event location where you last had it. If you believe it was stolen, contact Campus Police."
+    },
+
+
+    // =================================================
+    // TITLE IX & SAFETY CONNECTION
+    // =================================================
+
+    {
+      name: "Title IX & Public Safety Connection",
+
+      keywords: [
+        "title ix",
+        "title 9",
+        "student safety",
+        "sexual misconduct",
+        "report incident",
+        "report concern"
+      ],
+
+      description:
+        "ASU's Title IX and student-support offices work alongside Public Safety when incidents involve potential crimes, threats to safety, or situations requiring law-enforcement assistance.",
+
+      studentTip:
+        "Campus Police and Title IX serve different roles. If you need emergency police assistance, contact Public Safety or 911. If you need to file or discuss a Title IX complaint, the Title IX office is located in the J. Garrick Hardy Student Center."
+    }
+
+  ],
+
+  funFact:
+    "ASU Campus Police officers have full law-enforcement authority and receive police-academy and specialized public-safety training while serving the university community.",
+
+  image: "",
+  mapLink: ""
+},
+
+// =====================================================
+// ASU PRESIDENT'S HOME
+// =====================================================
+
+{
+  id: 36,
+
+  name: "ASU President's Home",
+  shortName: "President's Home",
+  category: "landmark",
+
+  keywords: [
+    "president home",
+    "president's home",
+    "presidents home",
+    "asu president home",
+    "asu president's home",
+
+    "president house",
+    "president's house",
+    "presidents house",
+    "asu president house",
+
+    "president mansion",
+    "president's mansion",
+    "asu president mansion",
+
+    "president residence",
+    "presidential residence",
+    "official residence",
+    "university residence",
+
+    "asu president",
+    "university president",
+
+    "landmark",
+    "campus landmark",
+
+    "friendship manor",
+    "old president house",
+    "old president's house",
+    "historic president house",
+
+    "1135 north university drive",
+    "1135 n university drive",
+    "north university drive"
+  ],
+
+  description:
+    "The ASU President's Home is the university residence associated with the President of Alabama State University. It is an official campus property and landmark rather than a general academic or student-services building.",
+
+  address:
+    "1135 North University Drive, Montgomery, AL 36104",
+
+  location:
+    "Located on the Alabama State University campus along North University Drive.",
+
+  services: [
+    "Official university residence",
+    "Presidential and university functions when scheduled",
+    "Campus landmark"
+  ],
+
+  studentTip:
+    "The President's Home is not a general student-services building or a place students should enter casually. Treat the property as a private and official university residence unless you have been invited to a university function or given instructions to visit.",
+
+  sections: [
+
+    // =================================================
+    // WHAT IS THE PRESIDENT'S HOME?
+    // =================================================
+
+    {
+      name: "What Is the President's Home?",
+
+      keywords: [
+        "president home",
+        "president's home",
+        "president house",
+        "president mansion",
+        "presidential residence",
+        "official residence"
+      ],
+
+      description:
+        "The President's Home is an official Alabama State University property associated with the university presidency. Unlike an academic building, residence hall, or student-service office, its primary purpose is connected with the university president and official university functions.",
+
+      studentTip:
+        "You may see the President's Home identified on an ASU campus map even though you never have a class or regular student appointment there. That is completely normal."
+    },
+
+
+    // =================================================
+    // LOCATION
+    // =================================================
+
+    {
+      name: "President's Home Location",
+
+      keywords: [
+        "where is president home",
+        "where is president house",
+        "president home location",
+        "president house location",
+        "president mansion location",
+        "1135 north university drive",
+        "1135 n university drive"
+      ],
+
+      description:
+        "The ASU President's Home is located at 1135 North University Drive, Montgomery, Alabama 36104, along North University Drive on the Alabama State University campus.",
+
+      location:
+        "1135 North University Drive, Montgomery, AL 36104",
+
+      studentTip:
+        "Use the address to identify the property, but remember that the President's Home is not an open student-services destination."
+    },
+
+
+    // =================================================
+    // STUDENT & VISITOR ACCESS
+    // =================================================
+
+    {
+      name: "Student & Visitor Access",
+
+      keywords: [
+        "can students enter",
+        "can i go inside",
+        "can i visit",
+        "visit president home",
+        "visit president house",
+        "president home access",
+        "president house access",
+        "private",
+        "restricted"
+      ],
+
+      description:
+        "The President's Home should not be treated as an open student building. Access may be limited to authorized individuals, invited guests, and people attending official university functions.",
+
+      studentTip:
+        "Do not walk into the President's Home simply because it appears as a building on the campus map. If you are invited to an event there, follow the instructions provided by ASU."
+    },
+
+
+    // =================================================
+    // OFFICIAL UNIVERSITY FUNCTIONS
+    // =================================================
+
+    {
+      name: "Official University Functions",
+
+      keywords: [
+        "president event",
+        "presidential event",
+        "president reception",
+        "university reception",
+        "official event",
+        "official function",
+        "invited event"
+      ],
+
+      description:
+        "As an official university residence, the President's Home may be associated with presidential, university, ceremonial, or invited functions when scheduled.",
+
+      studentTip:
+        "If you are invited to a university function at the President's Home, pay attention to the event instructions because access, entrances, parking, and arrival procedures may differ from a normal campus building."
+    },
+
+
+    // =================================================
+    // PRESIDENT'S HOME VS FRIENDSHIP MANOR
+    // =================================================
+
+    {
+      name: "President's Home vs. Friendship Manor",
+
+      keywords: [
+        "friendship manor",
+        "president home vs friendship manor",
+        "old president house",
+        "old president's house",
+        "historic president house",
+        "which president house",
+        "former president house"
+      ],
+
+      description:
+        "The current President's Home should not be confused with Friendship Manor. Friendship Manor is ASU's historic former President's Residence and has its own important connection to university and Civil Rights history.",
+
+      studentTip:
+        "Easy way to remember it: PRESIDENT'S HOME = the current university residence listed on the campus map. FRIENDSHIP MANOR = the historic former President's Residence and Civil Rights landmark."
+    },
+
+
+    // =================================================
+    // FRIENDSHIP MANOR CONNECTION
+    // =================================================
+
+    {
+      name: "Historic Presidential Residence",
+
+      keywords: [
+        "historic president residence",
+        "historic president house",
+        "friendship manor",
+        "old president house",
+        "old president residence",
+        "former president residence"
+      ],
+
+      description:
+        "Before the current President's Home, Friendship Manor served as an ASU President's Residence. The historic property housed university presidents and later became connected with important moments in Montgomery and ASU Civil Rights history.",
+
+      studentTip:
+        "If you are interested in ASU history or Civil Rights history, Friendship Manor is the historic presidential residence to look for in Hornet Navigator."
+    },
+
+
+    // =================================================
+    // CIVIL RIGHTS HISTORY CONNECTION
+    // =================================================
+
+    {
+      name: "Friendship Manor & Civil Rights History",
+
+      keywords: [
+        "civil rights",
+        "friendship manor",
+        "martin luther king",
+        "martin luther king jr",
+        "mlk",
+        "civil rights history",
+        "asu civil rights"
+      ],
+
+      description:
+        "Friendship Manor, ASU's historic former presidential residence, became connected with the Civil Rights Movement. Dr. Martin Luther King Jr. stayed there after his Montgomery home was bombed in 1956.",
+
+      studentTip:
+        "This history belongs to Friendship Manor rather than the current President's Home, which is why Hornet Navigator keeps the two locations distinct."
+    },
+
+
+    // =================================================
+    // CAMPUS LANDMARK
+    // =================================================
+
+    {
+      name: "Campus Landmark",
+
+      keywords: [
+        "landmark",
+        "campus landmark",
+        "president house landmark",
+        "president home landmark",
+        "campus map"
+      ],
+
+      description:
+        "Even though most students will never need to enter the President's Home, identifying it in Hornet Navigator helps students understand campus geography and recognize the properties shown on ASU campus maps.",
+
+      studentTip:
+        "Hornet Navigator includes some locations because knowing what a building is and where it is located can be useful even when students do not normally need to go inside."
+    }
+
+  ],
+
+  history: {
+    year: 1970,
+
+    description:
+      "Alabama State University facilities records date the current President's Home to 1970. The current residence is separate from Friendship Manor, ASU's historic former President's Residence."
+  },
+
+  funFact:
+    "ASU has both a current President's Home and a historic former presidential residence. Friendship Manor is the older property and became connected with significant Civil Rights history in Montgomery.",
+
+  image: "",
+  mapLink: ""
+},
+
+// =====================================================
+// ASU INVENTORY CONTROL / RECEIVING
+// =====================================================
+
+{
+  id: 37,
+
+  name: "ASU Inventory Control & Receiving",
+  shortName: "Inventory Control",
+  category: "student-services",
+
+  keywords: [
+    "inventory control",
+    "asu inventory control",
+    "inventory",
+    "inventory building",
+
+    "receiving",
+    "asu receiving",
+    "receiving department",
+    "university receiving",
+    "receiving warehouse",
+
+    "warehouse",
+    "asu warehouse",
+    "campus warehouse",
+
+    "logistics",
+    "logistics services",
+    "asu logistics",
+
+    "distribution",
+    "distribution and receiving",
+    "campus distribution",
+
+    "delivery",
+    "deliveries",
+    "university delivery",
+    "department delivery",
+    "delivery inquiry",
+
+    "334 229 4295",
+    "229 4295",
+
+    "surplus",
+    "surplus equipment",
+    "university surplus",
+    "equipment surplus",
+
+    "university property",
+    "asu property",
+    "property inventory",
+    "equipment inventory",
+    "campus equipment",
+
+    "inventory assistant",
+    "inventory manager",
+    "receiving manager",
+    "warehouse clerk",
+
+    "package",
+    "packages",
+    "student package",
+    "package pickup",
+    "student mail",
+    "mail center",
+
+    "facilities management",
+    "facilities operations"
+  ],
+
+  description:
+    "ASU Inventory Control & Receiving is an operational facility that supports Alabama State University's inventory, logistics, distribution, receiving, and surplus-equipment functions. The building is primarily used by university employees and departments handling university property, equipment, deliveries, and other logistical operations.",
+
+  services: [
+    "Inventory Control",
+    "University Receiving",
+    "Distribution services",
+    "Logistics services",
+    "University property and equipment inventory",
+    "Receiving and warehouse operations",
+    "Surplus equipment coordination",
+    "University delivery assistance"
+  ],
+
+  studentTip:
+    "Most students will never need to visit Inventory Control & Receiving, and that is completely normal. This building primarily supports university departments, employees, equipment, property, and deliveries. Do not come here to pick up your regular student packages.",
+
+  sections: [
+
+    // =================================================
+    // WHAT IS INVENTORY CONTROL?
+    // =================================================
+
+    {
+      name: "What Is Inventory Control?",
+
+      keywords: [
+        "what is inventory control",
+        "inventory control",
+        "inventory",
+        "inventory building",
+        "university inventory",
+        "asu property"
+      ],
+
+      description:
+        "Inventory Control helps Alabama State University manage university-owned property, equipment, and other inventory-related responsibilities.",
+
+      studentTip:
+        "Think of Inventory Control as a behind-the-scenes university operations department. It helps ASU keep track of property and equipment rather than providing everyday student services."
+    },
+
+
+    // =================================================
+    // RECEIVING
+    // =================================================
+
+    {
+      name: "University Receiving",
+
+      keywords: [
+        "receiving",
+        "asu receiving",
+        "receiving department",
+        "university receiving",
+        "receiving warehouse",
+        "delivery",
+        "deliveries",
+        "university delivery"
+      ],
+
+      description:
+        "Receiving supports deliveries intended for Alabama State University and works with university departments as part of ASU's larger logistics operation.",
+
+      studentTip:
+        "Receiving is primarily for university business and departmental deliveries. It should not be confused with the student Mail Center."
+    },
+
+
+    // =================================================
+    // RECEIVING CONTACT
+    // =================================================
+
+    {
+      name: "Receiving & Delivery Questions",
+
+      keywords: [
+        "receiving phone",
+        "receiving contact",
+        "delivery question",
+        "delivery inquiry",
+        "where is my delivery",
+        "334 229 4295",
+        "229 4295"
+      ],
+
+      description:
+        "ASU currently directs university delivery inquiries to Receiving at (334) 229-4295.",
+
+      studentTip:
+        "This number is intended for Receiving and university delivery questions. If you are a student looking for a personal package, start with the ASU Mail Center instead."
+    },
+
+
+    // =================================================
+    // LOGISTICS SERVICES
+    // =================================================
+
+    {
+      name: "Logistics Services",
+
+      keywords: [
+        "logistics",
+        "logistics services",
+        "asu logistics",
+        "campus logistics",
+        "distribution",
+        "receiving",
+        "inventory"
+      ],
+
+      description:
+        "ASU Facilities Management & Operations identifies Inventory, Distribution & Receiving, and Surplus Equipment as parts of its Logistics Services operation.",
+
+      features: [
+        "Inventory",
+        "Distribution",
+        "Receiving",
+        "Surplus equipment"
+      ],
+
+      studentTip:
+        "Logistics Services helps move and manage university resources behind the scenes. Students benefit from these operations even if they never interact with the department directly."
+    },
+
+
+    // =================================================
+    // INVENTORY & UNIVERSITY PROPERTY
+    // =================================================
+
+    {
+      name: "University Property & Equipment",
+
+      keywords: [
+        "university property",
+        "asu property",
+        "equipment",
+        "university equipment",
+        "equipment inventory",
+        "property inventory",
+        "inventory equipment"
+      ],
+
+      description:
+        "Inventory Control supports the management and tracking of university-owned property and equipment.",
+
+      studentTip:
+        "This is primarily an administrative responsibility for university property. Personal student belongings are not normally handled as university inventory."
+    },
+
+
+    // =================================================
+    // SURPLUS EQUIPMENT
+    // =================================================
+
+    {
+      name: "Surplus Equipment",
+
+      keywords: [
+        "surplus",
+        "surplus equipment",
+        "university surplus",
+        "asu surplus",
+        "old equipment",
+        "unused equipment"
+      ],
+
+      description:
+        "Surplus Equipment is part of ASU's Logistics Services operation and relates to university property or equipment that must be handled through the appropriate institutional process.",
+
+      studentTip:
+        "Surplus equipment is university property. Do not assume unused-looking furniture, electronics, or equipment around campus is free for students to take."
+    },
+
+
+    // =================================================
+    // WAREHOUSE / RECEIVING OPERATIONS
+    // =================================================
+
+    {
+      name: "Warehouse & Receiving Operations",
+
+      keywords: [
+        "warehouse",
+        "asu warehouse",
+        "receiving warehouse",
+        "warehouse clerk",
+        "receiving clerk",
+        "receiving manager"
+      ],
+
+      description:
+        "Inventory Control includes staff responsible for receiving and warehouse operations, supporting the movement and management of university property and deliveries.",
+
+      studentTip:
+        "Warehouse and receiving areas are working operational spaces. Students should not enter restricted work areas unless they have university business there or have been directed by staff."
+    },
+
+
+    // =================================================
+    // NOT STUDENT PACKAGE PICKUP
+    // =================================================
+
+    {
+      name: "Looking for a Student Package?",
+
+      keywords: [
+        "package",
+        "packages",
+        "student package",
+        "package pickup",
+        "pick up package",
+        "where is my package",
+        "mail",
+        "student mail",
+        "mail center"
+      ],
+
+      description:
+        "Inventory Control & Receiving is not the normal pickup location for personal student mail and packages.",
+
+      studentTip:
+        "If you received a student package or mail notification, do NOT automatically come to Inventory Control. Student mail and package services are handled through ASU's Mail Center."
+    },
+
+
+    // =================================================
+    // RECEIVING VS MAIL CENTER
+    // =================================================
+
+    {
+      name: "Receiving vs. Student Mail Center",
+
+      keywords: [
+        "receiving vs mail center",
+        "receiving or mail center",
+        "mail center",
+        "student package",
+        "university delivery",
+        "department delivery"
+      ],
+
+      description:
+        "Receiving primarily handles university and departmental logistics, while the ASU Mail Center handles student mail and package services.",
+
+      studentTip:
+        "Easy way to remember it: UNIVERSITY/DEPARTMENT DELIVERY = Receiving. YOUR PERSONAL STUDENT MAIL OR PACKAGE = Mail Center."
+    },
+
+
+    // =================================================
+    // PROCUREMENT VS RECEIVING
+    // =================================================
+
+    {
+      name: "Procurement vs. Receiving",
+
+      keywords: [
+        "procurement",
+        "receiving",
+        "procurement vs receiving",
+        "purchasing",
+        "delivery",
+        "purchase order"
+      ],
+
+      description:
+        "Procurement and Receiving work with different parts of the university purchasing process. Procurement supports purchasing, vendors, bids, contracts, and acquisitions, while Receiving handles delivery-related logistics after goods arrive at the university.",
+
+      studentTip:
+        "ASU Procurement is located in the Physical Plant Building. If your question is specifically about a university delivery, ASU directs delivery inquiries to Receiving."
+    },
+
+
+    // =================================================
+    // WHO USES THIS BUILDING?
+    // =================================================
+
+    {
+      name: "Who Usually Uses This Building?",
+
+      keywords: [
+        "who uses inventory",
+        "who uses receiving",
+        "why go to inventory control",
+        "why go to receiving",
+        "inventory services"
+      ],
+
+      description:
+        "Inventory Control & Receiving is primarily used by university employees, departments, logistics personnel, warehouse and receiving staff, and others handling ASU property, equipment, deliveries, and surplus items.",
+
+      studentTip:
+        "If you have never heard of this building during your time at ASU, you are not missing a major student service. Its work is mainly operational and happens behind the scenes."
+    },
+
+
+    // =================================================
+    // INVENTORY CONTROL STAFF
+    // =================================================
+
+    {
+      name: "Inventory & Receiving Staff",
+
+      keywords: [
+        "inventory staff",
+        "receiving staff",
+        "inventory manager",
+        "receiving manager",
+        "inventory assistant",
+        "warehouse clerk"
+      ],
+
+      description:
+        "ASU's current staff directory includes Inventory Control personnel working in inventory management, receiving, warehouse operations, surplus coordination, and inventory assistance.",
+
+      studentTip:
+        "If a university employee or department sends you to Inventory Control for a specific reason, ask for the staff member or service named in your instructions rather than wandering through warehouse or operational areas."
+    }
+
+  ],
+
+  funFact:
+    "Inventory Control is one of the ASU facilities most students may never enter, but its staff help manage the equipment, property, deliveries, distribution, and logistics needed to keep a university campus operating.",
+
+  image: "",
+  mapLink: ""
+},
+
+// =====================================================
+// OLEAN BLACK UNDERWOOD TENNIS CENTER
+// =====================================================
+
+{
+  id: 38,
+
+  name: "Olean Black Underwood Tennis Center",
+  shortName: "Underwood Tennis Center",
+  category: "athletics",
+
+  keywords: [
+    "underwood tennis",
+    "underwood tennis center",
+    "olean black underwood",
+    "olean black underwood tennis center",
+    "asu tennis",
+    "asu tennis center",
+
+    "tennis",
+    "tennis courts",
+    "tennis court",
+    "play tennis",
+    "student tennis",
+    "recreational tennis",
+
+    "mens tennis",
+    "men's tennis",
+    "womens tennis",
+    "women's tennis",
+    "tennis team",
+    "tennis teams",
+    "hornets tennis",
+
+    "tennis practice",
+    "tennis match",
+    "tennis matches",
+    "home tennis match",
+    "tennis tournament",
+    "tennis tournaments",
+
+    "12 courts",
+    "lighted courts",
+    "hard courts",
+    "outdoor tennis",
+
+    "locker room",
+    "locker rooms",
+    "dressing room",
+    "dressing rooms",
+    "showers",
+
+    "tennis coaches",
+    "coach office",
+    "coaches office",
+    "team meeting room",
+
+    "tennis classroom",
+    "tennis instruction",
+    "tennis teaching",
+
+    "1994",
+    "athletics",
+    "athletic facility",
+
+    "521 hamilton street",
+    "521 hamilton st",
+    "hamilton street"
+  ],
+
+  description:
+    "The Olean Black Underwood Tennis Center is Alabama State University's primary tennis facility and the home of ASU's championship tennis programs. The outdoor complex features 12 lighted hard courts along with facilities supporting ASU tennis practices, matches, coaching, team activities, and tournament competition.",
+
+  address:
+    "521 Hamilton Street, Montgomery, AL 36106",
+
+  location:
+    "Located on the Alabama State University campus in the university's athletics area.",
+
+  services: [
+    "12 lighted hard tennis courts",
+    "ASU men's tennis",
+    "ASU women's tennis",
+    "Varsity tennis practices",
+    "Home tennis matches",
+    "Tournament competition",
+    "Coaches' offices",
+    "Locker and dressing areas",
+    "Team meeting space",
+    "Tennis instruction and training"
+  ],
+
+  studentTip:
+    "Want to play tennis? Remember that Underwood is also ASU's varsity tennis facility. Team practices, matches, tournaments, and scheduled university activities may take priority. Never interrupt an ASU team practice or scheduled match, and check court availability before assuming a court is open for recreational use.",
+
+  sections: [
+
+    // =================================================
+    // HOME OF ASU TENNIS
+    // =================================================
+
+    {
+      name: "Home of ASU Tennis",
+
+      keywords: [
+        "asu tennis",
+        "hornets tennis",
+        "tennis team",
+        "tennis teams",
+        "mens tennis",
+        "men's tennis",
+        "womens tennis",
+        "women's tennis"
+      ],
+
+      description:
+        "The Olean Black Underwood Tennis Center is the home facility for Alabama State University's tennis programs. ASU student-athletes use the complex for training, practices, home competition, and other team activities.",
+
+      studentTip:
+        "If you are looking for ASU men's or women's tennis, Underwood Tennis Center is the facility you want."
+    },
+
+
+    // =================================================
+    // 12 LIGHTED HARD COURTS
+    // =================================================
+
+    {
+      name: "12 Lighted Hard Courts",
+
+      keywords: [
+        "12 courts",
+        "tennis courts",
+        "lighted courts",
+        "hard courts",
+        "outdoor courts",
+        "night tennis"
+      ],
+
+      description:
+        "Underwood Tennis Center features 12 lighted hard courts, giving ASU a tournament-capable tennis complex for practices, matches, and other scheduled tennis activities.",
+
+      studentTip:
+        "Because the courts are lighted, the facility can support tennis activities beyond normal daylight hours when officially scheduled."
+    },
+
+
+    // =================================================
+    // MEN'S & WOMEN'S TENNIS
+    // =================================================
+
+    {
+      name: "Men's & Women's Tennis",
+
+      keywords: [
+        "mens tennis",
+        "men's tennis",
+        "womens tennis",
+        "women's tennis",
+        "tennis athlete",
+        "tennis athletes",
+        "tennis player",
+        "tennis players"
+      ],
+
+      description:
+        "Underwood Tennis Center supports Alabama State University's men's and women's varsity tennis programs.",
+
+      studentTip:
+        "ASU tennis athletes may be practicing even when there is no official match happening. Give the teams space and follow any posted or staff instructions around court access."
+    },
+
+
+    // =================================================
+    // STUDENT RECREATIONAL TENNIS
+    // =================================================
+
+    {
+      name: "Student Recreational Tennis",
+
+      keywords: [
+        "play tennis",
+        "student tennis",
+        "recreational tennis",
+        "recreation",
+        "tennis for students",
+        "can students play tennis",
+        "use tennis court",
+        "use tennis courts",
+        "workout",
+        "exercise"
+      ],
+
+      description:
+        "Tennis is one of the recreational activities available to the ASU community. However, Underwood is also an active varsity athletics facility, so recreational court availability may depend on team practices, matches, tournaments, university programming, and other scheduled activities.",
+
+      studentTip:
+        "Do not assume an empty-looking court is available at every time of day. Athletics scheduling and team activities take priority, so check current access expectations when necessary."
+    },
+
+
+    // =================================================
+    // PRACTICES
+    // =================================================
+
+    {
+      name: "ASU Tennis Practices",
+
+      keywords: [
+        "tennis practice",
+        "tennis practices",
+        "team practice",
+        "tennis training",
+        "athlete practice"
+      ],
+
+      description:
+        "ASU tennis student-athletes use Underwood Tennis Center for practices and training throughout their competitive seasons.",
+
+      studentTip:
+        "If an ASU team is practicing, do not enter their court or interfere with training. Use another available recreational option or return when the facility is available."
+    },
+
+
+    // =================================================
+    // HOME MATCHES
+    // =================================================
+
+    {
+      name: "ASU Tennis Matches",
+
+      keywords: [
+        "tennis match",
+        "tennis matches",
+        "home tennis",
+        "home tennis match",
+        "watch tennis",
+        "tennis game",
+        "tennis schedule"
+      ],
+
+      description:
+        "Underwood Tennis Center serves as a home competition venue for Alabama State tennis.",
+
+      studentTip:
+        "If you want to support ASU Athletics beyond football and basketball, tennis is another Hornet sport you can follow. Check the current ASU Athletics schedule for home-match dates and any event-specific attendance information."
+    },
+
+
+    // =================================================
+    // TOURNAMENTS
+    // =================================================
+
+    {
+      name: "Tennis Tournaments",
+
+      keywords: [
+        "tennis tournament",
+        "tennis tournaments",
+        "college tournament",
+        "community tournament",
+        "tournament tennis",
+        "tennis event"
+      ],
+
+      description:
+        "The Underwood Tennis Center was designed with tournament capabilities and has hosted collegiate and community tennis events.",
+
+      studentTip:
+        "Court availability may be especially limited during tournaments or major tennis events."
+    },
+
+
+    // =================================================
+    // LOCKER & DRESSING AREAS
+    // =================================================
+
+    {
+      name: "Locker & Dressing Areas",
+
+      keywords: [
+        "locker room",
+        "locker rooms",
+        "dressing room",
+        "dressing rooms",
+        "showers",
+        "tennis locker room"
+      ],
+
+      description:
+        "ASU historical facility descriptions identify men's and women's dressing areas with lockers and showers as part of the Underwood Tennis Center clubhouse.",
+
+      studentTip:
+        "These areas are associated primarily with athletic and scheduled facility use. Do not assume team locker or dressing areas are open for general recreational access."
+    },
+
+
+    // =================================================
+    // COACHES' OFFICES
+    // =================================================
+
+    {
+      name: "Tennis Coaches' Offices",
+
+      keywords: [
+        "tennis coach",
+        "tennis coaches",
+        "coach office",
+        "coaches office",
+        "tennis office",
+        "tennis staff"
+      ],
+
+      description:
+        "The Underwood Tennis Center includes office space for ASU's tennis coaching operations.",
+
+      studentTip:
+        "If you are interested in ASU tennis as a student-athlete, prospective athlete, or team-related participant, follow the appropriate Athletics contact process rather than entering team areas without permission."
+    },
+
+
+    // =================================================
+    // TEAM MEETING ROOM
+    // =================================================
+
+    {
+      name: "Team Meeting Space",
+
+      keywords: [
+        "team meeting",
+        "team meeting room",
+        "tennis meeting",
+        "tennis team room"
+      ],
+
+      description:
+        "The tennis facility includes team meeting space supporting Alabama State University's tennis programs."
+    },
+
+
+    // =================================================
+    // CLASSROOM / ON-SITE TEACHING
+    // =================================================
+
+    {
+      name: "Classroom & On-Site Teaching",
+
+      keywords: [
+        "tennis classroom",
+        "classroom",
+        "tennis class",
+        "tennis teaching",
+        "on site teaching",
+        "tennis instruction"
+      ],
+
+      description:
+        "ASU historical facility descriptions identify a classroom within the Underwood Tennis Center clubhouse for on-site teaching.",
+
+      studentTip:
+        "The Tennis Center is more than a collection of outdoor courts. Its clubhouse was designed to support instruction and athletics operations as well."
+    },
+
+
+    // =================================================
+    // LOCATION
+    // =================================================
+
+    {
+      name: "Underwood Tennis Center Location",
+
+      keywords: [
+        "where is underwood",
+        "where is tennis center",
+        "underwood location",
+        "tennis center location",
+        "521 hamilton street",
+        "521 hamilton st",
+        "hamilton street"
+      ],
+
+      description:
+        "The Olean Black Underwood Tennis Center is located on the Alabama State University campus. Current map listings identify the tennis courts at 521 Hamilton Street, Montgomery, Alabama 36106.",
+
+      location:
+        "521 Hamilton Street, Montgomery, AL 36106",
+
+      studentTip:
+        "Look for the large group of outdoor tennis courts in ASU's athletics area."
+    },
+
+
+    // =================================================
+    // FACILITY ACCESS
+    // =================================================
+
+    {
+      name: "Court Access & Athletics Scheduling",
+
+      keywords: [
+        "court access",
+        "tennis access",
+        "court availability",
+        "tennis availability",
+        "can i play",
+        "can students use courts",
+        "open tennis courts"
+      ],
+
+      description:
+        "Underwood Tennis Center is an active collegiate athletics facility. Access to individual courts can depend on varsity practices, home matches, tournaments, maintenance, university events, and other scheduled activities.",
+
+      studentTip:
+        "Hornet Navigator should not be used as a guarantee that a court is open at a particular time. Follow posted rules and instructions from Athletics staff."
+    },
+
+
+    // =================================================
+    // FACILITY HISTORY
+    // =================================================
+
+    {
+      name: "Underwood Tennis Center History",
+
+      keywords: [
+        "underwood history",
+        "tennis center history",
+        "1994",
+        "when was underwood built",
+        "when was tennis center built"
+      ],
+
+      description:
+        "The Olean Black Underwood Tennis Center dates to 1994. ASU archival records document a ribbon-cutting for the Underwood Tennis Center and C.J. Dunn Tower during that period.",
+
+      studentTip:
+        "Underwood and Dunn Tower are both part of the major campus development ASU completed during the 1990s."
+    },
+
+
+    // =================================================
+    // RESPECT THE ATHLETES
+    // =================================================
+
+    {
+      name: "Respect Team Practices & Matches",
+
+      keywords: [
+        "practice rules",
+        "tennis rules",
+        "court rules",
+        "athletes practicing",
+        "team practicing"
+      ],
+
+      description:
+        "Because Underwood is the home of ASU varsity tennis, students using or visiting the area should respect practices, matches, coaches, athletes, officials, and scheduled events.",
+
+      studentTip:
+        "If athletes are practicing or a match is underway, do not walk onto an active court, retrieve balls from an active playing area without permission, or interrupt team activities."
+    }
+
+  ],
+
+  history: {
+    year: 1994,
+
+    description:
+      "The Olean Black Underwood Tennis Center opened during ASU's major campus expansion in the 1990s. University records describe it as a 12-court lighted complex with tournament capabilities and a clubhouse containing offices, dressing rooms, lockers, showers, and instructional space."
+  },
+
+  funFact:
+    "Underwood Tennis Center is not just a set of recreational courts. It is a tournament-capable 12-court collegiate facility and the home of Alabama State University's tennis programs.",
+
+  image: "",
+  mapLink: ""
 }
 
 ];
-
-
-
-
-
-
-
-
-
-
-
-
-
