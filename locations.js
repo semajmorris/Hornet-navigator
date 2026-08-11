@@ -6541,9 +6541,2358 @@ const campusLocations = [
 
   image: "",
   mapLink: ""
+},
+
+// =====================================================
+// STING SHOP & ASU STADIUM TICKET OFFICE
+// =====================================================
+
+{
+  id: 24,
+
+  name: "Sting Shop & ASU Stadium Ticket Office",
+  shortName: "Sting Shop",
+  category: "services",
+
+  keywords: [
+    "sting shop",
+    "the sting shop",
+    "asu sting shop",
+
+    "ticket office",
+    "asu ticket office",
+    "stadium ticket office",
+    "box office",
+
+    "tickets",
+    "ticket",
+    "buy tickets",
+    "purchase tickets",
+    "event tickets",
+
+    "football tickets",
+    "game tickets",
+    "football game tickets",
+    "visitor tickets",
+    "guest tickets",
+    "visitor game ticket",
+    "home game tickets",
+
+    "homecoming",
+    "homecoming tickets",
+    "homecoming concert",
+    "homecoming concert tickets",
+    "concert tickets",
+
+    "probate",
+    "probate ticket",
+    "probate tickets",
+    "greek probate",
+    "greek show",
+    "greek event",
+    "nphc",
+
+    "parking pass",
+    "parking passes",
+    "game day parking",
+
+    "clear bag",
+    "clear bags",
+    "approved clear bag",
+    "stadium clear bag",
+    "bag policy",
+
+    "stadium chair",
+    "stadium chairs",
+
+    "asu stadium",
+    "stadium",
+    "harris way"
+  ],
+
+  description:
+    "The Sting Shop and ASU Stadium Ticket Office serve as an important ticketing location near ASU Stadium. Students and visitors may come here for football and event ticketing, parking passes, and other game-day needs. The location may also be used for ticket sales or distribution for major student events when announced by the university.",
+
+  services: [
+    "ASU Stadium Ticket Office",
+    "Football tickets",
+    "Visitor and guest tickets",
+    "Event ticketing",
+    "Parking passes",
+    "Homecoming ticketing when announced",
+    "Homecoming concert ticketing when announced",
+    "Probate ticketing when announced",
+    "Game-day assistance",
+    "ASU-approved clear bags when available",
+    "Stadium accessories when available"
+  ],
+
+  studentTip:
+    "If you hear that tickets are being sold or distributed at the Sting Shop, remember that it is connected with the ASU Stadium Ticket Office area. For Homecoming concerts, probates, and other special student events, always check the current announcement because the ticket location can change from one event to another.",
+
+  sections: [
+
+    // =================================================
+    // STING SHOP
+    // =================================================
+
+    {
+      name: "The Sting Shop",
+
+      keywords: [
+        "sting shop",
+        "the sting shop",
+        "asu sting shop",
+        "stadium shop"
+      ],
+
+      description:
+        "The Sting Shop operates in connection with the ASU Stadium Ticket Office and provides students, visitors, and game-day guests with access to selected stadium and event-related services.",
+
+      studentTip:
+        "The Sting Shop is closely connected with stadium ticketing, so it is a useful place to know before football season, Homecoming, and other major ASU events."
+    },
+
+
+    // =================================================
+    // ASU STADIUM TICKET OFFICE
+    // =================================================
+
+    {
+      name: "ASU Stadium Ticket Office",
+
+      keywords: [
+        "ticket office",
+        "stadium ticket office",
+        "asu ticket office",
+        "box office",
+        "tickets",
+        "buy ticket",
+        "buy tickets"
+      ],
+
+      description:
+        "The ASU Stadium Ticket Office handles ticketing for Alabama State University football games and other ticketed university events.",
+
+      features: [
+        "Football ticket sales",
+        "Event ticketing",
+        "Visitor ticket assistance",
+        "Parking passes",
+        "Game-day ticketing assistance"
+      ],
+
+      studentTip:
+        "If you are trying to purchase a ticket for someone who is not an ASU student, the Stadium Ticket Office is an important place to check."
+    },
+
+
+    // =================================================
+    // VISITOR & GUEST FOOTBALL TICKETS
+    // =================================================
+
+    {
+      name: "Visitor & Guest Football Tickets",
+
+      keywords: [
+        "visitor ticket",
+        "visitor tickets",
+        "guest ticket",
+        "guest tickets",
+        "football ticket",
+        "football tickets",
+        "game ticket",
+        "game tickets",
+        "family ticket",
+        "friend ticket"
+      ],
+
+      description:
+        "Visitors, family members, friends, and other guests who do not qualify for ASU student admission generally need the appropriate ticket for football games and other ticketed stadium events.",
+
+      studentTip:
+        "Your ASU student ID does not automatically give free admission to your guests. If someone is visiting you for a football game, check current visitor ticket prices and purchasing instructions before game day."
+    },
+
+
+    // =================================================
+    // STUDENT FOOTBALL ADMISSION
+    // =================================================
+
+    {
+      name: "ASU Student Football Admission",
+
+      keywords: [
+        "student football ticket",
+        "student game ticket",
+        "student admission",
+        "student id",
+        "free football game",
+        "student gate"
+      ],
+
+      description:
+        "ASU students generally use their valid student ID for admission to regular home football games rather than purchasing a standard visitor ticket.",
+
+      studentTip:
+        "For regular home games, take your valid ASU student ID to the designated Student Gate. Special events such as Homecoming may have different ticketing requirements."
+    },
+
+
+    // =================================================
+    // HOMECOMING CONCERT TICKETS
+    // =================================================
+
+    {
+      name: "Homecoming Concert Tickets",
+
+      keywords: [
+        "homecoming",
+        "homecoming concert",
+        "homecoming concert ticket",
+        "homecoming concert tickets",
+        "concert",
+        "concert ticket",
+        "concert tickets"
+      ],
+
+      description:
+        "The Sting Shop or Stadium Ticket Office may be used for Homecoming concert ticket sales or distribution when designated in the university's current Homecoming instructions.",
+
+      studentTip:
+        "Do not wait until the concert to figure out your ticket. Homecoming ticket locations, prices, pickup procedures, and student requirements can change each year, so check the current Homecoming announcement."
+    },
+
+
+    // =================================================
+    // PROBATE TICKETS
+    // =================================================
+
+    {
+      name: "Probate & Greek Event Tickets",
+
+      keywords: [
+        "probate",
+        "probate ticket",
+        "probate tickets",
+        "greek probate",
+        "greek show",
+        "greek event",
+        "nphc",
+        "fraternity probate",
+        "sorority probate"
+      ],
+
+      description:
+        "The Sting Shop or Stadium Ticket Office may serve as a ticket sales or pickup location for probate and other major Greek-letter organization events when announced.",
+
+      studentTip:
+        "Probates can draw large crowds. Check the official event announcement for the current ticket location, price, sale time, and entry requirements instead of assuming tickets will always be distributed from the same place."
+    },
+
+
+    // =================================================
+    // CLEAR BAGS
+    // =================================================
+
+    {
+      name: "Clear Bags & Stadium Entry Items",
+
+      keywords: [
+        "clear bag",
+        "clear bags",
+        "approved clear bag",
+        "stadium clear bag",
+        "bag policy",
+        "where to buy clear bag",
+        "buy clear bag"
+      ],
+
+      description:
+        "The Sting Shop has offered stadium-approved clear bags during game-day operations, giving students and visitors a place to check for an appropriate bag before entering ASU Stadium.",
+
+      studentTip:
+        "If you realize you need a clear bag before a stadium event, check the Sting Shop. Availability is not guaranteed, so bringing an approved clear bag with you ahead of time is still the safer option."
+    },
+
+
+    // =================================================
+    // STADIUM CHAIRS & ACCESSORIES
+    // =================================================
+
+    {
+      name: "Stadium Chairs & Game-Day Accessories",
+
+      keywords: [
+        "stadium chair",
+        "stadium chairs",
+        "seat",
+        "stadium seat",
+        "game day accessories"
+      ],
+
+      description:
+        "The Sting Shop has offered stadium-appropriate items such as approved stadium chairs during game-day operations.",
+
+      studentTip:
+        "Stadium rules can restrict what types of seats, bags, and other items are allowed inside. Check the current stadium policy before purchasing or bringing an accessory."
+    },
+
+
+    // =================================================
+    // PARKING PASSES
+    // =================================================
+
+    {
+      name: "Game-Day Parking Passes",
+
+      keywords: [
+        "parking pass",
+        "parking passes",
+        "football parking",
+        "game day parking",
+        "stadium parking"
+      ],
+
+      description:
+        "The Stadium Ticket Office may handle parking passes associated with football games and other major stadium events.",
+
+      studentTip:
+        "Game-day parking can operate differently from normal campus parking. Check whether your event requires a separate parking pass before driving to the stadium."
+    },
+
+
+    // =================================================
+    // SPECIAL EVENT TICKETING
+    // =================================================
+
+    {
+      name: "Special Event Ticketing",
+
+      keywords: [
+        "event ticket",
+        "event tickets",
+        "special event",
+        "student event",
+        "campus event",
+        "ticket pickup",
+        "ticket distribution"
+      ],
+
+      description:
+        "Major ASU events may use the Sting Shop or Stadium Ticket Office for ticket sales, pickup, or distribution depending on the event.",
+
+      studentTip:
+        "Always read the current event flyer, email, or university announcement. Just because one event used the Sting Shop for tickets does not mean every event will."
+    },
+
+
+    // =================================================
+    // HOURS
+    // =================================================
+
+    {
+      name: "Ticket Office & Sting Shop Hours",
+
+      keywords: [
+        "hours",
+        "sting shop hours",
+        "ticket office hours",
+        "when open",
+        "open",
+        "closed"
+      ],
+
+      description:
+        "Ticket Office and Sting Shop availability may depend on regular business hours, football schedules, and special university events.",
+
+      studentTip:
+        "Hours can change for game days, Homecoming, holidays, and special events. Check current ASU ticketing information before making a special trip."
+    }
+
+  ],
+
+  campusLore:
+    "Students often associate the Sting Shop with major-event ticket runs, especially around football season, Homecoming, and popular student events. The exact ticket location can change, so the current event announcement should always come first.",
+
+  funFact:
+    "The Sting Shop is more than a ticketing stop. It has also offered stadium-approved items such as clear bags and stadium chairs, making it useful when preparing for game day.",
+
+  image: "",
+  mapLink: ""
+},
+
+// =====================================================
+// BARBARA WILLIAMS SOFTBALL COMPLEX
+// =====================================================
+
+{
+  id: 25,
+
+  name: "Barbara Williams Softball Complex",
+  shortName: "Softball Complex",
+  category: "athletics",
+
+  keywords: [
+    "barbara williams",
+    "barbara williams softball complex",
+    "softball complex",
+    "softball field",
+    "softball",
+    "asu softball",
+    "lady hornets softball",
+    "softball game",
+    "softball games",
+    "home softball game",
+    "stinger classic",
+    "student admission",
+    "student id",
+    "free game",
+    "free softball game"
+  ],
+
+  description:
+    "Barbara Williams Softball Complex is the on-campus home of Alabama State University Softball. The facility hosts Lady Hornets home games, tournaments, and other softball events throughout the season.",
+
+  services: [
+    "ASU Softball home games",
+    "Lady Hornets Softball",
+    "Softball tournaments",
+    "Stinger Classic",
+    "Student attendance",
+    "Special softball events"
+  ],
+
+  studentTip:
+    "Current ASU students may receive free admission to regular home athletic events with a valid ASU student ID. Bring your current student ID and check the specific game or tournament information in case special admission rules apply.",
+
+  sections: [
+
+    // =================================================
+    // SOFTBALL HOME FIELD
+    // =================================================
+
+    {
+      name: "Home of ASU Softball",
+
+      keywords: [
+        "softball",
+        "asu softball",
+        "lady hornets",
+        "lady hornets softball",
+        "softball game",
+        "softball games"
+      ],
+
+      description:
+        "Barbara Williams Softball Complex is the home field for Alabama State University's softball program.",
+
+      studentTip:
+        "If you are going to an ASU softball game, this is the complex you want — not Wheeler-Watkins Baseball Complex."
+    },
+
+
+    // =================================================
+    // STUDENT ADMISSION
+    // =================================================
+
+    {
+      name: "Student Admission",
+
+      keywords: [
+        "student admission",
+        "student id",
+        "free admission",
+        "free game",
+        "free softball",
+        "softball ticket"
+      ],
+
+      description:
+        "ASU students may receive complimentary admission to regular home athletic events by presenting a valid student ID.",
+
+      studentTip:
+        "Bring your valid ASU student ID with you. Special tournaments, championships, or other ticketed events may use different admission rules."
+    },
+
+
+    // =================================================
+    // STINGER CLASSIC
+    // =================================================
+
+    {
+      name: "Stinger Classic & Tournaments",
+
+      keywords: [
+        "stinger classic",
+        "softball tournament",
+        "softball tournaments",
+        "tournament"
+      ],
+
+      description:
+        "Barbara Williams Softball Complex hosts ASU softball tournaments and special events in addition to regular-season home games.",
+
+      studentTip:
+        "Tournament schedules can include several games in one day, so check the current softball schedule before heading to the complex."
+    },
+
+
+    // =================================================
+    // BARBARA WILLIAMS
+    // =================================================
+
+    {
+      name: "Who Was Barbara Williams?",
+
+      keywords: [
+        "barbara williams",
+        "who is barbara williams",
+        "women athletics",
+        "women's athletics",
+        "asu athletics history"
+      ],
+
+      description:
+        "Barbara Williams was a pioneering figure in Alabama State University athletics. After attending ASU from 1968 to 1972 during a period when the university did not offer women's sports programs, she later returned and became ASU's first coordinator of women's athletics.",
+
+      features: [
+        "First coordinator of women's athletics at ASU",
+        "Former women's basketball head coach",
+        "Former track coach",
+        "Advocate for women's athletic opportunities"
+      ]
+    }
+
+  ],
+
+  history: {
+    year: 2012,
+
+    description:
+      "Barbara Williams Softball Complex opened in February 2012, bringing Alabama State University's softball program onto campus for home competition. The approximately $1.6 million facility was named in honor of ASU women's athletics pioneer Barbara Williams."
+  },
+
+  funFact:
+    "Barbara Williams helped create athletic opportunities for women at ASU and coached both basketball and track. Her women's basketball teams compiled a 95-23 record during her five seasons as head coach.",
+
+  image: "",
+  mapLink: ""
+},
+
+
+// =====================================================
+// WHEELER-WATKINS BASEBALL COMPLEX
+// =====================================================
+
+{
+  id: 26,
+
+  name: "Wheeler-Watkins Baseball Complex",
+  shortName: "Baseball Complex",
+  category: "athletics",
+
+  keywords: [
+    "wheeler watkins",
+    "wheeler-watkins",
+    "wheeler watkins baseball complex",
+    "baseball complex",
+    "baseball field",
+    "baseball",
+    "asu baseball",
+    "hornets baseball",
+    "baseball game",
+    "baseball games",
+    "home baseball game",
+    "herbert wheeler",
+    "larry watkins",
+    "student admission",
+    "student id",
+    "free baseball game",
+    "video board"
+  ],
+
+  description:
+    "Wheeler-Watkins Baseball Complex is the on-campus home of Alabama State University Baseball. The facility hosts Hornets home baseball games and is located directly across the street from Barbara Williams Softball Complex.",
+
+  services: [
+    "ASU Baseball home games",
+    "Hornets Baseball",
+    "Student attendance",
+    "Baseball events",
+    "Video board"
+  ],
+
+  studentTip:
+    "Baseball and softball are played at separate complexes. Wheeler-Watkins is BASEBALL. Barbara Williams is SOFTBALL. The two facilities are located across the street from one another.",
+
+  sections: [
+
+    // =================================================
+    // BASEBALL HOME FIELD
+    // =================================================
+
+    {
+      name: "Home of ASU Baseball",
+
+      keywords: [
+        "baseball",
+        "asu baseball",
+        "hornets baseball",
+        "baseball game",
+        "baseball games",
+        "home baseball"
+      ],
+
+      description:
+        "Wheeler-Watkins Baseball Complex is the home field for Alabama State University's baseball program."
+    },
+
+
+    // =================================================
+    // STUDENT ADMISSION
+    // =================================================
+
+    {
+      name: "Student Admission",
+
+      keywords: [
+        "student admission",
+        "student id",
+        "free admission",
+        "free baseball",
+        "free baseball game",
+        "baseball ticket"
+      ],
+
+      description:
+        "ASU students may receive complimentary admission to regular home athletic events with a valid student ID.",
+
+      studentTip:
+        "Bring your valid ASU student ID. Special tournaments, championships, or ticketed events may have separate admission requirements."
+    },
+
+
+    // =================================================
+    // FINDING THE RIGHT COMPLEX
+    // =================================================
+
+    {
+      name: "Baseball vs. Softball Complex",
+
+      keywords: [
+        "baseball vs softball",
+        "wrong field",
+        "which complex",
+        "softball complex",
+        "barbara williams"
+      ],
+
+      description:
+        "Wheeler-Watkins Baseball Complex and Barbara Williams Softball Complex are separate athletic facilities located across the street from each other.",
+
+      studentTip:
+        "Easy way to remember it: Wheeler-Watkins = BASEBALL. Barbara Williams = SOFTBALL."
+    },
+
+
+    // =================================================
+    // VIDEO BOARD
+    // =================================================
+
+    {
+      name: "Baseball Video Board",
+
+      keywords: [
+        "video board",
+        "videoboard",
+        "scoreboard",
+        "baseball scoreboard"
+      ],
+
+      description:
+        "Wheeler-Watkins Baseball Complex received an upgraded LED video board featuring video, graphics, and an inning-by-inning scoreboard."
+    },
+
+
+    // =================================================
+    // WHEELER & WATKINS
+    // =================================================
+
+    {
+      name: "Herbert Wheeler & Larry Watkins",
+
+      keywords: [
+        "herbert wheeler",
+        "larry watkins",
+        "wheeler",
+        "watkins",
+        "baseball history"
+      ],
+
+      description:
+        "The complex is named in honor of former ASU baseball coaches Herbert Wheeler and Larry Watkins, two major figures in the history of Hornets Baseball.",
+
+      studentTip:
+        "Larry Watkins spent decades with ASU as a player and coach and became the university's all-time baseball coaching wins leader."
+    }
+
+  ],
+
+  history: {
+    year: 2011,
+
+    description:
+      "The approximately $3.9 million Wheeler-Watkins Baseball Complex was completed in 2011 and dedicated in 2012. Its opening brought Alabama State baseball back to the university's campus for the first time since 1996."
+  },
+
+  funFact:
+    "Wheeler-Watkins is named after two generations of ASU baseball leadership: Herbert Wheeler coached the Hornets until 1981, and his former player and assistant Larry Watkins succeeded him as head coach in 1982.",
+
+  image: "",
+  mapLink: ""
+},
+
+
+// =====================================================
+// ASU SOCCER COMPLEX
+// =====================================================
+
+{
+  id: 27,
+
+  name: "ASU Soccer Complex",
+  shortName: "Soccer Complex",
+  category: "athletics",
+
+  keywords: [
+    "asu soccer complex",
+    "soccer complex",
+    "soccer field",
+    "soccer",
+    "asu soccer",
+    "lady hornets soccer",
+    "soccer game",
+    "soccer games",
+    "home soccer game",
+    "women's soccer",
+    "womens soccer",
+    "swac soccer",
+    "student admission",
+    "student id",
+    "free soccer game",
+    "asu stadium"
+  ],
+
+  description:
+    "ASU Soccer Complex is the on-campus home of Alabama State University Soccer. The natural-grass facility is located on the east side of campus near The ASU Stadium and hosts Lady Hornets home soccer matches.",
+
+  services: [
+    "ASU Soccer home matches",
+    "Lady Hornets Soccer",
+    "Student attendance",
+    "Soccer events",
+    "SWAC competition"
+  ],
+
+  studentTip:
+    "Do not go to Barbara Williams Softball Complex looking for soccer. ASU Soccer has its own separate complex near The ASU Stadium.",
+
+  sections: [
+
+    // =================================================
+    // SOCCER HOME FIELD
+    // =================================================
+
+    {
+      name: "Home of ASU Soccer",
+
+      keywords: [
+        "soccer",
+        "asu soccer",
+        "lady hornets soccer",
+        "women's soccer",
+        "womens soccer",
+        "soccer game",
+        "soccer games"
+      ],
+
+      description:
+        "ASU Soccer Complex serves as the home field for Alabama State University's women's soccer program."
+    },
+
+
+    // =================================================
+    // STUDENT ADMISSION
+    // =================================================
+
+    {
+      name: "Student Admission",
+
+      keywords: [
+        "student admission",
+        "student id",
+        "free admission",
+        "free soccer",
+        "free soccer game",
+        "soccer ticket"
+      ],
+
+      description:
+        "ASU students may receive complimentary admission to regular home athletic events with a valid student ID.",
+
+      studentTip:
+        "Bring your valid ASU student ID when attending. Championships, tournaments, or other special events may have different admission rules."
+    },
+
+
+    // =================================================
+    // LOCATION
+    // =================================================
+
+    {
+      name: "Finding the Soccer Complex",
+
+      keywords: [
+        "where is soccer",
+        "soccer location",
+        "soccer field location",
+        "asu stadium",
+        "east campus"
+      ],
+
+      description:
+        "The ASU Soccer Complex is located on the east side of Alabama State University's campus near The ASU Stadium.",
+
+      studentTip:
+        "If you're already familiar with The ASU Stadium area, you're in the right part of campus. Look specifically for the Soccer Complex rather than entering the football stadium."
+    },
+
+
+    // =================================================
+    // SWAC HISTORY
+    // =================================================
+
+    {
+      name: "SWAC Soccer History",
+
+      keywords: [
+        "swac",
+        "swac soccer",
+        "soccer championship",
+        "eastern division",
+        "soccer history"
+      ],
+
+      description:
+        "The ASU Soccer Complex opened in 2012, and in 2013 it hosted the first SWAC Eastern Division Championship in the history of the ASU soccer program."
+    }
+
+  ],
+
+  history: {
+    year: 2012,
+
+    description:
+      "ASU Soccer Complex opened in 2012 as an on-campus natural-grass home for Alabama State University Soccer."
+  },
+
+  funFact:
+    "Just one year after the Soccer Complex opened, ASU hosted the program's first SWAC Eastern Division Championship there in 2013.",
+
+  image: "",
+  mapLink: ""
+},
+
+// =====================================================
+// GEORGE HUBERT LOCKHART GYMNASIUM
+// =====================================================
+
+{
+  id: 28,
+
+  name: "George Hubert Lockhart Gymnasium",
+  shortName: "Lockhart Gym",
+  category: "athletics",
+
+  keywords: [
+    "george hubert lockhart",
+    "george hubert lockhart gymnasium",
+    "george lockhart",
+    "lockhart",
+    "lockhart gym",
+    "lockhart gymnasium",
+
+    "gym",
+    "student gym",
+    "athlete gym",
+    "workout",
+    "fitness",
+    "student workout",
+    "weights",
+    "weight room",
+    "exercise",
+
+    "asu shirt",
+    "asu attire",
+    "workout attire",
+    "gym clothes",
+
+    "student gym hours",
+    "gym hours",
+    "recreation hours",
+    "student recreation",
+
+    "volleyball",
+    "asu volleyball",
+    "volleyball game",
+    "volleyball games",
+    "home volleyball game",
+    "lady hornets volleyball",
+
+    "basketball",
+    "intramural basketball",
+    "intermediate basketball",
+    "student basketball",
+    "student basketball games",
+    "basketball coach",
+    "student coach",
+
+    "dance",
+    "dance event",
+    "dance events",
+    "dance organization",
+    "dance organizations",
+    "student dance",
+
+    "norman walton",
+    "norman walton aquatic center",
+    "norman aquatic center",
+    "aquatic center",
+    "pool",
+    "swimming pool",
+    "swim",
+    "swimming",
+    "pool party",
+    "pool parties",
+
+    "athletics office",
+    "athletics offices",
+    "volleyball office",
+    "soccer office",
+    "track office",
+    "track and field office",
+
+    "study lab",
+    "study labs",
+    "academic study lab",
+    "student athlete study",
+
+    "basketball practice",
+    "practice gym",
+    "team practice",
+
+    "860 university drive north"
+  ],
+
+  description:
+    "George Hubert Lockhart Gymnasium is an Alabama State University athletics and recreation facility used for varsity sports, student recreation, intramural activities, athletic offices, academic support, and campus events. The building is also home to the Norman Walton Aquatic Center.",
+
+  address:
+    "860 University Drive North, Montgomery, AL 36106",
+
+  services: [
+    "Student recreation and workout access",
+    "Varsity athletics training",
+    "ASU Volleyball home matches",
+    "Basketball practice space",
+    "Intramural student basketball",
+    "Dance organization events",
+    "Norman Walton Aquatic Center",
+    "Student pool events when scheduled",
+    "Athletics offices",
+    "Academic study labs"
+  ],
+
+  studentTip:
+    "Lockhart is shared by ASU students and varsity athletic teams, so general student workout access may be limited to designated recreation hours. Students should check current hours and facility rules before going to work out.",
+
+  sections: [
+
+    // =================================================
+    // STUDENT WORKOUT ACCESS
+    // =================================================
+
+    {
+      name: "Student Workout Access",
+
+      keywords: [
+        "student gym",
+        "student workout",
+        "workout",
+        "gym",
+        "fitness",
+        "weights",
+        "exercise",
+        "student recreation",
+        "gym access"
+      ],
+
+      description:
+        "ASU students may use Lockhart Gym for recreational workouts during designated student-access periods when the facility is not reserved for athletic-team activity.",
+
+      studentTip:
+        "Because varsity teams also use Lockhart, student workout hours may be limited or change around team practices, games, and special events. Check the current recreation schedule before going."
+    },
+
+
+    // =================================================
+    // WORKOUT ATTIRE
+    // =================================================
+
+    {
+      name: "Workout Attire",
+
+      keywords: [
+        "asu shirt",
+        "asu attire",
+        "gym clothes",
+        "workout clothes",
+        "workout attire",
+        "dress code"
+      ],
+
+      description:
+        "Students using Lockhart for recreation may be required to follow facility-specific workout attire rules.",
+
+      studentTip:
+        "Students have been required to wear ASU-branded attire, such as an ASU shirt, for recreational gym access. Because facility rules may change, check posted requirements before entering."
+    },
+
+
+    // =================================================
+    // VARSITY ATHLETICS USE
+    // =================================================
+
+    {
+      name: "Varsity Athletics Use",
+
+      keywords: [
+        "athletes",
+        "student athletes",
+        "athlete gym",
+        "team practice",
+        "basketball practice",
+        "practice gym",
+        "varsity athletics"
+      ],
+
+      description:
+        "Lockhart Gym is heavily used by Alabama State University athletic programs for practices, training, competition, and team activities.",
+
+      features: [
+        "Volleyball competition",
+        "Basketball practice",
+        "Athletic training use",
+        "Team activities"
+      ],
+
+      studentTip:
+        "If a varsity team is using the gym, recreational student access may be restricted until the scheduled team activity ends."
+    },
+
+
+    // =================================================
+    // ASU VOLLEYBALL
+    // =================================================
+
+    {
+      name: "ASU Volleyball",
+
+      keywords: [
+        "volleyball",
+        "asu volleyball",
+        "lady hornets volleyball",
+        "volleyball game",
+        "volleyball games",
+        "home volleyball"
+      ],
+
+      description:
+        "Lockhart Gymnasium is one of the primary competition venues for Alabama State University's volleyball program and hosts Lady Hornets home matches.",
+
+      studentTip:
+        "If your event information lists Lockhart Gymnasium for volleyball, this is the correct athletics facility. Some ASU volleyball matches may also be scheduled at the Dunn-Oliver Acadome, so check the current schedule."
+    },
+
+
+    // =================================================
+    // INTRAMURAL / STUDENT BASKETBALL
+    // =================================================
+
+    {
+      name: "Intramural Student Basketball",
+
+      keywords: [
+        "intramural basketball",
+        "intermediate basketball",
+        "student basketball",
+        "student basketball game",
+        "student basketball games",
+        "basketball league",
+        "basketball coach",
+        "student coach"
+      ],
+
+      description:
+        "Lockhart is also used for student basketball activities and intramural-style games where ASU students can participate in organized competition.",
+
+      features: [
+        "Student basketball games",
+        "Intramural competition",
+        "Student participation",
+        "Student coaching and team leadership opportunities"
+      ],
+
+      studentTip:
+        "Students interested in playing, coaching, or helping organize teams should watch Student Life and recreation announcements for registration, schedules, and participation requirements."
+    },
+
+
+    // =================================================
+    // DANCE ORGANIZATION EVENTS
+    // =================================================
+
+    {
+      name: "Dance Organization Events",
+
+      keywords: [
+        "dance",
+        "dance event",
+        "dance events",
+        "dance organization",
+        "dance organizations",
+        "student dance",
+        "dance performance"
+      ],
+
+      description:
+        "Student dance organizations and other campus groups may use Lockhart Gym for dance events, performances, practices, and student activities when scheduled.",
+
+      studentTip:
+        "Event use can change the normal gym schedule, so check campus announcements before going to Lockhart for a regular workout."
+    },
+
+
+    // =================================================
+    // NORMAN WALTON AQUATIC CENTER
+    // =================================================
+
+    {
+      name: "Norman Walton Aquatic Center",
+
+      keywords: [
+        "norman walton",
+        "norman walton aquatic center",
+        "norman aquatic center",
+        "aquatic center",
+        "pool",
+        "swimming pool",
+        "swim",
+        "swimming",
+        "indoor pool"
+      ],
+
+      description:
+        "The Norman Walton Aquatic Center is the swimming facility located inside George Hubert Lockhart Gymnasium and is used for aquatic recreation, university activities, and other scheduled events.",
+
+      location:
+        "Inside George Hubert Lockhart Gymnasium, 860 University Drive North, Montgomery, AL 36106",
+
+      studentTip:
+        "If you are looking for the Norman Walton Aquatic Center, go to Lockhart Gymnasium. The aquatic center is located inside the building."
+    },
+
+
+    // =================================================
+    // POOL PARTIES & STUDENT EVENTS
+    // =================================================
+
+    {
+      name: "Pool Parties & Aquatic Events",
+
+      keywords: [
+        "pool party",
+        "pool parties",
+        "student pool party",
+        "aquatic event",
+        "pool event",
+        "swimming event"
+      ],
+
+      description:
+        "The Norman Walton Aquatic Center may host ASU student pool parties and other aquatic activities when scheduled by the university or student organizations.",
+
+      studentTip:
+        "Pool parties are special events, not regular open-swim hours. Check the event announcement for the date, time, admission requirements, attire, and any rules about what you may bring."
+    },
+
+
+    // =================================================
+    // NORMAN WALTON HISTORY
+    // =================================================
+
+    {
+      name: "Who Was Dr. Norman Walton?",
+
+      keywords: [
+        "norman walton",
+        "dr norman walton",
+        "aquatic center history",
+        "swimming history",
+        "swac swimming"
+      ],
+
+      description:
+        "The aquatic center is named for Dr. Norman Walton, an Alabama State University history professor and department chair who also coached swimming and led ASU teams to multiple SWAC swimming championships."
+    },
+
+
+    // =================================================
+    // ATHLETICS OFFICES
+    // =================================================
+
+    {
+      name: "Athletics Offices",
+
+      keywords: [
+        "athletics office",
+        "athletics offices",
+        "volleyball office",
+        "soccer office",
+        "track office",
+        "track and field office"
+      ],
+
+      description:
+        "Lockhart Gymnasium contains offices connected with several Alabama State University athletic programs, including volleyball, soccer, and track and field.",
+
+      studentTip:
+        "If you are trying to meet with a coach or athletics staff member, verify the current office location before visiting because staff assignments can change."
+    },
+
+
+    // =================================================
+    // STUDENT-ATHLETE STUDY AREAS
+    // =================================================
+
+    {
+      name: "Academic Study Labs",
+
+      keywords: [
+        "study lab",
+        "study labs",
+        "academic study lab",
+        "student athlete study",
+        "athlete study",
+        "academic support"
+      ],
+
+      description:
+        "Lockhart includes academic study spaces used to support student-athletes and their academic responsibilities."
+    }
+
+  ],
+
+  history: {
+    description:
+      "Lockhart Gymnasium is named in honor of George Hubert Lockhart, a longtime Alabama State University coach and administrator who played an important role in the development of ASU athletics and helped establish the university's baseball program."
+  },
+
+  funFact:
+    "Lockhart Gym is more than a workout facility. It serves as a volleyball venue, basketball practice space, student recreation center, event space, athletics office location, academic support facility, and home of the Norman Walton Aquatic Center.",
+
+  image: "",
+  mapLink: ""
+},
+
+// =====================================================
+// TULLIBODY MUSIC HALL
+// =====================================================
+
+{
+  id: 29,
+
+  name: "Tullibody Music Hall",
+  shortName: "Tullibody Music",
+  category: "academic",
+
+  keywords: [
+    "tullibody music",
+    "tullibody music hall",
+    "tullibody music building",
+    "tullibody music arts building",
+    "music building",
+
+    "music",
+    "music major",
+    "music majors",
+    "music education",
+    "music class",
+    "music classes",
+    "band class",
+    "band classes",
+
+    "mighty marching hornets",
+    "marching hornets",
+    "asu marching band",
+    "marching band",
+    "band",
+    "asu band",
+    "hornet band",
+
+    "stingettes",
+    "asu stingettes",
+    "stingette",
+    "dance line",
+
+    "old glory",
+    "old glory field",
+    "band field",
+    "practice field",
+    "band practice",
+    "marching band practice",
+    "marching hornets practice",
+    "stingettes practice",
+
+    "band rehearsal",
+    "band rehearsal room",
+    "rehearsal room",
+    "instrument storage",
+    "uniform storage",
+
+    "choir",
+    "choir room",
+    "choir rehearsal",
+    "choir rehearsal room",
+    "gospel choir",
+
+    "recital",
+    "recital hall",
+    "music recital",
+    "concert",
+    "music performance",
+
+    "practice room",
+    "practice rooms",
+    "music practice",
+    "instrument practice",
+
+    "piano",
+    "organ",
+    "pipe organ",
+    "439 pipe organ",
+
+    "recording",
+    "recording studio",
+    "music studio",
+    "studio",
+    "audio",
+    "media",
+
+    "student lounge",
+    "music lounge",
+
+    "music faculty",
+    "music professor",
+    "faculty office",
+    "music office",
+    "department of music",
+
+    "theatre faculty",
+    "dance faculty",
+
+    "lil yachty",
+    "lil yacht",
+    "lil boat",
+
+    "1101 north university drive",
+    "1101 n university drive"
+  ],
+
+  description:
+    "Tullibody Music Hall is home to Alabama State University's Department of Music and serves as one of the university's major centers for music education, rehearsal, performance, and marching-band activity. The building includes classrooms, faculty offices, rehearsal spaces, practice rooms, performance facilities, and other spaces supporting ASU's musical traditions.",
+
+  address:
+    "1101 N. University Drive, Montgomery, AL 36104",
+
+  services: [
+    "Department of Music",
+    "Music and Music Education classes",
+    "Mighty Marching Hornets",
+    "Stingettes",
+    "Band rehearsals",
+    "Choir rehearsals",
+    "Recital Hall",
+    "Music practice rooms",
+    "Instrument and uniform storage",
+    "Music faculty offices",
+    "Student music performances",
+    "Old Glory practice area nearby"
+  ],
+
+  studentTip:
+    "Do not confuse Tullibody Music Hall with Tullibody Fine Arts. Tullibody Music is especially important for music majors, band members, the Mighty Marching Hornets, rehearsals, music classes, and performances.",
+
+  sections: [
+
+    // =================================================
+    // DEPARTMENT OF MUSIC
+    // =================================================
+
+    {
+      name: "Department of Music",
+
+      keywords: [
+        "department of music",
+        "music department",
+        "music major",
+        "music majors",
+        "music education",
+        "music class",
+        "music classes",
+        "music professor",
+        "music faculty"
+      ],
+
+      description:
+        "Tullibody Music Hall is home to Alabama State University's Department of Music and supports undergraduate and graduate study in music and music education.",
+
+      features: [
+        "Bachelor of Arts in Music",
+        "Bachelor of Music Education",
+        "Graduate music education",
+        "Music classrooms",
+        "Faculty offices",
+        "Applied music instruction",
+        "Performance opportunities"
+      ],
+
+      studentTip:
+        "If your schedule says Tullibody Music Building, make sure you do not accidentally enter Tullibody Fine Arts. They are connected to the same broader arts area but serve different academic and performance functions."
+    },
+
+
+    // =================================================
+    // MIGHTY MARCHING HORNETS
+    // =================================================
+
+    {
+      name: "Mighty Marching Hornets",
+
+      keywords: [
+        "mighty marching hornets",
+        "marching hornets",
+        "asu marching band",
+        "marching band",
+        "band",
+        "hornet band",
+        "band practice",
+        "band rehearsal"
+      ],
+
+      description:
+        "Tullibody Music Hall is closely associated with Alabama State University's Mighty Marching Hornets and provides rehearsal, instructional, storage, and support spaces connected with the university's band program.",
+
+      studentTip:
+        "If you are looking for the band program, a band class, rehearsal information, or the Mighty Marching Hornets, Tullibody Music Hall is an important place to know."
+    },
+
+
+    // =================================================
+    // STINGETTES
+    // =================================================
+
+    {
+      name: "ASU Stingettes",
+
+      keywords: [
+        "stingettes",
+        "asu stingettes",
+        "stingette",
+        "dance line",
+        "stingettes practice",
+        "marching band dancers"
+      ],
+
+      description:
+        "The ASU Stingettes are an important part of the Mighty Marching Hornets tradition and are closely associated with marching-band rehearsals, performances, and activities centered around the Tullibody Music area.",
+
+      studentTip:
+        "During marching season, you may see band and Stingette activity around Tullibody Music Hall and the nearby outdoor practice area."
+    },
+
+
+    // =================================================
+    // OLD GLORY
+    // =================================================
+
+    {
+      name: "Old Glory Practice Field",
+
+      keywords: [
+        "old glory",
+        "old glory field",
+        "band field",
+        "practice field",
+        "band practice field",
+        "marching hornets practice",
+        "marching band practice",
+        "stingettes practice"
+      ],
+
+      description:
+        "The outdoor practice area behind the Tullibody Music area is commonly known by students as Old Glory and is associated with rehearsals for the Mighty Marching Hornets, Stingettes, and related marching-band activities.",
+
+      location:
+        "Behind the Tullibody Music Hall area.",
+
+      studentTip:
+        "If someone tells you band practice is at Old Glory, they are referring to the outdoor practice area behind the Tullibody Music area."
+    },
+
+
+    // =================================================
+    // BAND REHEARSAL ROOM
+    // =================================================
+
+    {
+      name: "Band Rehearsal Room",
+
+      keywords: [
+        "band rehearsal room",
+        "band room",
+        "band rehearsal",
+        "rehearsal room",
+        "band practice",
+        "instrument rehearsal"
+      ],
+
+      description:
+        "Tullibody Music Hall contains a large band rehearsal room designed specifically for musical acoustics. The approximately 2,000-square-foot rehearsal space was designed to accommodate a band of more than 150 musicians.",
+
+      features: [
+        "Large rehearsal floor",
+        "Two-story-high ceiling",
+        "Acoustical wall treatment",
+        "Space for large ensembles",
+        "Nearby instrument storage",
+        "Nearby uniform storage"
+      ]
+    },
+
+
+    // =================================================
+    // INSTRUMENT & UNIFORM STORAGE
+    // =================================================
+
+    {
+      name: "Instrument & Uniform Storage",
+
+      keywords: [
+        "instrument storage",
+        "instrument room",
+        "band instrument",
+        "uniform storage",
+        "band uniform",
+        "marching band uniform"
+      ],
+
+      description:
+        "Storage facilities associated with the band rehearsal area support instruments, uniforms, and other equipment used by ASU music and band programs.",
+
+      studentTip:
+        "Band members should follow current staff instructions for instrument checkout, uniforms, storage access, and equipment procedures."
+    },
+
+
+    // =================================================
+    // RECITAL HALL
+    // =================================================
+
+    {
+      name: "Tullibody Music Recital Hall",
+
+      keywords: [
+        "recital hall",
+        "recital",
+        "music recital",
+        "concert",
+        "music concert",
+        "performance",
+        "student recital"
+      ],
+
+      description:
+        "The first-floor Recital Hall is one of Tullibody Music Hall's primary performance spaces. It was specifically designed with acoustical features for music performances and provides tiered seating overlooking the performance area.",
+
+      features: [
+        "Approximately 200 seats",
+        "Tiered seating",
+        "Acoustically designed walls",
+        "Curved ceiling",
+        "Student and community performances"
+      ],
+
+      studentTip:
+        "If an event flyer says 'Tullibody Music Recital Hall,' go to the Music building rather than the theatre spaces in Tullibody Fine Arts."
+    },
+
+
+    // =================================================
+    // CHOIR REHEARSAL ROOM
+    // =================================================
+
+    {
+      name: "Choir Rehearsal Room",
+
+      keywords: [
+        "choir",
+        "choir room",
+        "choir rehearsal",
+        "choir rehearsal room",
+        "choral",
+        "gospel choir"
+      ],
+
+      description:
+        "The second floor contains a large choir rehearsal room designed for choral instruction, rehearsals, and other music activities.",
+
+      features: [
+        "Approximately 2,000 square feet",
+        "Choir rehearsal space",
+        "Music storage",
+        "Robe storage",
+        "Pipe organ"
+      ]
+    },
+
+
+    // =================================================
+    // 439-PIPE ORGAN
+    // =================================================
+
+    {
+      name: "439-Pipe Organ",
+
+      keywords: [
+        "organ",
+        "pipe organ",
+        "439 pipe organ",
+        "organ recital",
+        "organ music"
+      ],
+
+      description:
+        "The choir rehearsal room contains a pipe organ with 439 pipes. The space has historically been used for organ recitals and opera workshop instruction.",
+
+      studentTip:
+        "Yes — there is actually a 439-pipe organ inside Tullibody Music Hall. It is one of those features many students outside the music program may never realize is on campus."
+    },
+
+
+    // =================================================
+    // MUSIC PRACTICE ROOMS
+    // =================================================
+
+    {
+      name: "Music Practice Rooms",
+
+      keywords: [
+        "practice room",
+        "practice rooms",
+        "music practice",
+        "instrument practice",
+        "practice piano",
+        "rehearsal space"
+      ],
+
+      description:
+        "Tullibody Music Hall includes individual and small-group practice rooms of different sizes for students developing their instrumental and vocal skills.",
+
+      studentTip:
+        "Music practice-room access may depend on current Department of Music rules, classes, rehearsals, and room availability."
+    },
+
+
+    // =================================================
+    // MUSIC CLASSES
+    // =================================================
+
+    {
+      name: "Music & Band Classes",
+
+      keywords: [
+        "music class",
+        "music classes",
+        "band class",
+        "band classes",
+        "music appreciation",
+        "music education",
+        "instrument class",
+        "voice class",
+        "percussion",
+        "piano"
+      ],
+
+      description:
+        "Students may have music courses, applied lessons, ensemble instruction, and other Department of Music classes inside Tullibody Music Hall.",
+
+      studentTip:
+        "You do not necessarily have to be in the marching band to have a class here. Music majors, Music Education majors, and students enrolled in certain music courses may all have classes in Tullibody Music."
+    },
+
+
+    // =================================================
+    // MUSIC / MEDIA STUDIO
+    // =================================================
+
+    {
+      name: "Music & Media Spaces",
+
+      keywords: [
+        "studio",
+        "music studio",
+        "recording studio",
+        "recording",
+        "audio",
+        "media",
+        "music media",
+        "media technician"
+      ],
+
+      description:
+        "Tullibody Music Hall supports music technology and media-related work as part of the Department of Music's instructional and performance operations.",
+
+      studentTip:
+        "Access to specialized music, recording, or media spaces may be limited to authorized students, classes, faculty, or scheduled projects."
+    },
+
+
+    // =================================================
+    // STUDENT LOUNGE
+    // =================================================
+
+    {
+      name: "Music Student Lounge",
+
+      keywords: [
+        "student lounge",
+        "music lounge",
+        "lounge",
+        "music student area"
+      ],
+
+      description:
+        "Tullibody Music Hall includes a student lounge associated with the music facilities, giving music students another space within the building between classes and rehearsals."
+    },
+
+
+    // =================================================
+    // FACULTY & STAFF OFFICES
+    // =================================================
+
+    {
+      name: "Music Faculty & Staff Offices",
+
+      keywords: [
+        "music faculty",
+        "music professor",
+        "music professors",
+        "faculty office",
+        "faculty offices",
+        "music office",
+        "department office",
+        "music department office"
+      ],
+
+      description:
+        "Department of Music faculty, instructors, administrative staff, technicians, and other music personnel have offices and workspaces throughout Tullibody Music Hall.",
+
+      studentTip:
+        "If you are trying to meet a music professor, check the current ASU faculty directory for their room number before going."
+    },
+
+
+    // =================================================
+    // VISUAL & PERFORMING ARTS CROSSOVER
+    // =================================================
+
+    {
+      name: "Visual & Performing Arts Offices",
+
+      keywords: [
+        "visual performing arts",
+        "covpa",
+        "college of visual and performing arts",
+        "theatre faculty",
+        "dance faculty",
+        "dean office"
+      ],
+
+      description:
+        "Although music is the building's primary academic focus, some College of Visual and Performing Arts, Theatre, and Dance faculty offices are also located in the Tullibody Music Building.",
+
+      studentTip:
+        "Do not assume every Dance or Theatre professor is located in Tullibody Fine Arts. Some current faculty offices are listed in the Music Building."
+    },
+
+
+    // =================================================
+    // LIL YACHTY / CAMPUS LORE
+    // =================================================
+
+    {
+      name: "Lil Yachty & ASU Campus Lore",
+
+      keywords: [
+        "lil yachty",
+        "lil yacht",
+        "lil boat",
+        "rapper",
+        "recorded song",
+        "recording studio",
+        "famous student"
+      ],
+
+      description:
+        "Rapper Lil Yachty attended Alabama State University for a period before leaving college to pursue his professional music career.",
+
+      studentTip:
+        "Students have also connected Lil Yachty's time at ASU with recording music in the Tullibody Music area. Hornet Navigator treats the specific Tullibody recording story as campus lore unless additional university documentation identifies the recording or session."
+    }
+
+  ],
+
+  history: {
+    year: 1974,
+
+    description:
+      "Tullibody Music Hall dates to 1974 and was developed as a major part of Alabama State University's Fine Arts facilities. The approximately 41,000-square-foot building was designed to house music instruction, rehearsals, performances, faculty offices, practice rooms, and other Department of Music activities."
+  },
+
+  campusLore:
+    "Students commonly identify the outdoor band practice area behind Tullibody Music as Old Glory. The building and surrounding area are strongly associated with the Mighty Marching Hornets and Stingettes.",
+
+  funFact:
+    "Tullibody Music Hall contains a 439-pipe organ, a large band rehearsal room built for more than 150 musicians, and a recital hall designed specifically for musical acoustics.",
+
+  image: "",
+  mapLink: ""
+},
+
+// =====================================================
+// OLD HORNET STADIUM
+// =====================================================
+
+{
+  id: 30,
+
+  name: "Old Hornet Stadium",
+  shortName: "Hornet Stadium",
+  category: "athletics",
+
+  keywords: [
+    "old hornet stadium",
+    "hornet stadium",
+    "old stadium",
+    "old football stadium",
+    "historic stadium",
+
+    "football",
+    "football practice",
+    "asu football practice",
+    "hornet football practice",
+    "football practice field",
+    "practice field",
+
+    "track",
+    "track and field",
+    "asu track",
+    "track practice",
+    "track and field practice",
+    "running track",
+    "eight lane track",
+
+    "run",
+    "running",
+    "jog",
+    "jogging",
+    "walk",
+    "walking",
+    "exercise",
+    "workout",
+    "work out",
+    "student workout",
+    "outdoor workout",
+    "free workout",
+    "student track",
+    "run on track",
+    "run track",
+    "outdoor exercise",
+
+    "long jump",
+    "long jump pit",
+    "high jump",
+    "high jump pit",
+    "steeplechase",
+
+    "track meet",
+    "track meets",
+    "local track meet",
+
+    "air force rotc",
+    "afrotc",
+    "rotc",
+    "physical training",
+    "pt",
+    "rotc pt",
+
+    "houston markham",
+    "houston markham football complex",
+    "football complex",
+
+    "old asu stadium",
+    "new asu stadium",
+    "asu stadium",
+    "which stadium",
+    "football game",
+
+    "event",
+    "events",
+    "stadium event",
+
+    "press box",
+    "historic press box"
+  ],
+
+  description:
+    "Old Hornet Stadium is Alabama State University's historic former home football stadium and remains an active athletics, recreation, and practice facility. Today, the stadium is used heavily by ASU Football and Track & Field for practices while also providing an outdoor space where students can run, walk, jog, and work out when the facility is available.",
+
+  services: [
+    "ASU Football practice",
+    "ASU Track & Field practice",
+    "Open student running and workouts when available",
+    "Eight-lane running track",
+    "120-yard football practice field",
+    "Long jump facilities",
+    "High jump facilities",
+    "Steeplechase training",
+    "Track meets when scheduled",
+    "AFROTC physical training",
+    "University events when scheduled"
+  ],
+
+  studentTip:
+    "Old Hornet Stadium is not the same as the newer ASU Stadium. The old stadium is now heavily used for football and track & field practices, but regular ASU students can also go there to run, walk, jog, or work out when the space is available. Athletic practices and scheduled events have priority, so give teams plenty of room and do not interrupt athletes or coaches.",
+
+  sections: [
+
+    // =================================================
+    // OPEN STUDENT WORKOUT ACCESS
+    // =================================================
+
+    {
+      name: "Open Student Workout Access",
+
+      keywords: [
+        "student workout",
+        "workout",
+        "work out",
+        "exercise",
+        "run",
+        "running",
+        "jog",
+        "jogging",
+        "walk",
+        "walking",
+        "track workout",
+        "outdoor workout",
+        "free workout",
+        "student track",
+        "run on track",
+        "run track",
+        "outdoor exercise"
+      ],
+
+      description:
+        "Old Hornet Stadium is also used by ASU students for personal outdoor exercise. Students can use the stadium area for activities such as running, walking, jogging, and individual workouts when the facility is available.",
+
+      features: [
+        "Outdoor running",
+        "Walking",
+        "Jogging",
+        "Individual workouts",
+        "Running-track access when available",
+        "No gym membership needed"
+      ],
+
+      studentTip:
+        "You do not normally need to show a student ID just to go over to Old Hornet Stadium for an individual workout. Students are welcome to use the space when available, but varsity athletes and scheduled practices have priority. If football or track & field is practicing, give the athletes and coaches plenty of space and do not interfere with their workout."
+    },
+
+
+    // =================================================
+    // RUNNING & WALKING
+    // =================================================
+
+    {
+      name: "Running, Jogging & Walking",
+
+      keywords: [
+        "running",
+        "run",
+        "jogging",
+        "jog",
+        "walking",
+        "walk",
+        "running track",
+        "student running",
+        "where can i run",
+        "where can i walk",
+        "outdoor exercise"
+      ],
+
+      description:
+        "The track at Old Hornet Stadium gives students an outdoor location for running, jogging, walking, and conditioning when the stadium is available for general student use.",
+
+      studentTip:
+        "If you are looking for somewhere outdoors on campus to get your steps in or run laps, Old Hornet Stadium is one of the locations to know."
+    },
+
+
+    // =================================================
+    // FOOTBALL PRACTICE
+    // =================================================
+
+    {
+      name: "ASU Football Practice",
+
+      keywords: [
+        "football",
+        "football practice",
+        "asu football",
+        "asu football practice",
+        "hornet football",
+        "hornet football practice",
+        "football practice field",
+        "practice field"
+      ],
+
+      description:
+        "Old Hornet Stadium remains an important practice facility for Alabama State University's football program. The stadium includes a 120-yard field-turf practice field used for team preparation and training.",
+
+      studentTip:
+        "If the football team is practicing, remember that team activities take priority over general student recreation. Stay clear of active drills, equipment, coaches, and players."
+    },
+
+
+    // =================================================
+    // TRACK & FIELD
+    // =================================================
+
+    {
+      name: "ASU Track & Field",
+
+      keywords: [
+        "track",
+        "track and field",
+        "asu track",
+        "asu track and field",
+        "track practice",
+        "track and field practice",
+        "running track",
+        "eight lane track",
+        "track athlete"
+      ],
+
+      description:
+        "Old Hornet Stadium is an important training facility for Alabama State University's Track & Field program. The facility includes an eight-lane all-weather track surrounding the practice field.",
+
+      features: [
+        "Eight-lane running track",
+        "Track & Field practices",
+        "Running and conditioning",
+        "Jumping-event facilities",
+        "Steeplechase capability"
+      ],
+
+      studentTip:
+        "Track athletes may be practicing even when the football field itself looks open. Pay attention to runners and field-event activity before entering or crossing the track."
+    },
+
+
+    // =================================================
+    // FIELD EVENTS
+    // =================================================
+
+    {
+      name: "Track & Field Event Areas",
+
+      keywords: [
+        "long jump",
+        "long jump pit",
+        "high jump",
+        "high jump pit",
+        "steeplechase",
+        "field events",
+        "track events"
+      ],
+
+      description:
+        "Old Hornet Stadium supports multiple track & field activities in addition to running events, including long jump, high jump, and steeplechase training."
+    },
+
+
+    // =================================================
+    // TRACK MEETS
+    // =================================================
+
+    {
+      name: "Track Meets",
+
+      keywords: [
+        "track meet",
+        "track meets",
+        "local track meet",
+        "track event",
+        "track competition"
+      ],
+
+      description:
+        "Old Hornet Stadium may also host track meets and other scheduled track & field activities in addition to regular team practices.",
+
+      studentTip:
+        "General workout access may be restricted when a track meet, athletic practice, or other scheduled event is taking place."
+    },
+
+
+    // =================================================
+    // OLD STADIUM VS NEW ASU STADIUM
+    // =================================================
+
+    {
+      name: "Old Hornet Stadium vs. New ASU Stadium",
+
+      keywords: [
+        "old stadium",
+        "new stadium",
+        "old hornet stadium",
+        "asu stadium",
+        "new asu stadium",
+        "which stadium",
+        "football game",
+        "football practice",
+        "wrong stadium"
+      ],
+
+      description:
+        "Old Hornet Stadium is ASU's historic former football-game stadium and is now primarily associated with practices, track & field, recreation, and other scheduled activities. The newer ASU Stadium is the university's major football game-day venue.",
+
+      studentTip:
+        "Easy way to remember it: OLD HORNET STADIUM = practices, track, running, and workouts. THE ASU STADIUM = major Hornet football games and large stadium events."
+    },
+
+
+    // =================================================
+    // HISTORIC FOOTBALL STADIUM
+    // =================================================
+
+    {
+      name: "Historic Home of Hornet Football",
+
+      keywords: [
+        "historic football",
+        "old football stadium",
+        "old hornet football",
+        "football history",
+        "asu football history",
+        "historic stadium"
+      ],
+
+      description:
+        "Before the newer ASU Stadium opened in 2012, Hornet Stadium served as Alabama State University's primary on-campus home football venue for generations of Hornet Football.",
+
+      studentTip:
+        "When older alumni talk about going to Hornet Stadium for ASU football games, they may be talking about this stadium rather than the newer ASU Stadium."
+    },
+
+
+    // =================================================
+    // HISTORIC PRESS BOX
+    // =================================================
+
+    {
+      name: "Historic Press Box",
+
+      keywords: [
+        "press box",
+        "historic press box",
+        "stadium press box",
+        "football press box"
+      ],
+
+      description:
+        "A three-story press box was constructed at historic Hornet Stadium in the 1950s. The facility historically included concessions, space for university leadership and guests, and an upper area for sportswriters covering ASU football."
+    },
+
+
+    // =================================================
+    // HOUSTON MARKHAM FOOTBALL COMPLEX
+    // =================================================
+
+    {
+      name: "Houston Markham Football Complex",
+
+      keywords: [
+        "houston markham",
+        "houston markham complex",
+        "houston markham football complex",
+        "football complex",
+        "football offices",
+        "football facility"
+      ],
+
+      description:
+        "The Houston Markham Football Complex is located near Old Hornet Stadium and overlooks the football practice area. It serves important football training, academic, meeting, and administrative functions.",
+
+      features: [
+        "Football locker room",
+        "Weight room",
+        "Training room",
+        "Players' lounge",
+        "Academic study lab",
+        "Meeting rooms",
+        "Football coaches' offices"
+      ],
+
+      studentTip:
+        "The Houston Markham Football Complex is its own ASU facility and will have a separate Hornet Navigator entry. Do not confuse the football complex with Old Hornet Stadium itself."
+    },
+
+
+    // =================================================
+    // AFROTC PHYSICAL TRAINING
+    // =================================================
+
+    {
+      name: "AFROTC Physical Training",
+
+      keywords: [
+        "air force rotc",
+        "afrotc",
+        "rotc",
+        "rotc pt",
+        "physical training",
+        "pt",
+        "air force physical training"
+      ],
+
+      description:
+        "Old Hornet Stadium may also be used by Alabama State University's Air Force ROTC program for physical training and fitness activities.",
+
+      studentTip:
+        "If AFROTC has scheduled physical training at the stadium, give the group space to complete its activities."
+    },
+
+
+    // =================================================
+    // CAMPUS EVENTS
+    // =================================================
+
+    {
+      name: "Campus & Athletic Events",
+
+      keywords: [
+        "event",
+        "events",
+        "stadium event",
+        "campus event",
+        "athletic event"
+      ],
+
+      description:
+        "In addition to athletics and student recreation, Old Hornet Stadium's field and track may be used for scheduled university and community activities.",
+
+      studentTip:
+        "A scheduled event can temporarily change normal student access to the track or field, so follow posted signs and university instructions."
+    },
+
+
+    // =================================================
+    // TRACK RENOVATION
+    // =================================================
+
+    {
+      name: "Track Improvements",
+
+      keywords: [
+        "track renovation",
+        "track improvements",
+        "new track",
+        "running surface"
+      ],
+
+      description:
+        "ASU Athletics completed improvements to the Old Hornet Stadium track in 2023, updating the running surface used by the Track & Field program."
+    },
+
+
+    // =================================================
+    // CAMPUS LORE
+    // =================================================
+
+    {
+      name: "Stadium Orientation Campus Lore",
+
+      keywords: [
+        "sun",
+        "facing the sun",
+        "stadium sun",
+        "old stadium sun",
+        "why new stadium",
+        "campus lore"
+      ],
+
+      description:
+        "Students and members of the ASU community have shared stories about the orientation of Old Hornet Stadium and the effect of the sun during games. Hornet Navigator treats this as campus lore rather than the documented reason ASU constructed the newer stadium.",
+
+      studentTip:
+        "The newer ASU Stadium opened in 2012, but university sources do not identify the old stadium facing the sun as the official reason the new stadium was built."
+    }
+
+  ],
+
+  history: {
+    year: 1942,
+
+    description:
+      "Historic Hornet Stadium dates to the early 1940s and served as Alabama State University's primary football venue for generations. The stadium included a football field, running track, and other athletic facilities. After the newer ASU Stadium opened in 2012, Old Hornet Stadium continued serving ASU as an important football practice, Track & Field, recreation, and event facility."
+  },
+
+  campusLore:
+    "A story shared within the ASU community connects the orientation of Old Hornet Stadium with players and spectators having to deal with the sun. Although the story is part of campus conversation, Hornet Navigator does not present it as the officially documented reason the newer ASU Stadium was constructed.",
+
+  funFact:
+    "Old Hornet Stadium has gone from being the home of ASU football games to serving multiple generations of students in a different way — today football and track athletes practice there while regular ASU students can also use the space for outdoor running and workouts when available.",
+
+  image: "",
+  mapLink: ""
 }
 
 ];
+
+
 
 
 
