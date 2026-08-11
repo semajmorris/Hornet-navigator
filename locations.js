@@ -8888,6 +8888,970 @@ const campusLocations = [
 
   image: "",
   mapLink: ""
+},
+
+// =====================================================
+// THOMAS ERBY KILBY HALL
+// =====================================================
+
+{
+  id: 32,
+
+  name: "Thomas Erby Kilby Hall",
+  shortName: "Kilby Hall",
+  category: "academic",
+
+  keywords: [
+    "thomas erby kilby",
+    "thomas erby kilby hall",
+    "kilby",
+    "kilby hall",
+
+    "wvas",
+    "wvas fm",
+    "wvas 90.7",
+    "90.7",
+    "radio station",
+    "asu radio",
+    "asu radio station",
+    "campus radio",
+    "college radio",
+    "broadcasting",
+    "broadcast",
+
+    "communications",
+    "communications major",
+    "communication major",
+    "radio and television",
+    "radio television",
+    "radio internship",
+    "communications internship",
+    "communications practicum",
+    "practicum",
+    "internship",
+    "broadcast internship",
+
+    "work study",
+    "work-study",
+    "student job",
+    "student employment",
+    "radio job",
+
+    "volunteer",
+    "volunteer opportunity",
+    "volunteer opportunities",
+    "radio volunteer",
+
+    "scholarship",
+    "scholarships",
+    "broadcast scholarship",
+    "broadcasting scholarship",
+
+    "title iii",
+    "title 3",
+    "title three",
+    "title iii office",
+
+    "research",
+    "research department",
+    "grants",
+    "grant department",
+    "research and grants",
+
+    "cooperative education",
+    "co-op",
+    "career experience",
+
+    "old cafeteria",
+    "former cafeteria",
+    "dining hall",
+    "old dining hall",
+
+    "ralph david abernathy",
+    "ralph abernathy",
+    "abernathy",
+    "hunger strike",
+    "student protest",
+    "student activism",
+    "civil rights",
+
+    "student government memorial",
+    "1963 memorial",
+    "sundial",
+    "kilby sundial",
+
+    "historic building",
+    "historic kilby"
+  ],
+
+  description:
+    "Thomas Erby Kilby Hall is one of Alabama State University's historic campus buildings and is strongly associated with WVAS-FM, student media, communications experience, university programs, and ASU's history of student activism. The building has served several purposes throughout its history, including university dining and cooperative education functions.",
+
+  services: [
+    "WVAS-FM 90.7",
+    "Student broadcasting experience",
+    "Communications internships and practicums",
+    "Student work-study opportunities when available",
+    "Volunteer opportunities when available",
+    "Title III-related offices and services",
+    "Research and grants-related offices",
+    "Historic campus resources"
+  ],
+
+  studentTip:
+    "Kilby Hall is especially useful for students interested in radio, broadcasting, communications, internships, work-study, and professional media experience. Opportunities can change by semester, so ask about current internships, practicum placements, volunteer opportunities, and student employment.",
+
+  sections: [
+
+    // =================================================
+    // WVAS-FM 90.7
+    // =================================================
+
+    {
+      name: "WVAS-FM 90.7",
+
+      keywords: [
+        "wvas",
+        "wvas fm",
+        "wvas 90.7",
+        "90.7",
+        "radio",
+        "radio station",
+        "asu radio",
+        "asu radio station",
+        "campus radio",
+        "college radio"
+      ],
+
+      description:
+        "Kilby Hall has historically served as headquarters for WVAS-FM, Alabama State University's radio station. WVAS provides professional broadcasting while also supporting the university's educational mission and student media experience.",
+
+      studentTip:
+        "If you are interested in radio or broadcasting, WVAS is one of the ASU resources worth learning about even if you are not already working at the station."
+    },
+
+
+    // =================================================
+    // COMMUNICATIONS STUDENTS
+    // =================================================
+
+    {
+      name: "Communications Student Experience",
+
+      keywords: [
+        "communications",
+        "communications major",
+        "communication major",
+        "radio television",
+        "radio and television",
+        "journalism",
+        "broadcasting",
+        "broadcast",
+        "media student"
+      ],
+
+      description:
+        "ASU Communications students can gain real-world experience through university media resources such as WVAS. The Communications program prepares students for careers in areas including radio, television, journalism, public relations, recording, and other media industries.",
+
+      studentTip:
+        "Communications majors should not think of WVAS as only a radio station. It can also represent an opportunity to build professional experience while you are still in college."
+    },
+
+
+    // =================================================
+    // INTERNSHIPS & PRACTICUM
+    // =================================================
+
+    {
+      name: "Internships & Practicum Experience",
+
+      keywords: [
+        "internship",
+        "internships",
+        "communications internship",
+        "radio internship",
+        "broadcast internship",
+        "practicum",
+        "communications practicum",
+        "radio practicum",
+        "work experience"
+      ],
+
+      description:
+        "ASU Communications students are required to complete practical professional experiences as part of their degree, including practicum and internship work. The university radio station is one of the resources that can help students develop hands-on media skills.",
+
+      studentTip:
+        "Do not wait until your final semester to start asking about internship and practicum opportunities. Building experience early can help you develop a stronger résumé, portfolio, demo reel, or professional network."
+    },
+
+
+    // =================================================
+    // WORK-STUDY & STUDENT EMPLOYMENT
+    // =================================================
+
+    {
+      name: "Work-Study & Student Opportunities",
+
+      keywords: [
+        "work study",
+        "work-study",
+        "student job",
+        "student employment",
+        "campus job",
+        "radio job",
+        "wvas job",
+        "communications job"
+      ],
+
+      description:
+        "Students may find work-study, student employment, training, or other hands-on opportunities connected with offices and media operations associated with Kilby Hall when positions are available.",
+
+      studentTip:
+        "Student jobs and work-study positions are not guaranteed every semester. Ask about current openings and make sure you meet Financial Aid or departmental work-study requirements when applicable."
+    },
+
+
+    // =================================================
+    // VOLUNTEER OPPORTUNITIES
+    // =================================================
+
+    {
+      name: "Volunteer Opportunities",
+
+      keywords: [
+        "volunteer",
+        "volunteering",
+        "volunteer opportunity",
+        "volunteer opportunities",
+        "radio volunteer",
+        "communications volunteer",
+        "media volunteer"
+      ],
+
+      description:
+        "Students interested in communications, broadcasting, media, or university service may find volunteer and experiential-learning opportunities connected with WVAS or other programs associated with Kilby Hall.",
+
+      studentTip:
+        "Even if a paid position is not available, ask whether there are current volunteer, shadowing, practicum, or training opportunities that can help you gain experience."
+    },
+
+
+    // =================================================
+    // BROADCASTING SCHOLARSHIPS
+    // =================================================
+
+    {
+      name: "Broadcasting Scholarship Opportunities",
+
+      keywords: [
+        "scholarship",
+        "scholarships",
+        "broadcast scholarship",
+        "broadcasting scholarship",
+        "radio scholarship",
+        "communications scholarship",
+        "media scholarship"
+      ],
+
+      description:
+        "ASU Communications students may have access to scholarship opportunities connected with broadcasting, radio, television, communications, and professional media organizations.",
+
+      studentTip:
+        "Communications students should watch department announcements and ask faculty about current broadcasting scholarships. These opportunities can change from year to year."
+    },
+
+
+    // =================================================
+    // TITLE III
+    // =================================================
+
+    {
+      name: "Title III",
+
+      keywords: [
+        "title iii",
+        "title 3",
+        "title three",
+        "title iii office",
+        "title iii program",
+        "title iii staff"
+      ],
+
+      description:
+        "ASU's Title III Program supports institutional development through areas such as academic resources, student services, facilities, equipment, faculty and staff development, and other university improvement initiatives.",
+
+      studentTip:
+        "Students may hear 'Title III' connected with programs, equipment, university projects, or student-support initiatives. If you need a specific Title III staff member or office, verify the current room location before visiting."
+    },
+
+
+    // =================================================
+    // RESEARCH & GRANTS
+    // =================================================
+
+    {
+      name: "Research & Grants",
+
+      keywords: [
+        "research",
+        "research department",
+        "research office",
+        "grants",
+        "grant",
+        "grant department",
+        "grant office",
+        "research and grants",
+        "research funding"
+      ],
+
+      description:
+        "University research and grant-related administrative activity supports faculty, staff, students, academic programs, and externally funded projects across Alabama State University.",
+
+      studentTip:
+        "Research and grant offices can change organizationally or relocate. If you are coming to Kilby for a specific research or grant staff member, verify their current office before visiting."
+    },
+
+
+    // =================================================
+    // COOPERATIVE EDUCATION
+    // =================================================
+
+    {
+      name: "Cooperative Education History",
+
+      keywords: [
+        "cooperative education",
+        "co-op",
+        "cooperative education office",
+        "career experience",
+        "work experience"
+      ],
+
+      description:
+        "Kilby Hall historically served as headquarters for Alabama State University's Cooperative Education program in addition to WVAS.",
+
+      studentTip:
+        "Cooperative education connects classroom learning with professional work experience, which fits Kilby's long connection to career preparation and hands-on learning."
+    },
+
+
+    // =================================================
+    // FORMER UNIVERSITY CAFETERIA
+    // =================================================
+
+    {
+      name: "Former University Dining Hall",
+
+      keywords: [
+        "old cafeteria",
+        "former cafeteria",
+        "old dining hall",
+        "former dining hall",
+        "cafeteria",
+        "dining hall",
+        "kilby cafeteria"
+      ],
+
+      description:
+        "Kilby Hall is part of ASU's historic student-life story and is associated with the university's former campus dining operations before newer dining facilities served the university.",
+
+      studentTip:
+        "Kilby serves a very different purpose today, so students walking past it may never realize the building is connected with an earlier era of ASU dining and student life."
+    },
+
+
+    // =================================================
+    // RALPH DAVID ABERNATHY & STUDENT ACTIVISM
+    // =================================================
+
+    {
+      name: "Ralph David Abernathy & Student Activism",
+
+      keywords: [
+        "ralph david abernathy",
+        "ralph abernathy",
+        "abernathy",
+        "hunger strike",
+        "student protest",
+        "student activism",
+        "civil rights",
+        "dining protest",
+        "student leadership"
+      ],
+
+      description:
+        "As an Alabama State University student, Ralph David Abernathy led a campus-wide hunger strike protesting inequities in student dining. His leadership resulted in immediate improvements and became an early example of organized student activism at ASU.",
+
+      studentTip:
+        "Kilby is not just an administrative or radio building. It is also connected with the history of ASU students using organized action to improve conditions on their own campus."
+    },
+
+
+    // =================================================
+    // STUDENT GOVERNMENT MEMORIAL
+    // =================================================
+
+    {
+      name: "Student Government Memorial",
+
+      keywords: [
+        "student government memorial",
+        "1963 memorial",
+        "student memorial",
+        "sundial",
+        "kilby sundial",
+        "memorial outside kilby"
+      ],
+
+      description:
+        "A historic Student Government memorial and sundial is located in the Kilby Hall area, adding another visible connection between the building and Alabama State University's student history.",
+
+      studentTip:
+        "When you are near Kilby Hall, take a moment to look for the memorial rather than only going inside the building. Hornet Navigator is meant to help students notice pieces of ASU history they might otherwise walk past."
+    },
+
+
+    // =================================================
+    // WVAS & PROFESSIONAL EXPERIENCE
+    // =================================================
+
+    {
+      name: "Building Your Media Résumé",
+
+      keywords: [
+        "resume",
+        "résumé",
+        "portfolio",
+        "demo reel",
+        "media experience",
+        "professional experience",
+        "broadcast experience",
+        "radio experience"
+      ],
+
+      description:
+        "Hands-on radio and communications experience can help students develop professional skills and work samples before graduation.",
+
+      studentTip:
+        "If your career goal involves broadcasting, journalism, public relations, production, recording, or media, look for ways to leave ASU with more than a degree. Experience through radio, internships, practicums, volunteering, and student employment can become part of your professional portfolio."
+    }
+
+  ],
+
+  history: {
+    year: 1920,
+
+    description:
+      "ASU historical catalogs date Kilby Hall to 1920. The one-story brick building contains more than 8,000 square feet and was remodeled in 1985. Over its history, Kilby has been associated with student dining, Cooperative Education, university administration, WVAS-FM, and other university programs."
+  },
+
+  funFact:
+    "Kilby Hall connects several different eras of ASU history — from student dining and early student activism to cooperative education, university programs, and professional radio broadcasting.",
+
+  image: "",
+  mapLink: ""
+},
+
+// =====================================================
+// ASU ALUMNI HOUSE / OFFICE OF ALUMNI RELATIONS
+// =====================================================
+
+{
+  id: 33,
+
+  name: "ASU Alumni House",
+  shortName: "Alumni House",
+  category: "student-services",
+
+  keywords: [
+    "alumni house",
+    "asu alumni house",
+    "alumni",
+    "asu alumni",
+    "office of alumni relations",
+    "alumni relations",
+    "alumni office",
+
+    "national alumni association",
+    "naa",
+    "alumni association",
+    "alumni chapter",
+    "alumni chapters",
+
+    "networking",
+    "network",
+    "professional networking",
+    "career networking",
+    "alumni networking",
+    "networking opportunity",
+    "networking opportunities",
+    "professional connections",
+
+    "mentor",
+    "mentoring",
+    "mentorship",
+    "alumni mentor",
+    "alumni mentorship",
+
+    "scholarship",
+    "scholarships",
+    "alumni scholarship",
+    "alumni scholarships",
+    "donor scholarship",
+    "donor scholarships",
+    "financial support",
+    "student support",
+
+    "events",
+    "alumni events",
+    "networking events",
+    "student events",
+    "homecoming alumni",
+    "alumni homecoming",
+
+    "donation",
+    "donations",
+    "donor",
+    "donors",
+    "giving",
+    "give to asu",
+    "fundraising",
+    "fundraiser",
+
+    "office of development",
+    "development",
+    "asu foundation",
+    "foundation",
+
+    "distinguished alumni",
+    "distinguished alumni award",
+    "50 under 50",
+    "alumni awards",
+
+    "graduate",
+    "graduates",
+    "former students",
+    "asu graduate",
+
+    "career",
+    "career opportunities",
+    "professional development",
+
+    "volunteer",
+    "volunteering",
+    "alumni volunteer",
+    "give back",
+    "giving back"
+  ],
+
+  description:
+    "The ASU Alumni House is associated with Alabama State University's Office of Alumni Relations and serves as an important connection point between the university, its graduates, former students, supporters, friends, and the broader Hornet family. Alumni Relations promotes engagement, university events, networking, giving, alumni programs, and opportunities that strengthen connections between generations of ASU Hornets.",
+
+  services: [
+    "Office of Alumni Relations",
+    "Alumni engagement",
+    "Alumni networking",
+    "Alumni events and programs",
+    "National Alumni Association connections",
+    "Alumni chapter information",
+    "Professional connections",
+    "Alumni-supported student opportunities",
+    "Scholarship information and referrals when available",
+    "University giving and engagement information",
+    "Alumni recognition programs"
+  ],
+
+  studentTip:
+    "You do not have to wait until graduation to learn about ASU's alumni network. Current students can benefit from alumni-supported events, scholarships, networking, mentoring, professional connections, and other opportunities when they are announced.",
+
+  sections: [
+
+    // =================================================
+    // OFFICE OF ALUMNI RELATIONS
+    // =================================================
+
+    {
+      name: "Office of Alumni Relations",
+
+      keywords: [
+        "office of alumni relations",
+        "alumni relations",
+        "alumni office",
+        "asu alumni",
+        "alumni house",
+        "former students"
+      ],
+
+      description:
+        "ASU's Office of Alumni Relations serves as a liaison between Alabama State University and its graduates and former students. The office works to keep alumni connected with university news, events, programs, traditions, and opportunities to remain involved with ASU.",
+
+      studentTip:
+        "The Alumni House is not only useful after you graduate. Learning how Alumni Relations works while you are still a student can help you begin building connections before graduation."
+    },
+
+
+    // =================================================
+    // ASU ALUMNI NETWORK
+    // =================================================
+
+    {
+      name: "ASU Alumni Network",
+
+      keywords: [
+        "alumni network",
+        "asu alumni network",
+        "networking",
+        "network",
+        "professional network",
+        "professional connections",
+        "asu connections"
+      ],
+
+      description:
+        "Alabama State University's alumni network includes tens of thousands of graduates and former students connected with the university and alumni organizations across the country.",
+
+      studentTip:
+        "Your ASU network can become a professional resource. Alumni may work in industries, companies, schools, government agencies, nonprofits, entertainment, healthcare, business, technology, law, and many other fields."
+    },
+
+
+    // =================================================
+    // NETWORKING OPPORTUNITIES
+    // =================================================
+
+    {
+      name: "Networking Opportunities",
+
+      keywords: [
+        "networking",
+        "networking opportunity",
+        "networking opportunities",
+        "networking event",
+        "professional networking",
+        "career networking",
+        "alumni networking",
+        "meet alumni"
+      ],
+
+      description:
+        "Alumni programs and university events can create opportunities for students and graduates to connect with members of the Hornet family and develop professional relationships.",
+
+      studentTip:
+        "If you attend an alumni networking event, introduce yourself. Tell alumni your major, career interests, and what you are working toward. A simple conversation can sometimes lead to advice, mentorship, internships, referrals, or future professional connections."
+    },
+
+
+    // =================================================
+    // MENTORSHIP
+    // =================================================
+
+    {
+      name: "Alumni Mentorship & Guidance",
+
+      keywords: [
+        "mentor",
+        "mentoring",
+        "mentorship",
+        "alumni mentor",
+        "alumni mentorship",
+        "career mentor",
+        "professional mentor",
+        "career advice"
+      ],
+
+      description:
+        "Connections with ASU alumni can give students access to professional guidance, career perspectives, and relationships with graduates who understand the ASU experience.",
+
+      studentTip:
+        "Formal mentorship programs and individual opportunities can vary. When alumni events or professional panels are announced, use them as opportunities to meet people working in careers that interest you."
+    },
+
+
+    // =================================================
+    // SCHOLARSHIPS
+    // =================================================
+
+    {
+      name: "Alumni-Supported Scholarships",
+
+      keywords: [
+        "scholarship",
+        "scholarships",
+        "alumni scholarship",
+        "alumni scholarships",
+        "chapter scholarship",
+        "alumni chapter scholarship",
+        "donor scholarship",
+        "donor scholarships",
+        "financial assistance",
+        "financial support"
+      ],
+
+      description:
+        "ASU alumni, alumni chapters, donors, and university fundraising programs help support scholarship opportunities for eligible students. Scholarship requirements and availability vary depending on the individual award or sponsoring organization.",
+
+      studentTip:
+        "Do not assume one scholarship application covers every alumni-supported award. Watch your ASU email and university announcements and ask about current alumni, chapter, donor, and Foundation-supported scholarship opportunities."
+    },
+
+
+    // =================================================
+    // STUDENT FINANCIAL SUPPORT
+    // =================================================
+
+    {
+      name: "Student Support Through Alumni Giving",
+
+      keywords: [
+        "student support",
+        "financial support",
+        "financial help",
+        "student assistance",
+        "alumni support",
+        "donor support",
+        "help students"
+      ],
+
+      description:
+        "ASU alumni and donors support students and university programs through scholarships, fundraising, philanthropy, and other forms of giving.",
+
+      studentTip:
+        "If you are experiencing a financial difficulty, you can ask whether any current alumni-supported scholarship or assistance opportunities are available. However, the Alumni House should not be treated as a guaranteed emergency financial-aid office. Financial Aid and other student-support offices may need to assist depending on your situation."
+    },
+
+
+    // =================================================
+    // ALUMNI EVENTS
+    // =================================================
+
+    {
+      name: "Alumni Events & Programs",
+
+      keywords: [
+        "alumni event",
+        "alumni events",
+        "alumni program",
+        "alumni programs",
+        "networking event",
+        "homecoming alumni",
+        "alumni homecoming",
+        "alumni gathering"
+      ],
+
+      description:
+        "The Office of Alumni Relations helps keep alumni informed about ASU events and programs and encourages graduates and supporters to remain actively involved with the university.",
+
+      studentTip:
+        "Pay attention during Homecoming and other major university celebrations. Those are often some of the best times to see large numbers of ASU alumni return to campus."
+    },
+
+
+    // =================================================
+    // NATIONAL ALUMNI ASSOCIATION
+    // =================================================
+
+    {
+      name: "National Alumni Association",
+
+      keywords: [
+        "national alumni association",
+        "naa",
+        "alumni association",
+        "asu alumni association",
+        "alumni organization"
+      ],
+
+      description:
+        "The National Alumni Association helps connect ASU alumni through organized chapters, regional representatives, university engagement, and activities that support Alabama State University.",
+
+      studentTip:
+        "After graduation, the National Alumni Association can help you remain connected to ASU even if you move away from Montgomery."
+    },
+
+
+    // =================================================
+    // ALUMNI CHAPTERS
+    // =================================================
+
+    {
+      name: "Alumni Chapters",
+
+      keywords: [
+        "alumni chapter",
+        "alumni chapters",
+        "local alumni chapter",
+        "regional alumni",
+        "alumni near me",
+        "national alumni association"
+      ],
+
+      description:
+        "ASU alumni chapters operate in different communities and regions, giving graduates ways to stay connected with one another and support the university.",
+
+      studentTip:
+        "Your relationship with ASU does not have to end when you leave Montgomery. Alumni chapters can provide another Hornet community wherever your career takes you."
+    },
+
+
+    // =================================================
+    // ALUMNI & CAREER CONNECTIONS
+    // =================================================
+
+    {
+      name: "Career & Professional Connections",
+
+      keywords: [
+        "career",
+        "career opportunity",
+        "career opportunities",
+        "professional development",
+        "professional connections",
+        "job networking",
+        "career networking",
+        "employment connections"
+      ],
+
+      description:
+        "ASU's alumni community can complement the career resources students receive from the university by connecting Hornets across professions, industries, and communities.",
+
+      studentTip:
+        "For formal job searching, résumé assistance, career fairs, Handshake, and employer recruiting, ASU Career Services is the primary student career office. Use the alumni network as an additional relationship-building resource."
+    },
+
+
+    // =================================================
+    // DISTINGUISHED ALUMNI
+    // =================================================
+
+    {
+      name: "Distinguished Alumni Awards",
+
+      keywords: [
+        "distinguished alumni",
+        "distinguished alumni award",
+        "alumni award",
+        "alumni awards",
+        "successful alumni",
+        "notable alumni"
+      ],
+
+      description:
+        "ASU recognizes alumni whose professional accomplishments, community contributions, university support, and leadership represent the university's legacy through programs such as the Distinguished Alumni Awards.",
+
+      studentTip:
+        "Alumni recognition programs are also useful for current students because they can introduce you to accomplished Hornets working in fields you may want to enter."
+    },
+
+
+    // =================================================
+    // 50 UNDER 50
+    // =================================================
+
+    {
+      name: "ASU 50 Under 50",
+
+      keywords: [
+        "50 under 50",
+        "asu 50 under 50",
+        "alumni recognition",
+        "young alumni",
+        "alumni leaders",
+        "alumni ambassadors"
+      ],
+
+      description:
+        "ASU's 50 Under 50 program recognizes and develops alumni who can serve the university as advocates, ambassadors, speakers, panelists, advisers, donors, and participants in university programs.",
+
+      studentTip:
+        "When ASU alumni return as speakers or panelists, those events can be valuable networking opportunities. Bring questions and introduce yourself afterward when appropriate."
+    },
+
+
+    // =================================================
+    // GIVING BACK
+    // =================================================
+
+    {
+      name: "Giving Back to ASU",
+
+      keywords: [
+        "give back",
+        "giving back",
+        "donation",
+        "donations",
+        "giving",
+        "donor",
+        "donors",
+        "fundraising",
+        "fundraiser",
+        "support asu"
+      ],
+
+      description:
+        "Alumni Relations and Institutional Advancement encourage graduates and supporters to remain engaged with Alabama State University through participation, advocacy, service, philanthropy, and giving.",
+
+      studentTip:
+        "Giving back does not always mean making a large financial donation. Alumni can support ASU through mentoring, networking, recruiting students, speaking to classes, volunteering, sharing professional opportunities, and supporting university programs."
+    },
+
+
+    // =================================================
+    // OFFICE OF DEVELOPMENT / FOUNDATION
+    // =================================================
+
+    {
+      name: "Development & ASU Foundation Connection",
+
+      keywords: [
+        "office of development",
+        "development",
+        "asu foundation",
+        "foundation",
+        "scholarship account",
+        "donor",
+        "giving",
+        "fundraising"
+      ],
+
+      description:
+        "Alumni Relations operates within ASU's Institutional Advancement division alongside the Office of Development and ASU Foundation. Together, these areas help strengthen alumni relationships, philanthropy, fundraising, scholarships, and long-term support for the university.",
+
+      studentTip:
+        "If your question involves a particular scholarship fund, donation, or Foundation account, Alumni Relations may need to direct you to Development or the ASU Foundation."
+    },
+
+
+    // =================================================
+    // BEFORE YOU GRADUATE
+    // =================================================
+
+    {
+      name: "Before You Graduate",
+
+      keywords: [
+        "graduation",
+        "graduate",
+        "graduating senior",
+        "senior",
+        "become alumni",
+        "after graduation",
+        "stay connected"
+      ],
+
+      description:
+        "The transition from ASU student to ASU alumnus does not have to mean losing your university connections. Alumni Relations helps graduates remain connected with the Hornet community after leaving campus.",
+
+      studentTip:
+        "Before graduation, make sure ASU has updated contact information for you and learn how to stay connected with Alumni Relations and alumni organizations after your student email and campus routine change."
+    }
+
+  ],
+
+  funFact:
+    "ASU Alumni Relations maintains connections with more than 28,000 alumni, giving current students access to a Hornet network that extends far beyond the Montgomery campus.",
+
+  image: "",
+  mapLink: ""
 }
 
 ];
