@@ -162,27 +162,44 @@ const campusLocations = [
           },
 
           {
-            name: "Starbucks",
+  name: "Starbucks",
 
-            keywords: [
-              "starbucks",
-              "coffee",
-              "grubhub",
-              "flex dollars",
-              "student id"
-            ],
+  keywords: [
+    "starbucks",
+    "coffee",
+    "icafe",
+    "i cafe",
+    "grubhub",
+    "grub hub",
+    "mobile order",
+    "mobile ordering",
+    "order coffee",
+    "starbucks order",
+    "starbucks grubhub",
+    "levi watkins starbucks",
+    "library starbucks",
+    "redesigned starbucks",
+    "new starbucks",
+    "student id",
+    "physical student id"
+  ],
 
-            description:
-              "Starbucks is located on the first-floor level of Levi Watkins Learning Center, but it uses a separate entrance on the right side of the building.",
+  description:
+    "Starbucks is located on the first-floor level of Levi Watkins Learning Center and uses a separate entrance on the right side of the building. The Starbucks area has recently been redesigned and redecorated, and the ordering process has changed.",
 
-            features: [
-              "Starbucks ordering is available through Grubhub",
-              "Students can also use their student ID in person"
-            ],
+  features: [
+    "We Proudly Serve Starbucks location",
+    "Orders are placed through Grubhub",
+    "Updated and redesigned Starbucks area",
+    "Separate entrance on the right side of Levi Watkins Learning Center"
+  ],
 
-            studentTip:
-              "Do not enter through the main library doors looking for Starbucks. Starbucks has its own separate entrance on the right side of Levi Watkins Learning Center and cannot be accessed directly from inside the main library."
-          }
+  studentTip:
+    "IMPORTANT UPDATE: Starbucks orders are now placed through Grubhub. Students no longer order by presenting their physical ASU student ID at the counter. It is a good idea to download and set up Grubhub before visiting so you are ready to place your order.",
+
+  extraTip:
+    "Do not enter through the main library doors looking for Starbucks. Starbucks has its own separate entrance on the right side of Levi Watkins Learning Center and cannot be accessed directly from inside the main library. If you remember the older Starbucks setup, the area has also been redesigned and may look different now."
+}
         ]
       }
     ],
@@ -12016,6 +12033,7007 @@ const campusLocations = [
 
   funFact:
     "Underwood Tennis Center is not just a set of recreational courts. It is a tournament-capable 12-court collegiate facility and the home of Alabama State University's tennis programs.",
+
+  image: "",
+  mapLink: ""
+},
+
+// =====================================================
+// JO ANN ROBINSON HALL
+// =====================================================
+
+{
+  id: 39,
+
+  name: "Jo Ann Robinson Hall",
+  shortName: "Jo Ann Robinson",
+  category: "housing",
+
+  keywords: [
+    "jo ann robinson",
+    "jo ann robinson hall",
+    "joann robinson",
+    "joann robinson hall",
+    "jo ann",
+    "joann",
+
+    "bibb graves",
+    "bibb graves hall",
+    "old bibb graves",
+    "former bibb graves hall",
+
+    "residence hall",
+    "residential hall",
+    "dorm",
+    "dormitory",
+    "housing",
+    "upperclassman housing",
+    "upperclass housing",
+    "upperclassman dorm",
+
+    "women residence hall",
+    "women housing",
+    "female residence hall",
+
+    "suite",
+    "suite style",
+    "suite style housing",
+    "four to a suite",
+    "4 to a suite",
+    "two to a room",
+    "2 to a room",
+    "roommate",
+    "roommates",
+    "suitemate",
+    "suitemates",
+
+    "single room",
+    "single rooms",
+    "single dorm",
+    "private room",
+
+    "common area",
+    "shared common area",
+    "living room",
+    "lounge",
+    "shared living room",
+
+    "shared bathroom",
+    "suite bathroom",
+    "bathroom",
+
+    "study room",
+    "study rooms",
+    "study area",
+    "study space",
+
+    "computer lab",
+    "computer room",
+
+    "wifi",
+    "wi-fi",
+    "internet",
+
+    "ra",
+    "resident assistant",
+    "resident assistants",
+    "residence assistant",
+
+    "accessible room",
+    "accessible rooms",
+    "disability room",
+    "disability rooms",
+    "ada room",
+    "housing accommodation",
+
+    "laundry",
+    "laundry room",
+    "wash clothes",
+    "washer",
+    "washers",
+    "dryer",
+    "dryers",
+
+    "speed queen",
+    "speed queen app",
+    "laundry app",
+    "laundry money",
+    "laundry payment",
+    "10 dollars",
+    "$10",
+    "coins",
+    "quarters",
+
+    "upperclass student",
+    "upperclass students",
+
+    "jo ann robinson history",
+    "civil rights",
+    "civil rights history",
+    "montgomery bus boycott",
+    "bus boycott",
+    "womens political council",
+    "women's political council",
+
+    "ralph david abernathy",
+    "student activism",
+
+    "1929",
+    "historic residence hall",
+
+    "334 229 4422",
+    "229 4422"
+  ],
+
+  description:
+    "Jo Ann Robinson Hall is a historic Alabama State University residence hall that primarily serves upperclass students. The hall offers suite-style living, study spaces, common areas, laundry facilities, Wi-Fi, resident assistants, and other residential resources. The building is also deeply connected to ASU and Montgomery Civil Rights history.",
+
+  phone:
+    "(334) 229-4422",
+
+  services: [
+    "Upperclass residence housing",
+    "Suite-style rooms",
+    "Double-room accommodations",
+    "Single-room options when available",
+    "Accessible housing accommodations",
+    "Shared suite bathrooms",
+    "Shared common areas",
+    "Study rooms",
+    "Computer lab",
+    "Laundry facilities",
+    "Speed Queen laundry system",
+    "Wi-Fi",
+    "Resident Assistants",
+    "Residence-life support"
+  ],
+
+  studentTip:
+    "Jo Ann Robinson Hall uses a suite-style setup. A common arrangement is two students per bedroom and four students sharing a suite, bathroom, and common area. Because you are sharing space with several people, communicate early about cleaning, bathroom schedules, guests, noise, shared supplies, and common-area expectations.",
+
+  sections: [
+
+    // =================================================
+    // UPPERCLASSMAN RESIDENCE HALL
+    // =================================================
+
+    {
+      name: "Upperclassman Residence Hall",
+
+      keywords: [
+        "upperclassman",
+        "upperclass housing",
+        "upperclassman housing",
+        "upperclass dorm",
+        "upperclassman dorm",
+        "women housing",
+        "female residence hall"
+      ],
+
+      description:
+        "Jo Ann Robinson Hall primarily serves upperclass students and has historically operated as a women's residence hall.",
+
+      studentTip:
+        "Housing assignments can change from year to year, so students should always check their current ASU Housing assignment rather than assuming a residence hall serves the exact same population every semester."
+    },
+
+
+    // =================================================
+    // SUITE-STYLE ROOM SETUP
+    // =================================================
+
+    {
+      name: "Suite-Style Room Setup",
+
+      keywords: [
+        "suite",
+        "suite style",
+        "suite style housing",
+        "two to a room",
+        "2 to a room",
+        "four to a suite",
+        "4 to a suite",
+        "room setup",
+        "room layout"
+      ],
+
+      description:
+        "Jo Ann Robinson Hall uses suite-style housing. A common setup includes two residents sharing a bedroom and four residents sharing the larger suite.",
+
+      features: [
+        "Two residents per bedroom in many suites",
+        "Four residents sharing a suite",
+        "Shared bathroom",
+        "Shared common area",
+        "Suite-style residential layout"
+      ],
+
+      studentTip:
+        "Four people sharing a suite means communication matters. Decide early how everyone will handle cleaning, bathroom time, trash, shared items, quiet hours, guests, and use of the common area."
+    },
+
+
+    // =================================================
+    // SINGLE ROOMS
+    // =================================================
+
+    {
+      name: "Single-Room Options",
+
+      keywords: [
+        "single room",
+        "single rooms",
+        "single dorm",
+        "private room",
+        "one person room"
+      ],
+
+      description:
+        "Jo Ann Robinson Hall may also offer single-room accommodations depending on housing availability and current assignment policies.",
+
+      studentTip:
+        "Single rooms are limited and should never be assumed to be automatically available. Housing assignments depend on availability, eligibility, accommodations, and current Residence Life policies."
+    },
+
+
+    // =================================================
+    // ACCESSIBLE HOUSING
+    // =================================================
+
+    {
+      name: "Accessible Housing Accommodations",
+
+      keywords: [
+        "accessible room",
+        "accessible rooms",
+        "disability room",
+        "disability rooms",
+        "ada room",
+        "housing accommodation",
+        "disability accommodation",
+        "accessible housing"
+      ],
+
+      description:
+        "Jo Ann Robinson Hall includes residential spaces that may support students with approved accessibility or disability-related housing needs.",
+
+      studentTip:
+        "If you need a disability-related housing accommodation, do not wait until move-in. Work with ASU Housing & Residence Life and the Office of Disability Services so your needs can be reviewed and the appropriate housing arrangement can be made."
+    },
+
+
+    // =================================================
+    // SHARED BATHROOM
+    // =================================================
+
+    {
+      name: "Shared Suite Bathroom",
+
+      keywords: [
+        "bathroom",
+        "shared bathroom",
+        "suite bathroom",
+        "bathroom sharing",
+        "shared restroom"
+      ],
+
+      description:
+        "Residents in a suite share the bathroom with their suitemates rather than using a large traditional community bathroom for the entire floor.",
+
+      studentTip:
+        "Talk with your suitemates about cleaning responsibilities before the bathroom becomes a problem. A simple rotating cleaning schedule can save everybody an argument later."
+    },
+
+
+    // =================================================
+    // COMMON AREA / LIVING ROOM
+    // =================================================
+
+    {
+      name: "Suite Common Area & Living Space",
+
+      keywords: [
+        "common area",
+        "shared common area",
+        "living room",
+        "shared living room",
+        "suite living room",
+        "lounge"
+      ],
+
+      description:
+        "Suite residents share a common living area that can be used for relaxing, talking with suitemates, and spending time together.",
+
+      studentTip:
+        "Remember that the common area belongs to everyone in the suite. Avoid taking it over with personal belongings, guests, or noise without talking with your suitemates first."
+    },
+
+
+    // =================================================
+    // STUDY ROOMS
+    // =================================================
+
+    {
+      name: "Study Rooms",
+
+      keywords: [
+        "study room",
+        "study rooms",
+        "study area",
+        "study space",
+        "quiet study",
+        "where to study"
+      ],
+
+      description:
+        "Jo Ann Robinson Hall provides study rooms on its residential floors, giving residents a place to work outside their bedrooms.",
+
+      studentTip:
+        "The study room can be especially useful when your roommate is sleeping, talking on the phone, watching television, or having visitors."
+    },
+
+
+    // =================================================
+    // COMPUTER LAB
+    // =================================================
+
+    {
+      name: "Computer Lab",
+
+      keywords: [
+        "computer lab",
+        "computer room",
+        "computer",
+        "residence hall computer",
+        "computer access"
+      ],
+
+      description:
+        "Jo Ann Robinson Hall has historically included a computer lab for residents.",
+
+      studentTip:
+        "Computer availability, equipment, and access rules can change, so check the current residence-hall setup if you specifically need computer access."
+    },
+
+
+    // =================================================
+    // WI-FI
+    // =================================================
+
+    {
+      name: "Wi-Fi & Internet",
+
+      keywords: [
+        "wifi",
+        "wi-fi",
+        "internet",
+        "wireless",
+        "residence hall wifi",
+        "dorm internet"
+      ],
+
+      description:
+        "Wi-Fi service is available for residents as part of the residence-hall environment.",
+
+      studentTip:
+        "Internet issues can happen at the worst possible time. If you have an assignment due, avoid waiting until the last few minutes to upload it."
+    },
+
+
+    // =================================================
+    // RESIDENT ASSISTANTS
+    // =================================================
+
+    {
+      name: "Resident Assistants (RAs)",
+
+      keywords: [
+        "ra",
+        "ras",
+        "resident assistant",
+        "resident assistants",
+        "residence assistant",
+        "floor ra",
+        "hall staff"
+      ],
+
+      description:
+        "Resident Assistants help support students living in ASU residence halls. RAs are assigned throughout the residential community and help with questions, community expectations, programs, roommate concerns, emergencies, and other residence-life needs.",
+
+      studentTip:
+        "Learn who your RA is early in the semester. Do not wait until you have a serious problem to figure out who your residence-hall staff are."
+    },
+
+
+    // =================================================
+    // ROOMMATES & SUITEMATES
+    // =================================================
+
+    {
+      name: "Living With Roommates & Suitemates",
+
+      keywords: [
+        "roommate",
+        "roommates",
+        "suitemate",
+        "suitemates",
+        "roommate problem",
+        "suite problem",
+        "roommate conflict",
+        "shared room"
+      ],
+
+      description:
+        "Suite-style living means residents share both personal and common spaces with roommates and suitemates.",
+
+      studentTip:
+        "Talk about expectations before problems start. Discuss sleep schedules, alarms, cleanliness, guests, borrowing items, bathroom use, noise, food, shared supplies, and how everyone wants the common area used."
+    },
+
+
+    // =================================================
+    // LAUNDRY & SPEED QUEEN
+    // =================================================
+
+    {
+      name: "🧺 Laundry & Speed Queen",
+
+      keywords: [
+        "laundry",
+        "laundry room",
+        "wash clothes",
+        "washing clothes",
+        "washer",
+        "washers",
+        "dryer",
+        "dryers",
+        "speed queen",
+        "speed queen app",
+        "laundry app",
+        "laundry money",
+        "add laundry money",
+        "laundry payment",
+        "10 dollars",
+        "$10",
+        "coins",
+        "quarters",
+        "laundry coins"
+      ],
+
+      description:
+        "Jo Ann Robinson Hall has laundry facilities available on each floor. Students commonly use the Speed Queen app to pay for and manage residence-hall laundry.",
+
+      features: [
+        "Laundry facilities on each floor",
+        "Washers and dryers",
+        "Speed Queen app",
+        "Digital laundry payment",
+        "Coin backup when supported by the machine"
+      ],
+
+      studentTip:
+        "When adding money through the Speed Queen app, students report that the minimum amount you can load is $10. You cannot load less than $10, although you can add more. It is also smart to keep quarters available as a backup in case the internet is down or Speed Queen has a technical problem. Check the individual machine first to make sure it currently accepts coins."
+    },
+
+
+    // =================================================
+    // LAUNDRY ETIQUETTE
+    // =================================================
+
+    {
+      name: "Laundry Tips & Etiquette",
+
+      keywords: [
+        "laundry tips",
+        "laundry etiquette",
+        "washing clothes",
+        "dryer finished",
+        "washer finished",
+        "laundry timer"
+      ],
+
+      description:
+        "Residence-hall laundry rooms are shared spaces, so residents should be considerate of others who may be waiting for a machine.",
+
+      studentTip:
+        "Set a timer when you start your washer or dryer and return when the cycle is finished. Avoid leaving clothes sitting in a machine for a long time, and do not leave valuable personal belongings unattended in the laundry room."
+    },
+
+
+    // =================================================
+    // LAUNDRY MACHINE PROBLEMS
+    // =================================================
+
+    {
+      name: "Laundry Machine Problems",
+
+      keywords: [
+        "washer broken",
+        "dryer broken",
+        "laundry broken",
+        "speed queen problem",
+        "speed queen error",
+        "laundry error",
+        "laundry refund",
+        "machine not working"
+      ],
+
+      description:
+        "If a residence-hall washer, dryer, or laundry payment system is not working correctly, residents should report the issue through the appropriate residence-hall staff or current laundry-support process.",
+
+      studentTip:
+        "Do not keep repeatedly paying a machine that is clearly malfunctioning. Document the machine number or error when possible and report the problem."
+    },
+
+
+    // =================================================
+    // HALL PHONE
+    // =================================================
+
+    {
+      name: "Jo Ann Robinson Hall Contact",
+
+      keywords: [
+        "jo ann phone",
+        "joann phone",
+        "hall phone",
+        "residence hall phone",
+        "334 229 4422",
+        "229 4422"
+      ],
+
+      description:
+        "The current ASU Guide to Campus Living lists Jo Ann Robinson Hall at (334) 229-4422.",
+
+      contact:
+        "(334) 229-4422",
+
+      studentTip:
+        "For emergencies, use the appropriate emergency or Campus Police number rather than relying only on the residence-hall office phone."
+    },
+
+
+    // =================================================
+    // HOUSING & RESIDENCE LIFE
+    // =================================================
+
+    {
+      name: "Housing & Residence Life",
+
+      keywords: [
+        "housing office",
+        "housing and residence life",
+        "residence life",
+        "housing help",
+        "housing problem",
+        "room assignment"
+      ],
+
+      description:
+        "ASU Housing & Residence Life manages residence-hall assignments, policies, residential support, and other university housing functions.",
+
+      studentTip:
+        "If your issue cannot be resolved inside the residence hall, Housing & Residence Life is located in the J. Garrick Hardy Student Center."
+    },
+
+
+    // =================================================
+    // MAINTENANCE
+    // =================================================
+
+    {
+      name: "Residence Hall Maintenance",
+
+      keywords: [
+        "maintenance",
+        "dorm maintenance",
+        "room maintenance",
+        "something broken",
+        "broken room",
+        "air conditioning",
+        "ac broken",
+        "leak",
+        "toilet broken",
+        "sink broken"
+      ],
+
+      description:
+        "Residence-hall maintenance concerns should be reported through the appropriate hall or Housing & Residence Life process so Facilities Management can address the issue.",
+
+      studentTip:
+        "If something breaks in your room or suite, report it early. Do not wait until a small leak, HVAC problem, or broken fixture becomes a much larger issue."
+    },
+
+
+    // =================================================
+    // ROOM SAFETY
+    // =================================================
+
+    {
+      name: "Room & Suite Safety",
+
+      keywords: [
+        "room safety",
+        "dorm safety",
+        "suite safety",
+        "lock door",
+        "residence hall safety",
+        "secure room"
+      ],
+
+      description:
+        "Residents are responsible for helping maintain a safe residential environment and following current Housing & Residence Life policies.",
+
+      studentTip:
+        "Lock your room when you leave, even if you are only going down the hall. Do not give your room access to people who are not authorized residents or guests."
+    },
+
+
+    // =================================================
+    // WHO WAS JO ANN ROBINSON?
+    // =================================================
+
+    {
+      name: "Who Was Jo Ann Robinson?",
+
+      keywords: [
+        "jo ann robinson",
+        "joann robinson",
+        "who was jo ann robinson",
+        "civil rights",
+        "civil rights leader",
+        "english professor",
+        "asu professor",
+        "womens political council",
+        "women's political council"
+      ],
+
+      description:
+        "Jo Ann Robinson was an Alabama State University English professor, civil-rights activist, and leader in Montgomery's Women's Political Council. She played a major role in organizing the Montgomery Bus Boycott.",
+
+      studentTip:
+        "Jo Ann Robinson was not an Alabama governor. She was an ASU professor and Civil Rights organizer. The building's former name, Bibb Graves Hall, came from former Alabama Governor David Bibb Graves."
+    },
+
+
+    // =================================================
+    // MONTGOMERY BUS BOYCOTT
+    // =================================================
+
+    {
+      name: "Montgomery Bus Boycott History",
+
+      keywords: [
+        "montgomery bus boycott",
+        "bus boycott",
+        "civil rights",
+        "civil rights movement",
+        "jo ann robinson boycott",
+        "womens political council",
+        "women's political council"
+      ],
+
+      description:
+        "Jo Ann Robinson and the Women's Political Council played a central role in organizing the Montgomery Bus Boycott. After Rosa Parks was arrested, Robinson helped rapidly produce and distribute thousands of notices calling for the boycott.",
+
+      studentTip:
+        "Robinson's work connects ASU directly to one of the defining campaigns of the Civil Rights Movement."
+    },
+
+
+    // =================================================
+    // COUNCILL HALL CONNECTION
+    // =================================================
+
+    {
+      name: "Councill Hall Civil Rights Connection",
+
+      keywords: [
+        "councill hall",
+        "william hooper councill",
+        "mimeograph",
+        "boycott leaflets",
+        "bus boycott leaflets",
+        "civil rights flyers"
+      ],
+
+      description:
+        "Jo Ann Robinson and students used a mimeograph machine in Councill Hall to produce thousands of leaflets announcing the Montgomery Bus Boycott.",
+
+      studentTip:
+        "This is why Hornet Navigator connects Jo Ann Robinson Hall with Councill Hall: the residence hall honors Robinson, while Councill Hall is directly connected to the production of the boycott leaflets."
+    },
+
+
+    // =================================================
+    // FORMERLY BIBB GRAVES HALL
+    // =================================================
+
+    {
+      name: "Formerly Bibb Graves Hall",
+
+      keywords: [
+        "bibb graves",
+        "bibb graves hall",
+        "old bibb graves",
+        "former bibb graves hall",
+        "jo ann robinson rename",
+        "building renamed"
+      ],
+
+      description:
+        "Jo Ann Robinson Hall was formerly known as Bibb Graves Hall. Alabama State University renamed the historic residence hall in 2022 in honor of Jo Ann Robinson and her extraordinary role in Civil Rights history.",
+
+      studentTip:
+        "If you find an older ASU map, document, alumni post, or website that says 'Bibb Graves Hall,' it may be referring to the building now known as Jo Ann Robinson Hall."
+    },
+
+
+    // =================================================
+    // WHY THE RENAMING MATTERS
+    // =================================================
+
+    {
+      name: "Why the Renaming Matters",
+
+      keywords: [
+        "why renamed",
+        "bibb graves history",
+        "jo ann robinson rename",
+        "building rename",
+        "civil rights history"
+      ],
+
+      description:
+        "The building's renaming reflects a major change in whom ASU chooses to honor. The former name recognized Alabama Governor David Bibb Graves, while the current name honors Jo Ann Robinson, an ASU professor whose organizing helped launch the Montgomery Bus Boycott.",
+
+      studentTip:
+        "Living in Jo Ann Robinson Hall means living in a building whose name tells part of ASU's Civil Rights story."
+    },
+
+
+    // =================================================
+    // BUILDING HISTORY
+    // =================================================
+
+    {
+      name: "Historic Residence Hall",
+
+      keywords: [
+        "jo ann history",
+        "building history",
+        "residence hall history",
+        "1929",
+        "historic dorm",
+        "historic residence hall"
+      ],
+
+      description:
+        "The building now known as Jo Ann Robinson Hall dates to 1929 and has served generations of Alabama State University students. Historic descriptions identify it as a three-story residence building with bedrooms, social spaces, offices, and other residential facilities."
+    },
+
+
+    // =================================================
+    // MLK HISTORY CLARIFICATION
+    // =================================================
+
+    {
+      name: "Martin Luther King Jr. History Clarification",
+
+      keywords: [
+        "martin luther king",
+        "martin luther king jr",
+        "mlk",
+        "king family",
+        "king house bombing",
+        "friendship manor",
+        "civil rights history"
+      ],
+
+      description:
+        "ASU's documented Civil Rights history connects Dr. Martin Luther King Jr.'s stay after the bombing of his Montgomery home with Friendship Manor, the university's historic former President's Residence.",
+
+      studentTip:
+        "Stories may circulate connecting Dr. King with different ASU buildings. Hornet Navigator uses the university's documented history and identifies Friendship Manor as the location associated with his stay after the bombing."
+    }
+
+  ],
+
+  history: {
+    year: 1929,
+
+    description:
+      "The historic residence hall now known as Jo Ann Robinson Hall dates to 1929. For many years it was known as Bibb Graves Hall before Alabama State University renamed it in 2022 to honor Jo Ann Robinson, the ASU professor and Women's Political Council leader whose organizing played a central role in the Montgomery Bus Boycott."
+  },
+
+  campusLore:
+    "Students may hear stories connecting Jo Ann Robinson Hall with Dr. Martin Luther King Jr. during the Montgomery Bus Boycott era. ASU's documented history identifies Friendship Manor as the university residence where Dr. King stayed after the bombing of his home, so Hornet Navigator keeps that event connected to Friendship Manor unless additional archival documentation establishes another location.",
+
+  funFact:
+    "Jo Ann Robinson Hall combines two major parts of the ASU experience: it is an active upperclass residence hall where students live today, while its name honors an ASU professor whose organizing helped launch the Montgomery Bus Boycott.",
+
+  image: "",
+  mapLink: ""
+},
+
+// =====================================================
+// WILEASE S. SIMPSON HALL
+// =====================================================
+
+{
+  id: 40,
+
+  name: "Wilease S. Simpson Hall",
+  shortName: "Simpson Hall",
+  category: "housing",
+
+  keywords: [
+    "wilease simpson",
+    "wilease s simpson",
+    "wilease s simpson hall",
+    "wilease rosa simpson",
+    "simpson",
+    "simpson hall",
+
+    "residence hall",
+    "residential hall",
+    "dorm",
+    "dormitory",
+    "housing",
+
+    "mens dorm",
+    "men's dorm",
+    "all men",
+    "all male",
+    "male residence hall",
+    "male housing",
+    "mens residence hall",
+    "men's residence hall",
+
+    "upperclassman",
+    "upperclassman housing",
+    "upperclass housing",
+    "returning student",
+    "returning students",
+
+    "single",
+    "single room",
+    "single rooms",
+    "private room",
+    "one person room",
+
+    "community bathroom",
+    "shared bathroom",
+    "floor bathroom",
+    "community restroom",
+    "shared restroom",
+
+    "community room",
+    "living room",
+    "lounge",
+    "common area",
+
+    "wifi",
+    "wi-fi",
+    "internet",
+
+    "ra",
+    "ras",
+    "resident assistant",
+    "resident assistants",
+
+    "health center",
+    "asu health center",
+    "student health center",
+    "health services",
+    "student health services",
+    "campus clinic",
+    "clinic",
+    "nurse",
+    "doctor",
+
+    "basement",
+    "ground floor",
+    "health center basement",
+    "simpson basement",
+
+    "sick",
+    "illness",
+    "injury",
+    "hurt",
+    "medical help",
+
+    "covid test",
+    "covid testing",
+    "flu test",
+    "flu testing",
+    "strep test",
+    "strep testing",
+    "std test",
+    "std testing",
+    "sti test",
+    "hiv test",
+    "hiv testing",
+    "pregnancy test",
+    "pregnancy testing",
+
+    "walk in",
+    "walk-in",
+    "walk in clinic",
+
+    "student id",
+    "health center id",
+
+    "334 229 4436",
+    "229 4436",
+
+    "1966",
+    "historic residence hall",
+    "civil rights district",
+    "national register"
+  ],
+
+  description:
+    "Wilease S. Simpson Hall is an Alabama State University residence hall serving returning male students. Simpson is distinctive because residents are housed in individual rooms rather than the two-person bedroom arrangement found in some other ASU residence halls. Residents share community bathroom facilities, and the building also contains large community space and Wi-Fi. ASU Student Health Services is located at the basement/ground level of Simpson Hall with a separate entrance.",
+
+  services: [
+    "Returning male student housing",
+    "Individual single rooms",
+    "Community bathroom facilities",
+    "Large student community room",
+    "Wi-Fi",
+    "Resident Assistants",
+    "Residence-life support",
+    "ASU Student Health Services at basement/ground level"
+  ],
+
+  studentTip:
+    "Simpson is an all-men residence hall for returning students and uses a different setup from Jo Ann Robinson Hall. Simpson residents have individual rooms, while bathroom facilities are shared by residents on the floor. Housing assignments and eligibility can change, so always follow your current ASU Housing assignment.",
+
+  sections: [
+
+    // =================================================
+    // ALL-MEN / RETURNING STUDENT HOUSING
+    // =================================================
+
+    {
+      name: "All-Men Returning Student Residence Hall",
+
+      keywords: [
+        "all men",
+        "all male",
+        "mens dorm",
+        "men's dorm",
+        "male residence hall",
+        "returning student",
+        "returning students",
+        "upperclassman",
+        "upperclassman housing"
+      ],
+
+      description:
+        "Wilease S. Simpson Hall currently serves returning male students at Alabama State University.",
+
+      studentTip:
+        "Jo Ann Robinson Hall and Simpson Hall serve different residential populations: Jo Ann Robinson is women's housing, while Simpson serves returning male students. Always check current Housing information because assignments and building designations can change."
+    },
+
+
+    // =================================================
+    // SINGLE ROOMS
+    // =================================================
+
+    {
+      name: "Individual Single Rooms",
+
+      keywords: [
+        "single",
+        "single room",
+        "single rooms",
+        "private room",
+        "one person room",
+        "own room",
+        "no roommate"
+      ],
+
+      description:
+        "ASU describes Simpson Hall as providing one resident per room, making the individual-bedroom arrangement one of the building's most distinctive residential features.",
+
+      studentTip:
+        "Having your own bedroom gives you more personal space, but you are still part of a residence-hall community and share other facilities with residents on your floor."
+    },
+
+
+    // =================================================
+    // COMMUNITY BATHROOM
+    // =================================================
+
+    {
+      name: "Community Bathroom",
+
+      keywords: [
+        "community bathroom",
+        "shared bathroom",
+        "floor bathroom",
+        "community restroom",
+        "shared restroom",
+        "bathroom"
+      ],
+
+      description:
+        "Unlike Jo Ann Robinson's suite-style bathroom arrangement, Simpson residents use community bathroom facilities shared with other residents on the floor.",
+
+      studentTip:
+        "A community bathroom is shared space. Bring the personal shower and bathroom supplies you need, keep your belongings together, and be considerate of other residents using the facilities."
+    },
+
+
+    // =================================================
+    // COMMUNITY ROOM
+    // =================================================
+
+    {
+      name: "Large Community Room",
+
+      keywords: [
+        "community room",
+        "living room",
+        "lounge",
+        "common area",
+        "hang out",
+        "student lounge"
+      ],
+
+      description:
+        "ASU describes Simpson Hall as having one of the largest student community rooms on campus, providing residents with shared space outside their individual bedrooms.",
+
+      studentTip:
+        "Your room may be private, but you do not have to stay isolated. The community room gives residents a place to socialize and spend time outside their bedrooms."
+    },
+
+
+    // =================================================
+    // WI-FI
+    // =================================================
+
+    {
+      name: "Wi-Fi & Internet",
+
+      keywords: [
+        "wifi",
+        "wi-fi",
+        "internet",
+        "wireless",
+        "dorm internet",
+        "simpson wifi"
+      ],
+
+      description:
+        "Wireless internet is available as part of Simpson Hall's residential environment.",
+
+      studentTip:
+        "Do not wait until the last minute to submit an important assignment. Residence-hall internet can experience interruptions just like any other network."
+    },
+
+
+    // =================================================
+    // RESIDENT ASSISTANTS
+    // =================================================
+
+    {
+      name: "Resident Assistants (RAs)",
+
+      keywords: [
+        "ra",
+        "ras",
+        "resident assistant",
+        "resident assistants",
+        "floor ra",
+        "hall staff"
+      ],
+
+      description:
+        "Resident Assistants help support students throughout ASU's residential communities and serve as an important first point of contact for many residence-hall questions and concerns.",
+
+      studentTip:
+        "Learn who your RA is when you move in. Your RA can help with residence-hall questions, community expectations, roommate or resident concerns, programs, and getting you connected with the right staff when something happens."
+    },
+
+
+    // =================================================
+    // HEALTH CENTER
+    // =================================================
+
+    {
+      name: "🩺 ASU Student Health Center",
+
+      keywords: [
+        "health center",
+        "asu health center",
+        "student health center",
+        "health services",
+        "student health services",
+        "clinic",
+        "campus clinic",
+        "nurse",
+        "doctor",
+        "medical",
+        "sick",
+        "hurt"
+      ],
+
+      description:
+        "ASU Student Health Services is located at the basement/ground level of Wilease S. Simpson Hall and provides health-related services for eligible Alabama State University students.",
+
+      features: [
+        "Treatment for sickness and minor injuries",
+        "Diagnostic testing",
+        "Health education",
+        "Student health support",
+        "Counseling and support connections",
+        "Insurance information",
+        "Limited dental services",
+        "Psychiatric and emotional-care resources"
+      ],
+
+      studentTip:
+        "You do not have to live in Simpson Hall to use ASU Student Health Services. The Health Center serves eligible ASU students."
+    },
+
+
+    // =================================================
+    // FINDING THE HEALTH CENTER
+    // =================================================
+
+    {
+      name: "How to Find the Health Center Entrance",
+
+      keywords: [
+        "health center entrance",
+        "where is health center",
+        "find health center",
+        "simpson health center",
+        "simpson basement",
+        "basement entrance",
+        "side entrance",
+        "health center door"
+      ],
+
+      description:
+        "The Student Health Center has a separate entrance at the basement/ground level of Simpson Hall rather than requiring students to enter through the residence-hall living area.",
+
+      studentTip:
+        "When approaching Simpson Hall, look toward the side of the main entrance on the left for the separate entrance marked for the Health Center. Watch for the HEALTH CENTER signage rather than assuming you need to enter the residence hall itself."
+    },
+
+
+    // =================================================
+    // HEALTH CENTER PHONE
+    // =================================================
+
+    {
+      name: "Health Center Contact",
+
+      keywords: [
+        "health center phone",
+        "health services phone",
+        "call health center",
+        "334 229 4436",
+        "229 4436"
+      ],
+
+      description:
+        "ASU Student Health Services can be reached at (334) 229-4436.",
+
+      contact:
+        "(334) 229-4436",
+
+      studentTip:
+        "If you are unsure whether the Health Center provides a particular test or service, calling before you walk over can save you a trip."
+    },
+
+
+    // =================================================
+    // HEALTH CENTER HOURS
+    // =================================================
+
+    {
+      name: "Health Center Hours",
+
+      keywords: [
+        "health center hours",
+        "clinic hours",
+        "health services hours",
+        "when health center open",
+        "8 am",
+        "4 pm"
+      ],
+
+      description:
+        "ASU currently lists regular Student Health Services hours as Monday through Friday from 8:00 a.m. to 4:00 p.m.",
+
+      studentTip:
+        "Hours can change during holidays, breaks, summer sessions, emergencies, and university closures. Verify current hours if you are making a special trip."
+    },
+
+
+    // =================================================
+    // WALK-INS
+    // =================================================
+
+    {
+      name: "Walk-In Health Services",
+
+      keywords: [
+        "walk in",
+        "walk-in",
+        "walk in clinic",
+        "appointment",
+        "need appointment",
+        "doctor appointment",
+        "health appointment"
+      ],
+
+      description:
+        "ASU Health Services currently welcomes walk-in students for available services.",
+
+      studentTip:
+        "Availability can depend on staffing and the service you need. For something specific, calling Health Services first is a good idea."
+    },
+
+
+    // =================================================
+    // TESTING
+    // =================================================
+
+    {
+      name: "Health Testing Services",
+
+      keywords: [
+        "test",
+        "testing",
+        "covid test",
+        "covid testing",
+        "flu test",
+        "flu testing",
+        "strep test",
+        "strep testing",
+        "std test",
+        "std testing",
+        "sti test",
+        "sti testing",
+        "hiv test",
+        "hiv testing"
+      ],
+
+      description:
+        "ASU currently lists diagnostic testing through Student Health Services for conditions including COVID-19, influenza, strep, sexually transmitted diseases, and HIV.",
+
+      studentTip:
+        "Testing availability can change based on supplies, staffing, symptoms, and current health guidance. Contact the Health Center if you need a particular test."
+    },
+
+
+    // =================================================
+    // PREGNANCY TESTING
+    // =================================================
+
+    {
+      name: "Pregnancy Testing & Pregnancy Support",
+
+      keywords: [
+        "pregnancy",
+        "pregnancy test",
+        "pregnancy testing",
+        "pregnant",
+        "pregnancy help",
+        "pregnancy support"
+      ],
+
+      description:
+        "Students seeking pregnancy-related health services can contact ASU Student Health Services for guidance, available testing information, support, and appropriate referrals.",
+
+      studentTip:
+        "Students report pregnancy testing as a Health Center resource, but services can change. Contact the Health Center at (334) 229-4436 to confirm current testing availability before relying on a specific service."
+    },
+
+
+    // =================================================
+    // STUDENT ID FOR HEALTH CENTER
+    // =================================================
+
+    {
+      name: "Bring Your Student ID",
+
+      keywords: [
+        "student id",
+        "asu id",
+        "health center id",
+        "need id",
+        "health services id"
+      ],
+
+      description:
+        "ASU's current Health Services information instructs students to be enrolled and validated and to present their ASU student identification when receiving services.",
+
+      studentTip:
+        "Even though some other campus businesses and services are moving toward mobile ordering or digital systems, bring your ASU student ID when visiting the Health Center unless Health Services announces a different procedure."
+    },
+
+
+    // =================================================
+    // HEALTH FEES / INSURANCE
+    // =================================================
+
+    {
+      name: "Health Fees & Insurance Questions",
+
+      keywords: [
+        "health fee",
+        "health insurance",
+        "student insurance",
+        "medical insurance",
+        "private insurance",
+        "50 dollars",
+        "$50",
+        "health center cost",
+        "health center payment"
+      ],
+
+      description:
+        "Student Health Services provides health resources to eligible ASU students and can provide information about health-related charges and insurance questions.",
+
+      studentTip:
+        "Students may see health-related charges associated with enrollment, but do not assume every service is automatically free or that a university fee replaces your personal health insurance. Ask Health Services directly about current fees, outside insurance, prescriptions, referrals, lab work, and services that may have additional costs."
+    },
+
+
+    // =================================================
+    // WHEN YOU ARE SICK
+    // =================================================
+
+    {
+      name: "Feeling Sick?",
+
+      keywords: [
+        "sick",
+        "feeling sick",
+        "not feeling good",
+        "ill",
+        "illness",
+        "cold",
+        "flu",
+        "fever",
+        "strep",
+        "need doctor",
+        "need nurse"
+      ],
+
+      description:
+        "Students experiencing illness can contact or visit ASU Student Health Services for evaluation and available treatment or testing.",
+
+      studentTip:
+        "Do not wait until you are extremely sick to ask for help. If your symptoms are worsening or you are unsure what to do, contact the Health Center."
+    },
+
+
+    // =================================================
+    // EMERGENCY VS HEALTH CENTER
+    // =================================================
+
+    {
+      name: "Emergency vs. Health Center",
+
+      keywords: [
+        "emergency",
+        "medical emergency",
+        "911",
+        "urgent medical",
+        "serious injury",
+        "can't breathe",
+        "unconscious"
+      ],
+
+      description:
+        "The Student Health Center provides campus health services, but it is not a replacement for emergency medical care.",
+
+      studentTip:
+        "For a life-threatening emergency, severe injury, trouble breathing, loss of consciousness, or another immediate medical emergency, call 911 rather than walking to the Health Center."
+    },
+
+
+    // =================================================
+    // RESIDENCE HALL MAINTENANCE
+    // =================================================
+
+    {
+      name: "Residence Hall Maintenance",
+
+      keywords: [
+        "maintenance",
+        "simpson maintenance",
+        "dorm maintenance",
+        "room maintenance",
+        "something broken",
+        "ac broken",
+        "air conditioning",
+        "leak",
+        "room problem"
+      ],
+
+      description:
+        "Maintenance problems in Simpson Hall should be reported through the appropriate residence-hall staff or Housing & Residence Life process.",
+
+      studentTip:
+        "Report problems early. Something small like a leak, electrical issue, or HVAC problem can become much worse if everyone assumes somebody else reported it."
+    },
+
+
+    // =================================================
+    // HOUSING & RESIDENCE LIFE
+    // =================================================
+
+    {
+      name: "Housing & Residence Life",
+
+      keywords: [
+        "housing",
+        "housing office",
+        "residence life",
+        "housing help",
+        "room assignment",
+        "housing assignment"
+      ],
+
+      description:
+        "ASU Housing & Residence Life manages university housing assignments, residence-hall policies, residential support, and other housing services.",
+
+      studentTip:
+        "If your concern cannot be handled by Simpson's residence-hall staff, contact Housing & Residence Life in the J. Garrick Hardy Student Center."
+    },
+
+
+    // =================================================
+    // WHO WAS WILEASE ROSA SIMPSON?
+    // =================================================
+
+    {
+      name: "Who Was Wilease Rosa Simpson?",
+
+      keywords: [
+        "wilease rosa simpson",
+        "wilease simpson",
+        "who was wilease simpson",
+        "simpson history",
+        "secretary treasurer",
+        "asu history"
+      ],
+
+      description:
+        "Wilease Rosa Simpson served Alabama State University for 43 years as secretary-treasurer. Simpson Hall bears her name in recognition of her long service to the university.",
+
+      studentTip:
+        "Simpson is another ASU residence hall whose name connects today's students with people who played important roles in the university's history."
+    },
+
+
+    // =================================================
+    // BUILDING HISTORY
+    // =================================================
+
+    {
+      name: "Simpson Hall History",
+
+      keywords: [
+        "simpson history",
+        "1966",
+        "when was simpson built",
+        "historic dorm",
+        "historic residence hall",
+        "national register"
+      ],
+
+      description:
+        "Simpson Hall was constructed in 1966 and contains more than 100 individual bedrooms. The building has served different residential populations during its history and is recognized as a contributing resource within Alabama State University's historic campus district."
+    },
+
+
+    // =================================================
+    // CENTRAL CAMPUS LOCATION
+    // =================================================
+
+    {
+      name: "Central Campus Location",
+
+      keywords: [
+        "simpson location",
+        "where is simpson",
+        "near student center",
+        "near library",
+        "central campus"
+      ],
+
+      description:
+        "Simpson Hall is centrally positioned on ASU's campus, providing residents convenient access to academic buildings, the Student Center, library resources, and other central-campus destinations.",
+
+      studentTip:
+        "One advantage of Simpson is that residents are relatively close to several places students use regularly instead of being isolated on the edge of campus."
+    }
+
+  ],
+
+  history: {
+    year: 1966,
+
+    description:
+      "Wilease S. Simpson Hall was constructed in 1966 and named for Wilease Rosa Simpson, who served Alabama State University for 43 years as secretary-treasurer. The building has housed different student populations during its history and remains an important part of ASU's residential campus."
+  },
+
+  funFact:
+    "Simpson combines two very different campus functions in one location: the upper levels serve as a men's residence hall with individual student rooms, while ASU Student Health Services operates from the building's basement/ground level with its own entrance.",
+
+  image: "",
+  mapLink: ""
+},
+
+// =====================================================
+// JOHN W. ABERCROMBIE HALL
+// =====================================================
+
+{
+  id: 41,
+
+  name: "John W. Abercrombie Hall",
+  shortName: "Abercrombie Hall",
+  category: "housing",
+
+  keywords: [
+    "abercrombie",
+    "abercrombie hall",
+    "john w abercrombie",
+    "john w abercrombie hall",
+
+    "residence hall",
+    "residential hall",
+    "dorm",
+    "dormitory",
+    "housing",
+
+    "upperclassman",
+    "upperclassmen",
+    "upperclassman housing",
+    "upperclass housing",
+    "returning student",
+    "returning students",
+
+    "men",
+    "mens dorm",
+    "men's dorm",
+    "all men",
+    "all male",
+    "male residence hall",
+    "male housing",
+
+    "suite",
+    "suite style",
+    "suite-style",
+    "all suite",
+    "two bedrooms",
+    "two bedroom suite",
+
+    "roommate",
+    "roommates",
+    "suitemate",
+    "suitemates",
+
+    "bed",
+    "beds",
+    "study desk",
+    "study desks",
+    "desk",
+    "rocking chair",
+    "rocking chairs",
+    "wardrobe",
+    "wardrobes",
+    "couch",
+    "tv stand",
+    "television stand",
+    "furniture",
+    "what comes in my room",
+
+    "study room",
+    "study rooms",
+    "study area",
+    "study space",
+
+    "laundry",
+    "laundry room",
+    "washer",
+    "washers",
+    "dryer",
+    "dryers",
+    "wash clothes",
+
+    "speed queen",
+    "speed queen app",
+    "laundry app",
+    "laundry payment",
+    "laundry money",
+    "10 dollars",
+    "$10",
+    "coins",
+    "quarters",
+
+    "computer lab",
+    "computer room",
+
+    "visitor lounge",
+    "visitors lounge",
+    "lounge",
+    "common area",
+
+    "elevator",
+    "elevators",
+    "accessible",
+
+    "wifi",
+    "wi-fi",
+    "internet",
+
+    "air conditioning",
+    "climate control",
+
+    "ra",
+    "ras",
+    "resident assistant",
+    "resident assistants",
+
+    "maintenance",
+    "housing help",
+
+    "1946",
+    "1947",
+    "2008",
+    "historic dorm",
+    "historic residence hall",
+    "historic district",
+    "national register"
+  ],
+
+  description:
+    "John W. Abercrombie Hall is an Alabama State University residence hall serving upperclassmen male students. The historic residence hall uses an all-suite layout and houses approximately 129 residents. Abercrombie combines suite-style living with study rooms, laundry facilities on each floor, Wi-Fi, elevators, community spaces, and other residential resources.",
+
+  services: [
+    "Upperclassmen male housing",
+    "All-suite residence hall",
+    "Two-bedroom suites",
+    "Study rooms on each floor",
+    "Laundry facilities on each floor",
+    "Speed Queen laundry system",
+    "Wi-Fi",
+    "Elevators",
+    "Year-round climate control",
+    "Computer lab",
+    "Visitors lounge",
+    "Resident Assistants",
+    "Residence-life support"
+  ],
+
+  studentTip:
+    "Abercrombie is suite-style housing, so your experience involves more than just your bedroom. Get to know your roommates and suitemates early and talk about cleaning, noise, guests, study schedules, shared belongings, bathroom expectations, and common-space rules before small issues turn into bigger problems.",
+
+  sections: [
+
+    // =================================================
+    // UPPERCLASSMEN MEN'S HOUSING
+    // =================================================
+
+    {
+      name: "Upperclassmen Men's Residence Hall",
+
+      keywords: [
+        "upperclassman",
+        "upperclassmen",
+        "upperclass housing",
+        "upperclassman housing",
+        "mens dorm",
+        "men's dorm",
+        "all men",
+        "all male",
+        "male residence hall",
+        "returning students"
+      ],
+
+      description:
+        "ASU identifies John W. Abercrombie Hall as a traditional upperclassmen residential community for male students. The building houses approximately 129 residents.",
+
+      studentTip:
+        "Housing assignments and residence-hall designations can change. Always rely on your current ASU Housing assignment when determining where you will live."
+    },
+
+
+    // =================================================
+    // SUITE-STYLE LIVING
+    // =================================================
+
+    {
+      name: "Suite-Style Living",
+
+      keywords: [
+        "suite",
+        "suite style",
+        "suite-style",
+        "all suite",
+        "two bedroom",
+        "two bedrooms",
+        "suite layout",
+        "room layout"
+      ],
+
+      description:
+        "Abercrombie is an all-suite residence hall. ASU describes each suite as containing two bedrooms along with furnishings and shared residential space.",
+
+      studentTip:
+        "Suite-style housing gives you a smaller residential group than a traditional community-floor arrangement, but it also means everyone needs to communicate about the spaces they share."
+    },
+
+
+    // =================================================
+    // ROOMMATES & SUITEMATES
+    // =================================================
+
+    {
+      name: "Roommates & Suitemates",
+
+      keywords: [
+        "roommate",
+        "roommates",
+        "suitemate",
+        "suitemates",
+        "roommate problem",
+        "roommate conflict",
+        "suite conflict",
+        "living together"
+      ],
+
+      description:
+        "Abercrombie residents live in a suite environment with other students, making communication and respect important parts of everyday residence-hall life.",
+
+      studentTip:
+        "Talk about expectations early. Discuss sleep schedules, alarms, studying, music, gaming, guests, cleanliness, food, borrowing belongings, shared supplies, bathroom use, and how everyone wants common spaces handled."
+    },
+
+
+    // =================================================
+    // ROOM FURNITURE
+    // =================================================
+
+    {
+      name: "What's Already in the Suite?",
+
+      keywords: [
+        "furniture",
+        "what comes in room",
+        "what comes in my room",
+        "what is in room",
+        "bed",
+        "beds",
+        "desk",
+        "study desk",
+        "rocking chair",
+        "wardrobe",
+        "couch",
+        "tv stand",
+        "television stand"
+      ],
+
+      description:
+        "ASU's residence-hall information identifies beds, study desks, rocking chairs, wardrobes, a couch, and a television stand among the furnishings provided in Abercrombie suites.",
+
+      features: [
+        "Beds",
+        "Study desks",
+        "Rocking chairs",
+        "Wardrobes",
+        "Couch",
+        "Television stand"
+      ],
+
+      studentTip:
+        "Check ASU's current move-in and packing information before buying large furniture. Your suite already contains university furniture, and Housing rules may limit what additional furniture or appliances you can bring."
+    },
+
+
+    // =================================================
+    // STUDY ROOMS
+    // =================================================
+
+    {
+      name: "Study Rooms",
+
+      keywords: [
+        "study",
+        "study room",
+        "study rooms",
+        "study area",
+        "study space",
+        "quiet study",
+        "where to study"
+      ],
+
+      description:
+        "Abercrombie provides study rooms on each floor so residents have places to work outside their bedrooms.",
+
+      studentTip:
+        "Use the study rooms when your suite is noisy or when you need to separate schoolwork from your bedroom. Having a study space on your own floor can save you a walk across campus."
+    },
+
+
+    // =================================================
+    // COMPUTER LAB
+    // =================================================
+
+    {
+      name: "Computer Lab",
+
+      keywords: [
+        "computer",
+        "computer lab",
+        "computer room",
+        "computer access",
+        "resident computer"
+      ],
+
+      description:
+        "ASU's historical facility information identifies a computer lab as one of Abercrombie Hall's residential amenities.",
+
+      studentTip:
+        "Computer equipment and access can change over time, so check the current hall setup before depending on the computer lab for an important assignment."
+    },
+
+
+    // =================================================
+    // VISITORS LOUNGE
+    // =================================================
+
+    {
+      name: "Visitors Lounge",
+
+      keywords: [
+        "visitor",
+        "visitors",
+        "visitor lounge",
+        "visitors lounge",
+        "lounge",
+        "common area",
+        "guest area"
+      ],
+
+      description:
+        "ASU facility information identifies a visitors lounge among Abercrombie Hall's community spaces.",
+
+      studentTip:
+        "A visitors lounge does not mean guests have unrestricted access to residential areas. Residents and guests must still follow current Housing & Residence Life visitation policies."
+    },
+
+
+    // =================================================
+    // LAUNDRY & SPEED QUEEN
+    // =================================================
+
+    {
+      name: "🧺 Laundry & Speed Queen",
+
+      keywords: [
+        "laundry",
+        "laundry room",
+        "wash clothes",
+        "washing clothes",
+        "washer",
+        "washers",
+        "dryer",
+        "dryers",
+
+        "speed queen",
+        "speed queen app",
+        "laundry app",
+        "laundry payment",
+        "laundry money",
+        "add laundry money",
+
+        "10 dollars",
+        "$10",
+        "minimum 10 dollars",
+
+        "coins",
+        "quarters",
+        "laundry coins",
+        "coin laundry"
+      ],
+
+      description:
+        "Abercrombie Hall has laundry facilities available on each floor. ASU residence halls use the Speed Queen laundry system, allowing residents to use the Speed Queen app to manage and pay for laundry.",
+
+      features: [
+        "Laundry facilities on each floor",
+        "Washers and dryers",
+        "Speed Queen app",
+        "Digital laundry payment",
+        "Coin backup when supported by the individual machine"
+      ],
+
+      studentTip:
+        "IMPORTANT: When adding money through the Speed Queen app, students report that the minimum amount you can load is $10. You cannot add less than $10, although you can add more. It is also smart to keep quarters available as a backup in case the internet is down or Speed Queen has a technical problem. Always check the individual machine first to make sure it currently accepts coins.",
+
+      extraTip:
+        "Set a timer when you start your laundry and return when the cycle finishes. Laundry rooms are shared by everyone on the floor, so avoid leaving finished clothes sitting in a washer or dryer when other residents may be waiting."
+    },
+
+
+    // =================================================
+    // LAUNDRY PROBLEMS
+    // =================================================
+
+    {
+      name: "Laundry Problems",
+
+      keywords: [
+        "washer broken",
+        "dryer broken",
+        "laundry broken",
+        "laundry refund",
+        "speed queen problem",
+        "speed queen error",
+        "machine broken",
+        "laundry problem"
+      ],
+
+      description:
+        "Laundry-equipment problems, payment issues, or refund concerns should be reported through the appropriate residence-hall staff or current laundry-support process.",
+
+      studentTip:
+        "If a machine is malfunctioning, note the machine number or error message if possible. Do not repeatedly pay a machine that is clearly not working."
+    },
+
+
+    // =================================================
+    // WI-FI
+    // =================================================
+
+    {
+      name: "Wi-Fi & Internet",
+
+      keywords: [
+        "wifi",
+        "wi-fi",
+        "internet",
+        "wireless",
+        "dorm internet",
+        "abercrombie wifi"
+      ],
+
+      description:
+        "Wireless internet is available for Abercrombie residents.",
+
+      studentTip:
+        "For important assignments or exams, give yourself extra time in case you encounter a temporary network problem."
+    },
+
+
+    // =================================================
+    // ELEVATORS
+    // =================================================
+
+    {
+      name: "Elevators",
+
+      keywords: [
+        "elevator",
+        "elevators",
+        "lift",
+        "stairs",
+        "accessible"
+      ],
+
+      description:
+        "Abercrombie Hall includes elevators as part of the building's residential amenities.",
+
+      studentTip:
+        "During move-in and move-out, elevators can become busy. Give yourself extra time and follow Housing instructions for moving large items."
+    },
+
+
+    // =================================================
+    // CLIMATE CONTROL
+    // =================================================
+
+    {
+      name: "Year-Round Climate Control",
+
+      keywords: [
+        "air conditioning",
+        "ac",
+        "heat",
+        "heating",
+        "climate control",
+        "room temperature"
+      ],
+
+      description:
+        "ASU describes Abercrombie Hall as having year-round climate control.",
+
+      studentTip:
+        "If your room has a heating, cooling, or temperature problem that does not resolve normally, report it rather than attempting to repair university equipment yourself."
+    },
+
+
+    // =================================================
+    // RESIDENT ASSISTANTS
+    // =================================================
+
+    {
+      name: "Resident Assistants (RAs)",
+
+      keywords: [
+        "ra",
+        "ras",
+        "resident assistant",
+        "resident assistants",
+        "floor ra",
+        "hall staff",
+        "ra on call"
+      ],
+
+      description:
+        "Resident Assistants and residence-hall staff support students living throughout ASU's residential communities.",
+
+      studentTip:
+        "Learn your RA's name and how to contact the RA on call. They can help with residential questions, policies, conflicts, community concerns, and connecting you with additional Housing resources."
+    },
+
+
+    // =================================================
+    // CLEANING
+    // =================================================
+
+    {
+      name: "Cleaning Your Room & Suite",
+
+      keywords: [
+        "clean",
+        "cleaning",
+        "clean room",
+        "clean suite",
+        "trash",
+        "housekeeping",
+        "custodian"
+      ],
+
+      description:
+        "Residents are responsible for helping keep their personal rooms and suite living spaces clean and for properly disposing of their trash.",
+
+      studentTip:
+        "Do not assume housekeeping will clean your bedroom or personal suite spaces for you. Make a cleaning plan with your roommates and suitemates so one person does not end up doing everything."
+    },
+
+
+    // =================================================
+    // ROOM & SUITE SAFETY
+    // =================================================
+
+    {
+      name: "Room & Suite Safety",
+
+      keywords: [
+        "room safety",
+        "suite safety",
+        "dorm safety",
+        "lock door",
+        "secure room",
+        "residence hall safety"
+      ],
+
+      description:
+        "Residents share responsibility for maintaining a safe residential environment and following current Housing & Residence Life policies.",
+
+      studentTip:
+        "Lock your bedroom and suite when appropriate and protect your personal belongings. Do not give residence-hall access to people who are not authorized residents or approved guests."
+    },
+
+
+    // =================================================
+    // MAINTENANCE
+    // =================================================
+
+    {
+      name: "Residence Hall Maintenance",
+
+      keywords: [
+        "maintenance",
+        "room maintenance",
+        "dorm maintenance",
+        "something broken",
+        "ac broken",
+        "air conditioning broken",
+        "leak",
+        "sink broken",
+        "toilet broken",
+        "room repair"
+      ],
+
+      description:
+        "Maintenance problems should be reported through Abercrombie residence-hall staff or the appropriate Housing & Residence Life process so the issue can be addressed.",
+
+      studentTip:
+        "Report problems early. If something is leaking, broken, overheating, or not functioning correctly, do not assume somebody else has already reported it."
+    },
+
+
+    // =================================================
+    // HOUSING HELP
+    // =================================================
+
+    {
+      name: "Housing & Residence Life Help",
+
+      keywords: [
+        "housing",
+        "housing office",
+        "housing help",
+        "residence life",
+        "room assignment",
+        "housing assignment",
+        "housing problem"
+      ],
+
+      description:
+        "ASU Housing & Residence Life manages university housing assignments, residential policies, and student housing support.",
+
+      studentTip:
+        "Start with your RA or residence-hall staff for building-level concerns. For larger housing or assignment issues, contact Housing & Residence Life in the J. Garrick Hardy Student Center."
+    },
+
+
+    // =================================================
+    // MAIL & PACKAGES
+    // =================================================
+
+    {
+      name: "Mail & Packages",
+
+      keywords: [
+        "mail",
+        "package",
+        "packages",
+        "package pickup",
+        "student mail",
+        "mail center"
+      ],
+
+      description:
+        "Student mail and packages follow ASU's residence-hall and Mail Center process rather than being delivered directly to a student's bedroom.",
+
+      studentTip:
+        "Pay attention to official package notifications and follow the pickup instructions you receive. Do not go to Inventory Control/Receiving for a normal personal student package."
+    },
+
+
+    // =================================================
+    // WHO WAS JOHN W. ABERCROMBIE?
+    // =================================================
+
+    {
+      name: "Who Was John W. Abercrombie?",
+
+      keywords: [
+        "john w abercrombie",
+        "who was abercrombie",
+        "abercrombie history",
+        "state superintendent",
+        "education history"
+      ],
+
+      description:
+        "Abercrombie Hall is named for John W. Abercrombie, who served multiple terms as Alabama's State Superintendent of Education during his public-service career."
+    },
+
+
+    // =================================================
+    // BUILDING HISTORY
+    // =================================================
+
+    {
+      name: "Abercrombie Hall History",
+
+      keywords: [
+        "abercrombie history",
+        "1946",
+        "1947",
+        "2008",
+        "historic dorm",
+        "historic residence hall",
+        "renovated",
+        "national register"
+      ],
+
+      description:
+        "ASU historical records date Abercrombie Hall to 1946, while Housing information describes the building as originally opening in 1947. The historic residence hall underwent an extensive renovation in 2008 and was converted to suite-style accommodations.",
+
+      studentTip:
+        "If you see both 1946 and 1947 associated with Abercrombie, ASU sources use the dates differently: historical records identify 1946, while Housing information describes the hall as opening in 1947."
+    },
+
+
+    // =================================================
+    // HISTORIC CAMPUS CONNECTION
+    // =================================================
+
+    {
+      name: "Historic Campus Connection",
+
+      keywords: [
+        "historic campus",
+        "historic district",
+        "national register",
+        "national historic register",
+        "asu history"
+      ],
+
+      description:
+        "Abercrombie Hall is identified as a contributing resource within Alabama State University's historic campus district.",
+
+      studentTip:
+        "Abercrombie functions as an active residence hall today, but the building is also part of ASU's historic architectural campus."
+    }
+
+  ],
+
+  history: {
+    year: 1946,
+
+    description:
+      "ASU historical records date Abercrombie Hall to 1946, while Housing information describes its opening in 1947. The building later became men's housing and underwent a major renovation in 2008 that established its modern suite-style residential layout."
+  },
+
+  funFact:
+    "Abercrombie combines historic ASU architecture with modern suite-style living. Its major 2008 renovation transformed the residence hall into an all-suite facility while preserving its place within ASU's historic campus.",
+
+  image: "",
+  mapLink: ""
+},
+
+// =====================================================
+// DR. MARTIN LUTHER KING JR. HALL
+// =====================================================
+
+{
+  id: 42,
+
+  name: "Dr. Martin Luther King Jr. Hall",
+  shortName: "MLK Hall",
+  category: "housing",
+
+  keywords: [
+    "mlk",
+    "mlk hall",
+    "martin luther king",
+    "martin luther king jr",
+    "martin luther king jr hall",
+    "dr martin luther king jr hall",
+
+    "freshman dorm",
+    "freshman housing",
+    "freshman residence hall",
+    "first year",
+    "first year housing",
+
+    "men",
+    "mens dorm",
+    "men's dorm",
+    "male residence hall",
+    "freshman men",
+    "freshman males",
+
+    "suite",
+    "suite style",
+    "suite-style",
+    "two to a room",
+    "2 to a room",
+    "four to a suite",
+    "4 to a suite",
+
+    "roommate",
+    "roommates",
+    "suitemate",
+    "suitemates",
+
+    "sink",
+    "sink in room",
+    "room sink",
+
+    "bathroom",
+    "shared bathroom",
+    "suite bathroom",
+
+    "study room",
+    "study rooms",
+    "study area",
+
+    "common area",
+    "recreation area",
+    "social area",
+    "basement",
+
+    "laundry",
+    "washer",
+    "dryer",
+    "speed queen",
+    "speed queen app",
+    "laundry app",
+    "$10",
+    "10 dollars",
+    "quarters",
+    "coins",
+
+    "wifi",
+    "wi-fi",
+    "internet",
+
+    "ra",
+    "resident assistant",
+
+    "housing help",
+    "maintenance",
+
+    "stadium",
+    "acadome",
+    "dining",
+
+    "1990",
+    "civil rights",
+    "dr king"
+  ],
+
+  description:
+    "Dr. Martin Luther King Jr. Hall is a traditional freshman residence hall for male students at Alabama State University. The five-story residence hall was built in 1990 and features suite-style living, study rooms, a large recreation and social area, digital laundry facilities, Wi-Fi, and convenient access to central-campus destinations.",
+
+  services: [
+    "First-year male housing",
+    "Suite-style accommodations",
+    "Shared suite bathrooms",
+    "In-room sinks",
+    "Study rooms",
+    "Large recreation and social area",
+    "Speed Queen laundry",
+    "Wi-Fi",
+    "Resident Assistants",
+    "Residence-life support"
+  ],
+
+  studentTip:
+    "MLK is one of ASU's freshman residence halls for men. Students report a common setup of two residents sharing a bedroom and four residents sharing a suite. Because you will be living closely with roommates and suitemates, talk about cleaning, bathroom use, guests, noise, studying, food, and personal space early.",
+
+  sections: [
+
+    {
+      name: "Freshman Men's Residence Hall",
+
+      keywords: [
+        "freshman",
+        "freshman men",
+        "freshman males",
+        "first year",
+        "first year men",
+        "mens dorm",
+        "men's dorm"
+      ],
+
+      description:
+        "ASU currently identifies Dr. Martin Luther King Jr. Hall as a traditional residence hall for first-year male students.",
+
+      studentTip:
+        "For many residents, MLK is their first experience living away from home. Learn your building, your RA, your roommate expectations, and important Housing procedures early instead of waiting until you have a problem."
+    },
+
+    {
+      name: "Room & Suite Setup",
+
+      keywords: [
+        "room setup",
+        "suite setup",
+        "two to a room",
+        "2 to a room",
+        "four to a suite",
+        "4 to a suite",
+        "roommate",
+        "suitemate"
+      ],
+
+      description:
+        "MLK uses suite-style accommodations. Students report a common arrangement of two residents sharing a bedroom and four residents sharing the overall suite.",
+
+      studentTip:
+        "Your exact housing assignment is determined by Housing & Residence Life, so always follow the room and occupancy information shown in your current assignment."
+    },
+
+    {
+      name: "Sink Inside the Room",
+
+      keywords: [
+        "sink",
+        "sink in room",
+        "room sink",
+        "does mlk have sink",
+        "bedroom sink"
+      ],
+
+      description:
+        "Students report that MLK bedrooms include a sink inside the room, providing residents convenient access without having to enter the shared bathroom.",
+
+      studentTip:
+        "Keep the sink area clean because both roommates use the room. Do not allow dishes, toiletries, hair products, or other belongings to completely take over the shared sink area."
+    },
+
+    {
+      name: "Shared Suite Bathroom",
+
+      keywords: [
+        "bathroom",
+        "shared bathroom",
+        "suite bathroom",
+        "restroom",
+        "shared restroom"
+      ],
+
+      description:
+        "MLK's suite-style design includes bathroom facilities shared among residents of the suite.",
+
+      studentTip:
+        "Make a bathroom-cleaning plan with your suitemates. Shared bathrooms become a problem quickly when everybody assumes somebody else will clean them."
+    },
+
+    {
+      name: "Roommates & Suitemates",
+
+      keywords: [
+        "roommate",
+        "roommates",
+        "suitemate",
+        "suitemates",
+        "roommate problem",
+        "roommate conflict"
+      ],
+
+      description:
+        "Living in MLK means sharing residential space with roommates and suitemates.",
+
+      studentTip:
+        "Discuss sleep schedules, alarms, guests, music, gaming, phone calls, studying, cleaning, food, borrowing belongings, bathroom use, and shared supplies before disagreements start."
+    },
+
+    {
+      name: "Study Rooms",
+
+      keywords: [
+        "study",
+        "study room",
+        "study rooms",
+        "study area",
+        "quiet study"
+      ],
+
+      description:
+        "MLK Hall provides study-room space for residents who need somewhere to work outside their bedrooms.",
+
+      studentTip:
+        "If your roommate is sleeping, gaming, talking, or having visitors, use the study spaces instead of letting a noisy room ruin your study session."
+    },
+
+    {
+      name: "Basement Recreation & Social Area",
+
+      keywords: [
+        "basement",
+        "recreation",
+        "recreation area",
+        "social area",
+        "common area",
+        "hang out",
+        "lounge"
+      ],
+
+      description:
+        "MLK features a large recreation and social area in the basement where residents can spend time outside their rooms.",
+
+      studentTip:
+        "Use common areas to meet other freshmen. Your residence hall can be one of the easiest places to start building friendships during your first semester."
+    },
+
+    {
+      name: "🧺 Laundry & Speed Queen",
+
+      keywords: [
+        "laundry",
+        "laundry room",
+        "washer",
+        "washers",
+        "dryer",
+        "dryers",
+        "speed queen",
+        "speed queen app",
+        "laundry app",
+        "laundry payment",
+        "$10",
+        "10 dollars",
+        "quarters",
+        "coins"
+      ],
+
+      description:
+        "MLK Hall has a renovated digital laundry facility. ASU residence halls use the Speed Queen laundry system, and students use the Speed Queen app for residence-hall laundry.",
+
+      features: [
+        "Washers and dryers",
+        "Speed Queen app",
+        "Digital laundry payment",
+        "Coin backup when supported by the machine"
+      ],
+
+      studentTip:
+        "Students report that the minimum amount you can add through Speed Queen is $10. You can add more, but you cannot load less than $10. Keep quarters available as a backup in case the internet or Speed Queen has a technical problem, but check the individual machine first to make sure it accepts coins.",
+
+      extraTip:
+        "Set a timer when you start your laundry. Return when the cycle ends so other residents are not waiting for clothes that have been sitting in a machine."
+    },
+
+    {
+      name: "Laundry Problems",
+
+      keywords: [
+        "washer broken",
+        "dryer broken",
+        "speed queen error",
+        "laundry problem",
+        "laundry refund"
+      ],
+
+      description:
+        "Problems with washers, dryers, payments, or the laundry system should be reported through residence-hall staff or the current laundry-support process.",
+
+      studentTip:
+        "Write down or photograph the machine number and error if possible. Do not repeatedly pay a machine that is clearly malfunctioning."
+    },
+
+    {
+      name: "Wi-Fi & Internet",
+
+      keywords: [
+        "wifi",
+        "wi-fi",
+        "internet",
+        "wireless"
+      ],
+
+      description:
+        "Wireless internet connections are available to MLK residents.",
+
+      studentTip:
+        "Give yourself extra time when submitting important assignments in case you encounter a temporary residence-hall network problem."
+    },
+
+    {
+      name: "Resident Assistants (RAs)",
+
+      keywords: [
+        "ra",
+        "ras",
+        "resident assistant",
+        "resident assistants",
+        "ra on call"
+      ],
+
+      description:
+        "Resident Assistants help support students throughout ASU's residential communities.",
+
+      studentTip:
+        "Learn who your RA is during your first week. Your RA can help with residence-hall questions, policies, conflicts, emergencies, and getting connected with the correct Housing staff."
+    },
+
+    {
+      name: "First-Time Dorm Living",
+
+      keywords: [
+        "first dorm",
+        "first time living on campus",
+        "freshman tips",
+        "dorm tips",
+        "living away from home"
+      ],
+
+      description:
+        "MLK is home to first-year students, many of whom are experiencing residence-hall living for the first time.",
+
+      studentTip:
+        "Do not be embarrassed to ask questions. Learn where you wash clothes, take trash, find your RA, report maintenance, study, receive packages, and get help before you actually need those services."
+    },
+
+    {
+      name: "Maintenance",
+
+      keywords: [
+        "maintenance",
+        "something broken",
+        "ac broken",
+        "leak",
+        "toilet broken",
+        "sink broken",
+        "room repair"
+      ],
+
+      description:
+        "Residence-hall maintenance concerns should be reported through the appropriate hall staff or Housing & Residence Life process.",
+
+      studentTip:
+        "Report leaks, electrical problems, HVAC issues, broken fixtures, and other maintenance concerns early rather than attempting to repair university property yourself."
+    },
+
+    {
+      name: "Housing & Residence Life",
+
+      keywords: [
+        "housing",
+        "housing office",
+        "housing problem",
+        "housing assignment",
+        "residence life"
+      ],
+
+      description:
+        "Housing & Residence Life manages residence-hall assignments, policies, and residential support.",
+
+      studentTip:
+        "Campus housing is limited and ASU does not guarantee a particular room or residence hall. Always rely on your current Housing assignment."
+    },
+
+    {
+      name: "Central Campus Location",
+
+      keywords: [
+        "near stadium",
+        "near acadome",
+        "near dining",
+        "central campus",
+        "mlk location"
+      ],
+
+      description:
+        "MLK is located in the central portion of campus with convenient access to classes, dining, ASU Stadium, and the Dunn-Oliver Acadome.",
+
+      studentTip:
+        "The central location is especially helpful for freshmen who are still learning how to get around campus."
+    },
+
+    {
+      name: "Named for Dr. Martin Luther King Jr.",
+
+      keywords: [
+        "martin luther king",
+        "mlk history",
+        "dr king",
+        "civil rights",
+        "civil rights history"
+      ],
+
+      description:
+        "The residence hall bears the name of Dr. Martin Luther King Jr., the Civil Rights leader whose life and work have deep connections to Montgomery and Alabama State University.",
+
+      studentTip:
+        "MLK's connection to ASU goes far beyond the residence hall's name. Other places on campus—including Friendship Manor, Trenholm Hall, Paterson Hall, and the former Dunn Sports Arena—also connect directly to Dr. King's time in Montgomery."
+    }
+
+  ],
+
+  history: {
+    year: 1990,
+
+    description:
+      "Dr. Martin Luther King Jr. Hall was built in 1990 as a five-story residence facility and today serves as one of Alabama State University's traditional freshman men's residence halls."
+  },
+
+  funFact:
+    "MLK Hall places first-year students near several major parts of campus, including academic buildings, dining, ASU Stadium, and the Dunn-Oliver Acadome.",
+
+  image: "",
+  mapLink: ""
+},
+
+
+// =====================================================
+// BESSIE E. ESTELL HALL
+// =====================================================
+
+{
+  id: 43,
+
+  name: "Bessie E. Estell Hall",
+  shortName: "Bessie Estell",
+  category: "housing",
+
+  keywords: [
+    "bessie",
+    "bessie estell",
+    "bessie e estell",
+    "bessie e estell hall",
+    "bessie sears estell",
+    "estell",
+    "estell hall",
+
+    "freshman dorm",
+    "freshman housing",
+    "freshman residence hall",
+    "first year",
+
+    "women",
+    "womens dorm",
+    "women's dorm",
+    "female residence hall",
+    "freshman women",
+    "freshman females",
+
+    "suite",
+    "suite style",
+    "suite-style",
+
+    "three to a room",
+    "3 to a room",
+    "four to a room",
+    "4 to a room",
+    "housing shortage",
+    "housing demand",
+    "room occupancy",
+
+    "roommate",
+    "roommates",
+    "suitemate",
+    "suitemates",
+
+    "bathroom",
+    "shared bathroom",
+    "suite bathroom",
+
+    "study room",
+    "study rooms",
+
+    "common area",
+    "recreation area",
+    "social area",
+    "basement",
+
+    "laundry",
+    "washer",
+    "dryer",
+    "speed queen",
+    "speed queen app",
+    "$10",
+    "10 dollars",
+    "quarters",
+    "coins",
+
+    "wifi",
+    "internet",
+
+    "ra",
+    "resident assistant",
+
+    "maintenance",
+    "housing help",
+
+    "stadium",
+    "acadome",
+    "dining",
+
+    "1990"
+  ],
+
+  description:
+    "Bessie E. Estell Hall is a traditional freshman residence hall for female students at Alabama State University. Built in 1990, the five-story residence hall offers suite-style accommodations, study rooms, recreation and social space, digital laundry facilities, Wi-Fi, and convenient access to central campus.",
+
+  services: [
+    "First-year female housing",
+    "Suite-style accommodations",
+    "Shared bathrooms",
+    "Study rooms on each floor",
+    "Large recreation and social area",
+    "Speed Queen laundry",
+    "Wi-Fi",
+    "Resident Assistants",
+    "Residence-life support"
+  ],
+
+  studentTip:
+    "Bessie Estell is a freshman women's residence hall. Current room occupancy can vary depending on Housing assignments and campus housing demand, so do not assume every room will have the same number of residents.",
+
+  sections: [
+
+    {
+      name: "Freshman Women's Residence Hall",
+
+      keywords: [
+        "freshman",
+        "freshman women",
+        "freshman females",
+        "women's dorm",
+        "womens dorm",
+        "female residence hall"
+      ],
+
+      description:
+        "ASU currently identifies Bessie E. Estell Hall as a traditional residence hall for first-year female students.",
+
+      studentTip:
+        "For many residents, this is their first time living away from home. Learn your RA, residence-hall procedures, roommate expectations, laundry system, and important campus resources early."
+    },
+
+    {
+      name: "Current Room Occupancy",
+
+      keywords: [
+        "three to a room",
+        "3 to a room",
+        "four to a room",
+        "4 to a room",
+        "how many roommates",
+        "room occupancy",
+        "housing shortage",
+        "housing demand"
+      ],
+
+      description:
+        "Bessie Estell uses suite-style residential accommodations. Students report that current assignments can include three residents in a room, with some rooms accommodating four students during periods of high campus housing demand.",
+
+      studentTip:
+        "The number of students assigned to a room can change. A three- or four-person assignment should not be treated as a permanent guarantee for every Bessie Estell room. Your actual assignment comes from Housing & Residence Life."
+    },
+
+    {
+      name: "Living With Multiple Roommates",
+
+      keywords: [
+        "roommate",
+        "roommates",
+        "three roommates",
+        "four roommates",
+        "roommate conflict",
+        "crowded room",
+        "personal space"
+      ],
+
+      description:
+        "Living with multiple roommates requires communication about shared space, schedules, belongings, and expectations.",
+
+      studentTip:
+        "With three or four people sharing a room, talk early about sleep schedules, alarms, studying, phone calls, guests, cleaning, food, clothing and storage, borrowing items, and personal space. Waiting until everyone is frustrated makes those conversations much harder."
+    },
+
+    {
+      name: "Shared Bathroom",
+
+      keywords: [
+        "bathroom",
+        "shared bathroom",
+        "suite bathroom",
+        "restroom",
+        "shared restroom"
+      ],
+
+      description:
+        "Bessie Estell's suite-style accommodations include bathroom facilities shared among residents.",
+
+      studentTip:
+        "Agree on a bathroom-cleaning routine and how toiletries and personal items will be stored. Shared bathrooms work much better when everybody knows what they are responsible for."
+    },
+
+    {
+      name: "Study Rooms on Each Floor",
+
+      keywords: [
+        "study",
+        "study room",
+        "study rooms",
+        "study area",
+        "quiet study"
+      ],
+
+      description:
+        "ASU provides study rooms on each floor of Bessie Estell Hall.",
+
+      studentTip:
+        "The study rooms are especially valuable when several people share your bedroom. You do not have to try to study in the middle of everybody else's conversations, calls, music, or schedules."
+    },
+
+    {
+      name: "Basement Recreation & Social Area",
+
+      keywords: [
+        "basement",
+        "recreation",
+        "social area",
+        "common area",
+        "lounge",
+        "hang out"
+      ],
+
+      description:
+        "A large recreation and social area is located in the basement of Bessie Estell Hall.",
+
+      studentTip:
+        "Use the common areas to get out of your bedroom and meet other residents. This can be especially helpful when you're new to ASU and still building your campus community."
+    },
+
+    {
+      name: "🧺 Laundry & Speed Queen",
+
+      keywords: [
+        "laundry",
+        "washer",
+        "washers",
+        "dryer",
+        "dryers",
+        "speed queen",
+        "speed queen app",
+        "laundry app",
+        "laundry payment",
+        "$10",
+        "10 dollars",
+        "quarters",
+        "coins"
+      ],
+
+      description:
+        "Bessie Estell has a renovated digital laundry facility adjacent to the basement recreation and social area. ASU residence halls use the Speed Queen laundry system.",
+
+      features: [
+        "Digital laundry facility",
+        "Washers and dryers",
+        "Speed Queen app",
+        "Laundry located near basement recreation area",
+        "Coin backup when supported by the machine"
+      ],
+
+      studentTip:
+        "Students report that Speed Queen requires a minimum $10 load when adding money through the app. You can add more, but not less than $10. Keep quarters available as a backup in case the internet or Speed Queen experiences a technical problem, but check the machine first to make sure coins are currently accepted.",
+
+      extraTip:
+        "Set a timer and return when your cycle ends. Do not leave clothes sitting in a washer or dryer when other residents may be waiting."
+    },
+
+    {
+      name: "Laundry Problems",
+
+      keywords: [
+        "washer broken",
+        "dryer broken",
+        "speed queen problem",
+        "speed queen error",
+        "laundry refund"
+      ],
+
+      description:
+        "Laundry equipment or payment problems should be reported through residence-hall staff or the current laundry-support process.",
+
+      studentTip:
+        "Note the machine number and error if possible. Avoid repeatedly paying a machine that is clearly malfunctioning."
+    },
+
+    {
+      name: "Wi-Fi & Internet",
+
+      keywords: [
+        "wifi",
+        "wi-fi",
+        "internet",
+        "wireless"
+      ],
+
+      description:
+        "Wireless internet connections are available for Bessie Estell residents.",
+
+      studentTip:
+        "If you have an important assignment due, leave yourself time for unexpected internet problems rather than uploading it at the last possible minute."
+    },
+
+    {
+      name: "Resident Assistants (RAs)",
+
+      keywords: [
+        "ra",
+        "ras",
+        "resident assistant",
+        "resident assistants",
+        "ra on call"
+      ],
+
+      description:
+        "Resident Assistants help support students throughout Bessie Estell and ASU's residential community.",
+
+      studentTip:
+        "Know your RA and how to reach residence-hall staff. Your RA can help with questions, policies, residential conflicts, community concerns, and connecting you with Housing resources."
+    },
+
+    {
+      name: "Making a Smaller Room Work",
+
+      keywords: [
+        "storage",
+        "room storage",
+        "small room",
+        "crowded room",
+        "organize dorm",
+        "dorm organization"
+      ],
+
+      description:
+        "When several residents share a bedroom, keeping personal belongings organized becomes especially important.",
+
+      studentTip:
+        "Before buying large dorm items, find out what furniture is already provided and what your actual assignment looks like. With multiple roommates, unnecessary furniture can take away valuable living and storage space."
+    },
+
+    {
+      name: "First-Time Dorm Living",
+
+      keywords: [
+        "freshman tips",
+        "first dorm",
+        "first time living on campus",
+        "dorm tips"
+      ],
+
+      description:
+        "Bessie Estell houses first-year students, many of whom are adjusting to residence-hall living for the first time.",
+
+      studentTip:
+        "Ask questions. Learn where to do laundry, where trash goes, how packages work, who your RA is, how maintenance is reported, where you can study, and who to contact when you need help."
+    },
+
+    {
+      name: "Maintenance",
+
+      keywords: [
+        "maintenance",
+        "something broken",
+        "ac broken",
+        "leak",
+        "toilet broken",
+        "room repair"
+      ],
+
+      description:
+        "Maintenance concerns should be reported through residence-hall staff or the appropriate Housing & Residence Life process.",
+
+      studentTip:
+        "Report problems early. Do not assume another roommate has already reported a leak, HVAC issue, electrical problem, or broken fixture."
+    },
+
+    {
+      name: "Housing Demand & Assignments",
+
+      keywords: [
+        "housing shortage",
+        "housing demand",
+        "housing full",
+        "room assignment",
+        "housing assignment",
+        "relocated",
+        "reassigned"
+      ],
+
+      description:
+        "ASU states that on-campus housing is limited and is not guaranteed. Housing assignments can be changed or residents relocated when circumstances require it.",
+
+      studentTip:
+        "This is particularly important when interpreting room occupancy in Bessie Estell. Current three- and four-person arrangements may reflect housing demand and should not be assumed to be the permanent configuration of every room."
+    },
+
+    {
+      name: "Housing & Residence Life Help",
+
+      keywords: [
+        "housing",
+        "housing office",
+        "housing help",
+        "residence life",
+        "housing problem"
+      ],
+
+      description:
+        "Housing & Residence Life manages residence-hall assignments, residential policies, and student housing support.",
+
+      studentTip:
+        "Start with your RA or hall staff for everyday building concerns. Contact Housing & Residence Life for larger assignment or housing issues."
+    },
+
+    {
+      name: "Central Campus Location",
+
+      keywords: [
+        "bessie location",
+        "near stadium",
+        "near acadome",
+        "near dining",
+        "central campus"
+      ],
+
+      description:
+        "Bessie Estell is centrally located with convenient access to classes, dining, ASU Stadium, and the Dunn-Oliver Acadome.",
+
+      studentTip:
+        "Take time during your first few days to walk from Bessie to your classrooms. Knowing your route before the first full week of classes makes mornings much easier."
+    },
+
+    {
+      name: "Bessie Estell & MLK",
+
+      keywords: [
+        "twin buildings",
+        "mlk and bessie",
+        "bessie and mlk",
+        "similar dorms",
+        "companion residence halls"
+      ],
+
+      description:
+        "Bessie Estell and Dr. Martin Luther King Jr. Hall are similarly designed five-story freshman residence halls built in 1990. MLK currently serves first-year male students, while Bessie Estell serves first-year female students.",
+
+      studentTip:
+        "Students may refer to Bessie and MLK as twin buildings because of their similar designs and freshman-housing roles, although room assignments and occupancy can differ."
+    }
+
+  ],
+
+  history: {
+    year: 1990,
+
+    description:
+      "Bessie E. Estell Hall was built in 1990 as a five-story residence facility and today serves as one of Alabama State University's traditional freshman women's residence halls."
+  },
+
+  funFact:
+    "Bessie Estell and MLK were both built in 1990 and have very similar published designs and amenities, which helps explain why students may refer to them as twin or companion residence halls.",
+
+  image: "",
+  mapLink: ""
+},
+
+// =====================================================
+// BESSIE WILSON BENSON HALL
+// =====================================================
+
+{
+  id: 44,
+
+  name: "Bessie Wilson Benson Hall",
+  shortName: "Benson Hall",
+  category: "housing",
+
+  keywords: [
+    "bessie benson",
+    "bessie wilson benson",
+    "bessie wilson benson hall",
+    "benson",
+    "benson hall",
+
+    "upperclassman",
+    "upperclassmen",
+    "upperclass housing",
+    "upperclassman housing",
+    "returning students",
+
+    "women",
+    "womens dorm",
+    "women's dorm",
+    "female residence hall",
+    "women housing",
+
+    "suite",
+    "suite style",
+    "suite-style",
+    "two to a room",
+    "2 to a room",
+    "four to a suite",
+    "4 to a suite",
+
+    "roommate",
+    "roommates",
+    "suitemate",
+    "suitemates",
+
+    "study room",
+    "study rooms",
+    "study area",
+
+    "laundry",
+    "washing",
+    "drying",
+    "washer",
+    "dryer",
+    "laundry every floor",
+    "speed queen",
+    "speed queen app",
+    "$10",
+    "10 dollars",
+    "quarters",
+    "coins",
+
+    "wifi",
+    "wi-fi",
+    "internet",
+    "climate control",
+
+    "ra",
+    "resident assistant",
+    "maintenance",
+    "housing help",
+
+    "shecare",
+    "she care",
+    "shecare wellness pods",
+    "she care wellness pods",
+    "wellness pod",
+    "wellness pods",
+
+    "taraji",
+    "taraji p henson",
+    "taraji p. henson",
+    "boris lawrence henson foundation",
+    "blhf",
+    "kate spade",
+    "kate spade new york",
+
+    "mental health",
+    "mental wellness",
+    "therapy",
+    "counseling",
+    "counselling",
+    "wellness",
+    "self care",
+    "self-care",
+    "stress",
+    "stressed",
+    "anxiety",
+    "depression",
+    "someone to talk to",
+
+    "yoga",
+    "meditation",
+    "mindfulness",
+    "relax",
+    "quiet space",
+    "wellness activities",
+
+    "purse",
+    "purses",
+    "giveaway",
+    "giveaways",
+
+    "1972",
+    "2009",
+    "renovated",
+    "restored"
+  ],
+
+  description:
+    "Bessie Wilson Benson Hall is an upperclass women's residence hall at Alabama State University. Benson provides suite-style living, study spaces, laundry access, Wi-Fi, climate control, Resident Assistants, and other residential resources. Directly behind the Benson area, students can also access ASU's SheCare Wellness Pods, an important mental-health and wellness resource.",
+
+  services: [
+    "Upperclass women's housing",
+    "Two students per bedroom",
+    "Four students per suite",
+    "Study rooms",
+    "Laundry access on each floor",
+    "Speed Queen laundry system",
+    "Wi-Fi",
+    "Year-round climate control",
+    "Resident Assistants",
+    "Residence-life support",
+    "Nearby SheCare Wellness Pods"
+  ],
+
+  studentTip:
+    "Benson is an upperclass women's residence hall with suite-style living. Students report a common arrangement of two residents sharing a bedroom and four residents sharing the overall suite. Get to know your roommate and suitemates early and talk about cleaning, bathroom use, guests, noise, studying, food, and shared belongings.",
+
+  sections: [
+
+    // =================================================
+    // UPPERCLASS WOMEN'S HOUSING
+    // =================================================
+
+    {
+      name: "Upperclass Women's Residence Hall",
+
+      keywords: [
+        "upperclassman",
+        "upperclassmen",
+        "upperclass women",
+        "returning students",
+        "womens dorm",
+        "women's dorm",
+        "female housing"
+      ],
+
+      description:
+        "Bessie Wilson Benson Hall serves upperclass women within Alabama State University's residential community.",
+
+      studentTip:
+        "Housing assignments and residence-hall designations can change. Always follow the assignment provided by ASU Housing & Residence Life."
+    },
+
+
+    // =================================================
+    // ROOM & SUITE SETUP
+    // =================================================
+
+    {
+      name: "Room & Suite Setup",
+
+      keywords: [
+        "room setup",
+        "suite setup",
+        "two to a room",
+        "2 to a room",
+        "four to a suite",
+        "4 to a suite",
+        "how many roommates",
+        "how many suitemates"
+      ],
+
+      description:
+        "Students report a common Benson arrangement of two residents sharing each bedroom and four residents sharing the overall suite.",
+
+      studentTip:
+        "Your exact assignment comes from Housing & Residence Life. Check your current housing information before assuming every Benson room or suite has the same occupancy."
+    },
+
+
+    // =================================================
+    // ROOMMATES & SUITEMATES
+    // =================================================
+
+    {
+      name: "Roommates & Suitemates",
+
+      keywords: [
+        "roommate",
+        "roommates",
+        "suitemate",
+        "suitemates",
+        "roommate problem",
+        "roommate conflict",
+        "suite conflict"
+      ],
+
+      description:
+        "Benson's residential setup means students share living space with roommates and suitemates.",
+
+      studentTip:
+        "Discuss expectations early: sleep schedules, alarms, studying, music, guests, cleaning, food, borrowing belongings, bathroom use, shared supplies, and personal space. Your RA can help if roommate communication becomes difficult."
+    },
+
+
+    // =================================================
+    // STUDY ROOMS
+    // =================================================
+
+    {
+      name: "Study Rooms",
+
+      keywords: [
+        "study",
+        "study room",
+        "study rooms",
+        "study area",
+        "quiet study",
+        "where to study"
+      ],
+
+      description:
+        "Benson provides study space for residents who need somewhere to work outside their bedrooms.",
+
+      studentTip:
+        "Use the study areas when your roommate or suitemates are talking, sleeping, watching television, or doing something that makes concentrating difficult."
+    },
+
+
+    // =================================================
+    // LAUNDRY
+    // =================================================
+
+    {
+      name: "🧺 Laundry & Speed Queen",
+
+      keywords: [
+        "laundry",
+        "laundry room",
+        "washing",
+        "drying",
+        "wash clothes",
+        "washer",
+        "washers",
+        "dryer",
+        "dryers",
+
+        "speed queen",
+        "speed queen app",
+        "laundry app",
+        "laundry payment",
+
+        "$10",
+        "10 dollars",
+        "minimum 10 dollars",
+
+        "coins",
+        "quarters",
+        "laundry coins"
+      ],
+
+      description:
+        "Benson residents have access to washing and drying facilities on each floor. ASU residence halls use the Speed Queen laundry system.",
+
+      features: [
+        "Laundry access on each floor",
+        "Washers and dryers",
+        "Speed Queen app",
+        "Digital laundry payment",
+        "Coin backup when supported by the individual machine"
+      ],
+
+      studentTip:
+        "Students report that the minimum amount you can add through the Speed Queen app is $10. You can add more than $10, but you cannot add less. It is also smart to keep quarters available in case the internet or Speed Queen has a technical problem. Check the individual machine first to make sure it accepts coins.",
+
+      extraTip:
+        "Set a timer when you start your laundry and return when the cycle finishes. Other residents may be waiting for the washer or dryer."
+    },
+
+
+    // =================================================
+    // LAUNDRY PROBLEMS
+    // =================================================
+
+    {
+      name: "Laundry Problems",
+
+      keywords: [
+        "washer broken",
+        "dryer broken",
+        "laundry broken",
+        "speed queen error",
+        "speed queen problem",
+        "laundry refund"
+      ],
+
+      description:
+        "Problems involving washers, dryers, payments, or Speed Queen should be reported through residence-hall staff or the current laundry-support process.",
+
+      studentTip:
+        "Note the machine number and error message if possible. Do not keep paying a machine that is clearly malfunctioning."
+    },
+
+
+    // =================================================
+    // WI-FI
+    // =================================================
+
+    {
+      name: "Wi-Fi & Internet",
+
+      keywords: [
+        "wifi",
+        "wi-fi",
+        "internet",
+        "wireless",
+        "benson wifi"
+      ],
+
+      description:
+        "Wireless internet is available as part of the Benson residential environment.",
+
+      studentTip:
+        "Give yourself extra time when submitting an important assignment in case you experience a temporary network issue."
+    },
+
+
+    // =================================================
+    // CLIMATE CONTROL
+    // =================================================
+
+    {
+      name: "Year-Round Climate Control",
+
+      keywords: [
+        "air conditioning",
+        "ac",
+        "heat",
+        "heating",
+        "climate control",
+        "room temperature"
+      ],
+
+      description:
+        "Benson provides year-round climate control for its residential spaces.",
+
+      studentTip:
+        "Report heating or cooling problems through residence-hall staff rather than attempting to repair university equipment yourself."
+    },
+
+
+    // =================================================
+    // RESIDENT ASSISTANTS
+    // =================================================
+
+    {
+      name: "Resident Assistants (RAs)",
+
+      keywords: [
+        "ra",
+        "ras",
+        "resident assistant",
+        "resident assistants",
+        "ra on call"
+      ],
+
+      description:
+        "Resident Assistants help support students living in Benson and throughout ASU's residential communities.",
+
+      studentTip:
+        "Know your RA and how to reach residence-hall staff. They can help with policies, roommate concerns, building questions, emergencies, and connecting you with Housing resources."
+    },
+
+
+    // =================================================
+    // SHECARE WELLNESS PODS
+    // =================================================
+
+    {
+      name: "💚 SheCare Wellness Pods",
+
+      keywords: [
+        "shecare",
+        "she care",
+        "shecare pod",
+        "shecare pods",
+        "she care pod",
+        "wellness pod",
+        "wellness pods",
+        "self care",
+        "self-care",
+
+        "mental health",
+        "mental wellness",
+        "therapy",
+        "counseling",
+        "someone to talk to",
+        "stress",
+        "stressed",
+        "anxiety",
+        "depression",
+
+        "taraji",
+        "taraji p henson",
+        "boris lawrence henson foundation",
+        "blhf",
+        "kate spade"
+      ],
+
+      description:
+        "The SheCare Wellness Pods are a student mental-health and wellness resource located in the Benson area. The initiative was conceptualized by actress Taraji P. Henson and The Boris Lawrence Henson Foundation and launched in partnership with kate spade new york to expand access to culturally competent mental-health resources on HBCU campuses.",
+
+      studentTip:
+        "The SheCare Pods are not only for Benson residents. If you are an ASU student looking for wellness or mental-health support, this is an important campus resource to know about."
+    },
+
+
+    // =================================================
+    // ASU WAS FIRST
+    // =================================================
+
+    {
+      name: "ASU & the First SheCare Wellness Pod",
+
+      keywords: [
+        "first shecare pod",
+        "first wellness pod",
+        "asu first shecare",
+        "hbcus",
+        "hbcus mental health",
+        "taraji henson"
+      ],
+
+      description:
+        "Alabama State University was selected as the recipient of the first-ever Boris Lawrence Henson Foundation SheCare Wellness Pod. ASU was selected in recognition of its commitment to student and community wellness.",
+
+      studentTip:
+        "This makes the SheCare resource more than a convenient wellness space—it is also part of ASU's continuing history as an HBCU creating new resources for its students."
+    },
+
+
+    // =================================================
+    // FINDING SHECARE
+    // =================================================
+
+    {
+      name: "Finding the SheCare Wellness Pods",
+
+      keywords: [
+        "where is shecare",
+        "find shecare",
+        "shecare location",
+        "wellness pod location",
+        "behind benson",
+        "behind benson hall"
+      ],
+
+      description:
+        "The SheCare Wellness Pods are located in the area directly behind Bessie Wilson Benson Hall.",
+
+      studentTip:
+        "If somebody tells you to go to the SheCare Pods and you have never been there before, use Benson Hall as your landmark and look behind the residence hall area."
+    },
+
+
+    // =================================================
+    // YOGA, MEDITATION & WELLNESS
+    // =================================================
+
+    {
+      name: "Yoga, Meditation & Wellness",
+
+      keywords: [
+        "yoga",
+        "meditation",
+        "mindfulness",
+        "wellness",
+        "relax",
+        "relaxation",
+        "self care",
+        "self-care",
+        "stress relief",
+        "wellness activity",
+        "wellness activities"
+      ],
+
+      description:
+        "SheCare is designed around mental wellness, peace, serenity, therapy, and integrative wellness services. Students may encounter wellness programming such as yoga, meditation, mindfulness, and other self-care activities.",
+
+      studentTip:
+        "You do not have to wait until you are in crisis to use wellness resources. Activities such as meditation, yoga, mindfulness, or simply taking intentional time to decompress can be useful during a stressful semester."
+    },
+
+
+    // =================================================
+    // THERAPY & MENTAL HEALTH
+    // =================================================
+
+    {
+      name: "Therapy & Mental Wellness",
+
+      keywords: [
+        "therapy",
+        "therapist",
+        "counseling",
+        "counselor",
+        "mental health",
+        "mental wellness",
+        "depression",
+        "anxiety",
+        "stress",
+        "stressed",
+        "overwhelmed",
+        "someone to talk to",
+        "need help"
+      ],
+
+      description:
+        "ASU describes SheCare as providing access to individual therapy and integrative wellness services designed to support student mental health and well-being.",
+
+      studentTip:
+        "College stress does not have to reach an emergency before you seek support. SheCare is one of the campus resources students can explore when they need help managing stress or protecting their mental well-being."
+    },
+
+
+    // =================================================
+    // KATE SPADE PARTNERSHIP
+    // =================================================
+
+    {
+      name: "kate spade new york Partnership",
+
+      keywords: [
+        "kate spade",
+        "kate spade new york",
+        "purse",
+        "purses",
+        "handbag",
+        "handbags",
+        "giveaway",
+        "giveaways"
+      ],
+
+      description:
+        "The Boris Lawrence Henson Foundation launched the SheCare Wellness Pods in partnership with kate spade new york as part of an effort to expand culturally competent mental-health resources on HBCU campuses.",
+
+      studentTip:
+        "Students may encounter special events, programming, or giveaways connected with ASU's SheCare partnerships. Students report that some programming has included kate spade items such as purses, but giveaways vary and should not be treated as guaranteed."
+    },
+
+
+    // =================================================
+    // SHECARE CONTACT
+    // =================================================
+
+    {
+      name: "SheCare & Health Services Contact",
+
+      keywords: [
+        "shecare contact",
+        "shecare phone",
+        "wellness pod contact",
+        "health services",
+        "334 229 4436"
+      ],
+
+      description:
+        "ASU Health Services currently lists a dedicated SheCare Wellness Pods Manager as part of its professional health-services team.",
+
+      contact:
+        "(334) 229-4436",
+
+      studentTip:
+        "If you are unsure about current SheCare programming, availability, or how to access a service, contact ASU Health Services for current information."
+    },
+
+
+    // =================================================
+    // MAINTENANCE
+    // =================================================
+
+    {
+      name: "Residence Hall Maintenance",
+
+      keywords: [
+        "maintenance",
+        "room maintenance",
+        "something broken",
+        "ac broken",
+        "leak",
+        "toilet broken",
+        "room repair"
+      ],
+
+      description:
+        "Residence-hall maintenance concerns should be reported through Benson hall staff or the appropriate Housing & Residence Life process.",
+
+      studentTip:
+        "Report maintenance problems early. Do not assume your roommate or suitemates have already reported the issue."
+    },
+
+
+    // =================================================
+    // HOUSING HELP
+    // =================================================
+
+    {
+      name: "Housing & Residence Life Help",
+
+      keywords: [
+        "housing",
+        "housing office",
+        "housing help",
+        "housing problem",
+        "room assignment",
+        "residence life"
+      ],
+
+      description:
+        "Housing & Residence Life manages residence-hall assignments, residential policies, and student housing support.",
+
+      studentTip:
+        "Start with your RA or Benson hall staff for everyday building concerns. For larger assignment or housing issues, contact Housing & Residence Life."
+    },
+
+
+    // =================================================
+    // BUILDING HISTORY
+    // =================================================
+
+    {
+      name: "Benson Hall History",
+
+      keywords: [
+        "benson history",
+        "1972",
+        "2009",
+        "renovated",
+        "restored",
+        "historic benson"
+      ],
+
+      description:
+        "ASU's residence-hall information identifies Bessie Wilson Benson Hall as an established campus residence hall that opened in the early 1970s and later underwent a major restoration in 2009.",
+
+      studentTip:
+        "Benson combines an older ASU residence-hall history with more modern residential amenities and one of the university's most distinctive nearby wellness resources."
+    }
+
+  ],
+
+  history: {
+    year: 1972,
+
+    description:
+      "Bessie Wilson Benson Hall opened in the early 1970s and later underwent an extensive restoration in 2009. Today it serves upperclass women and sits beside one of ASU's notable student-wellness resources, the SheCare Wellness Pods."
+  },
+
+  funFact:
+    "Benson residents live beside a nationally significant student-wellness initiative: Alabama State University was selected to receive the first SheCare Wellness Pod created through The Boris Lawrence Henson Foundation's HBCU mental-health initiative with kate spade new york.",
+
+  image: "",
+  mapLink: ""
+},
+
+// =====================================================
+// NEW FACILITY I
+// =====================================================
+
+{
+  id: 45,
+
+  name: "New Facility I",
+  shortName: "Facility I",
+  category: "housing",
+
+  keywords: [
+    "facility 1",
+    "facility i",
+    "new facility 1",
+    "new facility i",
+
+    "upperclassman",
+    "upperclassmen",
+    "upperclass housing",
+    "returning students",
+
+    "coed",
+    "co-ed",
+    "men and women",
+    "male and female",
+    "men",
+    "women",
+
+    "single room",
+    "single bedroom",
+    "double room",
+    "double bedroom",
+    "roommate",
+    "roommates",
+    "suitemate",
+    "suitemates",
+
+    "suite",
+    "suite style",
+    "suite-style",
+    "suite bathroom",
+    "shared bathroom",
+
+    "study room",
+    "study rooms",
+    "conference room",
+    "conference rooms",
+
+    "food preparation",
+    "food preparation area",
+    "prepare food",
+    "kitchen",
+    "cooking",
+
+    "laundry",
+    "laundry room",
+    "first floor laundry",
+    "washer",
+    "dryer",
+    "speed queen",
+    "speed queen app",
+    "$10",
+    "10 dollars",
+    "quarters",
+    "coins",
+
+    "wifi",
+    "wi-fi",
+    "internet",
+
+    "ra",
+    "resident assistant",
+    "maintenance",
+    "housing help",
+
+    "east campus",
+    "east side",
+    "2011"
+  ],
+
+  description:
+    "New Facility I is an upperclass residence hall located on the east side of Alabama State University's campus. The four-story building was constructed in 2011 and provides housing for male and female students. Facility I offers single and double bedroom layouts, suite-style accommodations, study spaces, food-preparation areas, Wi-Fi, conference rooms, and a large first-floor laundry facility.",
+
+  services: [
+    "Upperclass housing",
+    "Housing for male and female students",
+    "Single bedroom options",
+    "Double bedroom options",
+    "Suite-style accommodations",
+    "Suite bathrooms",
+    "Study rooms",
+    "Technology-equipped conference rooms",
+    "Food-preparation areas",
+    "First-floor laundry facility",
+    "Speed Queen laundry",
+    "Wi-Fi",
+    "Resident Assistants",
+    "Residence-life support"
+  ],
+
+  studentTip:
+    "Facility I currently serves both male and female upperclass students. Room type and placement depend on your actual Housing assignment, so do not assume that being assigned to Facility I automatically guarantees a single room.",
+
+  sections: [
+
+    {
+      name: "Upperclass Housing for Men & Women",
+
+      keywords: [
+        "coed",
+        "co-ed",
+        "men and women",
+        "male and female",
+        "upperclassman",
+        "upperclassmen"
+      ],
+
+      description:
+        "ASU's current Guide to Campus Living lists Facility I as a co-ed residential community serving male and female students.",
+
+      studentTip:
+        "Housing placement can change from year to year. Always use your current Housing & Residence Life assignment as the final authority for your room and building."
+    },
+
+    {
+      name: "Single & Double Bedrooms",
+
+      keywords: [
+        "single",
+        "single room",
+        "single bedroom",
+        "own room",
+        "private bedroom",
+        "double",
+        "double room",
+        "double bedroom",
+        "roommate"
+      ],
+
+      description:
+        "Facility I was designed with both single and double bedroom layouts for upperclass residents.",
+
+      studentTip:
+        "A single bedroom is not automatically guaranteed because you live in Facility I. Your specific room type depends on the assignment you receive from Housing."
+    },
+
+    {
+      name: "Suite-Style Living",
+
+      keywords: [
+        "suite",
+        "suite style",
+        "suite-style",
+        "suite bathroom",
+        "shared bathroom",
+        "bathroom"
+      ],
+
+      description:
+        "Facility I uses suite-style residential accommodations with bathroom facilities.",
+
+      studentTip:
+        "Talk with your roommates or suitemates about bathroom cleaning, shared supplies, guests, noise, food, and common-space expectations early."
+    },
+
+    {
+      name: "Roommates & Suitemates",
+
+      keywords: [
+        "roommate",
+        "roommates",
+        "suitemate",
+        "suitemates",
+        "roommate conflict",
+        "roommate problem"
+      ],
+
+      description:
+        "Students living in Facility I may share bedrooms or suite spaces with other residents.",
+
+      studentTip:
+        "ASU recommends discussing study habits, cleaning, visitation, noise, personal property, food, storage, and work or study schedules with roommates early. Your RA can also help with a Roommate Agreement."
+    },
+
+    {
+      name: "Study Rooms",
+
+      keywords: [
+        "study",
+        "study room",
+        "study rooms",
+        "study area",
+        "quiet study"
+      ],
+
+      description:
+        "Facility I provides study-room space for residents.",
+
+      studentTip:
+        "Use the study areas when you need somewhere quieter than your bedroom or suite."
+    },
+
+    {
+      name: "Technology-Equipped Conference Rooms",
+
+      keywords: [
+        "conference room",
+        "conference rooms",
+        "technology room",
+        "meeting room",
+        "group study",
+        "presentation"
+      ],
+
+      description:
+        "Facility I includes technically equipped conference and study rooms that can support studying, meetings, and collaborative work.",
+
+      studentTip:
+        "These spaces can be useful for group projects when your bedroom or suite does not give your group enough room."
+    },
+
+    {
+      name: "Food-Preparation Areas",
+
+      keywords: [
+        "food",
+        "food prep",
+        "food preparation",
+        "food preparation area",
+        "prepare food",
+        "kitchen",
+        "cook",
+        "cooking"
+      ],
+
+      description:
+        "Facility I includes designated food-preparation areas for residents.",
+
+      studentTip:
+        "Use only appliances permitted by current Housing rules. A food-preparation area does not mean every cooking appliance is allowed inside your bedroom."
+    },
+
+    {
+      name: "🧺 First-Floor Laundry & Speed Queen",
+
+      keywords: [
+        "laundry",
+        "laundry room",
+        "first floor laundry",
+        "washer",
+        "washers",
+        "dryer",
+        "dryers",
+        "speed queen",
+        "speed queen app",
+        "laundry app",
+        "$10",
+        "10 dollars",
+        "quarters",
+        "coins"
+      ],
+
+      description:
+        "Facility I has a large laundry facility located on the first floor. ASU residence halls use the Speed Queen laundry system.",
+
+      features: [
+        "Large first-floor laundry facility",
+        "Washers and dryers",
+        "Speed Queen app",
+        "Digital laundry payment",
+        "Coin backup when supported by the individual machine"
+      ],
+
+      studentTip:
+        "Students report that Speed Queen requires a minimum $10 load through the app. You can add more than $10, but not less. Keep quarters available as a backup in case the internet or Speed Queen has a technical problem, but check the individual machine first to make sure coins are accepted.",
+
+      extraTip:
+        "Set a timer and return when your cycle ends. Facility I residents share the first-floor laundry space, so leaving finished clothes in a machine can hold up other students."
+    },
+
+    {
+      name: "Laundry Problems",
+
+      keywords: [
+        "washer broken",
+        "dryer broken",
+        "speed queen error",
+        "laundry problem",
+        "laundry refund"
+      ],
+
+      description:
+        "Laundry-equipment or payment problems should be reported through residence-hall staff or the current laundry-support process.",
+
+      studentTip:
+        "Note the machine number and error message if possible. Do not repeatedly pay a machine that is clearly malfunctioning."
+    },
+
+    {
+      name: "Wi-Fi & Internet",
+
+      keywords: [
+        "wifi",
+        "wi-fi",
+        "internet",
+        "wireless"
+      ],
+
+      description:
+        "Wireless internet is available for Facility I residents.",
+
+      studentTip:
+        "Give yourself extra time when submitting important assignments in case you encounter a temporary network issue."
+    },
+
+    {
+      name: "Resident Assistants (RAs)",
+
+      keywords: [
+        "ra",
+        "ras",
+        "resident assistant",
+        "resident assistants",
+        "ra on call"
+      ],
+
+      description:
+        "Resident Assistants and residence-hall staff support students living in Facility I.",
+
+      studentTip:
+        "Know your RA and how to contact hall staff. They can help with residence-hall questions, roommate concerns, policies, emergencies, and connecting you with Housing."
+    },
+
+    {
+      name: "Maintenance",
+
+      keywords: [
+        "maintenance",
+        "something broken",
+        "ac broken",
+        "leak",
+        "toilet broken",
+        "room repair"
+      ],
+
+      description:
+        "Maintenance concerns should be reported through Facility I residence-hall staff or the appropriate Housing process.",
+
+      studentTip:
+        "Report maintenance issues early rather than assuming another resident has already reported them."
+    },
+
+    {
+      name: "Housing & Residence Life Help",
+
+      keywords: [
+        "housing",
+        "housing office",
+        "housing help",
+        "housing assignment",
+        "room assignment"
+      ],
+
+      description:
+        "ASU Housing & Residence Life manages room assignments, residence-hall policies, and residential support.",
+
+      studentTip:
+        "For larger housing or assignment issues, Housing & Residence Life is located in the J. Garrick Hardy Student Center."
+    },
+
+    {
+      name: "East Campus Location",
+
+      keywords: [
+        "east campus",
+        "east side",
+        "facility 1 location",
+        "where is facility 1"
+      ],
+
+      description:
+        "Facility I was constructed on the east side of ASU's campus.",
+
+      studentTip:
+        "Before classes begin, walk from Facility I to your classrooms and other frequently used campus locations so you know your routes."
+    },
+
+    {
+      name: "Facility I History",
+
+      keywords: [
+        "facility 1 history",
+        "2011",
+        "when was facility 1 built"
+      ],
+
+      description:
+        "Facility I was built in 2011 as a four-story contemporary residence hall designed to provide modern upperclass housing at Alabama State University."
+    }
+
+  ],
+
+  history: {
+    year: 2011,
+
+    description:
+      "New Facility I was constructed in 2011 on the east side of Alabama State University's campus as a modern four-story upperclass residence hall."
+  },
+
+  funFact:
+    "Unlike many of ASU's older residence halls, Facility I was built in the 21st century and was designed from the beginning with single and double bedrooms, suite-style accommodations, food-preparation areas, technology-equipped study spaces, and a large laundry facility.",
+
+  image: "",
+  mapLink: ""
+},
+
+
+// =====================================================
+// NEW FACILITY II
+// =====================================================
+
+{
+  id: 46,
+
+  name: "New Facility II",
+  shortName: "Facility II",
+  category: "housing",
+
+  keywords: [
+    "facility 2",
+    "facility ii",
+    "new facility 2",
+    "new facility ii",
+
+    "upperclassman",
+    "upperclassmen",
+    "upperclass housing",
+    "returning students",
+
+    "women",
+    "womens dorm",
+    "women's dorm",
+    "female residence hall",
+    "female housing",
+    "all women",
+    "all female",
+
+    "single room",
+    "single bedroom",
+    "double room",
+    "double bedroom",
+
+    "suite",
+    "suite style",
+    "suite-style",
+    "suite bathroom",
+    "shared bathroom",
+
+    "roommate",
+    "roommates",
+    "suitemate",
+    "suitemates",
+
+    "study room",
+    "study rooms",
+    "conference room",
+    "conference rooms",
+
+    "food preparation",
+    "food preparation area",
+    "kitchen",
+    "cooking",
+
+    "laundry",
+    "first floor laundry",
+    "washer",
+    "dryer",
+    "speed queen",
+    "speed queen app",
+    "$10",
+    "10 dollars",
+    "quarters",
+    "coins",
+
+    "wifi",
+    "wi-fi",
+    "internet",
+
+    "ra",
+    "resident assistant",
+    "maintenance",
+    "housing help",
+
+    "east campus",
+    "east side",
+    "2011"
+  ],
+
+  description:
+    "New Facility II is an upperclass residence hall located on the east side of Alabama State University's campus. The four-story building was constructed in 2011 and currently serves women students. Facility II includes single and double bedroom layouts, suite-style accommodations, study spaces, food-preparation areas, Wi-Fi, technology-equipped conference rooms, and a large first-floor laundry facility.",
+
+  services: [
+    "Upperclass women's housing",
+    "Single bedroom options",
+    "Double bedroom options",
+    "Suite-style accommodations",
+    "Suite bathrooms",
+    "Study rooms",
+    "Technology-equipped conference rooms",
+    "Food-preparation areas",
+    "First-floor laundry facility",
+    "Speed Queen laundry",
+    "Wi-Fi",
+    "Resident Assistants",
+    "Residence-life support"
+  ],
+
+  studentTip:
+    "CURRENT HOUSING NOTE: Facility II currently serves women students. Some ASU webpages and institutional documents may still contain older or conflicting descriptions of Facility II, so always follow your current Housing & Residence Life assignment.",
+
+  sections: [
+
+    {
+      name: "Upperclass Women's Residence Hall",
+
+      keywords: [
+        "women",
+        "women's dorm",
+        "womens dorm",
+        "all women",
+        "all female",
+        "female housing",
+        "upperclass women"
+      ],
+
+      description:
+        "ASU's 2025 Guide to Campus Living lists Facility II within the university's female residential communities.",
+
+      studentTip:
+        "If you find older ASU information describing Facility II differently, follow your current Housing assignment. Residence-hall designations can change over time."
+    },
+
+    {
+      name: "Single & Double Bedrooms",
+
+      keywords: [
+        "single",
+        "single room",
+        "single bedroom",
+        "private room",
+        "double",
+        "double room",
+        "double bedroom",
+        "roommate"
+      ],
+
+      description:
+        "Facility II was designed with both single and double bedroom layouts.",
+
+      studentTip:
+        "Being assigned to Facility II does not automatically mean you will receive a single. Your actual bedroom type is determined by Housing."
+    },
+
+    {
+      name: "Suite-Style Living",
+
+      keywords: [
+        "suite",
+        "suite style",
+        "suite-style",
+        "bathroom",
+        "suite bathroom",
+        "shared bathroom"
+      ],
+
+      description:
+        "Facility II features suite-style residential accommodations with bathrooms.",
+
+      studentTip:
+        "Agree with roommates and suitemates about cleaning, bathroom use, shared supplies, guests, noise, and personal belongings early."
+    },
+
+    {
+      name: "Roommates & Suitemates",
+
+      keywords: [
+        "roommate",
+        "roommates",
+        "suitemate",
+        "suitemates",
+        "roommate conflict",
+        "roommate problem"
+      ],
+
+      description:
+        "Depending on room assignment, Facility II residents may share bedrooms and suite spaces with other students.",
+
+      studentTip:
+        "Discuss study schedules, cleaning, visitation, noise, food, personal property, storage, and schedules early. Your RA can help facilitate a roommate conversation if needed."
+    },
+
+    {
+      name: "Study Rooms",
+
+      keywords: [
+        "study",
+        "study room",
+        "study rooms",
+        "quiet study",
+        "study area"
+      ],
+
+      description:
+        "Facility II provides study-room space for residents.",
+
+      studentTip:
+        "Use the study areas when your bedroom or suite is too busy for focused work."
+    },
+
+    {
+      name: "Technology-Equipped Conference Rooms",
+
+      keywords: [
+        "conference room",
+        "conference rooms",
+        "technology room",
+        "meeting room",
+        "group project",
+        "group study"
+      ],
+
+      description:
+        "Facility II includes technically equipped conference and study rooms for residents.",
+
+      studentTip:
+        "These rooms can be especially useful for collaborative assignments, meetings, presentations, or group study."
+    },
+
+    {
+      name: "Food-Preparation Areas",
+
+      keywords: [
+        "food",
+        "food prep",
+        "food preparation",
+        "prepare food",
+        "kitchen",
+        "cook",
+        "cooking"
+      ],
+
+      description:
+        "Facility II includes designated food-preparation areas for residents.",
+
+      studentTip:
+        "Check current Housing rules before bringing cooking appliances. Having access to a food-preparation area does not mean every appliance is permitted in your bedroom."
+    },
+
+    {
+      name: "🧺 First-Floor Laundry & Speed Queen",
+
+      keywords: [
+        "laundry",
+        "laundry room",
+        "first floor laundry",
+        "washer",
+        "washers",
+        "dryer",
+        "dryers",
+        "speed queen",
+        "speed queen app",
+        "laundry app",
+        "$10",
+        "10 dollars",
+        "quarters",
+        "coins"
+      ],
+
+      description:
+        "Facility II has a large laundry facility located on the first floor. ASU residence halls use the Speed Queen laundry system.",
+
+      features: [
+        "Large first-floor laundry facility",
+        "Washers and dryers",
+        "Speed Queen app",
+        "Digital laundry payment",
+        "Coin backup when supported by the individual machine"
+      ],
+
+      studentTip:
+        "Students report that the minimum amount you can load through the Speed Queen app is $10. You can add more, but you cannot add less than $10. Keep quarters available as a backup in case Speed Queen or the internet has a technical problem, but verify that the individual machine accepts coins.",
+
+      extraTip:
+        "Set a timer and return when your laundry finishes. Everyone shares the laundry facility, so don't leave finished clothes sitting in a machine."
+    },
+
+    {
+      name: "Laundry Problems",
+
+      keywords: [
+        "washer broken",
+        "dryer broken",
+        "speed queen error",
+        "laundry problem",
+        "laundry refund"
+      ],
+
+      description:
+        "Laundry-equipment and payment problems should be reported through residence-hall staff or the current laundry-support process.",
+
+      studentTip:
+        "Note the machine number and error message if possible. Avoid repeatedly paying a machine that is clearly malfunctioning."
+    },
+
+    {
+      name: "Wi-Fi & Internet",
+
+      keywords: [
+        "wifi",
+        "wi-fi",
+        "internet",
+        "wireless"
+      ],
+
+      description:
+        "Wireless internet is available to Facility II residents.",
+
+      studentTip:
+        "Give yourself extra time with important online assignments in case you encounter a temporary network issue."
+    },
+
+    {
+      name: "Resident Assistants (RAs)",
+
+      keywords: [
+        "ra",
+        "ras",
+        "resident assistant",
+        "resident assistants",
+        "ra on call"
+      ],
+
+      description:
+        "Resident Assistants and residence-hall staff support students living in Facility II.",
+
+      studentTip:
+        "Learn who your RA is and how to contact the RA on call. They can help with policies, residential questions, roommate concerns, and connecting you with Housing staff."
+    },
+
+    {
+      name: "Maintenance",
+
+      keywords: [
+        "maintenance",
+        "something broken",
+        "ac broken",
+        "leak",
+        "toilet broken",
+        "room repair"
+      ],
+
+      description:
+        "Maintenance concerns should be reported through Facility II residence-hall staff or the appropriate Housing process.",
+
+      studentTip:
+        "Report problems early instead of assuming your roommate or another resident already reported them."
+    },
+
+    {
+      name: "Housing & Residence Life Help",
+
+      keywords: [
+        "housing",
+        "housing office",
+        "housing help",
+        "housing assignment",
+        "room assignment"
+      ],
+
+      description:
+        "Housing & Residence Life manages room assignments, residential policies, and housing support.",
+
+      studentTip:
+        "For larger assignment or housing issues, Housing & Residence Life is located in the J. Garrick Hardy Student Center."
+    },
+
+    {
+      name: "East Campus Location",
+
+      keywords: [
+        "east campus",
+        "east side",
+        "facility 2 location",
+        "where is facility 2"
+      ],
+
+      description:
+        "Facility II was constructed on the east side of Alabama State University's campus.",
+
+      studentTip:
+        "Walk your class schedule before the semester gets busy so you know the quickest routes from Facility II to your academic buildings."
+    },
+
+    {
+      name: "Facility II Housing Information Update",
+
+      keywords: [
+        "is facility 2 coed",
+        "is facility ii coed",
+        "facility 2 female",
+        "facility 2 women",
+        "facility ii women",
+        "housing update"
+      ],
+
+      description:
+        "ASU sources currently conflict about Facility II's residential designation. The 2025 Guide to Campus Living lists Facility II as female housing, while ASU's general residence-hall webpage and Fall 2025 institutional report still describe it as housing both female and male students.",
+
+      studentTip:
+        "Current campus information identifies Facility II as women's housing. Because ASU's published pages have not all been updated consistently, your Housing & Residence Life assignment should be treated as the final source for your placement."
+    },
+
+    {
+      name: "Facility II History",
+
+      keywords: [
+        "facility 2 history",
+        "facility ii history",
+        "2011",
+        "when was facility 2 built"
+      ],
+
+      description:
+        "Facility II was built in 2011 as a four-story contemporary residence hall on the east side of ASU's campus."
+    }
+
+  ],
+
+  history: {
+    year: 2011,
+
+    description:
+      "New Facility II was constructed in 2011 on the east side of Alabama State University's campus as part of the university's modern residential expansion."
+  },
+
+  funFact:
+    "Facility I and Facility II were both built in 2011 and share many of the same design features, including single and double bedrooms, suite-style accommodations, food-preparation areas, study spaces, conference rooms, Wi-Fi, and large first-floor laundry facilities.",
+
+  image: "",
+  mapLink: ""
+},
+
+// =====================================================
+// WILLETTA MCGINTY APARTMENTS
+// =====================================================
+
+{
+  id: 47,
+
+  name: "Willetta McGinty Apartments",
+  shortName: "McGinty Apartments",
+  category: "housing",
+
+  keywords: [
+    "mcginty",
+    "mcginty apartments",
+    "willetta mcginty",
+    "willetta mcginty apartments",
+
+    "apartments",
+    "apartment",
+    "campus apartments",
+    "student apartments",
+    "on campus apartments",
+    "apartment style",
+    "apartment-style",
+
+    "coed",
+    "co-ed",
+    "men",
+    "women",
+    "male",
+    "female",
+    "men and women",
+
+    "upperclassman",
+    "upperclassmen",
+    "returning students",
+
+    "roommate",
+    "roommates",
+    "apartment mate",
+    "apartment mates",
+
+    "bathroom",
+    "bathroom in apartment",
+    "apartment bathroom",
+    "private bathroom",
+    "restroom",
+
+    "laundry",
+    "washing",
+    "drying",
+    "washer",
+    "dryer",
+    "speed queen",
+    "speed queen app",
+    "laundry app",
+    "$10",
+    "10 dollars",
+    "quarters",
+    "coins",
+
+    "ra",
+    "resident assistant",
+    "residential staff",
+
+    "hall council",
+    "mcginty hall council",
+    "residence hall council",
+    "student leadership",
+
+    "maintenance",
+    "housing help",
+
+    "breezeway",
+    "breezeways",
+
+    "1983",
+    "mcginty history"
+  ],
+
+  description:
+    "Willetta McGinty Apartments is an apartment-style residential community at Alabama State University. Unlike a traditional residence hall with communal floor living, McGinty provides students with an apartment-style campus housing experience. The residential community dates to 1983 and consists of multiple apartment buildings connected by breezeways and sheltered walkways.",
+
+  services: [
+    "Apartment-style campus housing",
+    "Housing for male and female students",
+    "Bathroom facilities inside the apartment",
+    "Speed Queen laundry system",
+    "Residential staff support",
+    "McGinty Apartments Hall Council",
+    "Housing & Residence Life support",
+    "Maintenance support"
+  ],
+
+  studentTip:
+    "McGinty is apartment-style university housing, so the experience is different from living in a traditional residence hall such as MLK, Bessie Estell, or Simpson. Your exact apartment and roommate assignment comes from Housing & Residence Life.",
+
+  sections: [
+
+    // =================================================
+    // APARTMENT-STYLE LIVING
+    // =================================================
+
+    {
+      name: "Apartment-Style Living",
+
+      keywords: [
+        "apartment",
+        "apartments",
+        "apartment style",
+        "apartment-style",
+        "campus apartment",
+        "student apartment",
+        "on campus apartment"
+      ],
+
+      description:
+        "Willetta McGinty provides apartment-style residential accommodations on ASU's campus rather than a traditional communal-floor residence-hall arrangement.",
+
+      studentTip:
+        "Apartment-style living usually requires residents to take more responsibility for their shared residential space. Communicate early with the other students assigned to your apartment."
+    },
+
+
+    // =================================================
+    // CO-ED RESIDENTIAL COMMUNITY
+    // =================================================
+
+    {
+      name: "Housing for Men & Women",
+
+      keywords: [
+        "coed",
+        "co-ed",
+        "men",
+        "women",
+        "male",
+        "female",
+        "men and women",
+        "coed apartment"
+      ],
+
+      description:
+        "McGinty is part of ASU's residential housing community and has been identified within campus housing as a residential option serving students in an apartment-style setting.",
+
+      studentTip:
+        "Residential designations and assignments can change. Always rely on your current Housing & Residence Life assignment for your specific placement."
+    },
+
+
+    // =================================================
+    // BATHROOM
+    // =================================================
+
+    {
+      name: "Bathroom Inside the Apartment",
+
+      keywords: [
+        "bathroom",
+        "bathrooms",
+        "apartment bathroom",
+        "bathroom in apartment",
+        "does mcginty have bathroom",
+        "restroom",
+        "shared bathroom"
+      ],
+
+      description:
+        "McGinty apartments include bathroom facilities inside the residential unit, so residents do not use the type of communal floor bathroom found in some traditional residence halls.",
+
+      studentTip:
+        "Talk with your apartment mates about bathroom cleaning, toiletries, shared supplies, schedules, and storage. A bathroom inside the apartment still becomes everyone's responsibility when multiple students share the unit."
+    },
+
+
+    // =================================================
+    // ROOMMATES / APARTMENT MATES
+    // =================================================
+
+    {
+      name: "Roommates & Apartment Mates",
+
+      keywords: [
+        "roommate",
+        "roommates",
+        "apartment mate",
+        "apartment mates",
+        "roommate problem",
+        "roommate conflict",
+        "living together"
+      ],
+
+      description:
+        "McGinty residents share an apartment-style residential environment with other assigned students.",
+
+      studentTip:
+        "Discuss cleaning, sleep schedules, studying, guests, noise, food, shared supplies, bathroom responsibilities, personal belongings, and boundaries early. Your residential staff can help if a conflict cannot be resolved between roommates."
+    },
+
+
+    // =================================================
+    // LAUNDRY & SPEED QUEEN
+    // =================================================
+
+    {
+      name: "🧺 Laundry & Speed Queen",
+
+      keywords: [
+        "laundry",
+        "laundry room",
+        "washing",
+        "drying",
+        "wash clothes",
+        "washer",
+        "washers",
+        "dryer",
+        "dryers",
+
+        "speed queen",
+        "speed queen app",
+        "laundry app",
+        "laundry payment",
+        "laundry money",
+
+        "$10",
+        "10 dollars",
+        "minimum 10 dollars",
+
+        "quarters",
+        "coins",
+        "laundry coins"
+      ],
+
+      description:
+        "McGinty residents use ASU's residence-hall laundry system, including Speed Queen for washing and drying.",
+
+      features: [
+        "Washers and dryers",
+        "Speed Queen app",
+        "Digital laundry payment",
+        "Coin backup when supported by the individual machine"
+      ],
+
+      studentTip:
+        "Students report that the minimum amount you can add through the Speed Queen app is $10. You can add more than $10, but you cannot add less. Keep quarters available as a backup in case Speed Queen or the internet has a technical problem, but always check the individual machine to make sure it accepts coins.",
+
+      extraTip:
+        "Set a timer when you start your laundry and return when the cycle finishes. Shared laundry works much better when everyone removes their clothes promptly."
+    },
+
+
+    // =================================================
+    // LAUNDRY PROBLEMS
+    // =================================================
+
+    {
+      name: "Laundry Problems",
+
+      keywords: [
+        "washer broken",
+        "dryer broken",
+        "speed queen error",
+        "speed queen problem",
+        "laundry problem",
+        "laundry refund"
+      ],
+
+      description:
+        "Problems involving washers, dryers, Speed Queen, or laundry payments should be reported through the appropriate residential staff or current laundry-support process.",
+
+      studentTip:
+        "If a machine is not working, note the machine number and error message if possible. Do not continue paying a machine that is clearly malfunctioning."
+    },
+
+
+    // =================================================
+    // MCGINTY HALL COUNCIL
+    // =================================================
+
+    {
+      name: "McGinty Apartments Hall Council",
+
+      keywords: [
+        "hall council",
+        "mcginty hall council",
+        "mcginty apartments hall council",
+        "residence hall council",
+        "student leadership",
+        "get involved",
+        "housing organization"
+      ],
+
+      description:
+        "ASU's current Student Handbook lists the Willetta McGinty Apartments Hall Council among the university's residence-hall organizations.",
+
+      studentTip:
+        "If you live in McGinty and want to become more involved, ask residential staff about Hall Council. Residence-hall leadership can be a good way to meet other residents, participate in programming, and build campus leadership experience."
+    },
+
+
+    // =================================================
+    // RESIDENTIAL STAFF
+    // =================================================
+
+    {
+      name: "Residential Staff",
+
+      keywords: [
+        "ra",
+        "resident assistant",
+        "residential staff",
+        "hall staff",
+        "mcginty staff",
+        "residence coordinator",
+        "need help"
+      ],
+
+      description:
+        "McGinty is an actively staffed ASU residential community with personnel assigned to support residents.",
+
+      studentTip:
+        "Learn how to contact the residential staff assigned to McGinty. They can help with housing questions, policies, roommate concerns, building issues, and directing you to additional Housing resources."
+    },
+
+
+    // =================================================
+    // MAINTENANCE
+    // =================================================
+
+    {
+      name: "Apartment Maintenance",
+
+      keywords: [
+        "maintenance",
+        "apartment maintenance",
+        "something broken",
+        "toilet broken",
+        "bathroom broken",
+        "sink broken",
+        "leak",
+        "ac broken",
+        "air conditioning",
+        "repair"
+      ],
+
+      description:
+        "Maintenance concerns in McGinty should be reported through the appropriate residential or Housing & Residence Life process.",
+
+      studentTip:
+        "Report problems as soon as you notice them. Leaks, plumbing problems, electrical issues, HVAC problems, or damaged university property can become more serious if nobody reports them."
+    },
+
+
+    // =================================================
+    // HOUSING HELP
+    // =================================================
+
+    {
+      name: "Housing & Residence Life Help",
+
+      keywords: [
+        "housing",
+        "housing office",
+        "housing help",
+        "residence life",
+        "housing problem",
+        "room assignment",
+        "apartment assignment",
+        "housing assignment"
+      ],
+
+      description:
+        "ASU Housing & Residence Life manages university residential assignments, housing policies, and student housing support.",
+
+      studentTip:
+        "Start with McGinty's residential staff for everyday apartment concerns. For larger assignment or housing issues, contact Housing & Residence Life."
+    },
+
+
+    // =================================================
+    // APARTMENT RESPONSIBILITY
+    // =================================================
+
+    {
+      name: "Taking Care of Your Apartment",
+
+      keywords: [
+        "clean apartment",
+        "cleaning",
+        "trash",
+        "apartment cleaning",
+        "housekeeping",
+        "chores"
+      ],
+
+      description:
+        "Apartment-style housing requires residents to work together to maintain their shared residential environment.",
+
+      studentTip:
+        "Create a simple cleaning schedule with your apartment mates. Decide who handles trash, bathroom cleaning, shared surfaces, and other responsibilities instead of waiting until the apartment becomes messy."
+    },
+
+
+    // =================================================
+    // BREEZEWAYS & BUILDING LAYOUT
+    // =================================================
+
+    {
+      name: "McGinty Building Layout",
+
+      keywords: [
+        "breezeway",
+        "breezeways",
+        "walkway",
+        "walkways",
+        "mcginty buildings",
+        "apartment buildings",
+        "mcginty layout"
+      ],
+
+      description:
+        "Historical ASU records describe the Willetta McGinty Apartments as four free-standing residential buildings connected by breezeways and sheltered walks.",
+
+      studentTip:
+        "Because McGinty is an apartment complex rather than one large residence-hall building, learn which building and apartment you are assigned to before move-in."
+    },
+
+
+    // =================================================
+    // HISTORY
+    // =================================================
+
+    {
+      name: "McGinty Apartments History",
+
+      keywords: [
+        "mcginty history",
+        "willetta mcginty history",
+        "1983",
+        "honor students",
+        "historic apartments"
+      ],
+
+      description:
+        "Willetta McGinty Apartments date to 1983. Historical ASU documentation describes four free-standing apartment buildings connected by breezeways and sheltered walks. The apartments were originally designed to help prepare honor students for independent life beyond the university.",
+
+      studentTip:
+        "McGinty's apartment-style design has been part of ASU's campus for decades and gives the residential community a different setup from the university's traditional residence halls."
+    }
+
+  ],
+
+  history: {
+    year: 1983,
+
+    description:
+      "Willetta McGinty Apartments were constructed in 1983 as apartment-style campus residences. Historical ASU records describe four free-standing buildings connected by breezeways and sheltered walks and note that the residences were originally designed to help prepare honor students for life beyond campus."
+  },
+
+  funFact:
+    "McGinty has a different residential history from ASU's traditional dormitories: the apartments were intentionally designed to give students a more independent style of campus living.",
+
+  image: "",
+  mapLink: ""
+},
+
+// =====================================================
+// PEYTON FINLEY APARTMENTS
+// =====================================================
+
+{
+  id: 48,
+
+  name: "Peyton Finley Apartments",
+  shortName: "Peyton Finley",
+  category: "housing",
+
+  keywords: [
+    "peyton finley",
+    "peyton finley hall",
+    "peyton finley apartments",
+    "finley",
+    "finley apartments",
+
+    "apartment",
+    "apartments",
+    "apartment style",
+    "apartment-style",
+    "campus apartment",
+    "student apartment",
+    "on campus apartment",
+
+    "coed",
+    "co-ed",
+    "men and women",
+    "male and female",
+    "men",
+    "women",
+
+    "two to a room",
+    "2 to a room",
+    "four to a suite",
+    "4 to a suite",
+    "suite",
+    "suite style",
+    "suite-style",
+
+    "roommate",
+    "roommates",
+    "suitemate",
+    "suitemates",
+
+    "bathroom",
+    "bathroom in suite",
+    "suite bathroom",
+    "shower",
+    "tub",
+    "bathtub",
+    "shower with tub",
+
+    "common area",
+    "sitting area",
+    "first floor sitting area",
+    "lounge",
+    "couch",
+    "couches",
+    "tv stand",
+    "tv stands",
+    "television",
+
+    "laundry",
+    "first floor laundry",
+    "washing",
+    "drying",
+    "washer",
+    "washers",
+    "dryer",
+    "dryers",
+
+    "speed queen",
+    "speed queen app",
+    "laundry app",
+    "laundry payment",
+    "$10",
+    "10 dollars",
+    "quarters",
+    "coins",
+
+    "ra",
+    "resident assistant",
+    "residential staff",
+    "night coordinator",
+
+    "maintenance",
+    "housing help",
+    "hvac",
+    "hvac replacement",
+
+    "1983",
+    "64 students",
+    "peyton finley history"
+  ],
+
+  description:
+    "Peyton Finley Apartments is a smaller co-ed residential community at Alabama State University serving both female and male students. The apartment-style community dates to 1983 and consists of four two-story brick buildings. Students report a current residential setup of two students to a bedroom and four students to a suite, with bathroom facilities inside the suite, first-floor laundry, and shared sitting areas.",
+
+  services: [
+    "Housing for female and male students",
+    "Apartment-style campus housing",
+    "Two students per bedroom",
+    "Four students per suite",
+    "Bathroom inside the suite",
+    "Bathtub and shower",
+    "First-floor sitting area",
+    "Couches",
+    "TV stands",
+    "First-floor laundry",
+    "Speed Queen laundry system",
+    "Residential staff support",
+    "Housing & Residence Life support",
+    "Maintenance support"
+  ],
+
+  studentTip:
+    "Peyton Finley is a smaller residential community than many of ASU's larger residence halls. Students report two residents sharing a bedroom and four residents sharing a suite. Talk with your roommate and suitemates early about cleaning, bathroom schedules, guests, noise, studying, shared supplies, and personal space.",
+
+  sections: [
+
+    // =================================================
+    // CO-ED HOUSING
+    // =================================================
+
+    {
+      name: "Housing for Men & Women",
+
+      keywords: [
+        "coed",
+        "co-ed",
+        "men and women",
+        "male and female",
+        "men",
+        "women",
+        "coed housing"
+      ],
+
+      description:
+        "Peyton Finley currently serves both female and male students within ASU's residential community.",
+
+      studentTip:
+        "Your individual apartment, suite, and roommate placement is determined by Housing & Residence Life. Always rely on your current Housing assignment."
+    },
+
+
+    // =================================================
+    // ROOM & SUITE SETUP
+    // =================================================
+
+    {
+      name: "2 to a Room • 4 to a Suite",
+
+      keywords: [
+        "two to a room",
+        "2 to a room",
+        "four to a suite",
+        "4 to a suite",
+        "room setup",
+        "suite setup",
+        "how many roommates",
+        "how many people",
+        "room occupancy"
+      ],
+
+      description:
+        "Students report that Peyton Finley commonly has two residents sharing each bedroom and four residents sharing the overall suite.",
+
+      studentTip:
+        "Your official Housing assignment is always the final authority because room configurations and occupancy can change according to university housing needs."
+    },
+
+
+    // =================================================
+    // BATHROOM
+    // =================================================
+
+    {
+      name: "Bathroom, Shower & Bathtub",
+
+      keywords: [
+        "bathroom",
+        "bathrooms",
+        "suite bathroom",
+        "bathroom in suite",
+        "shower",
+        "tub",
+        "bathtub",
+        "shower with tub",
+        "does peyton finley have tub"
+      ],
+
+      description:
+        "Students report that Peyton Finley suites include bathroom facilities inside the suite with a shower and bathtub.",
+
+      studentTip:
+        "Since the bathroom is shared within the suite, talk about cleaning responsibilities, toiletries, bathroom schedules, towels, and shared supplies before they become a problem."
+    },
+
+
+    // =================================================
+    // ROOMMATES & SUITEMATES
+    // =================================================
+
+    {
+      name: "Roommates & Suitemates",
+
+      keywords: [
+        "roommate",
+        "roommates",
+        "suitemate",
+        "suitemates",
+        "roommate problem",
+        "roommate conflict",
+        "suite conflict"
+      ],
+
+      description:
+        "Peyton Finley's residential layout means students share bedroom and suite spaces with other residents.",
+
+      studentTip:
+        "Discuss sleep schedules, alarms, studying, guests, music, television, cleaning, bathroom use, food, borrowing belongings, and personal boundaries early. Residential staff can help when roommates cannot resolve an issue themselves."
+    },
+
+
+    // =================================================
+    // FIRST-FLOOR SITTING AREA
+    // =================================================
+
+    {
+      name: "First-Floor Sitting & Common Area",
+
+      keywords: [
+        "common area",
+        "sitting area",
+        "first floor",
+        "first floor sitting area",
+        "lounge",
+        "hang out",
+        "social area",
+        "couches",
+        "couch"
+      ],
+
+      description:
+        "Students report that Peyton Finley has shared sitting space on the first floor with couches and areas where residents can spend time outside their bedrooms.",
+
+      studentTip:
+        "The first-floor sitting area can be useful when you want to socialize, meet other residents, or simply get out of your room without leaving your residential community."
+    },
+
+
+    // =================================================
+    // COUCHES & TV AREA
+    // =================================================
+
+    {
+      name: "Couches & TV Area",
+
+      keywords: [
+        "couch",
+        "couches",
+        "tv",
+        "television",
+        "tv stand",
+        "tv stands",
+        "watch tv",
+        "lounge"
+      ],
+
+      description:
+        "The first-floor common area includes couches and TV stands as part of the shared residential sitting space.",
+
+      studentTip:
+        "Remember that common areas belong to everyone. Keep the space clean and be respectful of other residents using it to relax or socialize."
+    },
+
+
+    // =================================================
+    // LAUNDRY & SPEED QUEEN
+    // =================================================
+
+    {
+      name: "🧺 First-Floor Laundry & Speed Queen",
+
+      keywords: [
+        "laundry",
+        "laundry room",
+        "first floor laundry",
+        "washing",
+        "drying",
+        "wash clothes",
+        "washer",
+        "washers",
+        "dryer",
+        "dryers",
+
+        "speed queen",
+        "speed queen app",
+        "laundry app",
+        "laundry payment",
+        "laundry money",
+
+        "$10",
+        "10 dollars",
+        "minimum 10 dollars",
+
+        "quarters",
+        "coins",
+        "laundry coins"
+      ],
+
+      description:
+        "Students report that Peyton Finley's washers and dryers are located on the first floor. ASU residence halls use the Speed Queen laundry system.",
+
+      features: [
+        "First-floor laundry",
+        "Washers and dryers",
+        "Speed Queen app",
+        "Digital laundry payment",
+        "Coin backup when supported by the individual machine"
+      ],
+
+      studentTip:
+        "Students report that the minimum amount you can add through the Speed Queen app is $10. You can add more than $10, but you cannot add less. Keep quarters available as a backup in case Speed Queen or the internet experiences a technical problem, but check the individual machine first to make sure it accepts coins.",
+
+      extraTip:
+        "Set a timer when you start your laundry. Return when the cycle finishes so another resident is not waiting for clothes that have been sitting in a machine."
+    },
+
+
+    // =================================================
+    // LAUNDRY PROBLEMS
+    // =================================================
+
+    {
+      name: "Laundry Problems",
+
+      keywords: [
+        "washer broken",
+        "dryer broken",
+        "laundry broken",
+        "speed queen error",
+        "speed queen problem",
+        "laundry refund"
+      ],
+
+      description:
+        "Laundry-equipment or payment problems should be reported through residential staff or the current laundry-support process.",
+
+      studentTip:
+        "Write down or photograph the machine number and error message if possible. Do not repeatedly pay a machine that is clearly malfunctioning."
+    },
+
+
+    // =================================================
+    // SMALLER RESIDENTIAL COMMUNITY
+    // =================================================
+
+    {
+      name: "Smaller Residential Community",
+
+      keywords: [
+        "small dorm",
+        "small residence hall",
+        "64 students",
+        "capacity",
+        "how many students",
+        "small community"
+      ],
+
+      description:
+        "ASU's Fall 2025 institutional information lists Peyton Finley with 64 residential spaces, making it significantly smaller than many of the university's larger residence halls.",
+
+      studentTip:
+        "A smaller residential community can make it easier to become familiar with your neighbors and residential staff."
+    },
+
+
+    // =================================================
+    // RESIDENTIAL STAFF
+    // =================================================
+
+    {
+      name: "Residential Staff",
+
+      keywords: [
+        "ra",
+        "resident assistant",
+        "residential staff",
+        "night coordinator",
+        "residence night coordinator",
+        "hall staff",
+        "need help"
+      ],
+
+      description:
+        "Peyton Finley has residential personnel assigned to support students living in the community.",
+
+      studentTip:
+        "Learn how to reach your residential staff early. They can help with residential questions, policies, roommate concerns, building problems, and connecting you with Housing & Residence Life."
+    },
+
+
+    // =================================================
+    // MAINTENANCE
+    // =================================================
+
+    {
+      name: "Apartment & Suite Maintenance",
+
+      keywords: [
+        "maintenance",
+        "something broken",
+        "toilet broken",
+        "tub broken",
+        "shower broken",
+        "leak",
+        "ac broken",
+        "air conditioning",
+        "hvac",
+        "room repair"
+      ],
+
+      description:
+        "Maintenance concerns should be reported through the appropriate residential or Facilities/Housing process.",
+
+      studentTip:
+        "Report leaks, plumbing problems, HVAC issues, electrical problems, or damaged university property early. Do not assume somebody else has already reported the issue."
+    },
+
+
+    // =================================================
+    // HVAC IMPROVEMENTS
+    // =================================================
+
+    {
+      name: "Current HVAC Improvements",
+
+      keywords: [
+        "hvac",
+        "hvac replacement",
+        "air conditioning",
+        "ac",
+        "heating",
+        "cooling",
+        "renovation",
+        "improvements",
+        "peyton finley upgrades"
+      ],
+
+      description:
+        "ASU currently lists a Peyton Finley Apartments HVAC replacement among the university's Facilities Management projects in progress.",
+
+      studentTip:
+        "Because facility projects can affect residential areas temporarily, follow Housing or Facilities notices if work is occurring near your assigned apartment."
+    },
+
+
+    // =================================================
+    // HOUSING HELP
+    // =================================================
+
+    {
+      name: "Housing & Residence Life Help",
+
+      keywords: [
+        "housing",
+        "housing office",
+        "housing help",
+        "residence life",
+        "housing problem",
+        "room assignment",
+        "suite assignment"
+      ],
+
+      description:
+        "Housing & Residence Life manages residential assignments, housing policies, and student housing support.",
+
+      studentTip:
+        "Start with Peyton Finley's residential staff for everyday concerns. For larger housing or assignment issues, contact Housing & Residence Life."
+    },
+
+
+    // =================================================
+    // TAKING CARE OF THE SUITE
+    // =================================================
+
+    {
+      name: "Taking Care of Your Suite",
+
+      keywords: [
+        "clean",
+        "cleaning",
+        "clean suite",
+        "trash",
+        "chores",
+        "housekeeping"
+      ],
+
+      description:
+        "Residents share responsibility for keeping their bedrooms, bathroom, and other suite spaces reasonably clean.",
+
+      studentTip:
+        "Create a cleaning schedule with your roommates and suitemates. Decide who handles the bathroom, trash, shared surfaces, and other responsibilities instead of waiting for the suite to become messy."
+    },
+
+
+    // =================================================
+    // BUILDING LAYOUT
+    // =================================================
+
+    {
+      name: "Peyton Finley Building Layout",
+
+      keywords: [
+        "building layout",
+        "apartment buildings",
+        "four buildings",
+        "two story",
+        "two-story",
+        "brick buildings"
+      ],
+
+      description:
+        "Historical ASU records describe Peyton Finley Apartments as a cluster of four two-story brick residential buildings.",
+
+      studentTip:
+        "Because Peyton Finley consists of multiple buildings rather than one large residence-hall tower, make sure you know your specific building and room assignment before move-in."
+    },
+
+
+    // =================================================
+    // HISTORY
+    // =================================================
+
+    {
+      name: "Peyton Finley Apartments History",
+
+      keywords: [
+        "peyton finley history",
+        "finley history",
+        "1983",
+        "when was peyton finley built",
+        "historic apartments"
+      ],
+
+      description:
+        "Peyton Finley Apartments date to 1983. ASU historical records describe the residential complex as four two-story brick buildings designed to house 64 students.",
+
+      studentTip:
+        "Peyton Finley has been part of ASU's residential campus for more than four decades while continuing to receive facility improvements."
+    }
+
+  ],
+
+  history: {
+    year: 1983,
+
+    description:
+      "Peyton Finley Apartments were constructed in 1983 as a cluster of four two-story brick residential buildings. Historical ASU records identify capacity for 64 students, and ASU's Fall 2025 institutional report continues to list 64 residential spaces."
+  },
+
+  funFact:
+    "Peyton Finley's historical 64-student capacity matches ASU's Fall 2025 capacity exactly, making it one of the university's smaller residential communities.",
+
+  image: "",
+  mapLink: ""
+},
+
+// =====================================================
+// GEORGE N. CARD HALL
+// =====================================================
+
+{
+  id: 49,
+
+  name: "George N. Card Hall",
+  shortName: "Card Hall",
+  category: "housing",
+
+  keywords: [
+    "card",
+    "card hall",
+    "george card",
+    "george n card",
+    "george n card hall",
+
+    "freshman",
+    "freshmen",
+    "freshman housing",
+    "first year",
+    "first-year",
+    "first year housing",
+
+    "men",
+    "male",
+    "mens dorm",
+    "men's dorm",
+    "freshman men",
+    "first year men",
+    "male residence hall",
+
+    "suite",
+    "suite style",
+    "suite-style",
+    "all suite",
+    "all-suite",
+
+    "honors",
+    "honors housing",
+    "honors wing",
+    "presidential scholarship",
+    "presidential scholar",
+    "presidential scholarship recipients",
+
+    "study",
+    "study room",
+    "study rooms",
+    "study rooms every floor",
+
+    "laundry",
+    "laundry every floor",
+    "washer",
+    "washers",
+    "dryer",
+    "dryers",
+
+    "speed queen",
+    "speed queen app",
+    "laundry app",
+    "$10",
+    "10 dollars",
+    "quarters",
+    "coins",
+
+    "elevator",
+    "elevators",
+
+    "wifi",
+    "wi-fi",
+    "internet",
+
+    "air conditioning",
+    "climate control",
+    "heat",
+
+    "ra",
+    "resident assistant",
+    "residential staff",
+
+    "maintenance",
+    "housing help",
+
+    "1962",
+    "2009",
+    "george n card",
+    "asu president",
+    "card hall history"
+  ],
+
+  description:
+    "George N. Card Hall is a traditional first-year men's residence hall at Alabama State University. Built in 1962 and extensively restored in 2009, the four-story historic residence hall is an all-suite facility housing approximately 118 first-year male students. Card also includes a designated Honors wing for Presidential Scholarship recipients, along with study rooms and laundry facilities on each floor, elevators, Wi-Fi, and year-round climate control.",
+
+  services: [
+    "First-year men's housing",
+    "All-suite residence hall",
+    "Honors wing",
+    "Presidential Scholarship recipient housing",
+    "Study rooms on each floor",
+    "Laundry on each floor",
+    "Speed Queen laundry system",
+    "Elevators",
+    "Wi-Fi",
+    "Year-round climate control",
+    "Resident Assistants",
+    "Residence-life support"
+  ],
+
+  studentTip:
+    "Card Hall is a freshman men's residence hall, so many residents are adjusting to campus living for the first time. Learn who your RA is, where your study and laundry spaces are, how to report maintenance problems, and what Housing expects from residents early in the semester.",
+
+  sections: [
+
+    // =================================================
+    // FRESHMAN MEN'S HOUSING
+    // =================================================
+
+    {
+      name: "Freshman Men's Residence Hall",
+
+      keywords: [
+        "freshman",
+        "freshman men",
+        "freshman males",
+        "first year",
+        "first year men",
+        "mens dorm",
+        "men's dorm"
+      ],
+
+      description:
+        "ASU identifies George N. Card Hall as a traditional residence hall for first-year male students.",
+
+      studentTip:
+        "If this is your first time living away from home, do not be afraid to ask questions. Your RA and residence-hall staff are there to help you learn how campus housing works."
+    },
+
+
+    // =================================================
+    // ALL-SUITE LIVING
+    // =================================================
+
+    {
+      name: "All-Suite Residence Hall",
+
+      keywords: [
+        "suite",
+        "suite style",
+        "suite-style",
+        "all suite",
+        "all-suite",
+        "suite living",
+        "suite setup"
+      ],
+
+      description:
+        "ASU describes Card Hall as an all-suite residential facility.",
+
+      studentTip:
+        "Your exact bedroom, suite occupancy, and bathroom arrangement depend on your Housing assignment. Check your current assignment rather than assuming every suite has the same configuration."
+    },
+
+
+    // =================================================
+    // HONORS WING
+    // =================================================
+
+    {
+      name: "🎓 Honors & Presidential Scholars Wing",
+
+      keywords: [
+        "honors",
+        "honors wing",
+        "honors dorm",
+        "honors housing",
+        "presidential scholarship",
+        "presidential scholar",
+        "presidential scholars",
+        "presidential scholarship recipient",
+        "scholarship housing"
+      ],
+
+      description:
+        "Card Hall includes a designated Honors wing for Presidential Scholarship recipients.",
+
+      studentTip:
+        "If you are a Presidential Scholarship recipient and have questions about Honors housing or your placement, rely on your current Housing assignment and scholarship information for your specific room."
+    },
+
+
+    // =================================================
+    // ROOMMATES & SUITEMATES
+    // =================================================
+
+    {
+      name: "Roommates & Suitemates",
+
+      keywords: [
+        "roommate",
+        "roommates",
+        "suitemate",
+        "suitemates",
+        "roommate problem",
+        "roommate conflict",
+        "suite conflict"
+      ],
+
+      description:
+        "Card's all-suite design means residents may share residential spaces with roommates and suitemates.",
+
+      studentTip:
+        "Discuss sleep schedules, alarms, studying, guests, music, gaming, cleaning, food, borrowing belongings, shared supplies, and personal space early. Your RA can help if you and your roommates are having difficulty resolving an issue."
+    },
+
+
+    // =================================================
+    // STUDY ROOMS
+    // =================================================
+
+    {
+      name: "📚 Study Rooms on Every Floor",
+
+      keywords: [
+        "study",
+        "study room",
+        "study rooms",
+        "study every floor",
+        "study room every floor",
+        "quiet study",
+        "where to study"
+      ],
+
+      description:
+        "Card Hall features study rooms on each floor, giving residents convenient places to work outside their bedrooms and suites.",
+
+      studentTip:
+        "Take advantage of the study room on your floor when your room is noisy or when you need to separate studying from relaxing."
+    },
+
+
+    // =================================================
+    // LAUNDRY
+    // =================================================
+
+    {
+      name: "🧺 Laundry on Every Floor & Speed Queen",
+
+      keywords: [
+        "laundry",
+        "laundry room",
+        "laundry every floor",
+        "wash clothes",
+        "washing",
+        "washer",
+        "washers",
+        "drying",
+        "dryer",
+        "dryers",
+
+        "speed queen",
+        "speed queen app",
+        "laundry app",
+        "laundry payment",
+
+        "$10",
+        "10 dollars",
+        "minimum 10 dollars",
+
+        "quarters",
+        "coins"
+      ],
+
+      description:
+        "ASU confirms that Card Hall has laundry facilities on each floor. ASU residence halls use the Speed Queen laundry system.",
+
+      features: [
+        "Laundry facilities on each floor",
+        "Washers and dryers",
+        "Speed Queen app",
+        "Digital laundry payment",
+        "Coin backup when supported by the individual machine"
+      ],
+
+      studentTip:
+        "Students report that the minimum amount you can add through the Speed Queen app is $10. You can add more than $10, but not less. Keep quarters available as a backup in case Speed Queen or the internet has a technical problem, but check the individual machine first to make sure it accepts coins.",
+
+      extraTip:
+        "Set a timer when you start your laundry and return when the cycle finishes. Do not leave finished clothes sitting in a machine when other residents may be waiting."
+    },
+
+
+    // =================================================
+    // LAUNDRY PROBLEMS
+    // =================================================
+
+    {
+      name: "Laundry Problems",
+
+      keywords: [
+        "washer broken",
+        "dryer broken",
+        "speed queen error",
+        "speed queen problem",
+        "laundry problem",
+        "laundry refund"
+      ],
+
+      description:
+        "Laundry-equipment or payment problems should be reported through Card Hall staff or the current laundry-support process.",
+
+      studentTip:
+        "Note the machine number and error message if possible. Do not repeatedly pay a machine that is clearly malfunctioning."
+    },
+
+
+    // =================================================
+    // ELEVATORS
+    // =================================================
+
+    {
+      name: "Elevators",
+
+      keywords: [
+        "elevator",
+        "elevators",
+        "lift",
+        "stairs",
+        "accessible"
+      ],
+
+      description:
+        "Card Hall includes elevators for residents traveling between its four floors.",
+
+      studentTip:
+        "Elevators may be especially busy during move-in and move-out, so give yourself extra time when moving large items."
+    },
+
+
+    // =================================================
+    // WIFI
+    // =================================================
+
+    {
+      name: "Wi-Fi & Internet",
+
+      keywords: [
+        "wifi",
+        "wi-fi",
+        "internet",
+        "wireless",
+        "card hall wifi"
+      ],
+
+      description:
+        "Wireless internet connections are available throughout Card Hall for residents.",
+
+      studentTip:
+        "Do not wait until the last minute to submit an important assignment. Give yourself extra time in case you encounter a temporary network issue."
+    },
+
+
+    // =================================================
+    // CLIMATE CONTROL
+    // =================================================
+
+    {
+      name: "Year-Round Climate Control",
+
+      keywords: [
+        "air conditioning",
+        "ac",
+        "heat",
+        "heating",
+        "climate control",
+        "room temperature"
+      ],
+
+      description:
+        "Card Hall features year-round climate control as part of its residential amenities.",
+
+      studentTip:
+        "If your room has a heating or cooling problem, report it through residence-hall staff rather than attempting to repair university equipment yourself."
+    },
+
+
+    // =================================================
+    // RESIDENT ASSISTANTS
+    // =================================================
+
+    {
+      name: "Resident Assistants (RAs)",
+
+      keywords: [
+        "ra",
+        "ras",
+        "resident assistant",
+        "resident assistants",
+        "ra on call",
+        "hall staff"
+      ],
+
+      description:
+        "Resident Assistants and residence-hall staff help support students living in Card Hall.",
+
+      studentTip:
+        "Learn your RA's name and how to reach the RA on call. They can help with residence-hall policies, roommate concerns, building questions, and connecting you with additional campus resources."
+    },
+
+
+    // =================================================
+    // FIRST-YEAR LIVING
+    // =================================================
+
+    {
+      name: "First-Year Residence Hall Tips",
+
+      keywords: [
+        "freshman tips",
+        "first year tips",
+        "first dorm",
+        "first time living on campus",
+        "dorm tips",
+        "living away from home"
+      ],
+
+      description:
+        "Because Card serves first-year students, many residents are experiencing college residential life for the first time.",
+
+      studentTip:
+        "During your first week, learn where to do laundry, where to study, how to reach your RA, how to report maintenance, where your mail and packages go, and who to contact if you have a Housing problem."
+    },
+
+
+    // =================================================
+    // MAINTENANCE
+    // =================================================
+
+    {
+      name: "Residence Hall Maintenance",
+
+      keywords: [
+        "maintenance",
+        "something broken",
+        "room repair",
+        "ac broken",
+        "air conditioning broken",
+        "leak",
+        "toilet broken",
+        "maintenance problem"
+      ],
+
+      description:
+        "Maintenance concerns in Card Hall should be reported through residence-hall staff or the appropriate Housing and Facilities process.",
+
+      studentTip:
+        "Report maintenance issues early. Do not assume your roommate, suitemate, or another resident has already reported the problem."
+    },
+
+
+    // =================================================
+    // HOUSING HELP
+    // =================================================
+
+    {
+      name: "Housing & Residence Life Help",
+
+      keywords: [
+        "housing",
+        "housing office",
+        "housing help",
+        "residence life",
+        "housing problem",
+        "room assignment",
+        "housing assignment"
+      ],
+
+      description:
+        "Housing & Residence Life manages university residence-hall assignments, policies, and student housing support.",
+
+      studentTip:
+        "Start with your RA or Card Hall staff for everyday residence-hall concerns. Contact Housing & Residence Life for larger assignment or housing issues."
+    },
+
+
+    // =================================================
+    // WHO WAS GEORGE N. CARD?
+    // =================================================
+
+    {
+      name: "Who Was George N. Card?",
+
+      keywords: [
+        "george card",
+        "george n card",
+        "who was george card",
+        "card history",
+        "asu president",
+        "1873",
+        "1878"
+      ],
+
+      description:
+        "George N. Card Hall is named for George N. Card, who served as president of Alabama State University from 1873 to 1878.",
+
+      studentTip:
+        "Learning the names behind ASU's buildings is another way to understand the university's history. Card Hall carries the name of one of ASU's earliest institutional leaders."
+    },
+
+
+    // =================================================
+    // BUILDING HISTORY
+    // =================================================
+
+    {
+      name: "Card Hall History",
+
+      keywords: [
+        "card history",
+        "card hall history",
+        "1962",
+        "2009",
+        "restored",
+        "renovated",
+        "historic dorm"
+      ],
+
+      description:
+        "George N. Card Hall was built in 1962 and underwent an extensive restoration in 2009. The historic four-story residence hall continues to serve first-year male students.",
+
+      studentTip:
+        "Card combines an older ASU residence-hall history with modern residential amenities added through its major restoration."
+    },
+
+
+    // =================================================
+    // 2009 RESTORATION
+    // =================================================
+
+    {
+      name: "2009 Restoration",
+
+      keywords: [
+        "2009",
+        "restoration",
+        "restored",
+        "renovation",
+        "renovated",
+        "card renovation"
+      ],
+
+      description:
+        "ASU extensively restored Card Hall in 2009, updating the historic residence hall while maintaining its role within the university's residential campus."
+    }
+
+  ],
+
+  history: {
+    year: 1962,
+
+    description:
+      "George N. Card Hall was built in 1962 and extensively restored in 2009. The four-story all-suite residence hall is named for George N. Card, who served as president of Alabama State University from 1873 to 1878."
+  },
+
+  funFact:
+    "Card Hall is more than a freshman men's residence hall—it also contains a designated Honors wing for Presidential Scholarship recipients, giving the building a special role in ASU's residential Honors community.",
+
+  image: "",
+  mapLink: ""
+},
+
+// =====================================================
+// C.J. DUNN TOWER
+// =====================================================
+
+{
+  id: 50,
+
+  name: "C.J. Dunn Tower",
+  shortName: "CJ Dunn",
+  category: "housing",
+
+  keywords: [
+    "cj dunn",
+    "c.j. dunn",
+    "cj dunn tower",
+    "c.j. dunn tower",
+    "dunn",
+    "dunn tower",
+    "dunn towers",
+
+    "freshman",
+    "freshmen",
+    "freshman housing",
+    "first year",
+    "first-year",
+    "first year housing",
+
+    "women",
+    "female",
+    "women's dorm",
+    "womens dorm",
+    "freshman women",
+    "first year women",
+    "female residence hall",
+
+    "11 floors",
+    "11 stories",
+    "11 story",
+    "eleven stories",
+    "tower",
+
+    "two to a room",
+    "2 to a room",
+    "three rooms to a suite",
+    "3 rooms to a suite",
+    "six to a suite",
+    "6 to a suite",
+
+    "suite",
+    "suite style",
+    "suite-style",
+    "suitemates",
+
+    "bathroom",
+    "big bathroom",
+    "suite bathroom",
+    "two sinks",
+    "2 sinks",
+    "walk in shower",
+    "walk-in shower",
+    "toilet",
+    "private toilet",
+    "toilet door",
+
+    "closet",
+    "closets",
+    "big closet",
+    "big closets",
+
+    "laundry",
+    "basement laundry",
+    "digital laundry",
+    "washer",
+    "washers",
+    "dryer",
+    "dryers",
+    "speed queen",
+    "speed queen app",
+    "$10",
+    "10 dollars",
+    "quarters",
+    "coins",
+
+    "wifi",
+    "wi-fi",
+    "internet",
+
+    "shuttlesworth",
+    "fred shuttlesworth",
+    "fred shuttlesworth dining hall",
+    "dining hall",
+    "cafeteria",
+    "food near dunn",
+
+    "university center",
+    "east campus",
+    "east campus dorms",
+
+    "ra",
+    "resident assistant",
+    "residential staff",
+    "maintenance",
+    "housing help",
+
+    "1994",
+    "480 students",
+    "dunn history"
+  ],
+
+  description:
+    "C.J. Dunn Tower is an 11-story freshman women's residence hall at Alabama State University. Built in 1994, the tower provides suite-style housing for approximately 480 first-year women. Students report a current setup of two residents per bedroom, three bedrooms per suite, and six residents sharing the overall suite. Dunn also features large closets, suite bathrooms, Wi-Fi, and a renovated digital laundry facility in the basement.",
+
+  services: [
+    "First-year women's housing",
+    "11-story residence hall",
+    "Two students per bedroom",
+    "Three bedrooms per suite",
+    "Six students per suite",
+    "Large bedroom closets",
+    "Large suite bathroom",
+    "Two bathroom sinks",
+    "Enclosed toilet area",
+    "Walk-in shower",
+    "Basement laundry facility",
+    "Speed Queen laundry system",
+    "Wi-Fi",
+    "Resident Assistants",
+    "Residence-life support",
+    "Convenient access to Shuttlesworth Dining Hall"
+  ],
+
+  studentTip:
+    "Dunn is a large freshman women's community, so learn your floor, suite, RA, laundry location, and nearby campus landmarks early. With six students sharing a suite, communication about cleaning, bathroom schedules, guests, noise, and shared supplies can make living together much easier.",
+
+  sections: [
+
+    // =================================================
+    // FRESHMAN WOMEN'S HOUSING
+    // =================================================
+
+    {
+      name: "Freshman Women's Residence Hall",
+
+      keywords: [
+        "freshman women",
+        "freshman girls",
+        "first year women",
+        "female freshman",
+        "women's dorm",
+        "womens dorm",
+        "female housing"
+      ],
+
+      description:
+        "ASU identifies C.J. Dunn Tower as a traditional residence hall serving first-year female students.",
+
+      studentTip:
+        "Many Dunn residents are experiencing college residential life for the first time. Learn how your residence hall works during your first few days instead of waiting until you need help."
+    },
+
+
+    // =================================================
+    // 11-STORY TOWER
+    // =================================================
+
+    {
+      name: "11-Story Residence Hall",
+
+      keywords: [
+        "11 stories",
+        "11 story",
+        "11 floors",
+        "eleven stories",
+        "tower",
+        "high rise",
+        "high-rise"
+      ],
+
+      description:
+        "C.J. Dunn Tower is an 11-story residential building and one of ASU's largest traditional freshman residence halls.",
+
+      studentTip:
+        "Know your floor number and the safest routes through the building. During busy periods such as move-in, class changes, or major campus events, give yourself additional time to get downstairs and leave the residence hall."
+    },
+
+
+    // =================================================
+    // ROOM & SUITE SETUP
+    // =================================================
+
+    {
+      name: "2 to a Room • 6 to a Suite",
+
+      keywords: [
+        "two to a room",
+        "2 to a room",
+        "three rooms",
+        "3 rooms",
+        "three rooms to a suite",
+        "3 rooms to a suite",
+        "six to a suite",
+        "6 to a suite",
+        "how many roommates",
+        "how many suitemates",
+        "room setup",
+        "suite setup"
+      ],
+
+      description:
+        "Students report that Dunn commonly has two residents sharing each bedroom, with three bedrooms making up a suite. This creates a typical total of six residents sharing the overall suite.",
+
+      studentTip:
+        "Your official Housing assignment is always the final authority because room occupancy can change based on university housing needs."
+    },
+
+
+    // =================================================
+    // LARGE CLOSETS
+    // =================================================
+
+    {
+      name: "Large Bedroom Closets",
+
+      keywords: [
+        "closet",
+        "closets",
+        "big closet",
+        "big closets",
+        "large closet",
+        "large closets",
+        "storage",
+        "clothes storage"
+      ],
+
+      description:
+        "Students report that Dunn bedrooms include large closet spaces for residents.",
+
+      studentTip:
+        "Even with larger closets, avoid bringing your entire closet from home on move-in day. Start with what you know you'll use and bring additional items later if you still have space."
+    },
+
+
+    // =================================================
+    // BATHROOM
+    // =================================================
+
+    {
+      name: "Large Suite Bathroom",
+
+      keywords: [
+        "bathroom",
+        "big bathroom",
+        "large bathroom",
+        "suite bathroom",
+        "shared bathroom",
+        "bathroom in suite"
+      ],
+
+      description:
+        "Each suite has bathroom facilities inside the suite shared among its residents.",
+
+      studentTip:
+        "With as many as six students sharing the bathroom, agree early on cleaning responsibilities, shower schedules, toiletries, towels, trash, and shared bathroom supplies."
+    },
+
+
+    // =================================================
+    // TWO SINKS
+    // =================================================
+
+    {
+      name: "Two Bathroom Sinks",
+
+      keywords: [
+        "sink",
+        "sinks",
+        "two sinks",
+        "2 sinks",
+        "bathroom sinks",
+        "brush teeth"
+      ],
+
+      description:
+        "Students report that the Dunn suite bathroom includes two sinks, which helps multiple suitemates get ready at the same time.",
+
+      studentTip:
+        "Keep your personal items organized rather than covering both sinks with toiletries. Six people can create bathroom clutter very quickly."
+    },
+
+
+    // =================================================
+    // WALK-IN SHOWER
+    // =================================================
+
+    {
+      name: "Walk-In Shower",
+
+      keywords: [
+        "shower",
+        "walk in shower",
+        "walk-in shower",
+        "does dunn have shower",
+        "bathroom shower"
+      ],
+
+      description:
+        "Students report that Dunn suite bathrooms include a walk-in shower.",
+
+      studentTip:
+        "With six people potentially sharing the suite, communicate about shower times—especially before early-morning classes."
+    },
+
+
+    // =================================================
+    // ENCLOSED TOILET
+    // =================================================
+
+    {
+      name: "Enclosed Toilet Area",
+
+      keywords: [
+        "toilet",
+        "toilet door",
+        "private toilet",
+        "enclosed toilet",
+        "bathroom privacy",
+        "restroom"
+      ],
+
+      description:
+        "Students report that the toilet is located in its own enclosed portion of the suite bathroom with a door, providing additional privacy when multiple suitemates are getting ready.",
+
+      studentTip:
+        "The separate toilet area can make a six-person bathroom easier to share because another resident may still be able to use the sink area while the toilet area is occupied."
+    },
+
+
+    // =================================================
+    // ROOMMATES & SUITEMATES
+    // =================================================
+
+    {
+      name: "Roommates & Suitemates",
+
+      keywords: [
+        "roommate",
+        "roommates",
+        "suitemate",
+        "suitemates",
+        "roommate problem",
+        "suitemate problem",
+        "suite conflict"
+      ],
+
+      description:
+        "Dunn's suite arrangement creates a community of roommates and suitemates who share residential and bathroom spaces.",
+
+      studentTip:
+        "Six personalities in one suite can mean six different schedules. Discuss sleep, alarms, studying, guests, music, cleaning, showers, bathroom use, shared supplies, food, and personal boundaries early. Your RA can help if a conflict becomes difficult to resolve."
+    },
+
+
+    // =================================================
+    // BATHROOM CLEANING
+    // =================================================
+
+    {
+      name: "Suite Bathroom Cleaning",
+
+      keywords: [
+        "clean bathroom",
+        "bathroom cleaning",
+        "clean shower",
+        "clean sink",
+        "chores",
+        "cleaning schedule"
+      ],
+
+      description:
+        "Residents sharing the suite should work together to keep the bathroom and shared areas clean.",
+
+      studentTip:
+        "A simple rotating cleaning schedule can prevent arguments. Divide responsibilities such as sinks, shower, toilet area, mirrors, trash, and floors instead of expecting one person to do everything."
+    },
+
+
+    // =================================================
+    // BASEMENT LAUNDRY
+    // =================================================
+
+    {
+      name: "🧺 Basement Laundry & Speed Queen",
+
+      keywords: [
+        "laundry",
+        "laundry room",
+        "basement laundry",
+        "laundry basement",
+        "digital laundry",
+        "washer",
+        "washers",
+        "dryer",
+        "dryers",
+
+        "speed queen",
+        "speed queen app",
+        "laundry app",
+        "laundry payment",
+
+        "$10",
+        "10 dollars",
+        "minimum 10 dollars",
+
+        "quarters",
+        "coins"
+      ],
+
+      description:
+        "ASU identifies Dunn's renovated digital laundry facility as being located in the basement. ASU residential laundry uses the Speed Queen system.",
+
+      features: [
+        "Laundry facility in the basement",
+        "Digital laundry system",
+        "Washers and dryers",
+        "Speed Queen app",
+        "Digital payment",
+        "Coin backup when supported by the individual machine"
+      ],
+
+      studentTip:
+        "Students report that the minimum amount you can add through the Speed Queen app is $10. You can add more than $10, but not less. Keep quarters available as a backup in case the internet or Speed Queen experiences a technical problem, but check the individual machine to confirm that it accepts coins.",
+
+      extraTip:
+        "Dunn houses hundreds of students, so laundry can get busy. Set a timer, return when your cycle finishes, and avoid leaving clothes in a machine after the cycle ends."
+    },
+
+
+    // =================================================
+    // LAUNDRY PROBLEMS
+    // =================================================
+
+    {
+      name: "Laundry Problems",
+
+      keywords: [
+        "washer broken",
+        "dryer broken",
+        "speed queen error",
+        "speed queen problem",
+        "laundry broken",
+        "laundry refund"
+      ],
+
+      description:
+        "Laundry-equipment or payment problems should be reported through Dunn residence-hall staff or the current laundry-support process.",
+
+      studentTip:
+        "Note the machine number and error message if possible. Do not repeatedly pay a machine that is clearly malfunctioning."
+    },
+
+
+    // =================================================
+    // SHUTTLESWORTH DINING HALL
+    // =================================================
+
+    {
+      name: "🍽️ Next to Fred Shuttlesworth Dining Hall",
+
+      keywords: [
+        "shuttlesworth",
+        "fred shuttlesworth",
+        "fred shuttlesworth dining hall",
+        "dining hall",
+        "cafeteria",
+        "food",
+        "food near dunn",
+        "dining near dunn",
+        "where to eat",
+        "caf"
+      ],
+
+      description:
+        "C.J. Dunn Tower is located directly next to Fred Shuttlesworth Dining Hall, giving residents convenient access to one of ASU's primary dining facilities.",
+
+      studentTip:
+        "One of Dunn's biggest location advantages is having the dining hall right beside the residence hall. You do not have to cross campus just to get to the main dining facility."
+    },
+
+
+    // =================================================
+    // UNIVERSITY CENTER
+    // =================================================
+
+    {
+      name: "Across from the University Center",
+
+      keywords: [
+        "university center",
+        "across from university center",
+        "dunn location",
+        "where is dunn",
+        "find dunn"
+      ],
+
+      description:
+        "ASU describes Dunn Tower as sitting directly across from the University Center in the east-campus residential area.",
+
+      studentTip:
+        "Use Fred Shuttlesworth Dining Hall and the University Center as landmarks when learning how to find Dunn Tower."
+    },
+
+
+    // =================================================
+    // WIFI
+    // =================================================
+
+    {
+      name: "Wi-Fi & Internet",
+
+      keywords: [
+        "wifi",
+        "wi-fi",
+        "internet",
+        "wireless",
+        "dunn wifi"
+      ],
+
+      description:
+        "Wireless internet connections are available for Dunn Tower residents.",
+
+      studentTip:
+        "Give yourself extra time when submitting important online assignments in case you encounter a temporary network issue."
+    },
+
+
+    // =================================================
+    // LIVING IN A LARGE RESIDENCE HALL
+    // =================================================
+
+    {
+      name: "Living in a Large Residence Hall",
+
+      keywords: [
+        "large dorm",
+        "big dorm",
+        "480 students",
+        "crowded",
+        "tower living",
+        "dorm tips"
+      ],
+
+      description:
+        "With housing for approximately 480 first-year women, Dunn is one of ASU's larger freshman residential communities.",
+
+      studentTip:
+        "Learn your floor, RA, suite number, exits, laundry location, and nearby landmarks during your first week. In a building this large, knowing exactly where you are going saves time."
+    },
+
+
+    // =================================================
+    // RESIDENT ASSISTANTS
+    // =================================================
+
+    {
+      name: "Resident Assistants (RAs)",
+
+      keywords: [
+        "ra",
+        "ras",
+        "resident assistant",
+        "resident assistants",
+        "ra on call",
+        "hall staff"
+      ],
+
+      description:
+        "Resident Assistants and residence-hall staff support students living throughout Dunn Tower.",
+
+      studentTip:
+        "Know who your RA is and how to reach the RA on call. RAs can help with roommate and suitemate concerns, residence-hall policies, building questions, emergencies, and connecting you with additional campus resources."
+    },
+
+
+    // =================================================
+    // FIRST-YEAR TIPS
+    // =================================================
+
+    {
+      name: "First-Year Living Tips",
+
+      keywords: [
+        "freshman tips",
+        "first year tips",
+        "dorm tips",
+        "first dorm",
+        "first time living on campus",
+        "freshman help"
+      ],
+
+      description:
+        "Dunn serves first-year women, meaning many residents are learning how college residential life works for the first time.",
+
+      studentTip:
+        "During your first week, learn where to do laundry, where to eat, who your RA is, how to report maintenance, where your mail and packages go, and who to contact when you have a Housing problem."
+    },
+
+
+    // =================================================
+    // MAINTENANCE
+    // =================================================
+
+    {
+      name: "Residence Hall Maintenance",
+
+      keywords: [
+        "maintenance",
+        "something broken",
+        "room repair",
+        "bathroom repair",
+        "sink broken",
+        "shower broken",
+        "toilet broken",
+        "leak",
+        "maintenance problem"
+      ],
+
+      description:
+        "Maintenance concerns in Dunn Tower should be reported through residence-hall staff or the appropriate Housing and Facilities process.",
+
+      studentTip:
+        "With sinks, a shower, toilet, and other shared fixtures inside your suite, report leaks or broken equipment quickly rather than waiting for the problem to become worse."
+    },
+
+
+    // =================================================
+    // HOUSING HELP
+    // =================================================
+
+    {
+      name: "Housing & Residence Life Help",
+
+      keywords: [
+        "housing",
+        "housing office",
+        "housing help",
+        "residence life",
+        "housing problem",
+        "room assignment",
+        "suite assignment"
+      ],
+
+      description:
+        "ASU Housing & Residence Life manages residential assignments, residence-hall policies, and student housing support.",
+
+      studentTip:
+        "Start with your RA or Dunn residence-hall staff for everyday concerns. For larger assignment or housing issues, contact Housing & Residence Life."
+    },
+
+
+    // =================================================
+    // BUILDING HISTORY
+    // =================================================
+
+    {
+      name: "C.J. Dunn Tower History",
+
+      keywords: [
+        "dunn history",
+        "dunn tower history",
+        "1994",
+        "when was dunn built",
+        "114419",
+        "114,419"
+      ],
+
+      description:
+        "C.J. Dunn Tower was built in 1994. ASU describes the 114,419-square-foot structure as an 11-story brick and stucco residence hall designed to house approximately 480 first-year female students.",
+
+      studentTip:
+        "Dunn's height and size make it one of the more recognizable residential buildings on ASU's east-campus side."
+    }
+
+  ],
+
+  history: {
+    year: 1994,
+
+    description:
+      "C.J. Dunn Tower was constructed in 1994 as an 11-story brick and stucco residence hall. The 114,419-square-foot building provides suite-style accommodations for approximately 480 first-year female students."
+  },
+
+  funFact:
+    "At 11 stories and approximately 114,419 square feet, C.J. Dunn Tower is one of the largest traditional freshman residence halls we've added to Hornet Navigator—and residents have Fred Shuttlesworth Dining Hall right next door.",
 
   image: "",
   mapLink: ""
