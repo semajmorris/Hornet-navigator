@@ -19037,6 +19037,990 @@ const campusLocations = [
 
   image: "",
   mapLink: ""
+},
+
+// =====================================================
+// ASU STUDENT PARKING GUIDE
+// =====================================================
+
+{
+  id: 51,
+
+  name: "ASU Student Parking Guide",
+  shortName: "Campus Parking",
+  category: "parking",
+
+  keywords: [
+    "parking",
+    "asu parking",
+    "campus parking",
+    "student parking",
+    "parking lot",
+    "parking lots",
+    "where can i park",
+    "where do students park",
+
+    "parking decal",
+    "parking permit",
+    "student decal",
+    "student permit",
+    "vehicle registration",
+
+    "reserved parking",
+    "faculty parking",
+    "faculty staff parking",
+    "staff parking",
+    "reserved space",
+    "reserved spot",
+
+    "parking signs",
+    "read the signs",
+    "parking restriction",
+    "parking restrictions",
+
+    "boot",
+    "booted",
+    "car boot",
+    "car booted",
+    "parking boot",
+    "boot removal",
+    "parking ticket",
+    "parking citation",
+    "parking fine",
+    "tow",
+    "towed",
+
+    "peyton finley parking",
+    "jo ann robinson parking",
+    "jo ann parking",
+    "joann parking",
+    "bessie estell parking",
+    "mlk parking",
+    "acadome parking",
+    "facility 1 parking",
+    "facility i parking",
+    "benson parking",
+    "abercrombie parking",
+    "facility 2 parking",
+    "facility ii parking",
+    "card hall parking",
+    "stadium parking",
+    "football stadium parking",
+
+    "game day parking",
+    "football parking",
+    "homecoming parking",
+    "move car",
+    "move vehicle",
+    "move my car",
+    "parking announcement",
+
+    "fire hydrant",
+    "fire lane",
+    "no parking",
+    "restricted parking",
+
+    "event parking",
+    "temporary parking",
+    "temporary parking map",
+    "closed parking lot",
+    "closed parking lots",
+
+    "lot a1",
+    "lot b",
+    "lot d1",
+    "lot e1",
+    "lot l",
+
+    "asu stadium parking lot",
+    "shuttle parking"
+  ],
+
+  description:
+    "The ASU Student Parking Guide helps students understand commonly used parking areas around Alabama State University, including residence-hall parking, the Acadome, ASU Stadium, parking permits, reserved spaces, game-day changes, boots, citations, and temporary parking restrictions.",
+
+  services: [
+    "Student parking guidance",
+    "Residence-hall parking information",
+    "Acadome parking guidance",
+    "ASU Stadium parking guidance",
+    "Parking permit information",
+    "Reserved-space warnings",
+    "Faculty/staff parking warnings",
+    "Game-day parking information",
+    "Boot and citation guidance",
+    "Temporary parking-change information"
+  ],
+
+  studentTip:
+    "⚠️ READ THE SIGN BEFORE YOU LEAVE YOUR CAR. A parking lot being available to students does NOT mean every individual space in that lot is student parking. Faculty/staff spaces, reserved spaces, fire lanes, hydrants, accessibility spaces, loading areas, and temporary restrictions may still be enforced. Posted ASU signs and current university announcements always take priority over Hornet Navigator.",
+
+  sections: [
+
+    // =================================================
+    // STUDENT PARKING PERMIT
+    // =================================================
+
+    {
+      name: "🚗 Student Parking Permit",
+
+      keywords: [
+        "parking permit",
+        "parking decal",
+        "student permit",
+        "student decal",
+        "register car",
+        "vehicle registration",
+        "parking registration",
+        "freshman parking",
+        "freshman car"
+      ],
+
+      description:
+        "Students bringing vehicles to campus must follow ASU's current vehicle-registration and parking-permit requirements.",
+
+      studentTip:
+        "Make sure your vehicle is properly registered and your parking decal or permit is current before regularly parking on campus. Parking rules and permit procedures can change, so follow the current instructions from ASU Parking/Public Safety."
+    },
+
+
+    // =================================================
+    // READ THE SIGNS
+    // =================================================
+
+    {
+      name: "⚠️ READ THE PARKING SIGNS",
+
+      keywords: [
+        "read signs",
+        "read the signs",
+        "parking sign",
+        "parking signs",
+        "reserved",
+        "reserved parking",
+        "faculty parking",
+        "staff parking",
+        "faculty staff",
+        "can i park here"
+      ],
+
+      description:
+        "Individual parking spaces may have different restrictions even when they are located inside the same parking lot.",
+
+      studentTip:
+        "NEVER decide that a space is legal just because another student parked beside you. Read the sign connected to your space. Faculty/staff, reserved, accessibility, loading, and other restricted spaces may be enforced."
+    },
+
+
+    // =================================================
+    // PEYTON FINLEY PARKING
+    // =================================================
+
+    {
+      name: "Peyton Finley Parking",
+
+      keywords: [
+        "peyton finley parking",
+        "peyton parking",
+        "finley parking",
+        "parking by peyton finley",
+        "peyton finley lot"
+      ],
+
+      description:
+        "Student parking is available in the Peyton Finley residential area.",
+
+      studentTip:
+        "Even when parking near your residence hall, check the signs before leaving your vehicle. Residential parking does not automatically make every individual space student parking."
+    },
+
+
+    // =================================================
+    // JO ANN ROBINSON PARKING
+    // =================================================
+
+    {
+      name: "Jo Ann Robinson Hall Parking",
+
+      keywords: [
+        "jo ann parking",
+        "joann parking",
+        "jo ann robinson parking",
+        "parking behind jo ann",
+        "parking behind joann",
+        "bibb graves parking"
+      ],
+
+      description:
+        "Students commonly use parking behind Jo Ann Robinson Hall and designated parking areas around the sides of the building.",
+
+      studentTip:
+        "BE EXTRA CAREFUL HERE. Some spaces may be reserved for faculty/staff during the morning and afternoon. The signs will tell you when the restriction applies, so read them before leaving your vehicle.",
+
+      extraTip:
+        "Do not park directly in front of the building or in a space that is not clearly available to students. Parking in the wrong area may result in a boot or citation."
+    },
+
+
+    // =================================================
+    // BESSIE ESTELL PARKING
+    // =================================================
+
+    {
+      name: "Bessie Estell Parking Lot",
+
+      keywords: [
+        "bessie parking",
+        "bessie estell parking",
+        "estell parking",
+        "bessie estell parking lot",
+        "parking by bessie estell"
+      ],
+
+      description:
+        "A student parking area is available near Bessie E. Estell Hall.",
+
+      studentTip:
+        "Check individual signs before choosing a space. Reserved or restricted spaces can exist inside a larger parking lot that students normally use."
+    },
+
+
+    // =================================================
+    // MLK PARKING
+    // =================================================
+
+    {
+      name: "MLK Hall Parking",
+
+      keywords: [
+        "mlk parking",
+        "mlk hall parking",
+        "martin luther king parking",
+        "parking near mlk",
+        "parking by mlk"
+      ],
+
+      description:
+        "Student parking is available in the residential area near Dr. Martin Luther King Jr. Hall.",
+
+      studentTip:
+        "MLK is close to the Acadome parking area, but nearby faculty/staff or reserved spaces are still restricted. Read the signs rather than assuming the closest available space belongs to students."
+    },
+
+
+    // =================================================
+    // ACADOME FRONT PARKING
+    // =================================================
+
+    {
+      name: "Dunn-Oliver Acadome Front Parking",
+
+      keywords: [
+        "acadome parking",
+        "acadome parking lot",
+        "front acadome parking",
+        "dunn oliver parking",
+        "large parking lot",
+        "visitor parking",
+        "parking near mlk",
+        "parking near student center"
+      ],
+
+      description:
+        "The large parking area in front of the Dunn-Oliver Acadome provides substantial parking space near the center of campus.",
+
+      studentTip:
+        "There is a lot of parking in the front Acadome area, but some spaces near the front may be reserved for faculty/staff during certain hours. READ THE SIGNS before parking.",
+
+      extraTip:
+        "Some spaces may become available to everyone later in the day. If the space becomes restricted again the following morning, move your vehicle before the restricted period begins."
+    },
+
+
+    // =================================================
+    // BEHIND THE ACADOME
+    // =================================================
+
+    {
+      name: "🚫 Do Not Use the Area Behind the Acadome as General Student Parking",
+
+      keywords: [
+        "behind acadome",
+        "back acadome",
+        "back of acadome",
+        "acadome back parking",
+        "asu bus",
+        "bus parking",
+        "official parking",
+        "faculty parking acadome"
+      ],
+
+      description:
+        "The area behind the Dunn-Oliver Acadome is used for university operations and should not be treated as ordinary student parking.",
+
+      studentTip:
+        "DO NOT park behind the Acadome just because you see an open space. ASU buses, university officials, faculty/staff, service vehicles, and other university traffic use this area. Keep the roadway and operational spaces open."
+    },
+
+
+    // =================================================
+    // FACILITY I PARKING
+    // =================================================
+
+    {
+      name: "Facility I Parking Area",
+
+      keywords: [
+        "facility 1 parking",
+        "facility i parking",
+        "new facility 1 parking",
+        "large parking lot facility 1",
+        "parking near benson"
+      ],
+
+      description:
+        "A large parking area serves Facility I and nearby residential buildings.",
+
+      studentTip:
+        "Students use this area, including students from nearby residence halls, but read the signs because individual spaces may still be restricted."
+    },
+
+
+    // =================================================
+    // BESSIE BENSON PARKING
+    // =================================================
+
+    {
+      name: "Bessie Benson Hall Parking",
+
+      keywords: [
+        "benson parking",
+        "bessie benson parking",
+        "parking in front of benson",
+        "parking near benson",
+        "fire hydrant"
+      ],
+
+      description:
+        "Students commonly use designated parking in front of and near Bessie Benson Hall.",
+
+      studentTip:
+        "🚒 DO NOT PARK IN FRONT OF THE FIRE HYDRANT. Even if the area looks open or convenient, blocking a hydrant or emergency-access area can result in parking enforcement, including a boot."
+    },
+
+
+    // =================================================
+    // ABERCROMBIE PARKING
+    // =================================================
+
+    {
+      name: "Abercrombie Hall Parking",
+
+      keywords: [
+        "abercrombie parking",
+        "abercrombie hall parking",
+        "parking by abercrombie",
+        "right side abercrombie",
+        "left side abercrombie"
+      ],
+
+      description:
+        "Students commonly park along the right-side area near Abercrombie Hall.",
+
+      studentTip:
+        "The right-side parking area fills up quickly. DO NOT park on the left/main-entrance side as overflow parking because that side needs to remain open for vehicles entering and moving through campus.",
+
+      extraTip:
+        "If the right side is full, find another legal parking area. Do not create your own parking space."
+    },
+
+
+    // =================================================
+    // FACILITY II PARKING
+    // =================================================
+
+    {
+      name: "Facility II Parking Lot",
+
+      keywords: [
+        "facility 2 parking",
+        "facility ii parking",
+        "new facility 2 parking",
+        "parking near facility 2"
+      ],
+
+      description:
+        "A student parking area is available near Facility II.",
+
+      studentTip:
+        "Follow posted signs and keep reserved spaces, accessibility spaces, fire lanes, and other restricted areas clear."
+    },
+
+
+    // =================================================
+    // CARD HALL PARKING
+    // =================================================
+
+    {
+      name: "Card Hall Parking",
+
+      keywords: [
+        "card parking",
+        "card hall parking",
+        "george card parking",
+        "parking near card",
+        "parking by card hall"
+      ],
+
+      description:
+        "Student parking is available in the Card Hall residential area.",
+
+      studentTip:
+        "Card houses many first-year students, so learn where you are actually allowed to park instead of assuming the closest open space is student parking."
+    },
+
+
+    // =================================================
+    // ASU STADIUM PARKING
+    // =================================================
+
+    {
+      name: "ASU Stadium / Facility II Area Parking",
+
+      keywords: [
+        "stadium parking",
+        "asu stadium parking",
+        "football stadium parking",
+        "parking by stadium",
+        "parking near stadium",
+        "facility 2 stadium parking",
+        "stadium lot",
+        "asu stadium parking lot"
+      ],
+
+      description:
+        "A large parking area is located near ASU Stadium and the Facility II side of campus.",
+
+      studentTip:
+        "This parking area can change during football games, Homecoming, major events, move-in, and other university operations. Pay attention to university announcements before leaving your vehicle there for an extended period."
+    },
+
+
+    // =================================================
+    // GAME DAY PARKING
+    // =================================================
+
+    {
+      name: "🏈 Game-Day Parking & Vehicle Relocation",
+
+      keywords: [
+        "game day parking",
+        "football parking",
+        "football game parking",
+        "homecoming parking",
+        "move car",
+        "move my car",
+        "move vehicle",
+        "relocate car",
+        "parking announcement",
+        "stadium event"
+      ],
+
+      description:
+        "ASU may change parking availability around the stadium and nearby residence halls for football games and other major university events.",
+
+      studentTip:
+        "CHECK YOUR ASU ANNOUNCEMENTS. If the university tells students to move their cars before a game or event, follow the instructions and move your vehicle to the designated parking area before the stated deadline.",
+
+      extraTip:
+        "Your normal weekday parking space may not remain available during football weekends, Homecoming, or special events."
+    },
+
+
+    // =================================================
+    // TEMPORARY EVENT PARKING MAP
+    // =================================================
+
+    {
+      name: "🗺️ Temporary Parking & Event Map",
+
+      keywords: [
+        "parking map",
+        "event parking map",
+        "temporary parking map",
+        "temporary parking",
+        "closed parking",
+        "closed parking lots",
+        "lot a1",
+        "lot b",
+        "lot d1",
+        "lot e1",
+        "lot l",
+        "august 14 2026",
+        "shuttle parking"
+      ],
+
+      description:
+        "ASU may release temporary parking maps when campus entrances, parking lots, or shuttle locations change for a specific event or date.",
+
+      features: [
+        "Temporary lot closures may occur",
+        "Campus entry routes may change",
+        "Shuttle parking may be assigned",
+        "Always check the date on the map",
+        "Temporary maps do not replace normal parking rules"
+      ],
+
+      studentTip:
+        "IMPORTANT: The parking map shown here is specifically for August 14, 2026. It is an example of how parking can temporarily change. Do NOT assume the lots marked closed on this image are permanently closed.",
+
+      image:
+        "images/asu-parking-event-map-2026-08-14.jpeg"
+    },
+
+
+    // =================================================
+    // RESERVED PARKING
+    // =================================================
+
+    {
+      name: "Reserved & Faculty/Staff Spaces",
+
+      keywords: [
+        "reserved",
+        "reserved parking",
+        "reserved space",
+        "faculty parking",
+        "staff parking",
+        "faculty staff",
+        "faculty staff only"
+      ],
+
+      description:
+        "Some spaces are specifically reserved for faculty, staff, university officials, accessibility needs, or other authorized users.",
+
+      studentTip:
+        "An empty reserved space is still reserved. Do not park there unless the sign says your permit or the current time allows you to use that space."
+    },
+
+
+    // =================================================
+    // FIRE HYDRANTS & FIRE LANES
+    // =================================================
+
+    {
+      name: "🚒 Fire Hydrants & Fire Lanes",
+
+      keywords: [
+        "fire hydrant",
+        "hydrant",
+        "fire lane",
+        "emergency lane",
+        "no parking",
+        "emergency access"
+      ],
+
+      description:
+        "Fire hydrants, fire lanes, emergency-access areas, and other safety zones must remain clear.",
+
+      studentTip:
+        "Never block a fire hydrant or fire lane—even if you only plan to leave your vehicle there for a few minutes."
+    },
+
+
+    // =================================================
+    // BOOTED CAR
+    // =================================================
+
+    {
+      name: "🚨 My Car Got Booted",
+
+      keywords: [
+        "boot",
+        "booted",
+        "car booted",
+        "my car got booted",
+        "parking boot",
+        "remove boot",
+        "boot removal",
+        "parking fine",
+        "parking ticket",
+        "parking citation"
+      ],
+
+      description:
+        "Parking violations may result in citations, boots, towing, or other university parking enforcement.",
+
+      studentTip:
+        "DO NOT attempt to remove a university parking boot yourself. Contact ASU Public Safety/Parking for instructions on resolving the violation and having the boot officially removed.",
+
+      contact:
+        "Campus Police: (334) 229-4400"
+    },
+
+
+    // =================================================
+    // PARKING QUESTIONS
+    // =================================================
+
+    {
+      name: "Parking Questions & Assistance",
+
+      keywords: [
+        "parking help",
+        "parking office",
+        "parking question",
+        "public safety parking",
+        "parking department",
+        "parking rules"
+      ],
+
+      description:
+        "Students who are unsure about vehicle registration, permits, citations, parking restrictions, or a specific parking space should contact ASU Public Safety/Parking.",
+
+      studentTip:
+        "If you are standing beside your car wondering whether a space is legal, ask before leaving the vehicle. That is much easier than dealing with a boot or citation later."
+    },
+
+
+    // =================================================
+    // FINAL PARKING RULE
+    // =================================================
+
+    {
+      name: "Hornet Navigator Parking Rule",
+
+      keywords: [
+        "parking rule",
+        "parking warning",
+        "parking disclaimer",
+        "parking changes"
+      ],
+
+      description:
+        "Hornet Navigator provides student-friendly parking guidance, but university parking conditions can change quickly.",
+
+      studentTip:
+        "POSTED ASU SIGNS AND CURRENT UNIVERSITY ANNOUNCEMENTS ALWAYS WIN. If Hornet Navigator says students normally use a parking area but ASU posts a temporary closure, reserved sign, event restriction, or relocation notice, follow ASU's current instruction."
+    }
+
+  ],
+
+  funFact:
+    "A parking lot can contain student spaces, faculty/staff spaces, reserved spaces, and temporarily restricted spaces all at the same time. Reading the sign before leaving your car is one of the easiest ways to avoid getting booted.",
+
+  image:
+    "images/asu-parking-event-map-2026-08-14.jpeg",
+
+  imageCaption:
+    "ASU Campus Entry & Parking map for August 14, 2026. This image demonstrates temporary parking changes and should not be treated as the permanent everyday parking map.",
+
+  mapLink: ""
 }
 
 ];
+
+// =====================================================
+// HORNET NAVIGATOR CAMPUS MAP POSITIONS
+// =====================================================
+//
+// IMPORTANT:
+//
+// These x/y values are schematic Hornet Navigator
+// map positions expressed as percentages.
+//
+// They are meant to organize the visual campus map.
+// They are NOT GPS coordinates or surveyed positions.
+//
+// Google Maps and Apple Maps remain the source for
+// actual turn-by-turn navigation.
+//
+// =====================================================
+
+const campusMapPositions = {
+
+  // ===================================================
+  // CENTRAL / STUDENT SERVICES
+  // ===================================================
+
+  1: {
+    x: 47,
+    y: 31
+  }, // Levi Watkins Learning Center
+
+  2: {
+    x: 59,
+    y: 46
+  }, // J. Garrick Hardy Student Center
+
+  4: {
+    x: 64,
+    y: 38
+  }, // Fred Shuttlesworth Dining Hall
+
+
+  // ===================================================
+  // SHOP FOR SUCCESS / CENTRAL ACADEMICS
+  // ===================================================
+
+  5: {
+    x: 31,
+    y: 24
+  }, // W.B. Patterson Hall
+
+  7: {
+    x: 40,
+    y: 22
+  }, // Edward Glenn McGhee Hall
+
+  8: {
+    x: 30,
+    y: 35
+  }, // William Hooper Councill Hall
+
+  9: {
+    x: 41,
+    y: 35
+  }, // H.C. Trenholm Hall
+
+  11: {
+    x: 36,
+    y: 29
+  }, // The Equinox
+
+
+  // ===================================================
+  // BUSINESS / FINE ARTS / ACADEMIC WEST
+  // ===================================================
+
+  10: {
+    x: 23,
+    y: 45
+  }, // COBA
+
+  12: {
+    x: 18,
+    y: 31
+  }, // Tullibody Fine Arts Center
+
+  13: {
+    x: 20,
+    y: 55
+  }, // John William Beverly Hall
+
+  14: {
+    x: 28,
+    y: 53
+  }, // George W. Trenholm Hall
+
+  29: {
+    x: 14,
+    y: 42
+  }, // Tullibody Music Hall
+
+  32: {
+    x: 33,
+    y: 47
+  }, // Thomas Erby Kilby Hall
+
+
+  // ===================================================
+  // SCIENCE / HEALTH
+  // ===================================================
+
+  16: {
+    x: 48,
+    y: 19
+  }, // Robert Clinton Hatch Hall
+
+  17: {
+    x: 54,
+    y: 18
+  }, // John L. Buskey Health Sciences
+
+  19: {
+    x: 57,
+    y: 27
+  }, // Life Science Building
+
+  20: {
+    x: 46,
+    y: 43
+  }, // Ralph David Abernathy Hall
+
+  21: {
+    x: 50,
+    y: 47
+  }, // Abernathy Annex
+
+
+  // ===================================================
+  // LANDMARKS / ADMINISTRATION
+  // ===================================================
+
+  18: {
+    x: 12,
+    y: 68
+  }, // Montgomery Interpretive Center
+
+  33: {
+    x: 25,
+    y: 65
+  }, // ASU Alumni House
+
+  36: {
+    x: 19,
+    y: 72
+  }, // President's Home
+
+
+  // ===================================================
+  // CAMPUS SERVICES
+  // ===================================================
+
+  22: {
+    x: 34,
+    y: 62
+  }, // Air Force ROTC
+
+  34: {
+    x: 38,
+    y: 74
+  }, // Physical Plant
+
+  35: {
+    x: 48,
+    y: 73
+  }, // Public Safety
+
+  37: {
+    x: 43,
+    y: 80
+  }, // Inventory Control & Receiving
+
+
+  // ===================================================
+  // ACADOME / ATHLETICS
+  // ===================================================
+
+  15: {
+    x: 69,
+    y: 28
+  }, // Dunn-Oliver Acadome
+
+  23: {
+    x: 87,
+    y: 43
+  }, // ASU Stadium
+
+  24: {
+    x: 86,
+    y: 51
+  }, // Sting Shop / Stadium Ticket Office
+
+  25: {
+    x: 88,
+    y: 74
+  }, // Softball Complex
+
+  26: {
+    x: 78,
+    y: 76
+  }, // Baseball Complex
+
+  27: {
+    x: 84,
+    y: 63
+  }, // Soccer Complex
+
+  28: {
+    x: 15,
+    y: 58
+  }, // Lockhart Gymnasium
+
+  30: {
+    x: 9,
+    y: 52
+  }, // Old Hornet Stadium
+
+  38: {
+    x: 76,
+    y: 59
+  }, // Underwood Tennis Center
+
+
+  // ===================================================
+  // RESIDENCE HALLS
+  // ===================================================
+
+  39: {
+    x: 54,
+    y: 56
+  }, // Jo Ann Robinson Hall
+
+  40: {
+    x: 50,
+    y: 60
+  }, // Wilease S. Simpson Hall
+
+  41: {
+    x: 22,
+    y: 20
+  }, // John W. Abercrombie Hall
+
+  42: {
+    x: 67,
+    y: 18
+  }, // Dr. Martin Luther King Jr. Hall
+
+  43: {
+    x: 75,
+    y: 18
+  }, // Bessie E. Estell Hall
+
+  44: {
+    x: 62,
+    y: 57
+  }, // Bessie Wilson Benson Hall
+
+  45: {
+    x: 72,
+    y: 64
+  }, // New Facility I
+
+  46: {
+    x: 78,
+    y: 65
+  }, // New Facility II
+
+  47: {
+    x: 57,
+    y: 68
+  }, // Willetta McGinty Apartments
+
+  48: {
+    x: 65,
+    y: 70
+  }, // Peyton Finley Apartments
+
+  49: {
+    x: 69,
+    y: 52
+  }, // George N. Card Hall
+
+  50: {
+    x: 73,
+    y: 39
+  }, // C.J. Dunn Tower
+
+
+  // ===================================================
+  // PARKING
+  // ===================================================
+
+  51: {
+    x: 80,
+    y: 32
+  } // ASU Student Parking Guide
+
+};

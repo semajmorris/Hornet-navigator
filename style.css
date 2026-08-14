@@ -82,7 +82,8 @@ a {
 
   background: rgba(8, 8, 8, 0.97);
 
-  border-bottom: 1px solid rgba(199, 162, 58, 0.35);
+  border-bottom:
+    1px solid rgba(199, 162, 58, 0.35);
 
   position: sticky;
   top: 0;
@@ -173,7 +174,8 @@ a {
 
   padding: 20px 7%;
 
-  border-bottom: 1px solid rgba(199, 162, 58, 0.35);
+  border-bottom:
+    1px solid rgba(199, 162, 58, 0.35);
 }
 
 .mobile-menu a {
@@ -183,7 +185,8 @@ a {
 
   color: white;
 
-  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  border-bottom:
+    1px solid rgba(255, 255, 255, 0.08);
 }
 
 
@@ -296,7 +299,8 @@ a {
 
   border-radius: 6px;
 
-  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.35);
+  box-shadow:
+    0 20px 50px rgba(0, 0, 0, 0.35);
 }
 
 .search-icon {
@@ -367,11 +371,13 @@ a {
 .category-button {
   padding: 10px 16px;
 
-  background: rgba(255, 255, 255, 0.07);
+  background:
+    rgba(255, 255, 255, 0.07);
 
   color: white;
 
-  border: 1px solid rgba(199, 162, 58, 0.45);
+  border:
+    1px solid rgba(199, 162, 58, 0.45);
 
   border-radius: 30px;
 
@@ -410,7 +416,8 @@ a {
 
   display: grid;
 
-  grid-template-columns: 0.7fr 1.3fr;
+  grid-template-columns:
+    0.7fr 1.3fr;
 
   gap: 70px;
 
@@ -449,7 +456,8 @@ a {
 }
 
 .intro-content h2 {
-  font-size: clamp(2.7rem, 5vw, 5rem);
+  font-size:
+    clamp(2.7rem, 5vw, 5rem);
 
   line-height: 1;
 
@@ -497,7 +505,8 @@ a {
 .resources-left h2,
 .map-content h2,
 .about-section h2 {
-  font-size: clamp(2.5rem, 5vw, 4.5rem);
+  font-size:
+    clamp(2.5rem, 5vw, 4.5rem);
 
   line-height: 1;
 
@@ -526,7 +535,8 @@ a {
 .location-grid {
   display: grid;
 
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns:
+    repeat(3, minmax(0, 1fr));
 
   gap: 24px;
 }
@@ -546,7 +556,8 @@ a {
 .location-card:hover {
   transform: translateY(-7px);
 
-  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.09);
+  box-shadow:
+    0 20px 45px rgba(0, 0, 0, 0.09);
 }
 
 .card-image {
@@ -649,7 +660,8 @@ a {
 
   border: none;
 
-  border-top: 1px solid #dcd8cc;
+  border-top:
+    1px solid #dcd8cc;
 
   background: transparent;
 
@@ -686,15 +698,18 @@ a {
 
   background: var(--cream);
 
-  border: 1px solid #e4dfd2;
+  border:
+    1px solid #e4dfd2;
 
-  border-left: 5px solid var(--gold);
+  border-left:
+    5px solid var(--gold);
 
   padding: 30px;
 
   margin-bottom: 24px;
 
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+  box-shadow:
+    0 10px 30px rgba(0, 0, 0, 0.06);
 
   transition:
     transform 0.25s ease,
@@ -704,7 +719,8 @@ a {
 .search-result-card:hover {
   transform: translateY(-3px);
 
-  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.09);
+  box-shadow:
+    0 15px 35px rgba(0, 0, 0, 0.09);
 }
 
 .search-result-category {
@@ -741,7 +757,8 @@ a {
 
   padding-top: 18px;
 
-  border-top: 1px solid #ddd7c9;
+  border-top:
+    1px solid #ddd7c9;
 }
 
 .location-services > strong {
@@ -772,7 +789,8 @@ a {
 
   background: #f1eee5;
 
-  border-left: 4px solid var(--dark-gold);
+  border-left:
+    4px solid var(--dark-gold);
 }
 
 .printing-info strong {
@@ -807,7 +825,8 @@ a {
 
   color: var(--black);
 
-  border-left: 5px solid var(--black);
+  border-left:
+    5px solid var(--black);
 }
 
 .special-resource::after {
@@ -864,7 +883,8 @@ a {
 
   padding-top: 15px;
 
-  border-top: 1px solid rgba(0, 0, 0, 0.22);
+  border-top:
+    1px solid rgba(0, 0, 0, 0.22);
 }
 
 .resource-provides > strong {
@@ -895,7 +915,8 @@ a {
 
   color: white;
 
-  border-left: 4px solid var(--gold);
+  border-left:
+    4px solid var(--gold);
 }
 
 .student-tip strong {
@@ -926,9 +947,11 @@ a {
 
   background: #fffdf6;
 
-  border: 1px solid #e8dfbd;
+  border:
+    1px solid #e8dfbd;
 
-  border-left: 4px solid var(--gold);
+  border-left:
+    4px solid var(--gold);
 }
 
 .fun-fact strong {
@@ -955,7 +978,8 @@ a {
 
   display: grid;
 
-  grid-template-columns: 0.8fr 1.2fr;
+  grid-template-columns:
+    0.8fr 1.2fr;
 
   gap: 80px;
 
@@ -971,7 +995,8 @@ a {
 }
 
 .resource-grid {
-  border-top: 1px solid #333333;
+  border-top:
+    1px solid #333333;
 }
 
 .resource-card {
@@ -979,7 +1004,8 @@ a {
 
   display: grid;
 
-  grid-template-columns: 45px 1fr 40px;
+  grid-template-columns:
+    45px 1fr 40px;
 
   align-items: center;
 
@@ -989,7 +1015,8 @@ a {
 
   border: none;
 
-  border-bottom: 1px solid #333333;
+  border-bottom:
+    1px solid #333333;
 
   background: transparent;
 
@@ -1005,7 +1032,8 @@ a {
 .resource-card:hover {
   padding-left: 20px;
 
-  background: rgba(199, 162, 58, 0.08);
+  background:
+    rgba(199, 162, 58, 0.08);
 }
 
 .resource-number {
@@ -1032,7 +1060,7 @@ a {
 
 
 /* ========================================
-   MAP PREVIEW
+   MAP SECTION
 ======================================== */
 
 .map-section {
@@ -1040,11 +1068,12 @@ a {
 
   display: grid;
 
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns:
+    1fr 1fr;
 
   gap: 70px;
 
-  align-items: center;
+  align-items: start;
 
   background: var(--gold);
 }
@@ -1057,119 +1086,6 @@ a {
   color: #302a1c;
 }
 
-.coming-soon-button {
-  padding: 14px 20px;
-
-  border: 1px solid var(--black);
-
-  background: var(--black);
-
-  color: white;
-
-  font-weight: 700;
-}
-
-.map-preview {
-  min-height: 440px;
-
-  position: relative;
-
-  overflow: hidden;
-
-  background: var(--cream);
-
-  border: 12px solid var(--black);
-}
-
-.map-grid {
-  position: absolute;
-
-  inset: 0;
-
-  opacity: 0.13;
-
-  background-image:
-    linear-gradient(
-      var(--black) 1px,
-      transparent 1px
-    ),
-    linear-gradient(
-      90deg,
-      var(--black) 1px,
-      transparent 1px
-    );
-
-  background-size: 45px 45px;
-}
-
-.map-center {
-  position: absolute;
-
-  left: 50%;
-  top: 50%;
-
-  transform: translate(-50%, -50%);
-
-  text-align: center;
-}
-
-.map-center-icon {
-  width: 90px;
-  height: 90px;
-
-  display: grid;
-  place-items: center;
-
-  margin: auto;
-
-  background: var(--black);
-
-  border-radius: 50%;
-
-  font-size: 2rem;
-}
-
-.map-center p {
-  margin-top: 10px;
-
-  font-size: 0.75rem;
-
-  font-weight: 900;
-
-  letter-spacing: 2px;
-}
-
-.map-pin {
-  position: absolute;
-
-  width: 25px;
-  height: 25px;
-
-  display: grid;
-  place-items: center;
-
-  background: var(--gold);
-
-  border: 5px solid var(--black);
-
-  border-radius: 50%;
-}
-
-.pin-one {
-  top: 18%;
-  left: 22%;
-}
-
-.pin-two {
-  right: 17%;
-  top: 28%;
-}
-
-.pin-three {
-  bottom: 18%;
-  left: 31%;
-}
-
 
 /* ========================================
    ABOUT
@@ -1180,7 +1096,8 @@ a {
 
   display: grid;
 
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns:
+    1fr 1fr;
 
   gap: 80px;
 
@@ -1206,7 +1123,8 @@ a {
 
   padding: 22px;
 
-  border-left: 4px solid var(--gold);
+  border-left:
+    4px solid var(--gold);
 
   background: white;
 }
@@ -1240,7 +1158,8 @@ footer {
 
   color: white;
 
-  border-top: 1px solid #222222;
+  border-top:
+    1px solid #222222;
 }
 
 .footer-brand {
@@ -1277,7 +1196,8 @@ footer {
 @media (max-width: 1000px) {
 
   .location-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns:
+      repeat(2, minmax(0, 1fr));
   }
 
   .resources-section,
@@ -1316,7 +1236,8 @@ footer {
   .hero {
     min-height: 87vh;
 
-    padding: 90px 5% 70px;
+    padding:
+      90px 5% 70px;
 
     background-position: center;
   }
@@ -1330,7 +1251,8 @@ footer {
   }
 
   .search-container input {
-    width: calc(100% - 50px);
+    width:
+      calc(100% - 50px);
   }
 
   .search-container button {
@@ -1350,7 +1272,8 @@ footer {
   }
 
   .resource-card {
-    grid-template-columns: 35px 1fr 25px;
+    grid-template-columns:
+      35px 1fr 25px;
   }
 
   .search-result-card {
@@ -1373,5 +1296,728 @@ footer {
     gap: 20px;
 
     padding: 30px 5%;
+  }
+}
+
+
+/* =====================================================
+   LOCATION / PARKING IMAGE
+===================================================== */
+
+.location-image-container {
+  width: 100%;
+
+  max-width: 900px;
+
+  margin: 28px auto;
+
+  text-align: center;
+}
+
+.location-image {
+  display: block;
+
+  width: 100%;
+
+  height: auto;
+
+  max-height: 650px;
+
+  object-fit: contain;
+
+  margin: 0 auto;
+
+  border-radius: 12px;
+
+  border:
+    1px solid rgba(0, 0, 0, 0.12);
+
+  box-shadow:
+    0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.location-image-container figcaption {
+  margin-top: 10px;
+
+  padding: 0 12px;
+
+  font-size: 0.85rem;
+
+  line-height: 1.5;
+
+  color: #666666;
+
+  font-style: italic;
+}
+
+
+/* =====================================================
+   PARKING IMAGE — TABLET
+===================================================== */
+
+@media (max-width: 900px) {
+
+  .location-image-container {
+    max-width: 100%;
+
+    margin: 22px auto;
+  }
+
+  .location-image {
+    max-height: 550px;
+  }
+}
+
+
+/* =====================================================
+   PARKING IMAGE — MOBILE
+===================================================== */
+
+@media (max-width: 600px) {
+
+  .location-image-container {
+    width: 100%;
+
+    margin: 18px auto;
+  }
+
+  .location-image {
+    width: 100%;
+
+    max-height: 420px;
+
+    border-radius: 8px;
+  }
+
+  .location-image-container figcaption {
+    font-size: 0.78rem;
+
+    line-height: 1.4;
+  }
+}
+
+/* =====================================================
+   INTERACTIVE CAMPUS MAP
+===================================================== */
+
+#campus-map {
+  background: var(--gold);
+  color: var(--black);
+}
+
+
+/* =====================================================
+   FILTER BUTTONS
+===================================================== */
+
+.map-filter-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 9px;
+  margin: 25px 0;
+}
+
+.map-filter {
+  padding: 9px 14px;
+
+  border: 1px solid var(--black);
+  border-radius: 999px;
+
+  background: transparent;
+  color: var(--black);
+
+  font-weight: 800;
+
+  transition:
+    background 0.2s ease,
+    color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.map-filter:hover,
+.map-filter.active {
+  background: var(--black);
+  color: white;
+}
+
+.map-filter:hover {
+  transform: translateY(-1px);
+}
+
+
+/* =====================================================
+   LOCATION DROPDOWN
+===================================================== */
+
+.map-location-picker {
+  margin: 25px 0;
+}
+
+.map-location-picker label {
+  display: block;
+
+  margin-bottom: 8px;
+
+  font-weight: 800;
+}
+
+.map-location-picker select {
+  width: 100%;
+  max-width: 520px;
+
+  padding: 12px 14px;
+
+  border: 1px solid var(--black);
+  border-radius: 6px;
+
+  background: var(--cream);
+  color: var(--black);
+
+  font-weight: 600;
+
+  outline: none;
+}
+
+
+/* =====================================================
+   GENERAL DIRECTIONS
+===================================================== */
+
+.map-directions {
+  margin-top: 25px;
+}
+
+.map-directions p {
+  margin-bottom: 12px;
+}
+
+.map-direction-buttons {
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 10px;
+}
+
+.map-direction-button {
+  display: inline-flex;
+
+  align-items: center;
+  justify-content: center;
+
+  padding: 11px 16px;
+
+  border: 1px solid var(--black);
+  border-radius: 6px;
+
+  background: var(--black);
+  color: white;
+
+  font-weight: 800;
+
+  transition:
+    background 0.2s ease,
+    color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.map-direction-button:hover {
+  background: transparent;
+
+  color: var(--black);
+
+  transform: translateY(-1px);
+}
+
+
+/* =====================================================
+   MAP OUTER CONTAINER
+===================================================== */
+
+.interactive-map-container {
+  width: 100%;
+
+  overflow: hidden;
+
+  border: 9px solid var(--black);
+
+  background: var(--cream);
+}
+
+
+/* =====================================================
+   MAP TOOLBAR
+===================================================== */
+
+.map-toolbar {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+
+  gap: 15px;
+
+  padding: 17px 19px;
+
+  background: var(--black);
+
+  color: white;
+}
+
+.map-toolbar-label {
+  display: block;
+
+  margin-bottom: 3px;
+
+  color: var(--light-gold);
+
+  font-size: 0.68rem;
+  font-weight: 900;
+
+  letter-spacing: 2px;
+}
+
+.map-toolbar h3 {
+  margin: 0;
+
+  font-size: 1.2rem;
+}
+
+.map-status {
+  padding: 6px 10px;
+
+  border: 1px solid var(--gold);
+  border-radius: 999px;
+
+  color: var(--light-gold);
+
+  font-size: 0.72rem;
+  font-weight: 800;
+}
+
+
+/* =====================================================
+   MAP AREA
+===================================================== */
+
+.interactive-campus-map {
+  --map-height: 500px;
+
+  position: relative;
+
+  width: 100%;
+
+  padding-top: var(--map-height);
+
+  background: var(--cream);
+}
+
+
+/* =====================================================
+   MAP GRID
+===================================================== */
+
+.interactive-campus-map .map-grid {
+  position: absolute;
+
+  inset: 0 0 auto 0;
+
+  height: var(--map-height);
+
+  background-color: var(--cream);
+
+  background-image:
+    linear-gradient(
+      rgba(8, 8, 8, 0.12) 1px,
+      transparent 1px
+    ),
+    linear-gradient(
+      90deg,
+      rgba(8, 8, 8, 0.12) 1px,
+      transparent 1px
+    );
+
+  background-size: 42px 42px;
+
+  pointer-events: none;
+}
+
+
+/* =====================================================
+   MARKER LAYER
+===================================================== */
+
+.campus-map-markers {
+  position: absolute;
+
+  inset: 0 0 auto 0;
+
+  height: var(--map-height);
+
+  z-index: 5;
+}
+
+
+/* =====================================================
+   MAP MARKERS
+===================================================== */
+
+.campus-map-marker {
+  position: absolute;
+
+  transform: translate(-50%, -50%);
+
+  width: 37px;
+  height: 37px;
+
+  display: grid;
+
+  place-items: center;
+
+  padding: 0;
+
+  border: 3px solid var(--black);
+  border-radius: 50%;
+
+  background: var(--gold);
+  color: var(--black);
+
+  font-size: 0.95rem;
+
+  cursor: pointer;
+
+  box-shadow:
+    0 5px 12px rgba(0, 0, 0, 0.20);
+
+  transition:
+    background 0.18s ease,
+    color 0.18s ease,
+    transform 0.18s ease,
+    box-shadow 0.18s ease;
+}
+
+.campus-map-marker:hover {
+  transform:
+    translate(-50%, -50%)
+    scale(1.12);
+
+  background: var(--light-gold);
+
+  z-index: 20;
+}
+
+.campus-map-marker.selected {
+  background: var(--black);
+  color: var(--light-gold);
+
+  border-color: var(--gold);
+
+  box-shadow:
+    0 0 0 4px rgba(199, 162, 58, 0.28),
+    0 7px 16px rgba(0, 0, 0, 0.25);
+
+  z-index: 21;
+}
+
+.campus-map-marker.hidden {
+  display: none;
+}
+
+
+/* =====================================================
+   MARKER LABEL
+===================================================== */
+
+.campus-map-marker::after {
+  content: attr(title);
+
+  position: absolute;
+
+  left: 50%;
+  bottom: calc(100% + 9px);
+
+  transform: translateX(-50%);
+
+  width: max-content;
+  max-width: 210px;
+
+  padding: 6px 9px;
+
+  border-radius: 5px;
+
+  background: var(--black);
+  color: white;
+
+  font-size: 0.68rem;
+  font-weight: 800;
+
+  line-height: 1.3;
+
+  opacity: 0;
+  visibility: hidden;
+
+  pointer-events: none;
+}
+
+.campus-map-marker:hover::after,
+.campus-map-marker:focus::after {
+  opacity: 1;
+  visibility: visible;
+}
+
+
+/* =====================================================
+   INFORMATION PANEL
+===================================================== */
+
+.map-location-panel {
+  position: relative;
+
+  width: 100%;
+
+  margin: 0;
+
+  padding: 24px;
+
+  background: var(--black);
+
+  color: white;
+
+  border-left: 5px solid var(--gold);
+}
+
+.map-panel-label {
+  margin-bottom: 5px;
+
+  color: var(--light-gold);
+
+  font-size: 0.68rem;
+  font-weight: 900;
+
+  letter-spacing: 2px;
+}
+
+.map-location-panel h4 {
+  margin-bottom: 8px;
+
+  color: white;
+
+  font-size: 1.3rem;
+}
+
+.map-location-panel p {
+  max-width: 760px;
+
+  color: #dddddd;
+}
+
+
+/* =====================================================
+   LOCATION ACTION BUTTONS
+===================================================== */
+
+.map-location-actions {
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 10px;
+
+  margin-top: 16px;
+}
+
+.map-location-actions a,
+.map-details-button {
+  display: inline-flex;
+
+  align-items: center;
+  justify-content: center;
+
+  padding: 10px 13px;
+
+  border: none;
+  border-radius: 5px;
+
+  background: var(--gold);
+  color: var(--black);
+
+  font-size: 0.8rem;
+  font-weight: 800;
+
+  cursor: pointer;
+
+  transition:
+    background 0.2s ease,
+    transform 0.2s ease;
+}
+
+.map-location-actions a:hover,
+.map-details-button:hover {
+  background: var(--light-gold);
+
+  transform: translateY(-1px);
+}
+
+
+/* =====================================================
+   MAP HELP
+===================================================== */
+
+.map-help {
+  display: flex;
+
+  align-items: center;
+
+  gap: 11px;
+
+  padding: 16px 18px;
+
+  border-top: 1px solid #d7d1c4;
+
+  background: #f1eee5;
+}
+
+.map-help span {
+  font-size: 1.25rem;
+}
+
+.map-help p {
+  margin: 0;
+
+  color: #555555;
+
+  font-size: 0.86rem;
+}
+
+
+/* =====================================================
+   TABLET
+===================================================== */
+
+@media (max-width: 900px) {
+
+  .interactive-campus-map {
+    --map-height: 410px;
+  }
+
+  .interactive-map-container {
+    border-width: 7px;
+  }
+
+  .campus-map-marker {
+    width: 34px;
+    height: 34px;
+
+    font-size: 0.85rem;
+  }
+}
+
+
+/* =====================================================
+   MOBILE
+===================================================== */
+
+@media (max-width: 600px) {
+
+  .map-filter-buttons {
+    gap: 6px;
+  }
+
+  .map-filter {
+    padding: 7px 10px;
+
+    font-size: 0.75rem;
+  }
+
+  .map-location-picker select {
+    font-size: 0.86rem;
+  }
+
+  .map-direction-buttons {
+    flex-direction: column;
+  }
+
+  .map-direction-button {
+    width: 100%;
+  }
+
+  .interactive-map-container {
+    border-width: 5px;
+  }
+
+  .map-toolbar {
+    padding: 13px;
+  }
+
+  .map-toolbar h3 {
+    font-size: 1rem;
+  }
+
+  .map-status {
+    font-size: 0.65rem;
+  }
+
+
+  /* COMPACT PHONE MAP */
+
+  .interactive-campus-map {
+    --map-height: 320px;
+  }
+
+
+  /* SMALLER PHONE MARKERS */
+
+  .campus-map-marker {
+    width: 29px;
+    height: 29px;
+
+    border-width: 2px;
+
+    font-size: 0.72rem;
+  }
+
+
+  /* REMOVE TOOLTIP ON PHONE */
+
+  .campus-map-marker::after {
+    display: none;
+  }
+
+
+  /* INFO PANEL */
+
+  .map-location-panel {
+    padding: 17px;
+  }
+
+  .map-location-panel h4 {
+    font-size: 1.1rem;
+  }
+
+  .map-location-panel p {
+    font-size: 0.88rem;
+  }
+
+
+  /* ACTIONS STACK ON PHONE */
+
+  .map-location-actions {
+    flex-direction: column;
+  }
+
+  .map-location-actions a,
+  .map-details-button {
+    width: 100%;
+  }
+
+
+  /* HELP */
+
+  .map-help {
+    align-items: flex-start;
+
+    padding: 14px;
+  }
+
+  .map-help p {
+    font-size: 0.8rem;
   }
 }

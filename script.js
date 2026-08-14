@@ -37,8 +37,10 @@ function getSectionSearchText(section) {
     section.name || "",
     section.description || "",
     section.studentTip || "",
+    section.extraTip || "",
     section.yearbook || "",
     section.room || "",
+    section.imageCaption || "",
 
     ...(section.keywords || []),
     ...(section.features || []),
@@ -68,8 +70,7 @@ function findMatchingFloorSections(location, searchTerm) {
 
   location.floors.forEach((floor) => {
     (floor.sections || []).forEach((section) => {
-      const sectionText =
-        getSectionSearchText(section);
+      const sectionText = getSectionSearchText(section);
 
       if (sectionText.includes(searchTerm)) {
         matches.push({
@@ -86,7 +87,6 @@ function findMatchingFloorSections(location, searchTerm) {
 
 // =====================================================
 // HELPER: FIND MATCHING TOP-LEVEL SECTIONS
-// COBA / H.C. TRENHOLM
 // =====================================================
 
 function findMatchingTopSections(location, searchTerm) {
@@ -179,6 +179,7 @@ function getLocationSearchText(location) {
     location.building || "",
     location.room || "",
     location.address || "",
+    location.imageCaption || "",
     location.printing?.note || "",
 
     ...(location.keywords || []),
@@ -238,6 +239,169 @@ function renderStudentTip(tip) {
 
 
 // =====================================================
+// HELPER: RENDER EXTRA TIP
+// =====================================================
+
+function renderExtraTip(tip) {
+  if (!tip) {
+    return "";
+  }
+
+  return `
+    <div class="student-tip">
+      <strong>⚠️ Extra Tip</strong>
+      <p>${tip}</p>
+    </div>
+  `;
+}
+
+
+// =====================================================
+// HELPER: RENDER IMAGE
+// =====================================================
+
+function renderImage(image, caption = "", altText = "Campus image") {
+  if (!image) {
+    return "";
+  }
+
+  return `
+    <figure class="location-image-container">
+      <img
+        src="${image}"
+        alt="${altText}"
+        class="location-image"
+        loading="lazy"
+      >
+
+      ${
+        caption
+          ? `<figcaption>${caption}</figcaption>`
+          : ""
+      }
+    </figure>
+  `;
+}
+
+
+// =====================================================
+// HELPER: RENDER A STANDARD SECTION
+// =====================================================
+
+function renderSection(section) {
+  if (!section) {
+    return "";
+  }
+
+  return `
+    <div class="floor-result">
+
+      <h5>${section.name || ""}</h5>
+
+      ${
+        section.room
+          ? `
+            <p>
+              <strong>Room:</strong>
+              ${section.room}
+            </p>
+          `
+          : ""
+      }
+
+      ${
+        section.description
+          ? `<p>${section.description}</p>`
+          : ""
+      }
+
+      ${
+        section.image
+          ? renderImage(
+              section.image,
+              section.imageCaption || "",
+              section.name || "Campus image"
+            )
+          : ""
+      }
+
+      ${
+        section.features
+          ? renderFeatures(section.features)
+          : ""
+      }
+
+      ${
+        section.locations
+          ? renderFeatures(section.locations)
+          : ""
+      }
+
+      ${
+        section.steps && section.steps.length
+          ? `
+            <div class="floor-details">
+              <strong>How It Works:</strong>
+
+              <ol>
+                ${section.steps
+                  .map((step) => `<li>${step}</li>`)
+                  .join("")}
+              </ol>
+            </div>
+          `
+          : ""
+      }
+
+      ${
+        section.officesInside &&
+        section.officesInside.length
+          ? `
+            <div class="floor-details">
+
+              <strong>Offices Inside:</strong>
+
+              ${section.officesInside
+                .map(
+                  (office) => `
+                    <div class="inside-office">
+                      <strong>${office.name}</strong>
+
+                      ${
+                        office.description
+                          ? `<p>${office.description}</p>`
+                          : ""
+                      }
+                    </div>
+                  `
+                )
+                .join("")}
+
+            </div>
+          `
+          : ""
+      }
+
+      ${
+        section.yearbook
+          ? `
+            <div class="yearbook-note">
+              <strong>📸 Yearbook</strong>
+              <p>${section.yearbook}</p>
+            </div>
+          `
+          : ""
+      }
+
+      ${renderStudentTip(section.studentTip)}
+      ${renderExtraTip(section.extraTip)}
+
+    </div>
+  `;
+}
+
+
+// =====================================================
 // CREATE LOCATION CARD
 // =====================================================
 
@@ -270,6 +434,21 @@ function createLocationCard(
       ${
         location.description
           ? `<p>${location.description}</p>`
+          : ""
+      }
+
+
+      <!-- ============================================= -->
+      <!-- MAIN LOCATION IMAGE -->
+      <!-- ============================================= -->
+
+      ${
+        location.image
+          ? renderImage(
+              location.image,
+              location.imageCaption || "",
+              location.name || "Campus location"
+            )
           : ""
       }
 
@@ -359,15 +538,17 @@ function createLocationCard(
 
               <strong>Nearby Buildings:</strong>
 
-              ${renderFeatures(
-                location.nearbyBuildings
-              )}
+              ${renderFeatures(location.nearbyBuildings)}
 
             </div>
           `
           : ""
       }
 
+
+      <!-- ============================================= -->
+      <!-- MATCHED FLOOR SECTIONS -->
+      <!-- ============================================= -->
 
       ${
         matchedFloorSections.length
@@ -391,131 +572,7 @@ function createLocationCard(
                           : ""
                       }
 
-                      <h5>
-                        ${match.section.name}
-                      </h5>
-
-                      ${
-                        match.section.room
-                          ? `
-                            <p>
-                              <strong>Room:</strong>
-                              ${match.section.room}
-                            </p>
-                          `
-                          : ""
-                      }
-
-                      ${
-                        match.section.description
-                          ? `
-                            <p>
-                              ${match.section.description}
-                            </p>
-                          `
-                          : ""
-                      }
-
-                      ${
-                        match.section.locations
-                          ? renderFeatures(
-                              match.section.locations
-                            )
-                          : ""
-                      }
-
-                      ${
-                        match.section.features
-                          ? renderFeatures(
-                              match.section.features
-                            )
-                          : ""
-                      }
-
-                      ${
-                        match.section.steps &&
-                        match.section.steps.length
-                          ? `
-                            <div class="floor-details">
-
-                              <strong>
-                                How It Works:
-                              </strong>
-
-                              <ol>
-                                ${match.section.steps
-                                  .map(
-                                    (step) =>
-                                      `<li>${step}</li>`
-                                  )
-                                  .join("")}
-                              </ol>
-
-                            </div>
-                          `
-                          : ""
-                      }
-
-                      ${
-                        match.section.officesInside &&
-                        match.section.officesInside.length
-                          ? `
-                            <div class="floor-details">
-
-                              <strong>
-                                Offices Inside:
-                              </strong>
-
-                              ${match.section.officesInside
-                                .map(
-                                  (office) => `
-                                    <div class="inside-office">
-
-                                      <strong>
-                                        ${office.name}
-                                      </strong>
-
-                                      ${
-                                        office.description
-                                          ? `
-                                            <p>
-                                              ${office.description}
-                                            </p>
-                                          `
-                                          : ""
-                                      }
-
-                                    </div>
-                                  `
-                                )
-                                .join("")}
-
-                            </div>
-                          `
-                          : ""
-                      }
-
-                      ${
-                        match.section.yearbook
-                          ? `
-                            <div class="yearbook-note">
-
-                              <strong>
-                                📸 Yearbook
-                              </strong>
-
-                              <p>
-                                ${match.section.yearbook}
-                              </p>
-
-                            </div>
-                          `
-                          : ""
-                      }
-
-                      ${renderStudentTip(
-                        match.section.studentTip
-                      )}
+                      ${renderSection(match.section)}
 
                     </div>
                   `
@@ -527,6 +584,10 @@ function createLocationCard(
           : ""
       }
 
+
+      <!-- ============================================= -->
+      <!-- HELPFUL INFORMATION / TOP LEVEL SECTIONS -->
+      <!-- ============================================= -->
 
       ${
         location.sections &&
@@ -537,47 +598,8 @@ function createLocationCard(
               <h4>Helpful Information</h4>
 
               ${location.sections
-                .map(
-                  (section) => `
-                    <div class="floor-result">
-
-                      <h5>${section.name}</h5>
-
-                      ${
-                        section.room
-                          ? `
-                            <p>
-                              <strong>Room:</strong>
-                              ${section.room}
-                            </p>
-                          `
-                          : ""
-                      }
-
-                      ${
-                        section.description
-                          ? `
-                            <p>
-                              ${section.description}
-                            </p>
-                          `
-                          : ""
-                      }
-
-                      ${
-                        section.features
-                          ? renderFeatures(
-                              section.features
-                            )
-                          : ""
-                      }
-
-                      ${renderStudentTip(
-                        section.studentTip
-                      )}
-
-                    </div>
-                  `
+                .map((section) =>
+                  renderSection(section)
                 )
                 .join("")}
 
@@ -586,6 +608,10 @@ function createLocationCard(
           : ""
       }
 
+
+      <!-- ============================================= -->
+      <!-- ACADEMIC SUPPORT -->
+      <!-- ============================================= -->
 
       ${
         location.academicSupport &&
@@ -596,28 +622,8 @@ function createLocationCard(
               <h4>Academic Support</h4>
 
               ${location.academicSupport
-                .map(
-                  (section) => `
-                    <div class="floor-result">
-
-                      <h5>${section.name}</h5>
-
-                      ${
-                        section.description
-                          ? `
-                            <p>
-                              ${section.description}
-                            </p>
-                          `
-                          : ""
-                      }
-
-                      ${renderStudentTip(
-                        section.studentTip
-                      )}
-
-                    </div>
-                  `
+                .map((section) =>
+                  renderSection(section)
                 )
                 .join("")}
 
@@ -626,6 +632,10 @@ function createLocationCard(
           : ""
       }
 
+
+      <!-- ============================================= -->
+      <!-- STUDENT RESOURCES -->
+      <!-- ============================================= -->
 
       ${
         location.specialResources &&
@@ -655,19 +665,13 @@ function createLocationCard(
 
                       ${
                         resource.description
-                          ? `
-                            <p>
-                              ${resource.description}
-                            </p>
-                          `
+                          ? `<p>${resource.description}</p>`
                           : ""
                       }
 
                       ${
                         resource.provides
-                          ? renderFeatures(
-                              resource.provides
-                            )
+                          ? renderFeatures(resource.provides)
                           : ""
                       }
 
@@ -712,9 +716,7 @@ function createLocationCard(
 
               <strong>Special Spaces:</strong>
 
-              ${renderFeatures(
-                location.specialSpaces
-              )}
+              ${renderFeatures(location.specialSpaces)}
 
             </div>
           `
@@ -728,19 +730,19 @@ function createLocationCard(
           ? `
             <div class="location-services">
 
-              <strong>
-                What It Represents:
-              </strong>
+              <strong>What It Represents:</strong>
 
-              ${renderFeatures(
-                location.represents
-              )}
+              ${renderFeatures(location.represents)}
 
             </div>
           `
           : ""
       }
 
+
+      <!-- ============================================= -->
+      <!-- HISTORY -->
+      <!-- ============================================= -->
 
       ${
         location.history
@@ -773,11 +775,7 @@ function createLocationCard(
 
               ${
                 location.history.description
-                  ? `
-                    <p>
-                      ${location.history.description}
-                    </p>
-                  `
+                  ? `<p>${location.history.description}</p>`
                   : ""
               }
 
@@ -787,14 +785,16 @@ function createLocationCard(
       }
 
 
+      <!-- ============================================= -->
+      <!-- NEARBY LANDMARK -->
+      <!-- ============================================= -->
+
       ${
         location.nearbyLandmark
           ? `
             <div class="landmark-area">
 
-              <strong>
-                📍 Nearby Landmark
-              </strong>
+              <strong>📍 Nearby Landmark</strong>
 
               <p>
                 ${location.nearbyLandmark.name || ""}
@@ -802,11 +802,7 @@ function createLocationCard(
 
               ${
                 location.nearbyLandmark.description
-                  ? `
-                    <p>
-                      ${location.nearbyLandmark.description}
-                    </p>
-                  `
+                  ? `<p>${location.nearbyLandmark.description}</p>`
                   : ""
               }
 
@@ -815,6 +811,10 @@ function createLocationCard(
           : ""
       }
 
+
+      <!-- ============================================= -->
+      <!-- PRINTING -->
+      <!-- ============================================= -->
 
       ${
         location.printing
@@ -825,21 +825,13 @@ function createLocationCard(
 
               ${
                 location.printing.free
-                  ? `
-                    <p>
-                      Free printing available.
-                    </p>
-                  `
+                  ? `<p>Free printing available.</p>`
                   : ""
               }
 
               ${
                 location.printing.note
-                  ? `
-                    <p>
-                      ${location.printing.note}
-                    </p>
-                  `
+                  ? `<p>${location.printing.note}</p>`
                   : ""
               }
 
@@ -849,9 +841,7 @@ function createLocationCard(
       }
 
 
-      ${renderStudentTip(
-        location.studentTip
-      )}
+      ${renderStudentTip(location.studentTip)}
 
 
       ${
@@ -859,13 +849,9 @@ function createLocationCard(
           ? `
             <div class="name-warning">
 
-              <strong>
-                ⚠️ Important
-              </strong>
+              <strong>⚠️ Important</strong>
 
-              <p>
-                ${location.nameWarning}
-              </p>
+              <p>${location.nameWarning}</p>
 
             </div>
           `
@@ -878,13 +864,9 @@ function createLocationCard(
           ? `
             <div class="campus-lore">
 
-              <strong>
-                🐝 Campus Lore
-              </strong>
+              <strong>🐝 Campus Lore</strong>
 
-              <p>
-                ${location.campusLore}
-              </p>
+              <p>${location.campusLore}</p>
 
             </div>
           `
@@ -897,13 +879,9 @@ function createLocationCard(
           ? `
             <div class="fun-fact">
 
-              <strong>
-                💡 Did You Know?
-              </strong>
+              <strong>💡 Did You Know?</strong>
 
-              <p>
-                ${location.funFact}
-              </p>
+              <p>${location.funFact}</p>
 
             </div>
           `
@@ -933,9 +911,7 @@ function displayResults(
 
     searchMessage.innerHTML = `
       <p>
-        <strong>
-          No campus locations found.
-        </strong>
+        <strong>No campus locations found.</strong>
       </p>
 
       <p>
@@ -983,8 +959,7 @@ function displayResults(
       })
       .join("");
 
-  searchMessage.textContent =
-    message;
+  searchMessage.textContent = message;
 
   campusResults.scrollIntoView({
     behavior: "smooth",
@@ -1023,9 +998,7 @@ function searchCampus(
       const searchableText =
         getLocationSearchText(location);
 
-      return searchableText.includes(
-        searchTerm
-      );
+      return searchableText.includes(searchTerm);
     });
 
   displayResults(
@@ -1143,8 +1116,7 @@ resourceButtons.forEach((button) => {
       }
 
       if (searchInput) {
-        searchInput.value =
-          searchValue;
+        searchInput.value = searchValue;
       }
 
       searchCampus(searchValue);
@@ -1161,9 +1133,7 @@ if (mobileMenuButton && mobileMenu) {
   mobileMenuButton.addEventListener(
     "click",
     () => {
-      mobileMenu.classList.toggle(
-        "active"
-      );
+      mobileMenu.classList.toggle("active");
     }
   );
 
@@ -1174,10 +1144,754 @@ if (mobileMenuButton && mobileMenu) {
     link.addEventListener(
       "click",
       () => {
-        mobileMenu.classList.remove(
-          "active"
-        );
+        mobileMenu.classList.remove("active");
       }
     );
   });
+}
+
+// =====================================================
+// INTERACTIVE CAMPUS MAP
+// =====================================================
+
+const mapFilterButtons =
+  document.querySelectorAll(".map-filter");
+
+const campusMapMarkersContainer =
+  document.getElementById("campusMapMarkers");
+
+const mapLocationName =
+  document.getElementById("mapLocationName");
+
+const mapLocationDescription =
+  document.getElementById("mapLocationDescription");
+
+const mapLocationActions =
+  document.getElementById("mapLocationActions");
+
+const mapLocationSelect =
+  document.getElementById("mapLocationSelect");
+
+
+// =====================================================
+// NORMALIZE MAP CATEGORIES
+// =====================================================
+
+function normalizeMapCategory(category) {
+
+  if (category === "student-services") {
+    return "services";
+  }
+
+  return category || "other";
+}
+
+
+// =====================================================
+// LOCATIONS THAT BELONG ON THE MAP
+// =====================================================
+
+const campusMapLocations =
+  typeof campusLocations !== "undefined"
+    ? campusLocations.filter((location) => {
+
+        // Generic housing summary is not a building
+        if (
+          location.name === "Residential Halls"
+        ) {
+          return false;
+        }
+
+
+        // Offices inside another building
+        // should not become separate map markers
+        if (location.building) {
+          return false;
+        }
+
+
+        return true;
+
+      })
+    : [];
+
+
+// =====================================================
+// MAP CATEGORY ICONS
+// =====================================================
+
+const mapCategoryIcons = {
+
+  academic: "🎓",
+
+  housing: "🛏️",
+
+  dining: "🍽️",
+
+  services: "🧭",
+
+  athletics: "🏟️",
+
+  parking: "🅿️",
+
+  landmark: "📍",
+
+  other: "🐝"
+
+};
+
+
+// =====================================================
+// GOOGLE MAPS URL
+// =====================================================
+
+function createGoogleMapsUrl(location) {
+
+  const destination =
+    location.address
+      ? `${location.name}, ${location.address}`
+      : `${location.name}, Alabama State University, Montgomery, Alabama`;
+
+
+  return (
+    "https://www.google.com/maps/search/?api=1&query=" +
+    encodeURIComponent(destination)
+  );
+
+}
+
+
+// =====================================================
+// APPLE MAPS URL
+// =====================================================
+
+function createAppleMapsUrl(location) {
+
+  const destination =
+    location.address
+      ? `${location.name}, ${location.address}`
+      : `${location.name}, Alabama State University, Montgomery, Alabama`;
+
+
+  return (
+    "https://maps.apple.com/?q=" +
+    encodeURIComponent(destination)
+  );
+
+}
+
+
+// =====================================================
+// POPULATE LOCATION DROPDOWN
+// =====================================================
+
+function populateMapLocationSelect() {
+
+  if (!mapLocationSelect) {
+    return;
+  }
+
+
+  const sortedLocations =
+    [...campusMapLocations]
+      .sort((a, b) =>
+        a.name.localeCompare(b.name)
+      );
+
+
+  sortedLocations.forEach(
+    (location) => {
+
+      const option =
+        document.createElement("option");
+
+
+      option.value =
+        String(location.id);
+
+
+      option.textContent =
+        location.shortName &&
+        location.shortName !== location.name
+          ? `${location.shortName} — ${location.name}`
+          : location.name;
+
+
+      mapLocationSelect.appendChild(
+        option
+      );
+
+    }
+  );
+
+}
+
+
+// =====================================================
+// FIND MAP LOCATION BY ID
+// =====================================================
+
+function getMapLocationById(id) {
+
+  return campusMapLocations.find(
+    (location) =>
+      String(location.id) === String(id)
+  );
+
+}
+
+
+// =====================================================
+// UPDATE INFORMATION PANEL
+// =====================================================
+
+function updateMapLocationPanel(location) {
+
+  if (!location) {
+    return;
+  }
+
+
+  if (mapLocationName) {
+
+    mapLocationName.textContent =
+      location.name;
+
+  }
+
+
+  if (mapLocationDescription) {
+
+    mapLocationDescription.textContent =
+      location.description ||
+      "Campus location information.";
+
+  }
+
+
+  const googleMapsUrl =
+    createGoogleMapsUrl(location);
+
+  const appleMapsUrl =
+    createAppleMapsUrl(location);
+
+
+  if (mapLocationActions) {
+
+    mapLocationActions.innerHTML = `
+
+      <a
+        href="${googleMapsUrl}"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Open ${location.name} in Google Maps"
+      >
+        Google Maps
+      </a>
+
+
+      <a
+        href="${appleMapsUrl}"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Open ${location.name} in Apple Maps"
+      >
+        Apple Maps
+      </a>
+
+
+      <button
+        type="button"
+        class="map-details-button"
+        data-location-id="${location.id}"
+      >
+        View Full Details
+      </button>
+
+    `;
+
+
+    const detailsButton =
+      mapLocationActions.querySelector(
+        ".map-details-button"
+      );
+
+
+    if (detailsButton) {
+
+      detailsButton.addEventListener(
+        "click",
+        () => {
+
+          if (searchInput) {
+
+            searchInput.value =
+              location.name;
+
+          }
+
+
+          searchCampus(
+            location.name
+          );
+
+        }
+      );
+
+    }
+
+  }
+
+
+  if (mapLocationSelect) {
+
+    mapLocationSelect.value =
+      String(location.id);
+
+  }
+
+}
+
+
+// =====================================================
+// SELECT ONE MARKER
+// =====================================================
+
+function selectMapMarker(locationId) {
+
+  const markers =
+    document.querySelectorAll(
+      ".campus-map-marker"
+    );
+
+
+  markers.forEach((marker) => {
+
+    marker.classList.toggle(
+      "selected",
+      marker.dataset.locationId ===
+        String(locationId)
+    );
+
+  });
+
+}
+
+// =====================================================
+// POSITION MAP MARKERS USING CAMPUS MAP DATA
+// =====================================================
+
+function positionVisibleMarkers(markers) {
+
+  const visibleMarkers =
+    [...markers].filter(
+      (marker) =>
+        !marker.classList.contains("hidden")
+    );
+
+
+  if (!visibleMarkers.length) {
+    return;
+  }
+
+
+  // ===================================================
+  // LOCATIONS WITHOUT A CUSTOM MAP POSITION
+  // ===================================================
+
+  const fallbackMarkers = [];
+
+
+  visibleMarkers.forEach((marker) => {
+
+    const locationId =
+      marker.dataset.locationId;
+
+
+    const position =
+      typeof campusMapPositions !== "undefined"
+        ? campusMapPositions[locationId]
+        : null;
+
+
+    // =================================================
+    // USE CUSTOM CAMPUS POSITION
+    // =================================================
+
+    if (
+      position &&
+      typeof position.x === "number" &&
+      typeof position.y === "number"
+    ) {
+
+      marker.style.left =
+        `${position.x}%`;
+
+      marker.style.top =
+        `${position.y}%`;
+
+    } else {
+
+      fallbackMarkers.push(
+        marker
+      );
+
+    }
+
+  });
+
+
+  // ===================================================
+  // IF EVERY VISIBLE LOCATION HAS A POSITION,
+  // WE ARE DONE
+  // ===================================================
+
+  if (!fallbackMarkers.length) {
+    return;
+  }
+
+
+  // ===================================================
+  // FALLBACK GRID
+  //
+  // Any future location without map coordinates
+  // still appears instead of disappearing.
+  // ===================================================
+
+  const columns =
+    Math.ceil(
+      Math.sqrt(
+        fallbackMarkers.length
+      )
+    );
+
+
+  const rows =
+    Math.ceil(
+      fallbackMarkers.length /
+      columns
+    );
+
+
+  fallbackMarkers.forEach(
+    (marker, index) => {
+
+      const column =
+        index % columns;
+
+
+      const row =
+        Math.floor(
+          index / columns
+        );
+
+
+      const x =
+        columns === 1
+          ? 50
+          : 12 +
+            column *
+            (76 / (columns - 1));
+
+
+      const y =
+        rows === 1
+          ? 50
+          : 15 +
+            row *
+            (70 / (rows - 1));
+
+
+      marker.style.left =
+        `${x}%`;
+
+
+      marker.style.top =
+        `${y}%`;
+
+    }
+  );
+
+}
+
+
+
+// =====================================================
+// CREATE ALL CAMPUS MAP MARKERS
+// =====================================================
+
+function renderCampusMapMarkers(
+  selectedCategory = "all"
+) {
+
+  if (!campusMapMarkersContainer) {
+    return;
+  }
+
+
+  campusMapMarkersContainer.innerHTML =
+    "";
+
+
+  const sortedLocations =
+    [...campusMapLocations]
+      .sort((a, b) => {
+
+        const categoryA =
+          normalizeMapCategory(
+            a.category
+          );
+
+
+        const categoryB =
+          normalizeMapCategory(
+            b.category
+          );
+
+
+        const categoryCompare =
+          categoryA.localeCompare(
+            categoryB
+          );
+
+
+        if (categoryCompare !== 0) {
+          return categoryCompare;
+        }
+
+
+        return a.name.localeCompare(
+          b.name
+        );
+
+      });
+
+
+  sortedLocations.forEach(
+    (location) => {
+
+      const category =
+        normalizeMapCategory(
+          location.category
+        );
+
+
+      const marker =
+        document.createElement(
+          "button"
+        );
+
+
+      marker.type =
+        "button";
+
+
+      marker.className =
+        "campus-map-marker";
+
+
+      marker.dataset.locationId =
+        String(location.id);
+
+
+      marker.dataset.category =
+        category;
+
+
+      marker.title =
+        location.name;
+
+
+      marker.setAttribute(
+        "aria-label",
+        location.name
+      );
+
+
+      marker.textContent =
+        mapCategoryIcons[category] ||
+        mapCategoryIcons.other;
+
+
+      if (
+        selectedCategory !== "all" &&
+        category !== selectedCategory
+      ) {
+
+        marker.classList.add(
+          "hidden"
+        );
+
+      }
+
+
+      marker.addEventListener(
+        "click",
+        () => {
+
+          selectMapMarker(
+            location.id
+          );
+
+
+          updateMapLocationPanel(
+            location
+          );
+
+        }
+      );
+
+
+      campusMapMarkersContainer
+        .appendChild(marker);
+
+    }
+  );
+
+
+  const markers =
+    campusMapMarkersContainer
+      .querySelectorAll(
+        ".campus-map-marker"
+      );
+
+
+  positionVisibleMarkers(
+    markers
+  );
+
+}
+
+
+// =====================================================
+// CATEGORY FILTER BUTTONS
+// =====================================================
+
+mapFilterButtons.forEach(
+  (button) => {
+
+    button.addEventListener(
+      "click",
+      () => {
+
+        const selectedCategory =
+          button.dataset.mapCategory ||
+          "all";
+
+
+        mapFilterButtons.forEach(
+          (filterButton) => {
+
+            filterButton.classList.remove(
+              "active"
+            );
+
+          }
+        );
+
+
+        button.classList.add(
+          "active"
+        );
+
+
+        if (mapLocationSelect) {
+
+          mapLocationSelect.value =
+            "";
+
+        }
+
+
+        renderCampusMapMarkers(
+          selectedCategory
+        );
+
+      }
+    );
+
+  }
+);
+
+
+// =====================================================
+// LOCATION DROPDOWN
+// =====================================================
+
+if (mapLocationSelect) {
+
+  mapLocationSelect.addEventListener(
+    "change",
+    () => {
+
+      const location =
+        getMapLocationById(
+          mapLocationSelect.value
+        );
+
+
+      if (!location) {
+        return;
+      }
+
+
+      const category =
+        normalizeMapCategory(
+          location.category
+        );
+
+
+      mapFilterButtons.forEach(
+        (button) => {
+
+          button.classList.toggle(
+            "active",
+            button.dataset.mapCategory ===
+              category
+          );
+
+        }
+      );
+
+
+      renderCampusMapMarkers(
+        category
+      );
+
+
+      selectMapMarker(
+        location.id
+      );
+
+
+      updateMapLocationPanel(
+        location
+      );
+
+    }
+  );
+
+}
+
+
+// =====================================================
+// INITIALIZE INTERACTIVE MAP
+// =====================================================
+
+populateMapLocationSelect();
+
+const isMobileMap =
+  window.matchMedia("(max-width: 600px)").matches;
+
+if (isMobileMap) {
+
+  // Keep the phone map clean on first load.
+  // Students can choose a category or a location.
+  renderCampusMapMarkers("__none__");
+
+} else {
+
+  // Desktop shows the full campus overview.
+  renderCampusMapMarkers("all");
+
 }
